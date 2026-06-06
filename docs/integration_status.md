@@ -1,8 +1,8 @@
 # Integration Status
 
-## Branches Integrated
+## Source Stack
 
-The `integration/reviewer-response-stack` branch integrates:
+This reviewer package was assembled from the reviewer-response stack, including:
 
 1. `audit/reviewer-reproducibility`
 2. `feature/llm-agent-runner`
@@ -46,7 +46,7 @@ Real OpenAI-compatible LLM audit artifacts are included for the reviewer-facing 
 
 ## Real External PhysiCell Output Artifacts
 
-Local PhysiCell cytokine-arm simulation summary artifacts are included for the low-antigen runs, including summary/ranking outputs used by the final report. Large raw PhysiCell output folders, compiled binaries, and control-arm XML files are not included.
+Local PhysiCell cytokine-arm simulation summary artifacts are included for the low-antigen runs, including summary/ranking outputs used by the final report. Large raw PhysiCell output folders and compiled binaries are not included.
 
 ## Reviewer-Safe Outputs
 
