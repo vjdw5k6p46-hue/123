@@ -1,0 +1,598 @@
+{
+  "research_question": "Which self-secreting cytokine CAR-T design is best for low-antigen GPC3 liver cancer, and what cytokine fingerprint parameters (use_gate, K_cyto, n_cyto, alpha_prolif, alpha_surv, alpha_cyto, alpha_exh, beta_AICD, endogenous_autocrine_allowed) should each design use?",
+  "cytokine_designs": [
+    {
+      "cytokine": "control",
+      "mechanistic_hypothesis": "The control CAR-T cells, without any cytokine augmentation, will provide a baseline for comparison to assess the efficacy of cytokine-engineered CAR-T cells in the context of low-antigen GPC3 liver cancer.",
+      "mechanisms_considered": [],
+      "functional_fingerprint": {
+        "proliferation": "no_change plus evidence-linked rationale",
+        "persistence_or_exhaustion": "no_change plus evidence-linked rationale",
+        "cytotoxicity": "no_change plus evidence-linked rationale",
+        "IFNg_axis": "no_change plus evidence-linked rationale",
+        "AICD_or_toxicity": "no_change plus evidence-linked rationale",
+        "confidence": 0.0
+      },
+      "parameters_to_change": [],
+      "simulation_expectation": "The control CAR-T cells are expected to show limited efficacy against low-antigen GPC3 liver cancer due to the inherent challenges of targeting tumors with low antigen expression and the potential for T-cell exhaustion.",
+      "evidence_trace": []
+    },
+    {
+      "cytokine": "IL-2",
+      "aux_cytokine_name": "IL2",
+      "mechanistic_hypothesis": "IL-2 is a potent T cell growth factor that promotes proliferation and survival, which could enhance the anti-tumor activity of CAR-T cells against low-antigen GPC3 liver cancer, potentially counteracting exhaustion.",
+      "mechanisms_considered": [
+        "proliferation",
+        "persistence_or_exhaustion",
+        "IFNg_axis",
+        "AICD_or_toxicity"
+      ],
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "increase plus evidence-linked rationale",
+        "confidence": 0.7
+      },
+      "parameters_to_change": [
+        {
+          "fingerprint_parameter": "use_gate",
+          "proposed_value": false,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether killing/IFNg is gated behind antigen contact (inducible TRUCK behaviour).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "K_cyto",
+          "proposed_value": 0.35,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Half-saturation constant of the local cytokine Hill response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "n_cyto",
+          "proposed_value": 2.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Hill coefficient of the cytokine response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_prolif",
+          "proposed_value": 5.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain of the cytokine signal on CAR-T proliferation.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_surv",
+          "proposed_value": 1.2,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on CAR-T survival / persistence.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_cyto",
+          "proposed_value": 1.2,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on per-contact cytotoxic killing.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_exh",
+          "proposed_value": 1.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on exhaustion accumulation (negative = anti-exhaustion).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "beta_AICD",
+          "proposed_value": 0.8,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on activation-induced cell death / toxicity.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "endogenous_autocrine_allowed",
+          "proposed_value": true,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether endogenous autocrine signalling is permitted.",
+          "confidence": 0.6
+        }
+      ],
+      "simulation_expectation": "IL-2 engineered CAR-T cells are expected to show improved proliferation and persistence, leading to better control of low-antigen GPC3 liver tumors compared to control CAR-T cells. However, potential toxicity or AICD might still be a concern.",
+      "evidence_trace": [
+        {
+          "chunk_id": "combined_pdf:052:combined_grobid:1",
+          "point": "IL-2 is used as an exogenous growth factor to improve survival in vivo and antitumor activity."
+        },
+        {
+          "chunk_id": "combined_pdf:019:combined_grobid:11",
+          "point": "FRa-specific CAR T cells secreted high levels of IL-2 and TNF-a when stimulated with FRa+ cancer cells."
+        },
+        {
+          "chunk_id": "combined_pdf:076:combined_grobid:5",
+          "point": "1928z-hIL18 CAR T cells demonstrated enhanced in vitro IL-18, IFN-g, and IL-2 secretion after stimulation with CD19+ NALM6 B-ALL tumor cells."
+        },
+        {
+          "chunk_id": "combined_pdf:008:combined_grobid:5",
+          "point": "IL-2 signaling is required for resisting TGF-b repression of CAR T cells."
+        },
+        {
+          "chunk_id": "combined_pdf:008:combined_grobid:10",
+          "point": "IL-2 signaling is required for resisting TGF-b repression of CAR T cells."
+        }
+      ]
+    },
+    {
+      "cytokine": "IL-7",
+      "aux_cytokine_name": "IL7",
+      "mechanistic_hypothesis": "IL-7 is known to promote T cell survival and proliferation, and can counteract TGF-beta mediated suppression, which could enhance CAR-T cell persistence and anti-tumor activity against low-antigen GPC3 liver cancer.",
+      "mechanisms_considered": [
+        "proliferation",
+        "persistence_or_exhaustion",
+        "AICD_or_toxicity"
+      ],
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "no_change plus evidence-linked rationale",
+        "IFNg_axis": "no_change plus evidence-linked rationale",
+        "AICD_or_toxicity": "decrease plus evidence-linked rationale",
+        "confidence": 0.7
+      },
+      "parameters_to_change": [
+        {
+          "fingerprint_parameter": "use_gate",
+          "proposed_value": false,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether killing/IFNg is gated behind antigen contact (inducible TRUCK behaviour).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "K_cyto",
+          "proposed_value": 0.45,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Half-saturation constant of the local cytokine Hill response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "n_cyto",
+          "proposed_value": 2.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Hill coefficient of the cytokine response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_prolif",
+          "proposed_value": 2.5,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain of the cytokine signal on CAR-T proliferation.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_surv",
+          "proposed_value": 3.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on CAR-T survival / persistence.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_cyto",
+          "proposed_value": 0.8,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on per-contact cytotoxic killing.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_exh",
+          "proposed_value": 0.2,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on exhaustion accumulation (negative = anti-exhaustion).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "beta_AICD",
+          "proposed_value": 0.1,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on activation-induced cell death / toxicity.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "endogenous_autocrine_allowed",
+          "proposed_value": false,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether endogenous autocrine signalling is permitted.",
+          "confidence": 0.6
+        }
+      ],
+      "simulation_expectation": "IL-7 engineered CAR-T cells are expected to exhibit improved persistence and proliferation, leading to better control of low-antigen GPC3 liver tumors compared to control CAR-T cells. This could translate to more durable anti-tumor responses.",
+      "evidence_trace": [
+        {
+          "chunk_id": "combined_pdf:008:combined_grobid:10",
+          "point": "IL-7 is capable of replacing IL-2 in counteracting TGF-b-mediated suppression."
+        },
+        {
+          "chunk_id": "combined_pdf:081:combined_grobid:1",
+          "point": "Co-expression of IL-7 induced significantly greater expansion of the numbers of CAR T cells."
+        },
+        {
+          "chunk_id": "combined_pdf:090:combined_grobid:31",
+          "point": "Overexpression of IL-7 on CAR-T cells can enhance the proliferation and chemotaxis of CAR-T."
+        }
+      ]
+    },
+    {
+      "cytokine": "IL-15",
+      "aux_cytokine_name": "IL15",
+      "mechanistic_hypothesis": "IL-15 is crucial for T cell proliferation, survival, and memory formation. Its inclusion in armored CAR-T cells is expected to enhance persistence and anti-tumor activity against low-antigen GPC3 liver cancer, potentially mitigating exhaustion.",
+      "mechanisms_considered": [
+        "proliferation",
+        "persistence_or_exhaustion",
+        "cytotoxicity",
+        "IFNg_axis",
+        "AICD_or_toxicity"
+      ],
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "decrease plus evidence-linked rationale",
+        "confidence": 0.8
+      },
+      "parameters_to_change": [
+        {
+          "fingerprint_parameter": "use_gate",
+          "proposed_value": false,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether killing/IFNg is gated behind antigen contact (inducible TRUCK behaviour).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "K_cyto",
+          "proposed_value": 0.45,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Half-saturation constant of the local cytokine Hill response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "n_cyto",
+          "proposed_value": 2.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Hill coefficient of the cytokine response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_prolif",
+          "proposed_value": 2.5,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain of the cytokine signal on CAR-T proliferation.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_surv",
+          "proposed_value": 3.5,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on CAR-T survival / persistence.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_cyto",
+          "proposed_value": 2.5,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on per-contact cytotoxic killing.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_exh",
+          "proposed_value": 0.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "no_change",
+          "rationale": "Gain on exhaustion accumulation (negative = anti-exhaustion).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "beta_AICD",
+          "proposed_value": 0.1,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on activation-induced cell death / toxicity.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "endogenous_autocrine_allowed",
+          "proposed_value": false,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether endogenous autocrine signalling is permitted.",
+          "confidence": 0.6
+        }
+      ],
+      "simulation_expectation": "IL-15 engineered CAR-T cells are expected to show enhanced proliferation, persistence, and potentially improved cytotoxicity against low-antigen GPC3 liver cancer. Their ability to resist exhaustion and AICD should contribute to more durable anti-tumor responses.",
+      "evidence_trace": [
+        {
+          "chunk_id": "combined_pdf:095:combined_grobid:10",
+          "point": "IL-15 signalling, cellular metabolism, NF-\u03baB signalling, innate antiviral response and survival were diverged in CAR T and 15.CAR T cells."
+        },
+        {
+          "chunk_id": "combined_pdf:095:combined_grobid:22",
+          "point": "IL15 signaling, cellular metabolism, NFkB signaling, innate antiviral response, and survival were diverged in CAR T and 15.CAR T cells."
+        },
+        {
+          "chunk_id": "tumor_surface_pdf:002:grobid:33",
+          "point": "Co-expression of sIL-15 sustains GPC-3.CAR V\u03b41 T cell long-term cytotoxicity and increases proliferation."
+        },
+        {
+          "chunk_id": "tumor_surface_pdf:019:grobid:10",
+          "point": "Primary T cells were expanded in the presence of recombinant human interleukin-15 (IL-15)."
+        },
+        {
+          "chunk_id": "combined_pdf:063:combined_grobid:37",
+          "point": "IL-15 and IL-18 inhibit activation-induced cell death, support the proliferation and survival of T cells."
+        }
+      ]
+    },
+    {
+      "cytokine": "IL-12",
+      "aux_cytokine_name": "IL12",
+      "mechanistic_hypothesis": "IL-12 is a potent cytokine that promotes T helper 1 (Th1) differentiation, enhances IFN-gamma production, and can improve CAR-T cell proliferation and persistence, making it a strong candidate for enhancing anti-tumor activity against low-antigen GPC3 liver cancer.",
+      "mechanisms_considered": [
+        "proliferation",
+        "persistence_or_exhaustion",
+        "cytotoxicity",
+        "IFNg_axis",
+        "AICD_or_toxicity"
+      ],
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "no_change plus evidence-linked rationale",
+        "confidence": 0.8
+      },
+      "parameters_to_change": [
+        {
+          "fingerprint_parameter": "use_gate",
+          "proposed_value": true,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether killing/IFNg is gated behind antigen contact (inducible TRUCK behaviour).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "K_cyto",
+          "proposed_value": 0.25,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Half-saturation constant of the local cytokine Hill response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "n_cyto",
+          "proposed_value": 2.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Hill coefficient of the cytokine response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_prolif",
+          "proposed_value": 1.8,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain of the cytokine signal on CAR-T proliferation.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_surv",
+          "proposed_value": 0.8,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on CAR-T survival / persistence.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_cyto",
+          "proposed_value": 2.5,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on per-contact cytotoxic killing.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_exh",
+          "proposed_value": 1.5,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on exhaustion accumulation (negative = anti-exhaustion).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "beta_AICD",
+          "proposed_value": 1.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on activation-induced cell death / toxicity.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "endogenous_autocrine_allowed",
+          "proposed_value": false,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether endogenous autocrine signalling is permitted.",
+          "confidence": 0.6
+        }
+      ],
+      "simulation_expectation": "IL-12 engineered CAR-T cells are expected to show significantly enhanced anti-tumor activity due to increased proliferation, cytotoxicity, and a stronger IFNg response, making them highly effective against low-antigen GPC3 liver cancer. Potential for systemic toxicity might need to be monitored.",
+      "evidence_trace": [
+        {
+          "chunk_id": "combined_pdf:089:combined_grobid:23",
+          "point": "IL-12 enhanced antitumor activity of GPC3-targeted CAR-T cells."
+        },
+        {
+          "chunk_id": "combined_pdf:010:combined_grobid:12",
+          "point": "IL-12 could boost MUC1 CAR T cell proliferation and contribute to tumor control."
+        },
+        {
+          "chunk_id": "combined_pdf:082:combined_grobid:42",
+          "point": "IL-12 has been reported to induce T helper 1 differentiation of CD4 + T cells and to enhance cellular immunity by increasing IFN-\u03b3 release, augmenting granzyme and perforin production, and improving T and NK-cell proliferation."
+        },
+        {
+          "chunk_id": "combined_pdf:045:combined_grobid:26",
+          "point": "IL-12 benefited CAR-T-cell therapy by injection or with T-cell engineering."
+        }
+      ]
+    },
+    {
+      "cytokine": "IL-18",
+      "aux_cytokine_name": "IL18",
+      "mechanistic_hypothesis": "IL-18 is a pro-inflammatory cytokine that can enhance T cell effector functions, promote IFN-gamma and TNF-alpha secretion, and potentially improve CAR-T cell activity against solid tumors, including low-antigen GPC3 liver cancer, by recruiting other immune cells and broadening the response.",
+      "mechanisms_considered": [
+        "proliferation",
+        "persistence_or_exhaustion",
+        "cytotoxicity",
+        "IFNg_axis",
+        "AICD_or_toxicity"
+      ],
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "decrease plus evidence-linked rationale",
+        "confidence": 0.8
+      },
+      "parameters_to_change": [
+        {
+          "fingerprint_parameter": "use_gate",
+          "proposed_value": true,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether killing/IFNg is gated behind antigen contact (inducible TRUCK behaviour).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "K_cyto",
+          "proposed_value": 0.25,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Half-saturation constant of the local cytokine Hill response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "n_cyto",
+          "proposed_value": 2.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_value",
+          "rationale": "Hill coefficient of the cytokine response.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_prolif",
+          "proposed_value": 1.8,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain of the cytokine signal on CAR-T proliferation.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_surv",
+          "proposed_value": 1.2,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on CAR-T survival / persistence.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_cyto",
+          "proposed_value": 2.0,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on per-contact cytotoxic killing.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "alpha_exh",
+          "proposed_value": 0.5,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on exhaustion accumulation (negative = anti-exhaustion).",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "beta_AICD",
+          "proposed_value": 0.3,
+          "unit": "dimensionless",
+          "expected_effect_direction": "increase",
+          "rationale": "Gain on activation-induced cell death / toxicity.",
+          "confidence": 0.6
+        },
+        {
+          "fingerprint_parameter": "endogenous_autocrine_allowed",
+          "proposed_value": false,
+          "unit": "dimensionless",
+          "expected_effect_direction": "set_mode",
+          "rationale": "Whether endogenous autocrine signalling is permitted.",
+          "confidence": 0.6
+        }
+      ],
+      "simulation_expectation": "IL-18 engineered CAR-T cells are expected to exhibit potent anti-tumor activity due to enhanced cytotoxicity, IFNg production, and potentially improved proliferation and persistence. Their ability to recruit other immune cells could broaden the anti-tumor response.",
+      "evidence_trace": [
+        {
+          "chunk_id": "combined_pdf:076:combined_grobid:17",
+          "point": "19m28mz-mIL18 CAR T cells were capable of significantly enhancing long-term survival."
+        },
+        {
+          "chunk_id": "combined_pdf:076:combined_grobid:5",
+          "point": "1928z-hIL18 CAR T cells demonstrated enhanced in vitro IL-18, IFN-g, and IL-2 secretion after stimulation with CD19+ NALM6 B-ALL tumor cells."
+        },
+        {
+          "chunk_id": "combined_pdf:021:combined_grobid:25",
+          "point": "GD2IL18CART responded with significantly higher quantities of IFNg than the EGFP-containing control CAR T cells."
+        },
+        {
+          "chunk_id": "combined_pdf:066:combined_grobid:0",
+          "point": "CD371-targeted CAR T cells secreting IL-18 exhibit robust expansion and clear refractory acute myeloid leukemia."
+        },
+        {
+          "chunk_id": "combined_pdf:063:combined_grobid:37",
+          "point": "IL-15 and IL-18 inhibit activation-induced cell death, support the proliferation and survival of T cells."
+        }
+      ]
+    }
+  ],
+  "research_gaps": [
+    "Quantitative data on the optimal secretion rates (qmax_aux_engineered) for each cytokine in armored CAR-T cells is limited, requiring further experimental validation.",
+    "The precise impact of each cytokine on specific parameters like carT_prolif_rate, p_kill_CAR_T, k_exh, and lambda_AICD needs more direct quantitative evidence from studies using armored CAR-T cells.",
+    "While general effects are known, the synergistic or antagonistic interactions between these cytokines when co-expressed or present in the tumor microenvironment are not fully elucidated and could influence optimal design.",
+    "The potential for cytokine-induced toxicity (AICD_or_toxicity) needs careful consideration and may require dose-optimization or combination with safety-enhancing modifications.",
+    "The specific impact of these cytokines on T cell exhaustion markers (e.g., PD-1, TIM-3) in the context of low-antigen tumors requires further investigation."
+  ]
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "query_id": "clean_step1_query_01",
+    "query": "self-secreting cytokine-armored CAR-T design",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 0
+  },
+  {
+    "query_id": "clean_step1_query_01",
+    "query": "self-secreting cytokine-armored CAR-T design",
+    "database": "SemanticScholar",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_01",
+    "query": "self-secreting cytokine-armored CAR-T design",
+    "database": "OpenAlex",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_01",
+    "query": "self-secreting cytokine-armored CAR-T design",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_02",
+    "query": "IL-2 CAR-T studies",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_02",
+    "query": "IL-2 CAR-T studies",
+    "database": "SemanticScholar",
+    "status": "error",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=IL-2+CAR-T+studies&limit=25&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CexternalIds%2Curl"
+  },
+  {
+    "query_id": "clean_step1_query_02",
+    "query": "IL-2 CAR-T studies",
+    "database": "OpenAlex",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_02",
+    "query": "IL-2 CAR-T studies",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_03",
+    "query": "IL-7 CAR-T studies",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_03",
+    "query": "IL-7 CAR-T studies",
+    "database": "SemanticScholar",
+    "status": "error",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=IL-7+CAR-T+studies&limit=25&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CexternalIds%2Curl"
+  },
+  {
+    "query_id": "clean_step1_query_03",
+    "query": "IL-7 CAR-T studies",
+    "database": "OpenAlex",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_03",
+    "query": "IL-7 CAR-T studies",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_04",
+    "query": "IL-12 CAR-T studies",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_04",
+    "query": "IL-12 CAR-T studies",
+    "database": "SemanticScholar",
+    "status": "error",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=IL-12+CAR-T+studies&limit=25&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CexternalIds%2Curl"
+  },
+  {
+    "query_id": "clean_step1_query_04",
+    "query": "IL-12 CAR-T studies",
+    "database": "OpenAlex",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "query_id": "clean_step1_query_04",
+    "query": "IL-12 CAR-T studies",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_05",
+    "query": "IL-15 CAR-T studies",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_05",
+    "query": "IL-15 CAR-T studies",
+    "database": "SemanticScholar",
+    "status": "error",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=IL-15+CAR-T+studies&limit=25&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CexternalIds%2Curl"
+  },
+  {
+    "query_id": "clean_step1_query_05",
+    "query": "IL-15 CAR-T studies",
+    "database": "OpenAlex",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_05",
+    "query": "IL-15 CAR-T studies",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_06",
+    "query": "IL-18 CAR-T studies",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 20
+  },
+  {
+    "query_id": "clean_step1_query_06",
+    "query": "IL-18 CAR-T studies",
+    "database": "SemanticScholar",
+    "status": "error",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=IL-18+CAR-T+studies&limit=25&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CexternalIds%2Curl"
+  },
+  {
+    "query_id": "clean_step1_query_06",
+    "query": "IL-18 CAR-T studies",
+    "database": "OpenAlex",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_06",
+    "query": "IL-18 CAR-T studies",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_07",
+    "query": "GPC3-targeting CAR-T in low-antigen contexts",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 0
+  },
+  {
+    "query_id": "clean_step1_query_07",
+    "query": "GPC3-targeting CAR-T in low-antigen contexts",
+    "database": "SemanticScholar",
+    "status": "error",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=GPC3-targeting+CAR-T+in+low-antigen+contexts&limit=25&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CexternalIds%2Curl"
+  },
+  {
+    "query_id": "clean_step1_query_07",
+    "query": "GPC3-targeting CAR-T in low-antigen contexts",
+    "database": "OpenAlex",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_07",
+    "query": "GPC3-targeting CAR-T in low-antigen contexts",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_08",
+    "query": "hepatocellular carcinoma CAR-T therapy",
+    "database": "PubMed",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_08",
+    "query": "hepatocellular carcinoma CAR-T therapy",
+    "database": "SemanticScholar",
+    "status": "error",
+    "error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=hepatocellular+carcinoma+CAR-T+therapy&limit=25&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CexternalIds%2Curl"
+  },
+  {
+    "query_id": "clean_step1_query_08",
+    "query": "hepatocellular carcinoma CAR-T therapy",
+    "database": "OpenAlex",
+    "status": "ok",
+    "count": 25
+  },
+  {
+    "query_id": "clean_step1_query_08",
+    "query": "hepatocellular carcinoma CAR-T therapy",
+    "database": "Crossref",
+    "status": "ok",
+    "count": 25
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "mode": "step3_one_central_hypothesis",
+  "model": "gpt-4o-mini",
+  "input_paper_count": 170,
+  "central_hypothesis_count": 1,
+  "candidate_arm_count": 5,
+  "missing_candidate_arms": [],
+  "validation_status": "passed",
+  "output_dir": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai",
+  "llm_calls": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai\\llm_calls.jsonl",
+  "parsed_output": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai\\central_hypothesis_output.json",
+  "papers_to_download": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai\\papers_to_download_before_parameterization.tsv"
+}

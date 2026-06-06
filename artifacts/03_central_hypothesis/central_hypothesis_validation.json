@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    "Only structure checked here; human review and full text are required before parameterization."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "source": "research_goal_parser_agent",
+  "research_goal": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_goal_parse_openai_dynamic_clean_question\\research_goal.json",
+  "queries": [
+    {
+      "query_id": "clean_step1_query_01",
+      "source": "general",
+      "query": "self-secreting cytokine-armored CAR-T design",
+      "rationale": ""
+    },
+    {
+      "query_id": "clean_step1_query_02",
+      "source": "general",
+      "query": "IL-2 CAR-T studies",
+      "rationale": ""
+    },
+    {
+      "query_id": "clean_step1_query_03",
+      "source": "general",
+      "query": "IL-7 CAR-T studies",
+      "rationale": ""
+    },
+    {
+      "query_id": "clean_step1_query_04",
+      "source": "general",
+      "query": "IL-12 CAR-T studies",
+      "rationale": ""
+    },
+    {
+      "query_id": "clean_step1_query_05",
+      "source": "general",
+      "query": "IL-15 CAR-T studies",
+      "rationale": ""
+    },
+    {
+      "query_id": "clean_step1_query_06",
+      "source": "general",
+      "query": "IL-18 CAR-T studies",
+      "rationale": ""
+    },
+    {
+      "query_id": "clean_step1_query_07",
+      "source": "general",
+      "query": "GPC3-targeting CAR-T in low-antigen contexts",
+      "rationale": ""
+    },
+    {
+      "query_id": "clean_step1_query_08",
+      "source": "general",
+      "query": "hepatocellular carcinoma CAR-T therapy",
+      "rationale": ""
+    }
+  ]
+}

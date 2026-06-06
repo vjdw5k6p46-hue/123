@@ -1,0 +1,135 @@
+System:
+You are the Step 1 research-goal parser for an LLM-guided, schema-constrained CAR-T in silico workflow.
+Parse the user's biological question into structured scope for literature retrieval and downstream in-silico design.
+Do not generate simulation parameters in this step. Do not fabricate citations, papers, LLM outputs, PhysiCell outputs, or wet-lab values.
+Low antigen or tumor context should be treated as a fixed scenario constraint unless the researcher explicitly asks to optimize tumor parameters.
+Infer candidate interventions, cytokines, target antigen, disease context, and retrieval scope dynamically from the researcher question and experiment configuration.
+If the user asks about cytokine-armored or self-secreting CAR-T, search broadly for relevant engineered T-cell or CAR-T cytokine papers even when they are not disease-specific.
+Keep disease/antigen/low-antigen context as separate background queries unless the researcher explicitly requires every retrieved paper to match that disease and antigen.
+Focus the downstream LLM work on the intervention variables identified from the user input.
+
+User:
+Experiment configuration:
+{
+  "experiment_id": "cytokine_gpc3_liver_autoresearch_demo",
+  "disease_context": "hepatocellular carcinoma",
+  "tumor_type": "liver cancer",
+  "car_target_antigen": "GPC3",
+  "antigen_density_condition": "low tumor/cancer cell surface antigen density",
+  "engineering_variable": "cytokine_payload",
+  "candidate_interventions": [
+    "control",
+    "IL-2",
+    "IL-7",
+    "IL-12",
+    "IL-15",
+    "IL-18"
+  ],
+  "biological_endpoints": [
+    "tumor burden",
+    "CAR-T expansion",
+    "CAR-T persistence",
+    "exhaustion fraction",
+    "cytotoxicity",
+    "IFN-gamma dynamics",
+    "hypoxia dynamics",
+    "PD-L1/TME remodeling signal"
+  ],
+  "simulator_choice": "physicell",
+  "replicates": 3,
+  "random_seed": 1729,
+  "parameter_sweep": {
+    "antigen_density": [
+      0.2
+    ],
+    "car_t_dose": [
+      1.0
+    ],
+    "tumor_burden": [
+      1.0
+    ],
+    "tme_severity": [
+      0.6
+    ]
+  },
+  "output_dir": "outputs/autoresearch_workflow_demo",
+  "literature": {
+    "mode": "mock",
+    "max_results_per_query": 8,
+    "download_papers": false,
+    "max_downloads": 10,
+    "download_timeout_seconds": 30,
+    "chunk_chars": 3500,
+    "chunk_overlap_chars": 350,
+    "email": null
+  },
+  "workflow": {
+    "search_planning_source": "deterministic",
+    "evidence_source": "deterministic",
+    "critique_source": "deterministic"
+  },
+  "llm": {
+    "provider": "openai_compatible",
+    "model": "gpt-4o-mini",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0,
+    "omit_seed": true,
+    "timeout_seconds": 180,
+    "max_retries": 1,
+    "save_raw_responses": true,
+    "schema_validation": true
+  },
+  "autoresearch": {
+    "objective": "Prioritize cytokine-armored CAR-T hypotheses and PhysiCell-ready model inputs for low-antigen GPC3 liver cancer.",
+    "iteration_count": 1,
+    "require_human_review_before_external_physicell": true,
+    "llm_steps": [
+      "orchestrator",
+      "search_planning",
+      "hypothesis_generation",
+      "parameter_building",
+      "simulation_design",
+      "analysis",
+      "critique",
+      "report"
+    ],
+    "goal_source": "llm",
+    "research_question": "For low-antigen GPC3-positive liver cancer, which self-secreting cytokine-armored CAR-T design among IL-2, IL-7, IL-12, IL-15, and IL-18 should be prioritized?"
+  },
+  "manual_parameter_overrides": {}
+}
+
+Researcher question:
+For low-antigen GPC3-positive liver cancer, which self-secreting cytokine-armored CAR-T design among IL-2, IL-7, IL-12, IL-15, and IL-18 should be prioritized?
+
+Return strict JSON only:
+{
+  "research_question": "normalized research question",
+  "disease_context": "disease and tumor context",
+  "tumor_context": {
+    "target_antigen": "antigen name",
+    "antigen_density_condition": "low|medium|high|not specified",
+    "role": "fixed simulation scenario, not an LLM-optimized tumor parameter",
+    "background_terms": []
+  },
+  "cell_therapy": {
+    "therapy_type": "CAR-T",
+    "engineering_mode": "from user input, e.g. self-secreting/armored cytokine CAR-T",
+    "candidate_interventions": []
+  },
+  "search_scope": {
+    "must_include": [],
+    "should_include": [],
+    "exclude": [],
+    "retrieval_queries": [
+      "broad intervention query derived from the user input",
+      "one or more intervention-specific broad queries derived from candidate_interventions",
+      "separate disease/antigen/scenario background query when applicable"
+    ]
+  },
+  "intervention_variables": [],
+  "fixed_scenario_constraints": [],
+  "simulation_outputs_needed": [],
+  "guardrails": []
+}

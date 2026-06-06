@@ -1,0 +1,370 @@
+{
+  "bundle_name": "autoresearch_workflow_artifact_collection",
+  "refreshed_at": "2026-06-06T04:02:08.036715+00:00",
+  "source_run_root": "outputs/autoresearch_gpt4o_mini_fingerprint_v3",
+  "tumor_antigen_density_for_final_results": 0.2,
+  "control_group_in_final_report": false,
+  "contains_full_papers_or_pdf": false,
+  "contains_compiled_binaries": false,
+  "contains_large_raw_physicell_outputs": false,
+  "contains_mock_or_replay_as_evidence": false,
+  "warning": "Artifacts are for auditability of an in silico workflow. They are not wet-lab validation and do not prove biological superiority.",
+  "file_count": 71,
+  "items": [
+    {
+      "bundle_path": "01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json",
+      "bytes": 1681,
+      "sha256": "8fc87d471b55dada8b18cc1cd5dd7c005afac1e50e283d037809b6b0aaf06768"
+    },
+    {
+      "bundle_path": "01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_prompt.txt",
+      "bytes": 4869,
+      "sha256": "bd23439fe34c5c5d3b055014df0e0b1f97352c37ec67ff18579e4b9a4026d10c"
+    },
+    {
+      "bundle_path": "01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_raw_response.txt",
+      "bytes": 1681,
+      "sha256": "8fc87d471b55dada8b18cc1cd5dd7c005afac1e50e283d037809b6b0aaf06768"
+    },
+    {
+      "bundle_path": "01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_validation.json",
+      "bytes": 62,
+      "sha256": "037743e4053568794107d4bb35932f82e7d9c1124d4839ec0551fe5bd5352f96"
+    },
+    {
+      "bundle_path": "01_research_goal\\llm_calls.jsonl",
+      "bytes": 818,
+      "sha256": "6a382f075f6fa95a482e610e938e6b45b2624be283d0007a3daee3415e1c0298"
+    },
+    {
+      "bundle_path": "01_research_goal\\llm_calls_public_redacted.jsonl",
+      "bytes": 559,
+      "sha256": "1511e93b8d007059484ae189830c7c78e14b9eee75a26b27599e59746c2a9dcf"
+    },
+    {
+      "bundle_path": "01_research_goal\\paper_download_queries.json",
+      "bytes": 1463,
+      "sha256": "3dd12dbc9012f76c8359b87a81319bd0f11c8aba514a27e9ba049df041f20357"
+    },
+    {
+      "bundle_path": "01_research_goal\\paper_download_queries.tsv",
+      "bytes": 508,
+      "sha256": "9357c69865d309fc641651b45b543019931f499c533ca71aa6aca5e46f8c7a0b"
+    },
+    {
+      "bundle_path": "01_research_goal\\research_goal.json",
+      "bytes": 4288,
+      "sha256": "3abdbf740c528d3f9c43a93411fc1f163c637dd9d47a82ac46147e9a9635728b"
+    },
+    {
+      "bundle_path": "01_research_goal\\research_goal_parse_status.json",
+      "bytes": 461,
+      "sha256": "2a4f32367af4e36bef28c37615c352e2bf3f70b3d1cdf1d45aa062258de424e2"
+    },
+    {
+      "bundle_path": "02_literature_search\\classification_summary.json",
+      "bytes": 1036,
+      "sha256": "19d26d5eea2403a251638312900c6db0224a082aad35aa3d416915bb65636a97"
+    },
+    {
+      "bundle_path": "02_literature_search\\deduplicated_papers.json",
+      "bytes": 1345867,
+      "sha256": "0330e9c4a5c0278731d1bba3d98028de7ecec23c8988fe7205aae04a3304f9f4"
+    },
+    {
+      "bundle_path": "02_literature_search\\download_priority_1_core.tsv",
+      "bytes": 21757,
+      "sha256": "336ed680776d6b550605640d3c501b42d300e5ecb29b52018ac8a082fc3498d8"
+    },
+    {
+      "bundle_path": "02_literature_search\\ranked_classified_papers.json",
+      "bytes": 1345867,
+      "sha256": "60b7714b3aef4248829aeef980ae9462d8df901f69c4a9ac897156b7dc777a62"
+    },
+    {
+      "bundle_path": "02_literature_search\\ranked_classified_papers.tsv",
+      "bytes": 113813,
+      "sha256": "33bcb192780f8626b2511bdf595558881482dc18361d0640f5e6690489ddf9fa"
+    },
+    {
+      "bundle_path": "02_literature_search\\search_log.json",
+      "bytes": 6702,
+      "sha256": "c4a273d4e2ca7b8c8f44bba3b9e51815f2912bfd97bdae043f2e53968164b2e7"
+    },
+    {
+      "bundle_path": "02_literature_search\\topic_classification\\papers_by_topic.json",
+      "bytes": 1411792,
+      "sha256": "8ac87b45eed7d014dea3a26ba035c2e8b25b391b2b830eba750e61a936d44704"
+    },
+    {
+      "bundle_path": "02_literature_search\\topic_classification\\papers_by_topic.tsv",
+      "bytes": 110483,
+      "sha256": "3a6d77aa7e1116ce8b2a61b613dc56c1d1d5010708c0cb36e5fdfbe91de0bad4"
+    },
+    {
+      "bundle_path": "02_literature_search\\topic_classification\\topic_summary.json",
+      "bytes": 988,
+      "sha256": "531ddc3362b5775be1c64120b77c858d173d31ceb5704aacde495b26dfce9cee"
+    },
+    {
+      "bundle_path": "02_literature_search\\topic_classification\\topic_summary.tsv",
+      "bytes": 854,
+      "sha256": "43ec12b5fd2a1f5e336a371f5d07f53f783579ee0bf55d689f0dbb8ecf1c9290"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_parsed.json",
+      "bytes": 5844,
+      "sha256": "45259f252c7a6687c88af03bb22d970db30e585b6a84a3d824b8601d4e838fff"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_prompt.txt",
+      "bytes": 236789,
+      "sha256": "f94f6b11128a528e89677014c6228b676176aad92c98498e3c418cc49c12775b"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_raw_response.txt",
+      "bytes": 5838,
+      "sha256": "4efdf1f1a92fd7b9497ba9731db5197a144af89f472fedbba8aea91b7c5bf5bc"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_validation.json",
+      "bytes": 62,
+      "sha256": "037743e4053568794107d4bb35932f82e7d9c1124d4839ec0551fe5bd5352f96"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\central_hypothesis_input_papers.json",
+      "bytes": 245214,
+      "sha256": "435e89ae160bacc99825362b13902e5567ab4ada4d0091422d259c03e4e077d7"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\central_hypothesis_manifest.json",
+      "bytes": 767,
+      "sha256": "84c051a950a37e1f91254228963e29f4a77813be86c32a43c667f2d3f99da165"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\central_hypothesis_output.json",
+      "bytes": 5838,
+      "sha256": "4efdf1f1a92fd7b9497ba9731db5197a144af89f472fedbba8aea91b7c5bf5bc"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\central_hypothesis_validation.json",
+      "bytes": 167,
+      "sha256": "fc811f358e6e7d02158b4faa68d5e2aef5ae542773c4fcd4a4a6443d0247ddd9"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\llm_calls.jsonl",
+      "bytes": 1049,
+      "sha256": "c11be1c6e3c144aeae7201e9fa3e9c6f534e2e8765e1d4dda463a129226534ed"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\llm_calls_public_redacted.jsonl",
+      "bytes": 749,
+      "sha256": "af1b88fd5a3167907444a9e28de0ef95cfe4ab4c776a64d81066f24fd77d54a7"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\papers_to_download_before_parameterization.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "bundle_path": "03_central_hypothesis\\papers_to_download_before_parameterization.tsv",
+      "bytes": 51,
+      "sha256": "02945c10a5bcbd2c3d7b8855e1a4dbffd4e2b44de610ecbb0ec786e6f50f9796"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
+      "bytes": 27531,
+      "sha256": "10b5b8b6d1af897a9220834ed6146a51a36534864f3bfd8b20ae2f89cc411718"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
+      "bytes": 27545,
+      "sha256": "d875f1a6ada03418ed7d1864dd46c265c31165d6af68751be8fa23398a734307"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
+      "bytes": 174,
+      "sha256": "6a1057b85f8ffb69cdda3ac6b685f92abc192848ea0add881b010912b0f9c644"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_parsed.json",
+      "bytes": 13951,
+      "sha256": "c1a32df553abe36fd65f13dd567770705081dc4807072ca98f57a45644cf371f"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_raw_response.txt",
+      "bytes": 11381,
+      "sha256": "9114e907da19d8408c6e47e238f253c3154db7d2c1288f96e880b103e1ad2941"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_validation.json",
+      "bytes": 253,
+      "sha256": "e35d87a8270223a156e910368fec49020155d30341fe1624f89deb55f47167ad"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\llm_calls.jsonl",
+      "bytes": 1826,
+      "sha256": "750d9ad8229b07ffe21381db500315136ab4119e43893bc2594d9f42c6a7fcf9"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\physicell_ready_parameters.json",
+      "bytes": 6686,
+      "sha256": "c68b13765ff1d7e6a76fea96201ec42b8aed18c05a56a395aa193682c8f988b5"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\physicell_ready_parameters_refined.json",
+      "bytes": 6746,
+      "sha256": "650b12babacc19a13eca8bda381fc00259ec7b1195a1adea008fa3d8caa09f49"
+    },
+    {
+      "bundle_path": "04_llm_parameter_rounds\\tumor_parameter_baseline_comparison.tsv",
+      "bytes": 7362,
+      "sha256": "086a8ecfd5198bdd8e6e35d98a4d3a175036ba821a8e1a7be56fecabf2264c67"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml",
+      "bytes": 26888,
+      "sha256": "79e15d590cbcac078f62bad8fcb7ae7e391021b1fa0bc61e729ff1bfe4f4cf41"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
+      "bytes": 4120,
+      "sha256": "67da8875abc042969d77984adbf71840d9dea671126301c59aa4d9d22a860a02"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "bytes": 27473,
+      "sha256": "f792e6319a07df49f707a097fdf13c3d756880dd8174171be03da48120890894"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "bytes": 27474,
+      "sha256": "8c9d1a54b6f8c93a8c60c1dba125c4d9a9fd70fb6e747cfae1ccdbdde2c87165"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "bytes": 27473,
+      "sha256": "2f10490d7188baad61ff01ddc1bd1e1f07c5df5adc956d51016a0b9277f6d31f"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "bytes": 27472,
+      "sha256": "5ac428442b0b2f4978492c84d2690e7ce92f3ae1d66606db003f7ab0845a3d8b"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "bytes": 27473,
+      "sha256": "33628131aa91e606839e9ab42e8c288950267f7d89bcd759c59051dad2638c8a"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "bytes": 27472,
+      "sha256": "cd4110afc42094cfd6765314112b58a92b3ec70849f635fb66ab98a916ef2b0d"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "bytes": 27474,
+      "sha256": "38d3383814516d79573dd9a7d013ac2559da7698d20e57751d2a4d310e252bdd"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "bytes": 27472,
+      "sha256": "d66588f15203cb753bac33834b3cfd8127aa30a4ab143eb5542a669ba8649fa9"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "bytes": 27471,
+      "sha256": "2a970e8e54b3d18f040cdfbd001a8879ed4eb2a85c0b537bddd3f45e341355f9"
+    },
+    {
+      "bundle_path": "05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "bytes": 27472,
+      "sha256": "bc9bf02ab5f2a824c26b741bfac395bdc319e9a4925cf3243f61b3c19eb16dde"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md",
+      "bytes": 933,
+      "sha256": "628dd66ea97494129bb9a4abc10d3d541fae89e8a5bbd72baa094a6241c49ea9"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json",
+      "bytes": 6098,
+      "sha256": "6751d6b9f0bc7a9bd94e307f0813cb1b9f499003be00ef059eb821603c7736c2"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\cytokine_only_summary\\round1_pre_refine_cytokine_only_ranking.csv",
+      "bytes": 872,
+      "sha256": "eeea5ea6ad5b02eac2ab0357bc15917bfda9bcbc89712d4145a4ad5d974c97a8"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\cytokine_only_summary\\round2_post_refine_cytokine_only_ranking.csv",
+      "bytes": 870,
+      "sha256": "09aa38034a846c6a2dd48b97e6a2305f79a81a3efb39ea061c3a7dafe5ea3484"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv",
+      "bytes": 5412,
+      "sha256": "2ec5187bfee152396d1c3d839176ec8bd2895fb690bc1f097233a67908e3c79c"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_ranking.csv",
+      "bytes": 986,
+      "sha256": "092ccdc54598ab80aeae793363cf6c7056a96121f14e9ab517aae40263c5e77b"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_summary.csv",
+      "bytes": 969,
+      "sha256": "82a92cb1aad1befeed1103bf9ff5d86e87bdd47f9b91de156e2b8d215d3ffc40"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\run_manifest.json",
+      "bytes": 1128,
+      "sha256": "b384a262a880479136ca0db26651147827c56e2dc2082f0401a3befdf72ae799"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_metrics.csv",
+      "bytes": 5426,
+      "sha256": "2e1375261d84e4716ae3fd57845beabab6edb3a0f65ed2227116736e2b8cd250"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_ranking.csv",
+      "bytes": 988,
+      "sha256": "004c7ab2b8295f799d3a770612f32fd162f158e185b585761c025cda7f5ea81a"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_summary.csv",
+      "bytes": 971,
+      "sha256": "9b169bf301244757caa05444180e45ffa8b20e7d13917fe203e0892ec1460106"
+    },
+    {
+      "bundle_path": "06_physicell_low_antigen_results\\round2_post_refine_replicates3\\run_manifest.json",
+      "bytes": 1132,
+      "sha256": "1b7a26f1e67e7958d0c1eb658095117937153bd7ee7600635d6f52287b68c2e3"
+    },
+    {
+      "bundle_path": "07_final_report\\final_report.md",
+      "bytes": 4347,
+      "sha256": "e96a999a81c5178a0c275df5346117f26a8581f04fad6a51ef4d318a5d2ac4eb"
+    },
+    {
+      "bundle_path": "07_final_report\\final_report_context.json",
+      "bytes": 25359,
+      "sha256": "4f52d487f783554e7675ebd5d4b0da77a2f2e67bd43ce64a5cbceaa5cf7fc4ec"
+    },
+    {
+      "bundle_path": "07_final_report\\final_report_llm_raw_response.md",
+      "bytes": 4267,
+      "sha256": "9812231d97515f4f0cb91a734d7b4bd3275b442168ffb84ea65539cc22a3a205"
+    },
+    {
+      "bundle_path": "07_final_report\\final_report_manifest.json",
+      "bytes": 1288,
+      "sha256": "9c06e0825440b9f1fb87c868903daba58b4b143a043043eb8912af280a674a27"
+    },
+    {
+      "bundle_path": "07_final_report\\final_report_prompt.txt",
+      "bytes": 21918,
+      "sha256": "9af776326784aca952de7f9d3a2693efb4b76995124f7f6b2a7db5faa552cddb"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "query_file": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_goal_parse_openai_dynamic_clean_question\\paper_download_queries.json",
+  "output_dir": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_paper_search_classification",
+  "queries": 8,
+  "raw_records": 553,
+  "valid_titled_records": 538,
+  "deduplicated_records": 424,
+  "category_counts": {
+    "core_self_secreting_or_armored_cytokine_cart": 84,
+    "cytokine_engineered_t_cell_support": 51,
+    "cytokine_t_cell_general_support": 36,
+    "gpc3_hcc_cart_background": 25,
+    "likely_exclude_or_low_priority": 176,
+    "review_or_general_context": 52
+  },
+  "priority_counts": {
+    "1": 84,
+    "2": 76,
+    "4": 88,
+    "5": 176
+  },
+  "ranked_tsv": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_paper_search_classification\\ranked_classified_papers.tsv",
+  "priority_1_core_tsv": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_paper_search_classification\\download_priority_1_core.tsv"
+}

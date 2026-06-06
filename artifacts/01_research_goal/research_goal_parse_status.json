@@ -1,0 +1,16 @@
+{
+  "goal_source_requested": "llm",
+  "status": "completed",
+  "notes": [
+    "Step 1 asks an LLM to parse the researcher question and bound the search scope.",
+    "This step does not generate tumor parameters or fabricate literature evidence."
+  ],
+  "call_id": "research_goal_parser_agent-25bd47735af0",
+  "prompt_hash": "b1dcdf1a419cc487",
+  "validation": {
+    "status": "passed",
+    "errors": [],
+    "warnings": []
+  },
+  "warnings": []
+}

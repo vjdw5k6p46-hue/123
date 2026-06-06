@@ -1,0 +1,121 @@
+{
+  "hypotheses": [
+    {
+      "hypothesis_type": "central",
+      "hypothesis": "Among self-secreting cytokine-armored CAR-T designs targeting GPC3 in hepatocellular carcinoma, IL-15 will demonstrate superior efficacy in reducing tumor burden and enhancing CAR-T cell persistence compared to IL-2, IL-7, IL-12, and IL-18.",
+      "candidate_intervention_arms": [
+        {
+          "intervention": "IL-2",
+          "expected_mechanism": "IL-2 promotes T cell proliferation and activation but may lead to exhaustion in a solid tumor environment.",
+          "expected_direction_by_endpoint": {
+            "tumor burden": "decrease",
+            "CAR-T expansion": "increase",
+            "CAR-T persistence": "moderate",
+            "exhaustion fraction": "increase",
+            "cytotoxicity": "moderate",
+            "IFN-gamma dynamics": "increase",
+            "hypoxia dynamics": "neutral",
+            "PD-L1/TME remodeling signal": "neutral"
+          },
+          "supporting_evidence": [
+            "Gene-Edited Interleukin CAR-T Cells Therapy in the Treatment of Malignancies: Present and Future (2021)",
+            "Bispecific LV20.19 CAR T-Cells Expanded in IL-7 and IL-15 Have Greater Polyfunctionality and Polyfunctional Strength Than CAR T-Cells Expanded in IL-2 (2021)"
+          ],
+          "confidence": 0.6,
+          "uncertainty": []
+        },
+        {
+          "intervention": "IL-7",
+          "expected_mechanism": "IL-7 enhances T cell survival and memory formation, potentially improving persistence in the tumor microenvironment.",
+          "expected_direction_by_endpoint": {
+            "tumor burden": "decrease",
+            "CAR-T expansion": "increase",
+            "CAR-T persistence": "high",
+            "exhaustion fraction": "decrease",
+            "cytotoxicity": "increase",
+            "IFN-gamma dynamics": "increase",
+            "hypoxia dynamics": "neutral",
+            "PD-L1/TME remodeling signal": "neutral"
+          },
+          "supporting_evidence": [
+            "Updated results from first-in-human phase 1 dose-escalation trial of TAK-102, a GPC3-targeted armored CAR T cells (2024)",
+            "GPC3-IL7-CCL19-CAR-T primes immune microenvironment reconstitution for hepatocellular carcinoma therapy (2023)"
+          ],
+          "confidence": 0.7,
+          "uncertainty": []
+        },
+        {
+          "intervention": "IL-12",
+          "expected_mechanism": "IL-12 enhances T cell activation and promotes a Th1 response, potentially improving anti-tumor efficacy.",
+          "expected_direction_by_endpoint": {
+            "tumor burden": "decrease",
+            "CAR-T expansion": "increase",
+            "CAR-T persistence": "moderate",
+            "exhaustion fraction": "decrease",
+            "cytotoxicity": "increase",
+            "IFN-gamma dynamics": "increase",
+            "hypoxia dynamics": "neutral",
+            "PD-L1/TME remodeling signal": "increase"
+          },
+          "supporting_evidence": [
+            "Hypoxia-Inducible IL-12 and IL-23 Co-Armored CAR T Cells Provide Safety and Enhanced Efficacy in Preclinical Models of Neuroblastoma (2026)",
+            "Antigen-dependent IL-12 signaling in CAR T cells promotes regional to systemic disease targeting (2023)"
+          ],
+          "confidence": 0.65,
+          "uncertainty": []
+        },
+        {
+          "intervention": "IL-15",
+          "expected_mechanism": "IL-15 promotes T cell survival and enhances memory T cell formation, leading to improved persistence and anti-tumor activity.",
+          "expected_direction_by_endpoint": {
+            "tumor burden": "decrease",
+            "CAR-T expansion": "high",
+            "CAR-T persistence": "high",
+            "exhaustion fraction": "decrease",
+            "cytotoxicity": "increase",
+            "IFN-gamma dynamics": "increase",
+            "hypoxia dynamics": "neutral",
+            "PD-L1/TME remodeling signal": "neutral"
+          },
+          "supporting_evidence": [
+            "Glypican-3–Specific CAR T Cells Coexpressing IL15 and IL21 Have Superior Expansion and Antitumor Activity against Hepatocellular Carcinoma (2020)",
+            "IL-15 receptor alpha reduces the toxicity of IL-15 during CAR-T immunotherapy (2022)"
+          ],
+          "confidence": 0.8,
+          "uncertainty": []
+        },
+        {
+          "intervention": "IL-18",
+          "expected_mechanism": "IL-18 enhances T cell activation and promotes a pro-inflammatory environment, potentially improving anti-tumor responses.",
+          "expected_direction_by_endpoint": {
+            "tumor burden": "decrease",
+            "CAR-T expansion": "increase",
+            "CAR-T persistence": "moderate",
+            "exhaustion fraction": "increase",
+            "cytotoxicity": "increase",
+            "IFN-gamma dynamics": "increase",
+            "hypoxia dynamics": "neutral",
+            "PD-L1/TME remodeling signal": "increase"
+          },
+          "supporting_evidence": [
+            "Single-day nonactivated IL-18-armed CAR T cells establish a durable, stemlike state with enhanced persistence (2026)",
+            "IL-18–secreting CAR T cells targeting DLL3 are highly effective in small cell lung cancer models (2023)"
+          ],
+          "confidence": 0.55,
+          "uncertainty": []
+        }
+      ],
+      "testable_predictions": [],
+      "fixed_scenario_constraints": [
+        "low tumor/cancer cell surface antigen density"
+      ],
+      "confidence": 0.0,
+      "uncertainty": []
+    }
+  ],
+  "ranked_candidate_interventions_for_followup": [],
+  "papers_to_download_before_parameterization": [],
+  "evidence_support": [],
+  "uncertainty": [],
+  "do_not_overinterpret": []
+}

@@ -1,0 +1,9 @@
+query_id	source	query	rationale
+clean_step1_query_01	general	self-secreting cytokine-armored CAR-T design	
+clean_step1_query_02	general	IL-2 CAR-T studies	
+clean_step1_query_03	general	IL-7 CAR-T studies	
+clean_step1_query_04	general	IL-12 CAR-T studies	
+clean_step1_query_05	general	IL-15 CAR-T studies	
+clean_step1_query_06	general	IL-18 CAR-T studies	
+clean_step1_query_07	general	GPC3-targeting CAR-T in low-antigen contexts	
+clean_step1_query_08	general	hepatocellular carcinoma CAR-T therapy	

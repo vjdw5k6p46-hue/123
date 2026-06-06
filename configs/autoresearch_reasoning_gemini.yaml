@@ -1,0 +1,10 @@
+provider: openai_compatible
+model: gemini-2.5-flash-lite
+base_url: https://generativelanguage.googleapis.com/v1beta/openai
+api_key_env: GEMINI_API_KEY
+temperature: 0
+omit_seed: true
+timeout_seconds: 300
+max_retries: 1
+save_raw_responses: true
+schema_validation: true

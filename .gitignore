@@ -1,0 +1,17 @@
+# Exclude raw/heavy/generated files
+*.pdf
+*.docx
+*.zip
+*.exe
+*.o
+*.so
+*.dll
+*.dylib
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.*
+outputs/**/replicate_*/
+outputs/**/*.mat
+outputs/**/*.svg

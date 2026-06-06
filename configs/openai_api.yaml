@@ -1,0 +1,10 @@
+provider: openai_compatible
+model: gpt-4o-mini
+base_url: https://api.openai.com/v1
+api_key_env: OPENAI_API_KEY
+temperature: 0
+omit_seed: true
+timeout_seconds: 180
+max_retries: 1
+save_raw_responses: true
+schema_validation: true

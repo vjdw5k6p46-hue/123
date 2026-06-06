@@ -1,0 +1,22 @@
+{
+  "mode": "low_antigen_cytokine_only_final_report",
+  "tumor_antigen_density": 0.2,
+  "control_group_included": false,
+  "context_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\final_report_low_antigen_cytokine_only\\final_report_context.json",
+  "prompt_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\final_report_low_antigen_cytokine_only\\final_report_prompt.txt",
+  "final_report": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\final_report_low_antigen_cytokine_only\\final_report.md",
+  "raw_response": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\final_report_low_antigen_cytokine_only\\final_report_llm_raw_response.md",
+  "model": "gpt-4o-mini",
+  "provider": "openai_compatible",
+  "round1_jobs_total_in_manifest": 18,
+  "round1_successful_returncodes": 18,
+  "round2_jobs_total_in_manifest": 18,
+  "round2_successful_returncodes": 18,
+  "warnings": [
+    "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
+    "Do not mention or rank the control group in the final report.",
+    "These are in silico PhysiCell results only, not wet-lab validation.",
+    "Mock/replay fixtures are not used in this final report context.",
+    "All claims must be tied to supplied artifact paths and tables."
+  ]
+}

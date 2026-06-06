@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PhysiCell_settings version="devel-version">
+	<domain>
+		<x_min>-1000</x_min>
+		<x_max>1000</x_max>
+		<y_min>-1000</y_min>
+		<y_max>1000</y_max>
+		<z_min>-10</z_min>
+		<z_max>10</z_max>
+		<dx>20</dx>
+		<dy>20</dy>
+		<dz>20</dz>
+		<use_2D>true</use_2D>
+	</domain>
+
+	<overall>
+		<max_time units="min">1440</max_time>
+		<time_units>min</time_units>
+		<space_units>micron</space_units>
+		<dt_diffusion units="min">0.01</dt_diffusion>
+		<dt_mechanics units="min">0.1</dt_mechanics>
+		<dt_phenotype units="min">6</dt_phenotype>
+	</overall>
+
+	<parallel>
+		<omp_num_threads>12</omp_num_threads>
+	</parallel>
+
+	<save>
+		<folder>output</folder>
+		<full_data>
+			<interval units="min">60</interval>
+			<enable>true</enable>
+		</full_data>
+		<SVG>
+			<interval units="min">60</interval>
+			<enable>true</enable>
+		</SVG>
+		<legacy_data>
+			<enable>false</enable>
+		</legacy_data>
+	</save>
+
+	<options>
+		<legacy_random_points_on_sphere_in_divide>false</legacy_random_points_on_sphere_in_divide>
+		<virtual_wall_at_domain_edge>true</virtual_wall_at_domain_edge>
+		<disable_automated_spring_adhesions>true</disable_automated_spring_adhesions>
+	</options>
+
+	<microenvironment_setup>
+		<variable name="oxygen" units="mmHg" ID="0">
+			<physical_parameter_set>
+				<diffusion_coefficient units="micron^2/min">7500</diffusion_coefficient>
+				<decay_rate units="1/min">0.0</decay_rate>
+			</physical_parameter_set>
+			<initial_condition units="mmHg">38</initial_condition>
+			<Dirichlet_boundary_condition units="mmHg" enabled="true">38</Dirichlet_boundary_condition>
+		</variable>
+		<variable name="IL15" units="molecules/um^3" ID="1">
+			<physical_parameter_set>
+				<diffusion_coefficient units="micron^2/min">8000</diffusion_coefficient>
+				<decay_rate units="1/min">0.00077</decay_rate>
+			</physical_parameter_set>
+			<initial_condition units="molecules/um^3">50</initial_condition>
+			<Dirichlet_boundary_condition units="molecules/um^3" enabled="true">0</Dirichlet_boundary_condition>
+		</variable>
+		<variable name="aux_cytokine" units="molecules/um^3" ID="2">
+			<physical_parameter_set>
+				<diffusion_coefficient units="micron^2/min">10000</diffusion_coefficient>
+				<decay_rate units="1/min">0.0029</decay_rate>
+			</physical_parameter_set>
+			<initial_condition units="molecules/um^3">0</initial_condition>
+			<Dirichlet_boundary_condition units="molecules/um^3" enabled="false">0</Dirichlet_boundary_condition>
+		</variable>
+		<variable name="IFNg" units="molecules/um^3" ID="3">
+			<physical_parameter_set>
+				<diffusion_coefficient units="micron^2/min">10000</diffusion_coefficient>
+				<decay_rate units="1/min">0.005</decay_rate>
+			</physical_parameter_set>
+			<initial_condition units="molecules/um^3">0</initial_condition>
+			<Dirichlet_boundary_condition units="molecules/um^3" enabled="false">0</Dirichlet_boundary_condition>
+		</variable>
+		<options>
+			<calculate_gradients>true</calculate_gradients>
+			<track_internalized_substrates_in_each_agent>false</track_internalized_substrates_in_each_agent>
+			<initial_condition type="matlab" enabled="false">
+				<filename>./config/initial.mat</filename>
+			</initial_condition>
+			<dirichlet_nodes type="matlab" enabled="false">
+				<filename>./config/dirichlet.mat</filename>
+			</dirichlet_nodes>
+		</options>
+	</microenvironment_setup>
+
+	<cell_definitions>
+		<cell_definition name="tumor" ID="0">
+			<phenotype>
+				<cycle code="5" name="live">
+					<phase_transition_rates units="1/min">
+						<rate start_index="0" end_index="0" fixed_duration="false">0.0010416667</rate>
+					</phase_transition_rates>
+				</cycle>
+				<death>
+					<model code="100" name="apoptosis">
+						<death_rate units="1/min">0</death_rate>
+						<phase_durations units="min">
+							<duration index="0" fixed_duration="true">516</duration>
+						</phase_durations>
+					</model>
+					<model code="101" name="necrosis">
+						<death_rate units="1/min">0.0</death_rate>
+						<phase_durations units="min">
+							<duration index="0" fixed_duration="true">0</duration>
+							<duration index="1" fixed_duration="true">86400</duration>
+						</phase_durations>
+					</model>
+				</death>
+				<volume>
+					<total units="micron^3">2494</total>
+					<fluid_fraction units="dimensionless">0.75</fluid_fraction>
+					<nuclear units="micron^3">540</nuclear>
+					<fluid_change_rate units="1/min">0.05</fluid_change_rate>
+					<cytoplasmic_biomass_change_rate units="1/min">0.0045</cytoplasmic_biomass_change_rate>
+					<nuclear_biomass_change_rate units="1/min">0.0055</nuclear_biomass_change_rate>
+					<calcified_fraction units="dimensionless">0</calcified_fraction>
+					<calcification_rate units="1/min">0</calcification_rate>
+					<relative_rupture_volume units="dimensionless">2.0</relative_rupture_volume>
+				</volume>
+				<mechanics>
+					<cell_cell_adhesion_strength units="micron/min">0.4</cell_cell_adhesion_strength>
+					<cell_cell_repulsion_strength units="micron/min">5.0</cell_cell_repulsion_strength>
+					<relative_maximum_adhesion_distance units="dimensionless">1.05</relative_maximum_adhesion_distance>
+				</mechanics>
+				<motility>
+					<speed units="micron/min">6</speed>
+					<persistence_time units="min">1</persistence_time>
+					<migration_bias units="dimensionless">0.5</migration_bias>
+					<options>
+						<enabled>false</enabled>
+						<use_2D>true</use_2D>
+					</options>
+				</motility>
+			</phenotype>
+		</cell_definition>
+
+		<cell_definition name="CAR-T" ID="1" parent_type="default">
+			<phenotype>
+				<cycle code="5" name="live">
+					<phase_transition_rates units="1/min">
+						<rate start_index="0" end_index="0" fixed_duration="false">0.0</rate>
+					</phase_transition_rates>
+				</cycle>
+				<mechanics>
+					<cell_cell_adhesion_strength units="micron/min">0.1</cell_cell_adhesion_strength>
+					<cell_cell_repulsion_strength units="micron/min">1.5</cell_cell_repulsion_strength>
+					<relative_maximum_adhesion_distance units="dimensionless">1.1</relative_maximum_adhesion_distance>
+				</mechanics>
+				<motility>
+					<speed units="micron/min">4</speed>
+					<persistence_time units="min">7</persistence_time>
+					<migration_bias units="dimensionless">0.4</migration_bias>
+					<options>
+						<enabled>true</enabled>
+						<use_2D>true</use_2D>
+					</options>
+				</motility>
+			</phenotype>
+		</cell_definition>
+		<cell_definition name="naive T cell" ID="2" parent_type="CAR-T">
+			<phenotype>
+				<motility>
+					<speed units="micron/min">1.2</speed>
+					<persistence_time units="min">1.5</persistence_time>
+					<migration_bias units="dimensionless">0.05</migration_bias>
+					<options>
+						<enabled>true</enabled>
+						<use_2D>true</use_2D>
+					</options>
+				</motility>
+			</phenotype>
+		</cell_definition>
+		<cell_definition name="CD8 T cell" ID="3" parent_type="CAR-T">
+			<phenotype>
+				<mechanics>
+					<cell_cell_adhesion_strength units="micron/min">0.1</cell_cell_adhesion_strength>
+					<cell_cell_repulsion_strength units="micron/min">1.5</cell_cell_repulsion_strength>
+					<relative_maximum_adhesion_distance units="dimensionless">1.1</relative_maximum_adhesion_distance>
+				</mechanics>
+				<motility>
+					<speed units="micron/min">3</speed>
+					<persistence_time units="min">5</persistence_time>
+					<migration_bias units="dimensionless">0.4</migration_bias>
+					<options>
+						<enabled>true</enabled>
+						<use_2D>true</use_2D>
+					</options>
+				</motility>
+			</phenotype>
+		</cell_definition>
+		<cell_definition name="exhausted T cell" ID="4" parent_type="CAR-T">
+			<phenotype>
+				<motility>
+					<speed units="micron/min">1</speed>
+					<persistence_time units="min">1</persistence_time>
+					<migration_bias units="dimensionless">0.5</migration_bias>
+					<options>
+						<enabled>true</enabled>
+						<use_2D>true</use_2D>
+					</options>
+				</motility>
+			</phenotype>
+		</cell_definition>
+		<cell_definition name="macrophage M0" ID="5" parent_type="tumor">
+			<phenotype>
+				<cycle code="5" name="live">
+					<phase_transition_rates units="1/min">
+						<rate start_index="0" end_index="0" fixed_duration="false">0.0</rate>
+					</phase_transition_rates>
+				</cycle>
+				<mechanics>
+					<cell_cell_adhesion_strength units="micron/min">0.4</cell_cell_adhesion_strength>
+					<cell_cell_repulsion_strength units="micron/min">3.0</cell_cell_repulsion_strength>
+					<relative_maximum_adhesion_distance units="dimensionless">1.05</relative_maximum_adhesion_distance>
+				</mechanics>
+				<motility>
+					<speed units="micron/min">1</speed>
+					<persistence_time units="min">1</persistence_time>
+					<migration_bias units="dimensionless">0.5</migration_bias>
+					<options>
+						<enabled>true</enabled>
+						<use_2D>true</use_2D>
+					</options>
+				</motility>
+			</phenotype>
+		</cell_definition>
+		<cell_definition name="macrophage M1" ID="6" parent_type="macrophage M0" />
+		<cell_definition name="macrophage M2" ID="7" parent_type="macrophage M0" />
+	</cell_definitions>
+
+	<user_parameters>
+		<N_tumor0 type="int" units="dimensionless">2000</N_tumor0>
+		<N_CAR_T0 type="int" units="dimensionless">1000</N_CAR_T0>
+		<max_spawn_attempts type="int" units="dimensionless">20000</max_spawn_attempts>
+		<number_of_naive_t_cells type="int" units="dimensionless">0</number_of_naive_t_cells>
+		<number_of_cd8_t_cells type="int" units="dimensionless">0</number_of_cd8_t_cells>
+		<number_of_exhausted_t_cells type="int" units="dimensionless">0</number_of_exhausted_t_cells>
+		<number_of_m0_macrophages type="int" units="dimensionless">0</number_of_m0_macrophages>
+		<number_of_m1_macrophages type="int" units="dimensionless">0</number_of_m1_macrophages>
+		<number_of_m2_macrophages type="int" units="dimensionless">0</number_of_m2_macrophages>
+
+		<tumor_initial_radius type="double" units="micron">300</tumor_initial_radius>
+		<O2_boundary_value type="double" units="mmHg">38</O2_boundary_value>
+		<tumor_O2_uptake_rate type="double" units="1/min">0.5</tumor_O2_uptake_rate>
+		<immune_O2_uptake_rate type="double" units="1/min">0.1</immune_O2_uptake_rate>
+		<tumor_necrosis_rate type="double" units="1/min">0.0002</tumor_necrosis_rate>
+		<tumor_necrosis_O2_half_max type="double" units="mmHg">10</tumor_necrosis_O2_half_max>
+		<tumor_necrosis_hill_power type="double" units="dimensionless">4.0</tumor_necrosis_hill_power>
+		<tumor_prolif_O2_half_max type="double" units="mmHg">15</tumor_prolif_O2_half_max>
+		<tumor_prolif_hill_power type="double" units="dimensionless">2</tumor_prolif_hill_power>
+		<tumor_prolif_min_multiplier type="double" units="dimensionless">0.0</tumor_prolif_min_multiplier>
+		<O2_quiescence_threshold type="double" units="mmHg">8.0</O2_quiescence_threshold>
+		<O2_necrosis_gate type="double" units="mmHg">4.0</O2_necrosis_gate>
+		<necrosis_damage_threshold type="double" units="dimensionless">720.0</necrosis_damage_threshold>
+		<hypoxia_damage_repair_rate type="double" units="1/min">2.0</hypoxia_damage_repair_rate>
+		<max_prolif_slowdown type="double" units="dimensionless">0.3</max_prolif_slowdown>
+		<hypoxia_motility_boost type="double" units="dimensionless">1.0</hypoxia_motility_boost>
+		<hypoxia_persistence_boost type="double" units="dimensionless">1.0</hypoxia_persistence_boost>
+		<hypoxia_adhesion_drop type="double" units="dimensionless">0.3</hypoxia_adhesion_drop>
+		<hypoxia_resistance_mult type="double" units="dimensionless">1.0</hypoxia_resistance_mult>
+		<tumor_O2_hypoxia_threshold type="double" units="mmHg">15</tumor_O2_hypoxia_threshold>
+		<tumor_base_hypoxia_speed type="double" units="micron/min">0.6</tumor_base_hypoxia_speed>
+		<tumor_base_persistence_time type="double" units="min">30</tumor_base_persistence_time>
+		<invasion_pressure_cutoff type="double" units="dimensionless">2.0</invasion_pressure_cutoff>
+		<invasion_fraction_max type="double" units="dimensionless">0.2</invasion_fraction_max>
+		<invasion_noise_strength type="double" units="dimensionless">0.15</invasion_noise_strength>
+		<invasion_grad_eps type="double" units="dimensionless">1e-6</invasion_grad_eps>
+		<tumor_damage_per_contact type="double" units="1/min">0.02</tumor_damage_per_contact>
+		<tumor_damage_threshold type="double" units="dimensionless">1.0</tumor_damage_threshold>
+		<tumor_damage_necrosis_o2_threshold type="double" units="mmHg">5</tumor_damage_necrosis_o2_threshold>
+		<phagocytosis_rate_M0 type="double" units="1/min">0.01</phagocytosis_rate_M0>
+		<phagocytosis_rate_M1 type="double" units="1/min">0.02</phagocytosis_rate_M1>
+		<phagocytosis_rate_M2 type="double" units="1/min">0.005</phagocytosis_rate_M2>
+		<tim3_gal9_strength type="double" units="1/min">0.001</tim3_gal9_strength>
+		<p_M0_to_M1 type="double" units="1/min">0.001</p_M0_to_M1>
+		<p_M0_to_M2 type="double" units="1/min">0.001</p_M0_to_M2>
+		<O2_hypoxia_threshold type="double" units="mmHg">8</O2_hypoxia_threshold>
+		<O2_normoxia_threshold type="double" units="mmHg">15</O2_normoxia_threshold>
+		<k_antigen_present type="double" units="1/min">1.0</k_antigen_present>
+		<antigen_contact_time_min type="double" units="min">10</antigen_contact_time_min>
+		<naive_to_cd8_antigen_threshold type="double" units="dimensionless">0.2</naive_to_cd8_antigen_threshold>
+		<naive_to_cd8_rate type="double" units="1/min">0.05</naive_to_cd8_rate>
+		<naive_R_contact_APC type="double" units="micron">15.0</naive_R_contact_APC>
+		<naive_priming_min_time type="double" units="min">60.0</naive_priming_min_time>
+		<naive_priming_decay_rate type="double" units="1/min">0.002</naive_priming_decay_rate>
+		<naive_apc_weight_m0 type="double" units="dimensionless">0.0</naive_apc_weight_m0>
+		<naive_apc_weight_m1 type="double" units="dimensionless">1.0</naive_apc_weight_m1>
+		<naive_apc_weight_m2 type="double" units="dimensionless">0.0</naive_apc_weight_m2>
+		<p_base_M1_to_M2 type="double" units="1/min">0.001</p_base_M1_to_M2>
+		<M1_to_M2_O2_half type="double" units="mmHg">8</M1_to_M2_O2_half>
+		<M1_to_M2_hill_power type="double" units="dimensionless">2</M1_to_M2_hill_power>
+		<m1_necrosis_O2_gate type="double" units="mmHg">6.0</m1_necrosis_O2_gate>
+		<m1_necrosis_O2_halfmax type="double" units="mmHg">8.0</m1_necrosis_O2_halfmax>
+		<m1_necrosis_hill_power type="double" units="dimensionless">3.0</m1_necrosis_hill_power>
+		<m1_hypoxia_damage_rate type="double" units="1/min">1.0</m1_hypoxia_damage_rate>
+		<m1_hypoxia_damage_repair_rate type="double" units="1/min">0.3</m1_hypoxia_damage_repair_rate>
+		<m1_necrosis_damage_threshold type="double" units="dimensionless">1.0</m1_necrosis_damage_threshold>
+		<m2_necrosis_O2_gate type="double" units="mmHg">4.0</m2_necrosis_O2_gate>
+		<m2_necrosis_O2_halfmax type="double" units="mmHg">5.0</m2_necrosis_O2_halfmax>
+		<m2_necrosis_hill_power type="double" units="dimensionless">3.0</m2_necrosis_hill_power>
+		<m2_hypoxia_damage_rate type="double" units="1/min">0.7</m2_hypoxia_damage_rate>
+		<m2_hypoxia_damage_repair_rate type="double" units="1/min">0.4</m2_hypoxia_damage_repair_rate>
+		<m2_necrosis_damage_threshold type="double" units="dimensionless">1.2</m2_necrosis_damage_threshold>
+		<m1_base_speed type="double" units="micron/min">0.35</m1_base_speed>
+		<m1_base_persistence type="double" units="min">4</m1_base_persistence>
+		<m1_migration_bias type="double" units="dimensionless">0.12</m1_migration_bias>
+		<m1_seek_naive_radius type="double" units="micron">200</m1_seek_naive_radius>
+		<m1_margin_preferred_radius type="double" units="micron">0</m1_margin_preferred_radius>
+		<m1_margin_band_width type="double" units="micron">60</m1_margin_band_width>
+		<m1_margin_bias_strength type="double" units="dimensionless">0.25</m1_margin_bias_strength>
+		<m1_severe_hypoxia_O2 type="double" units="mmHg">4.0</m1_severe_hypoxia_O2>
+		<m2_base_speed type="double" units="micron/min">1.0</m2_base_speed>
+		<m2_base_persistence type="double" units="min">30</m2_base_persistence>
+		<m2_migration_bias type="double" units="dimensionless">0.5</m2_migration_bias>
+		<m2_hypoxia_pref_min type="double" units="mmHg">6.0</m2_hypoxia_pref_min>
+		<m2_hypoxia_pref_max type="double" units="mmHg">10.0</m2_hypoxia_pref_max>
+		<m2_hypoxia_speed_boost type="double" units="dimensionless">1.4</m2_hypoxia_speed_boost>
+		<m2_hypoxia_persistence_boost type="double" units="dimensionless">1.8</m2_hypoxia_persistence_boost>
+
+		<IL15_C_dose type="double" units="dimensionless">0</IL15_C_dose>
+		<IL15_C_baseline type="double" units="dimensionless">0</IL15_C_baseline>
+		<IL15_on_duration_min type="double" units="min">60</IL15_on_duration_min>
+		<IL15_period_min type="double" units="min">1440</IL15_period_min>
+		<IL15_start_time_min type="double" units="min">0</IL15_start_time_min>
+		<IL15_free_half_life_min type="double" units="min">720</IL15_free_half_life_min>
+
+		<aux_cytokine_name type="string">IL7</aux_cytokine_name>
+		<aux_mode type="string">armored</aux_mode>
+		<use_gate type="bool">false</use_gate>
+		<K_cyto type="double" units="molecules/um^3">0.45</K_cyto>
+		<n_cyto type="double" units="dimensionless">2.0</n_cyto>
+		<alpha_prolif type="double" units="dimensionless">2.5</alpha_prolif>
+		<alpha_surv type="double" units="dimensionless">3.0</alpha_surv>
+		<alpha_cyto type="double" units="dimensionless">0.8</alpha_cyto>
+		<alpha_exh type="double" units="dimensionless">0.2</alpha_exh>
+		<beta_AICD type="double" units="dimensionless">0.1</beta_AICD>
+		<endogenous_autocrine_allowed type="bool">false</endogenous_autocrine_allowed>
+		<aux_bath_dose type="double" units="molecules/um^3">0.0</aux_bath_dose>
+		<aux_keep_constant type="bool">false</aux_keep_constant>
+		<aux_refill_period_min type="double" units="min">0</aux_refill_period_min>
+		<qmax_aux_engineered type="double" units="molecules/um^3/min">0.02</qmax_aux_engineered>
+		<qmax_aux_endogenous_IL2 type="double" units="molecules/um^3/min">0.02</qmax_aux_endogenous_IL2>
+		<qmax_aux_endogenous_IL21 type="double" units="molecules/um^3/min">0.02</qmax_aux_endogenous_IL21>
+		<enable_endogenous_autocrine_for_IL2_IL21 type="bool">true</enable_endogenous_autocrine_for_IL2_IL21>
+		<aux_half_life_IL2_min type="double" units="min">240</aux_half_life_IL2_min>
+		<aux_half_life_IL7_min type="double" units="min">720</aux_half_life_IL7_min>
+		<aux_half_life_IL15_min type="double" units="min">720</aux_half_life_IL15_min>
+		<aux_half_life_IL18_min type="double" units="min">720</aux_half_life_IL18_min>
+		<aux_uptake_rate type="double" units="1/min">0.05</aux_uptake_rate>
+		<aux_secretion_Ksat type="double" units="molecules/um^3">5.0</aux_secretion_Ksat>
+
+		<enable_IFNg_PDL1_feedback type="bool">true</enable_IFNg_PDL1_feedback>
+		<qIFNg_max type="double" units="molecules/um^3/min">0.03</qIFNg_max>
+		<IFNg_secretion_target type="double" units="molecules/um^3">1.0</IFNg_secretion_target>
+		<alpha_IFNg_aux type="double" units="dimensionless">0.5</alpha_IFNg_aux>
+		<K_IFNg_PDL1 type="double" units="molecules/um^3">0.5</K_IFNg_PDL1>
+		<n_IFNg_PDL1 type="double" units="dimensionless">2.0</n_IFNg_PDL1>
+		<k_PDL1_up type="double" units="1/min">0.01</k_PDL1_up>
+		<k_PDL1_down type="double" units="1/min">0.001</k_PDL1_down>
+		<K_PDL1_inhib type="double" units="dimensionless">0.5</K_PDL1_inhib>
+		<n_PDL1_inhib type="double" units="dimensionless">2.0</n_PDL1_inhib>
+
+		<K_A type="double" units="dimensionless">0.3</K_A>
+		<n_A type="double" units="dimensionless">2.0</n_A>
+		<tumor_antigen_density type="double" units="dimensionless">0.2</tumor_antigen_density>
+		<k_act type="double" units="1/min">0.05</k_act>
+		<k_off type="double" units="1/min">0.01</k_off>
+		<k_exh type="double" units="1/min">0.006</k_exh>
+		<k_rec_cart type="double" units="1/min">0.002</k_rec_cart>
+
+		<r0_cart type="double" units="1/min">0.0005</r0_cart>
+		<eps_a type="double" units="dimensionless">0.05</eps_a>
+		<lambda0_cart type="double" units="1/min">0.00016</lambda0_cart>
+		<lambda_AICD type="double" units="1/min">0.0004</lambda_AICD>
+		<p_AICD type="double" units="dimensionless">2.0</p_AICD>
+		<k0_attack type="double" units="1/min">0.2</k0_attack>
+		<dmg0 type="double" units="damage/min">0.02</dmg0>
+		<m_dmg type="double" units="dimensionless">2.0</m_dmg>
+		<attack_duration_min type="double" units="min">30</attack_duration_min>
+		<k_rep type="double" units="1/min">0.001</k_rep>
+		<Dcrit type="double" units="dimensionless">1.0</Dcrit>
+		<damage_Vmax type="double" units="damage/min">0.2</damage_Vmax>
+		<damage_Ksat type="double" units="damage/min">0.1</damage_Ksat>
+
+		<Bmax_Mphi type="double" units="dimensionless">1.0</Bmax_Mphi>
+		<k_on_Mphi type="double" units="1/(min*C)">0.01</k_on_Mphi>
+		<k_off_Mphi type="double" units="1/min">0.01</k_off_Mphi>
+
+		<Kd_cis type="double" units="C">1.0</Kd_cis>
+		<n_cis type="double" units="dimensionless">1.5</n_cis>
+
+		<K_trans_CART type="double" units="dimensionless">1.0</K_trans_CART>
+		<K_trans_CD8 type="double" units="dimensionless">2.0</K_trans_CD8>
+
+		<w_trans_CART type="double" units="dimensionless">1.2</w_trans_CART>
+		<w_cis_CART type="double" units="dimensionless">0.3</w_cis_CART>
+		<w_trans_CD8 type="double" units="dimensionless">0.3</w_trans_CD8>
+		<w_cis_CD8 type="double" units="dimensionless">0.2</w_cis_CD8>
+
+		<k_int type="double" units="1/min">0.0015</k_int>
+		<k_rec type="double" units="1/min">0.0003</k_rec>
+
+		<beta_exh type="double" units="dimensionless">6</beta_exh>
+		<beta_kill type="double" units="dimensionless">3</beta_kill>
+		<beta_surv type="double" units="dimensionless">1.2</beta_surv>
+		<K_exh type="double" units="dimensionless">0.3</K_exh>
+		<K_kill type="double" units="dimensionless">0.3</K_kill>
+		<K_surv type="double" units="dimensionless">0.3</K_surv>
+
+		<carT_exhaustion_recovery_rate type="double" units="1/min">2e-4</carT_exhaustion_recovery_rate>
+		<cd8_exhaustion_recovery_rate type="double" units="1/min">1.5e-4</cd8_exhaustion_recovery_rate>
+		<il15_cis_consume_rate type="double" units="1/min">1.0</il15_cis_consume_rate>
+		<il15_trans_consume_rate type="double" units="1/min">1.0</il15_trans_consume_rate>
+
+		<carT_base_apoptosis_rate type="double" units="1/min">0.0</carT_base_apoptosis_rate>
+		<cd8_base_apoptosis_rate type="double" units="1/min">0.0</cd8_base_apoptosis_rate>
+
+		<alpha_death_CART type="double" units="dimensionless">0.60</alpha_death_CART>
+		<alpha_exh_CART type="double" units="dimensionless">0.50</alpha_exh_CART>
+		<alpha_prolif_CART type="double" units="dimensionless">0.20</alpha_prolif_CART>
+		<alpha_death_CD8 type="double" units="dimensionless">0.35</alpha_death_CD8>
+		<alpha_exh_CD8 type="double" units="dimensionless">0.25</alpha_exh_CD8>
+		<alpha_prolif_CD8 type="double" units="dimensionless">0.10</alpha_prolif_CD8>
+
+		<R_seek type="double" units="micron">100</R_seek>
+		<R_attach_CAR_T type="double" units="micron">20</R_attach_CAR_T>
+		<dwell_time_min_CAR_T type="double" units="min">30</dwell_time_min_CAR_T>
+		<p_kill_CAR_T type="double" units="1/min">0.05</p_kill_CAR_T>
+		<carT_prolif_rate type="double" units="1/min">2e-3</carT_prolif_rate>
+		<carT_exhaust_prolif_halfmax type="double" units="dimensionless">0.30</carT_exhaust_prolif_halfmax>
+		<carT_exhaustion_increase_per_division type="double" units="dimensionless">0.03</carT_exhaustion_increase_per_division>
+		<carT_exhaustion_max type="double" units="dimensionless">1.0</carT_exhaustion_max>
+		<carT_exhaustion_per_kill type="double" units="dimensionless">0.04</carT_exhaustion_per_kill>
+		<carT_exhaustion_rate_when_attached type="double" units="1/min">0.00012</carT_exhaustion_rate_when_attached>
+		<carT_exhaustion_threshold type="double" units="dimensionless">1.0</carT_exhaustion_threshold>
+		<carT_exhausted_kill_multiplier type="double" units="dimensionless">0.35</carT_exhausted_kill_multiplier>
+		<carT_necrosis_O2_gate type="double" units="mmHg">5</carT_necrosis_O2_gate>
+		<carT_necrosis_damage_rate type="double" units="1/min">1.5</carT_necrosis_damage_rate>
+		<carT_necrosis_damage_threshold type="double" units="dimensionless">0.7</carT_necrosis_damage_threshold>
+		<carT_terminal_exhaust_gate type="double" units="dimensionless">0.85</carT_terminal_exhaust_gate>
+		<carT_terminal_exhaust_time_min type="double" units="min">720</carT_terminal_exhaust_time_min>
+		<carT_terminal_death_rate type="double" units="1/min">0.0005</carT_terminal_death_rate>
+
+		<R_attach_CD8 type="double" units="micron">15</R_attach_CD8>
+		<dwell_time_min_CD8 type="double" units="min">30</dwell_time_min_CD8>
+		<p_kill_CD8 type="double" units="1/min">0.02</p_kill_CD8>
+		<cd8_prolif_rate type="double" units="1/min">9.627e-05</cd8_prolif_rate>
+		<cd8_exhaust_prolif_halfmax type="double" units="dimensionless">0.25</cd8_exhaust_prolif_halfmax>
+		<exhaustion_increase_per_division type="double" units="dimensionless">0.1</exhaustion_increase_per_division>
+		<exhaustion_max type="double" units="dimensionless">1.0</exhaustion_max>
+		<cd8_necrosis_O2_gate type="double" units="mmHg">7</cd8_necrosis_O2_gate>
+		<cd8_necrosis_damage_rate type="double" units="1/min">1.5</cd8_necrosis_damage_rate>
+		<cd8_necrosis_damage_threshold type="double" units="dimensionless">0.7</cd8_necrosis_damage_threshold>
+		<cd8_sense_radius type="double" units="micron">400</cd8_sense_radius>
+		<cd8_bias_max type="double" units="dimensionless">0.25</cd8_bias_max>
+		<cd8_terminal_exhaust_gate type="double" units="dimensionless">0.85</cd8_terminal_exhaust_gate>
+		<cd8_terminal_exhaust_time_min type="double" units="min">600</cd8_terminal_exhaust_time_min>
+		<cd8_terminal_death_rate type="double" units="1/min">0.0015</cd8_terminal_death_rate>
+
+		<exhaustion_per_kill type="double" units="dimensionless">0.1</exhaustion_per_kill>
+		<exhaustion_rate_when_attached type="double" units="1/min">0.00012</exhaustion_rate_when_attached>
+		<exhaustion_threshold type="double" units="dimensionless">1.0</exhaustion_threshold>
+		<exhausted_speed_multiplier type="double" units="dimensionless">0.5</exhausted_speed_multiplier>
+		<exhausted_kill_multiplier type="double" units="dimensionless">0.5</exhausted_kill_multiplier>
+		<E_max type="double" units="dimensionless">10.0</E_max>
+		<O2_hypoxia_halfmax type="double" units="mmHg">9</O2_hypoxia_halfmax>
+		<hypoxia_hill_n type="double" units="dimensionless">2</hypoxia_hill_n>
+		<hypoxia_exhaust_mult type="double" units="dimensionless">2.5</hypoxia_exhaust_mult>
+		<M1_recovery_rate type="double" units="1/min">0.001</M1_recovery_rate>
+		<M1_recovery_mult type="double" units="dimensionless">1.0</M1_recovery_mult>
+		<M2_present_exhaust_rate type="double" units="1/min">0.002</M2_present_exhaust_rate>
+		<M2_present_exhaust_per_event type="double" units="dimensionless">0.07</M2_present_exhaust_per_event>
+
+		<spawn_radius_from_boundary type="double" units="micron">50</spawn_radius_from_boundary>
+		<initial_min_immune_distance_from_tumor type="double" units="micron">30</initial_min_immune_distance_from_tumor>
+		<thickness_of_immune_seeding_region type="double" units="micron">75</thickness_of_immune_seeding_region>
+		<metrics_interval_min type="double" units="min">60</metrics_interval_min>
+		<snapshot_interval_min type="double" units="min">60</snapshot_interval_min>
+	</user_parameters>
+</PhysiCell_settings>

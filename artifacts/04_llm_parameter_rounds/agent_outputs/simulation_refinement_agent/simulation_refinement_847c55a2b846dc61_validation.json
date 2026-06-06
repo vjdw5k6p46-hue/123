@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "recommendation_count": 30,
+  "errors": [],
+  "warnings": [
+    "Validation checks schema/range only; it does not prove biological correctness.",
+    "Recommendations are not automatically applied to XML configs."
+  ]
+}

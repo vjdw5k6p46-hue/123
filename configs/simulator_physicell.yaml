@@ -1,0 +1,16 @@
+simulator: physicell
+mode: mock
+physicell_executable: null
+base_config_template: /path/to/PhysiCell/sample_projects/cancer_immune/config/PhysiCell_settings.xml
+max_time: 240
+time_step: 12
+microenvironment_fields:
+  - cytokine
+  - IFN_gamma
+  - oxygen
+  - hypoxia
+  - PD_L1_signal
+  - suppressive_TME
+notes: >
+  Set mode to external and physicell_executable to a compiled PhysiCell binary
+  to run the core agent-based model outside Python.

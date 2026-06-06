@@ -1,0 +1,71 @@
+{
+  "tumor_antigen_density": "0.2",
+  "generated": [
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_12.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_15.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_18.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_2.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    },
+    {
+      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_7.xml",
+      "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "old_value": "1.0",
+      "new_value": "0.2"
+    }
+  ],
+  "control": {
+    "source": "C:\\code\\PhysiCell\\sample_projects\\cancer_immune\\config\\PhysiCell_settings.xml",
+    "output": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\control_PhysiCell_settings_low_antigen_0p2.xml",
+    "old_value": "1.0",
+    "new_value": "0.2"
+  }
+}

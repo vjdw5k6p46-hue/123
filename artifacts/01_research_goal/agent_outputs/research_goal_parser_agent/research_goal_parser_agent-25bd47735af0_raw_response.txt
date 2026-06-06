@@ -1,0 +1,60 @@
+{
+  "research_question": "For low-antigen GPC3-positive liver cancer, which self-secreting cytokine-armored CAR-T design among IL-2, IL-7, IL-12, IL-15, and IL-18 should be prioritized?",
+  "disease_context": "hepatocellular carcinoma and liver cancer",
+  "tumor_context": {
+    "target_antigen": "GPC3",
+    "antigen_density_condition": "low",
+    "role": "fixed simulation scenario, not an LLM-optimized tumor parameter",
+    "background_terms": []
+  },
+  "cell_therapy": {
+    "therapy_type": "CAR-T",
+    "engineering_mode": "self-secreting cytokine-armored CAR-T",
+    "candidate_interventions": [
+      "IL-2",
+      "IL-7",
+      "IL-12",
+      "IL-15",
+      "IL-18"
+    ]
+  },
+  "search_scope": {
+    "must_include": [],
+    "should_include": [
+      "self-secreting CAR-T",
+      "cytokine-armored CAR-T"
+    ],
+    "exclude": [],
+    "retrieval_queries": [
+      "self-secreting cytokine-armored CAR-T design",
+      "IL-2 CAR-T studies",
+      "IL-7 CAR-T studies",
+      "IL-12 CAR-T studies",
+      "IL-15 CAR-T studies",
+      "IL-18 CAR-T studies",
+      "GPC3-targeting CAR-T in low-antigen contexts",
+      "hepatocellular carcinoma CAR-T therapy"
+    ]
+  },
+  "intervention_variables": [
+    "IL-2",
+    "IL-7",
+    "IL-12",
+    "IL-15",
+    "IL-18"
+  ],
+  "fixed_scenario_constraints": [
+    "low tumor/cancer cell surface antigen density"
+  ],
+  "simulation_outputs_needed": [
+    "tumor burden",
+    "CAR-T expansion",
+    "CAR-T persistence",
+    "exhaustion fraction",
+    "cytotoxicity",
+    "IFN-gamma dynamics",
+    "hypoxia dynamics",
+    "PD-L1/TME remodeling signal"
+  ],
+  "guardrails": []
+}

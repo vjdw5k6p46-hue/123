@@ -1,0 +1,137 @@
+{
+  "base_config": "C:\\code\\PhysiCell\\sample_projects\\cancer_immune\\config\\PhysiCell_settings.xml",
+  "output_dir": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs",
+  "note": "gpt-4o-mini cytokine fingerprint knobs (before refinement; initial estimates).",
+  "interventions": [
+    {
+      "intervention_name": "IL-2",
+      "aux_cytokine_name": "IL2",
+      "aux_mode": "armored",
+      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "changed_user_parameters": {
+        "use_gate": false,
+        "K_cyto": 0.35,
+        "n_cyto": 2.0,
+        "alpha_prolif": 5.0,
+        "alpha_surv": 1.2,
+        "alpha_cyto": 1.2,
+        "alpha_exh": 1.0,
+        "beta_AICD": 0.8,
+        "endogenous_autocrine_allowed": true
+      },
+      "mechanistic_hypothesis": "IL-2 is a potent T cell growth factor that promotes proliferation and survival, which could enhance the anti-tumor activity of CAR-T cells against low-antigen GPC3 liver cancer, potentially counteracting exhaustion.",
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "increase plus evidence-linked rationale",
+        "confidence": 0.7
+      }
+    },
+    {
+      "intervention_name": "IL-7",
+      "aux_cytokine_name": "IL7",
+      "aux_mode": "armored",
+      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "changed_user_parameters": {
+        "use_gate": false,
+        "K_cyto": 0.45,
+        "n_cyto": 2.0,
+        "alpha_prolif": 2.5,
+        "alpha_surv": 3.0,
+        "alpha_cyto": 0.8,
+        "alpha_exh": 0.2,
+        "beta_AICD": 0.1,
+        "endogenous_autocrine_allowed": false
+      },
+      "mechanistic_hypothesis": "IL-7 is known to promote T cell survival and proliferation, and can counteract TGF-beta mediated suppression, which could enhance CAR-T cell persistence and anti-tumor activity against low-antigen GPC3 liver cancer.",
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "no_change plus evidence-linked rationale",
+        "IFNg_axis": "no_change plus evidence-linked rationale",
+        "AICD_or_toxicity": "decrease plus evidence-linked rationale",
+        "confidence": 0.7
+      }
+    },
+    {
+      "intervention_name": "IL-15",
+      "aux_cytokine_name": "IL15",
+      "aux_mode": "armored",
+      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "changed_user_parameters": {
+        "use_gate": false,
+        "K_cyto": 0.45,
+        "n_cyto": 2.0,
+        "alpha_prolif": 2.5,
+        "alpha_surv": 3.5,
+        "alpha_cyto": 2.5,
+        "alpha_exh": 0.0,
+        "beta_AICD": 0.1,
+        "endogenous_autocrine_allowed": false
+      },
+      "mechanistic_hypothesis": "IL-15 is crucial for T cell proliferation, survival, and memory formation. Its inclusion in armored CAR-T cells is expected to enhance persistence and anti-tumor activity against low-antigen GPC3 liver cancer, potentially mitigating exhaustion.",
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "decrease plus evidence-linked rationale",
+        "confidence": 0.8
+      }
+    },
+    {
+      "intervention_name": "IL-12",
+      "aux_cytokine_name": "IL12",
+      "aux_mode": "armored",
+      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "changed_user_parameters": {
+        "use_gate": true,
+        "K_cyto": 0.25,
+        "n_cyto": 2.0,
+        "alpha_prolif": 1.8,
+        "alpha_surv": 0.8,
+        "alpha_cyto": 2.5,
+        "alpha_exh": 1.5,
+        "beta_AICD": 1.0,
+        "endogenous_autocrine_allowed": false
+      },
+      "mechanistic_hypothesis": "IL-12 is a potent cytokine that promotes T helper 1 (Th1) differentiation, enhances IFN-gamma production, and can improve CAR-T cell proliferation and persistence, making it a strong candidate for enhancing anti-tumor activity against low-antigen GPC3 liver cancer.",
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "no_change plus evidence-linked rationale",
+        "confidence": 0.8
+      }
+    },
+    {
+      "intervention_name": "IL-18",
+      "aux_cytokine_name": "IL18",
+      "aux_mode": "armored",
+      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "changed_user_parameters": {
+        "use_gate": true,
+        "K_cyto": 0.25,
+        "n_cyto": 2.0,
+        "alpha_prolif": 1.8,
+        "alpha_surv": 1.2,
+        "alpha_cyto": 2.0,
+        "alpha_exh": 0.5,
+        "beta_AICD": 0.3,
+        "endogenous_autocrine_allowed": false
+      },
+      "mechanistic_hypothesis": "IL-18 is a pro-inflammatory cytokine that can enhance T cell effector functions, promote IFN-gamma and TNF-alpha secretion, and potentially improve CAR-T cell activity against solid tumors, including low-antigen GPC3 liver cancer, by recruiting other immune cells and broadening the response.",
+      "functional_fingerprint": {
+        "proliferation": "increase plus evidence-linked rationale",
+        "persistence_or_exhaustion": "increase plus evidence-linked rationale",
+        "cytotoxicity": "increase plus evidence-linked rationale",
+        "IFNg_axis": "increase plus evidence-linked rationale",
+        "AICD_or_toxicity": "decrease plus evidence-linked rationale",
+        "confidence": 0.8
+      }
+    }
+  ]
+}
