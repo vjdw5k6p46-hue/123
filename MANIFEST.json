@@ -428,8 +428,8 @@
     },
     {
       "path": "artifacts/07_final_report/final_report.md",
-      "bytes": 4303,
-      "sha256": "1ab33a8c6955d8c585206d00b900cd8a104cf920cc00396cafcb85643642470d"
+      "bytes": 4311,
+      "sha256": "fe0037f3c131d526bf77a313fd2f1700af03e96d944194e649ff879ae25ec5d7"
     },
     {
       "path": "artifacts/07_final_report/final_report_article_list.xlsx",
@@ -458,8 +458,8 @@
     },
     {
       "path": "artifacts/artifact_manifest.json",
-      "bytes": 18560,
-      "sha256": "0e0e5770be46a69c1dc4b55712fc0be79c566848e896d406db9385212d6ba4e5"
+      "bytes": 18502,
+      "sha256": "4597d6d025e9229089bf96fe5583e41eb80adcbe0c8bd8914fdeb4501c99f1ab"
     },
     {
       "path": "configs/autoresearch_gemini.yaml",
@@ -613,8 +613,8 @@
     },
     {
       "path": "docs/integration_status.md",
-      "bytes": 1989,
-      "sha256": "368aa39ba8e00bee3844d991a959b01e87f70a5b589d9740f5211eed011bfdef"
+      "bytes": 2192,
+      "sha256": "b524f1b24952fd96014c73346ed6fc63911bc8d6b930d4ecf76c6fcca52bee58"
     },
     {
       "path": "docs/limitations_llm_physicell.md",
@@ -729,7 +729,7 @@
     {
       "path": "MANIFEST.json",
       "bytes": 53805,
-      "sha256": "a34c93d34cbb35f86c387749fd0801fc9718caa85e99fab1f9f4170944445185"
+      "sha256": "e3d9711e31810e217d6fc740dcfb5b9a04a3a339862fc0b0a5210b402abb3a5c"
     },
     {
       "path": "physicell_project/config/PhysiCell_settings.template.xml",

@@ -13,8 +13,8 @@ A total of 553 raw records were retrieved, with 538 valid titled records. After 
 ## 3. Central Hypothesis
 Among self-secreting cytokine-armored CAR-T designs targeting GPC3 in hepatocellular carcinoma, IL-15 is hypothesized to demonstrate superior efficacy in reducing tumor burden and enhancing CAR-T cell persistence compared to IL-2, IL-7, IL-12, and IL-18.
 
-## 4. LLM Parameter Generation Before Refinement
-Initial parameters were generated using an LLM agent, which used the supplied literature/chunk context to produce structured hypotheses and direct parameter choices. The parameters were schema/range checked and prepared for simulation.
+## 4. LLM Parameter Proposal Before Refinement
+Initial parameter proposals were produced by an LLM agent, which used the supplied literature/chunk context to produce structured hypotheses and direct parameter choices. The proposed parameters were schema/range checked and prepared for simulation.
 
 ## 5. Low-Antigen PhysiCell Cytokine-Only Results Before Refinement
 In the pre-refinement round, the cytokine-only ranking was as follows:
@@ -45,6 +45,6 @@ The results are based on in silico PhysiCell simulations and have not been valid
 - **Research Goal Document**: `outputs\\autoresearch_step1_goal_parse_openai_dynamic_clean_question\\research_goal.json`
 - **Paper Classification Summary**: `outputs\\autoresearch_step1_paper_search_classification\\classification_summary.json`
 - **Central Hypothesis Document**: `outputs\\autoresearch_step3_central_hypothesis_openai\\central_hypothesis_output.json`
-- **LLM Parameter Generation Calls**: `outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\llm_calls.jsonl`
+- **LLM Parameter Proposal Calls**: `outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\llm_calls.jsonl`
 - **Pre-Refinement Results**: `outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_runs_low_antigen_0p2\\round1_pre_refine_replicates3\\replicate_ranking.csv`
 - **Post-Refinement Results**: `outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_runs_low_antigen_0p2\\round2_post_refine_replicates3\\replicate_ranking.csv`
