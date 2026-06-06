@@ -1,7 +1,6 @@
 {
   "configs_dir": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round2_post_refine_low_antigen_configs",
   "executable": "C:\\code\\PhysiCell\\sample_projects\\cancer_immune\\cancer_immune_3D",
-  "control_config": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\control_PhysiCell_settings_low_antigen_0p2.xml",
   "replicates": 3,
   "max_time": 1440.0,
   "workers": 3,

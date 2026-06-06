@@ -9,13 +9,12 @@
   "final_report": "artifacts/07_final_report/final_report.md",
   "article_excel": "artifacts/07_final_report/final_report_article_list.xlsx",
   "tumor_antigen_density_for_final_results": 0.2,
-  "control_group_in_final_report": false,
   "contains_full_papers_or_pdf": false,
   "contains_compiled_binaries": false,
   "contains_large_raw_physicell_outputs": false,
   "contains_api_keys_or_secrets": false,
   "contains_wet_lab_validation": false,
-  "file_count": 259,
+  "file_count": 258,
   "files": [
     {
       "path": ".gitattributes",
@@ -246,11 +245,6 @@
       "path": "artifacts/04_llm_parameter_rounds/tumor_parameter_baseline_comparison.tsv",
       "bytes": 7362,
       "sha256": "086a8ecfd5198bdd8e6e35d98a4d3a175036ba821a8e1a7be56fecabf2264c67"
-    },
-    {
-      "path": "artifacts/05_low_antigen_physicell_inputs/control_PhysiCell_settings_low_antigen_0p2.xml",
-      "bytes": 26888,
-      "sha256": "79e15d590cbcac078f62bad8fcb7ae7e391021b1fa0bc61e729ff1bfe4f4cf41"
     },
     {
       "path": "artifacts/05_low_antigen_physicell_inputs/low_antigen_config_manifest.json",

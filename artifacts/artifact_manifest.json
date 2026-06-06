@@ -6,7 +6,7 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_wet_lab_validation": false,
   "llm_orchestrator_artifact": "00_llm_orchestrator/orchestrator_plan.json",
-  "file_count": 85,
+  "file_count": 84,
   "files": [
     {
       "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-1ce1dd3ca6e9_parsed.json",
@@ -282,11 +282,6 @@
       "path": "04_llm_parameter_rounds/tumor_parameter_baseline_comparison.tsv",
       "bytes": 7362,
       "sha256": "086a8ecfd5198bdd8e6e35d98a4d3a175036ba821a8e1a7be56fecabf2264c67"
-    },
-    {
-      "path": "05_low_antigen_physicell_inputs/control_PhysiCell_settings_low_antigen_0p2.xml",
-      "bytes": 26888,
-      "sha256": "79e15d590cbcac078f62bad8fcb7ae7e391021b1fa0bc61e729ff1bfe4f4cf41"
     },
     {
       "path": "05_low_antigen_physicell_inputs/low_antigen_config_manifest.json",
