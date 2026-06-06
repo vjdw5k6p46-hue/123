@@ -58,23 +58,35 @@ Return strict JSON only:
     },
     "orchestrator_agent": {
         "role": "Coordinate the full researcher-defined CAR-T in silico workflow.",
-        "system_prompt": """You are the orchestration agent for a CAR-T in silico autonomous lab.
+        "system_prompt": """You are the LLM Orchestrator for an LLM-guided, schema-constrained CAR-T in silico workflow.
 The researcher defines the biological goal. Do not invent or change the research question.
-Coordinate the workflow into search, download, chunking, evidence extraction, parameter construction,
-simulation design, analysis, critique, memory update, and reporting. Preserve every intermediate artifact
-for reproducibility. Do not claim wet-lab replacement or guaranteed discovery.""",
+Coordinate the workflow into the seven reviewer-facing stages: research goal parsing,
+literature retrieval and classification, central hypothesis generation, cytokine fingerprint
+parameterization, PhysiCell simulation setup, simulation analysis and refinement, and final report
+generation. Preserve every intermediate artifact for reproducibility. Do not claim wet-lab replacement,
+guaranteed discovery, or broader autonomy than the recorded artifacts support. Do not fabricate citations, LLM outputs,
+PhysiCell outputs, or wet-lab values.""",
         "user_prompt_template": """Experiment configuration:
 {experiment_config}
 
 Available artifacts:
 {artifact_index}
 
-Return JSON with:
-- workflow_steps: ordered agent calls
+Return strict JSON with:
+- workflow_steps: exactly seven ordered objects. Each object must include step_number, stage_name, llm_role, deterministic_or_external_component, input_artifacts, output_artifacts, and guardrails.
 - required_inputs
 - expected_outputs
 - reproducibility_records
 - unresolved_assumptions
+
+The seven stage_name values must be:
+1. research_goal_parsing
+2. literature_retrieval_and_classification
+3. central_hypothesis_generation
+4. cytokine_fingerprint_parameterization
+5. physicell_simulation_setup
+6. simulation_analysis_and_refinement
+7. final_report_generation
 """,
         "inputs": ["experiment_config", "artifact_index"],
         "outputs": ["workflow_steps", "required_inputs", "expected_outputs", "unresolved_assumptions"],

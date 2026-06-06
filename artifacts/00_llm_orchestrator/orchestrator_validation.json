@@ -1,0 +1,30 @@
+{
+  "schema_validation_status": "passed",
+  "call_id": "orchestrator_agent-1ce1dd3ca6e9",
+  "prompt_hash": "040ad92aa6024282",
+  "stage_count": 7,
+  "stage_names": [
+    "research_goal_parsing",
+    "literature_retrieval_and_classification",
+    "central_hypothesis_generation",
+    "cytokine_fingerprint_parameterization",
+    "physicell_simulation_setup",
+    "simulation_analysis_and_refinement",
+    "final_report_generation"
+  ],
+  "expected_stage_names": [
+    "research_goal_parsing",
+    "literature_retrieval_and_classification",
+    "central_hypothesis_generation",
+    "cytokine_fingerprint_parameterization",
+    "physicell_simulation_setup",
+    "simulation_analysis_and_refinement",
+    "final_report_generation"
+  ],
+  "stage_mapping_status": "passed",
+  "notes": [
+    "This is a real OpenAI-compatible LLM orchestrator audit artifact.",
+    "It does not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
+    "It coordinates existing uploaded workflow artifacts and does not overwrite simulation results."
+  ]
+}

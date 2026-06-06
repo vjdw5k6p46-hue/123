@@ -1312,5 +1312,8 @@
       "bytes": 7021,
       "sha256": "8c644fc1454b359fdc78a2660a06e31662e767be1da34f5f4de9bf8f6b0d7958"
     }
-  ]
+  ],
+  "llm_orchestrator_artifact": "artifacts/00_llm_orchestrator/orchestrator_plan.json",
+  "llm_orchestrator_validation": "artifacts/00_llm_orchestrator/orchestrator_validation.json",
+  "llm_orchestrator_public_audit": "artifacts/00_llm_orchestrator/llm_calls_public_redacted.jsonl"
 }

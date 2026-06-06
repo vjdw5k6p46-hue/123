@@ -1,0 +1,383 @@
+{
+  "description": "Reviewer-facing artifact index supplied to the LLM Orchestrator. It summarizes existing workflow artifacts and excludes PDFs/full-text papers.",
+  "artifact_root": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection",
+  "artifact_count": 73,
+  "artifacts": [
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\artifact_manifest.json",
+      "name": "artifact_manifest.json",
+      "bytes": 16803
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\llm_calls.jsonl",
+      "name": "llm_calls.jsonl",
+      "bytes": 818
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\llm_calls_public_redacted.jsonl",
+      "name": "llm_calls_public_redacted.jsonl",
+      "bytes": 559
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\paper_download_queries.json",
+      "name": "paper_download_queries.json",
+      "bytes": 1463
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\paper_download_queries.tsv",
+      "name": "paper_download_queries.tsv",
+      "bytes": 508
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\research_goal.json",
+      "name": "research_goal.json",
+      "bytes": 4288
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\research_goal_parse_status.json",
+      "name": "research_goal_parse_status.json",
+      "bytes": 461
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\classification_summary.json",
+      "name": "classification_summary.json",
+      "bytes": 1036
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\deduplicated_papers.json",
+      "name": "deduplicated_papers.json",
+      "bytes": 1345867
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\download_priority_1_core.tsv",
+      "name": "download_priority_1_core.tsv",
+      "bytes": 21757
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\ranked_classified_papers.json",
+      "name": "ranked_classified_papers.json",
+      "bytes": 1345867
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\ranked_classified_papers.tsv",
+      "name": "ranked_classified_papers.tsv",
+      "bytes": 113813
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\search_log.json",
+      "name": "search_log.json",
+      "bytes": 6702
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_input_papers.json",
+      "name": "central_hypothesis_input_papers.json",
+      "bytes": 245214
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_manifest.json",
+      "name": "central_hypothesis_manifest.json",
+      "bytes": 767
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_output.json",
+      "name": "central_hypothesis_output.json",
+      "bytes": 5838
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_validation.json",
+      "name": "central_hypothesis_validation.json",
+      "bytes": 167
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\llm_calls.jsonl",
+      "name": "llm_calls.jsonl",
+      "bytes": 1049
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\llm_calls_public_redacted.jsonl",
+      "name": "llm_calls_public_redacted.jsonl",
+      "bytes": 749
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\papers_to_download_before_parameterization.json",
+      "name": "papers_to_download_before_parameterization.json",
+      "bytes": 2
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\papers_to_download_before_parameterization.tsv",
+      "name": "papers_to_download_before_parameterization.tsv",
+      "bytes": 51
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\llm_calls.jsonl",
+      "name": "llm_calls.jsonl",
+      "bytes": 1826
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters.json",
+      "name": "physicell_ready_parameters.json",
+      "bytes": 6686
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json",
+      "name": "physicell_ready_parameters_refined.json",
+      "bytes": 6746
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\tumor_parameter_baseline_comparison.tsv",
+      "name": "tumor_parameter_baseline_comparison.tsv",
+      "bytes": 7362
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml",
+      "name": "control_PhysiCell_settings_low_antigen_0p2.xml",
+      "bytes": 26888
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
+      "name": "low_antigen_config_manifest.json",
+      "bytes": 4120
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report.md",
+      "name": "final_report.md",
+      "bytes": 4347
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_article_list.xlsx",
+      "name": "final_report_article_list.xlsx",
+      "bytes": 68775
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_context.json",
+      "name": "final_report_context.json",
+      "bytes": 25359
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_llm_raw_response.md",
+      "name": "final_report_llm_raw_response.md",
+      "bytes": 4267
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_manifest.json",
+      "name": "final_report_manifest.json",
+      "bytes": 1288
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_prompt.txt",
+      "name": "final_report_prompt.txt",
+      "bytes": 21918
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md",
+      "name": "cytokine_only_report.md",
+      "bytes": 933
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json",
+      "name": "cytokine_only_summary.json",
+      "bytes": 6098
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\round1_pre_refine_cytokine_only_ranking.csv",
+      "name": "round1_pre_refine_cytokine_only_ranking.csv",
+      "bytes": 872
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\round2_post_refine_cytokine_only_ranking.csv",
+      "name": "round2_post_refine_cytokine_only_ranking.csv",
+      "bytes": 870
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv",
+      "name": "replicate_metrics.csv",
+      "bytes": 5412
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_ranking.csv",
+      "name": "replicate_ranking.csv",
+      "bytes": 986
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_summary.csv",
+      "name": "replicate_summary.csv",
+      "bytes": 969
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\run_manifest.json",
+      "name": "run_manifest.json",
+      "bytes": 1128
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_metrics.csv",
+      "name": "replicate_metrics.csv",
+      "bytes": 5426
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_ranking.csv",
+      "name": "replicate_ranking.csv",
+      "bytes": 988
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_summary.csv",
+      "name": "replicate_summary.csv",
+      "bytes": 971
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\run_manifest.json",
+      "name": "run_manifest.json",
+      "bytes": 1132
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "name": "PhysiCell_settings_reasoned_il_12.xml",
+      "bytes": 27473
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "name": "PhysiCell_settings_reasoned_il_15.xml",
+      "bytes": 27474
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "name": "PhysiCell_settings_reasoned_il_18.xml",
+      "bytes": 27473
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "name": "PhysiCell_settings_reasoned_il_2.xml",
+      "bytes": 27472
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "name": "PhysiCell_settings_reasoned_il_7.xml",
+      "bytes": 27473
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "name": "PhysiCell_settings_reasoned_il_12.xml",
+      "bytes": 27472
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "name": "PhysiCell_settings_reasoned_il_15.xml",
+      "bytes": 27474
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "name": "PhysiCell_settings_reasoned_il_18.xml",
+      "bytes": 27472
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "name": "PhysiCell_settings_reasoned_il_2.xml",
+      "bytes": 27471
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "name": "PhysiCell_settings_reasoned_il_7.xml",
+      "bytes": 27472
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
+      "name": "autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
+      "bytes": 27531
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
+      "name": "autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
+      "bytes": 27545
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
+      "name": "autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
+      "bytes": 174
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_parsed.json",
+      "name": "simulation_refinement_847c55a2b846dc61_parsed.json",
+      "bytes": 13951
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_raw_response.txt",
+      "name": "simulation_refinement_847c55a2b846dc61_raw_response.txt",
+      "bytes": 11381
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_validation.json",
+      "name": "simulation_refinement_847c55a2b846dc61_validation.json",
+      "bytes": 253
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_parsed.json",
+      "name": "hypothesis_generation_agent-4906b0050d7d_parsed.json",
+      "bytes": 5844
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_prompt.txt",
+      "name": "hypothesis_generation_agent-4906b0050d7d_prompt.txt",
+      "bytes": 236789
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_raw_response.txt",
+      "name": "hypothesis_generation_agent-4906b0050d7d_raw_response.txt",
+      "bytes": 5838
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_validation.json",
+      "name": "hypothesis_generation_agent-4906b0050d7d_validation.json",
+      "bytes": 62
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\papers_by_topic.json",
+      "name": "papers_by_topic.json",
+      "bytes": 1411792
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\papers_by_topic.tsv",
+      "name": "papers_by_topic.tsv",
+      "bytes": 110483
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\topic_summary.json",
+      "name": "topic_summary.json",
+      "bytes": 988
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\topic_summary.tsv",
+      "name": "topic_summary.tsv",
+      "bytes": 854
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json",
+      "name": "research_goal_parser_agent-25bd47735af0_parsed.json",
+      "bytes": 1681
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_prompt.txt",
+      "name": "research_goal_parser_agent-25bd47735af0_prompt.txt",
+      "bytes": 4869
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_raw_response.txt",
+      "name": "research_goal_parser_agent-25bd47735af0_raw_response.txt",
+      "bytes": 1681
+    },
+    {
+      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_validation.json",
+      "name": "research_goal_parser_agent-25bd47735af0_validation.json",
+      "bytes": 62
+    }
+  ],
+  "truncated": false,
+  "source_sets": {
+    "paper_classification": "metadata/classification artifacts only; no full papers included",
+    "llm_parameter_rounds": "archived live OpenAI LLM outputs from autoresearch parameter/refinement steps",
+    "physicell_results": "local PhysiCell simulation summaries only; large raw replicate outputs excluded from upload package"
+  },
+  "guardrails": [
+    "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
+    "Article metadata/classification records are not full-text paper uploads.",
+    "This orchestrator output is an audit artifact and does not overwrite simulation results."
+  ]
+}

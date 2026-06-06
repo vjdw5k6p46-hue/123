@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cart-insilico-autolab"
 version = "0.1.0"
-description = "LLM-guided CAR-T in silico autonomous lab workflow with PhysiCell adapter."
+description = "LLM-guided, schema-constrained CAR-T in silico workflow with PhysiCell adapter."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
