@@ -1,6 +1,6 @@
 # Reviewer README
 
-This integration branch provides the reviewer-ready LLM-guided, schema-constrained CAR-T in silico workflow package.
+This reviewer package provides the reviewer-ready LLM-guided, schema-constrained CAR-T in silico workflow package.
 
 ## Install
 

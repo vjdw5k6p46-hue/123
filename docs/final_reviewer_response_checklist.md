@@ -40,8 +40,8 @@ cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver_physicell.
 
 ## Passing / Failing Status
 
-- Smoke matrix passed on the integration branch.
-- Full pytest passed on the integration branch after reviewer artifact and contribution-summary additions.
+- Smoke matrix passed for the reviewer package.
+- Full pytest passed for the reviewer package after reviewer artifact and contribution-summary additions.
 - Demo runner produced all expected artifacts under `outputs/reviewer_demo/`.
 - Consistency checker runs without external services and prints warnings rather than modifying files.
 - Live LLM execution was not tested because tests must not require API keys.
@@ -100,4 +100,4 @@ Earlier implementation branches:
 12. `audit/post-implementation-review`
 13. `qa/final-consistency-check`
 
-Documentation should be reviewed again if the integration branch is split, rebased, or only partially merged.
+Documentation should be reviewed again if this reviewer package is split, rebased, or only partially merged.

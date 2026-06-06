@@ -1,6 +1,6 @@
 # Reviewer Response Implementation Status
 
-This integration branch supports the framing: LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference mode, optional executable LLM-agent mode, archived/replay mode, and optional external PhysiCell execution.
+This reviewer package supports the framing: LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference mode, optional executable LLM-agent mode, archived/replay mode, and optional external PhysiCell execution.
 
 ## Integrated Capabilities
 

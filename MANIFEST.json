@@ -14,7 +14,7 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_api_keys_or_secrets": false,
   "contains_wet_lab_validation": false,
-  "file_count": 258,
+  "file_count": 254,
   "files": [
     {
       "path": ".gitattributes",
@@ -35,6 +35,21 @@
       "path": "AGENTS.md",
       "bytes": 1948,
       "sha256": "94ac87e8da62ef199d6834b06553b0ab86399140ff502d429cbe87d28341ac9b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1100,
+      "sha256": "e33abe6c0ca88d1a0f31f1f145338b100c12128871c4e2766f83a23fa8c0d4c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8084,
+      "sha256": "9d1918458d36751a6033983fc6bd9f23e642e72da72cdd9d15f21fb49d9f0c0d"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/README.md",
+      "bytes": 668,
+      "sha256": "e84e9149791ff36b57559b950d3df5020a6fc07772fb45a4e1329b39ec3820f0"
     },
     {
       "path": "artifacts/00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e737fbda19e3_parsed.json",
@@ -95,11 +110,6 @@
       "path": "artifacts/00_llm_orchestrator/orchestrator_validation.json",
       "bytes": 1080,
       "sha256": "d1ad2f21e4de7323d65780e94a7d481e517bd8b3dfe39fd1fd668edf6e1a274c"
-    },
-    {
-      "path": "artifacts/00_llm_orchestrator/README.md",
-      "bytes": 668,
-      "sha256": "e84e9149791ff36b57559b950d3df5020a6fc07772fb45a4e1329b39ec3820f0"
     },
     {
       "path": "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
@@ -428,8 +438,8 @@
     },
     {
       "path": "artifacts/07_final_report/final_report.md",
-      "bytes": 4311,
-      "sha256": "fe0037f3c131d526bf77a313fd2f1700af03e96d944194e649ff879ae25ec5d7"
+      "bytes": 4318,
+      "sha256": "e9d622954f7addea45cdc591ac3de58cb4d71d0f3d743974de16633ac5cf556e"
     },
     {
       "path": "artifacts/07_final_report/final_report_article_list.xlsx",
@@ -437,29 +447,14 @@
       "sha256": "e67ee2e550232940746568026852c9abbe3dc03db4b9c13a3d488a81e93294d3"
     },
     {
-      "path": "artifacts/07_final_report/final_report_context.json",
-      "bytes": 25359,
-      "sha256": "4f52d487f783554e7675ebd5d4b0da77a2f2e67bd43ce64a5cbceaa5cf7fc4ec"
-    },
-    {
-      "path": "artifacts/07_final_report/final_report_llm_raw_response.md",
-      "bytes": 4267,
-      "sha256": "9812231d97515f4f0cb91a734d7b4bd3275b442168ffb84ea65539cc22a3a205"
-    },
-    {
       "path": "artifacts/07_final_report/final_report_manifest.json",
-      "bytes": 1184,
-      "sha256": "e2a68fc30d419f906b61abe26b4c00df7ba1426343a8a29d9c15bf1ce76ff734"
-    },
-    {
-      "path": "artifacts/07_final_report/final_report_prompt.txt",
-      "bytes": 21918,
-      "sha256": "9af776326784aca952de7f9d3a2693efb4b76995124f7f6b2a7db5faa552cddb"
+      "bytes": 1107,
+      "sha256": "b5e4ff44836c583a69878177839e1c9b900a0f25bc9d239143cfb0959c32503c"
     },
     {
       "path": "artifacts/artifact_manifest.json",
-      "bytes": 18502,
-      "sha256": "4597d6d025e9229089bf96fe5583e41eb80adcbe0c8bd8914fdeb4501c99f1ab"
+      "bytes": 17952,
+      "sha256": "136c8afac16c7fc2373f4ed433711ab4230eb9dc9332cfdb045f93412b25dbe2"
     },
     {
       "path": "configs/autoresearch_gemini.yaml",
@@ -527,6 +522,11 @@
       "sha256": "5afe689f26f9595546f74127ca7e40dc2ecad5ebf3199c201aa8a59f6d95322b"
     },
     {
+      "path": "data/autoresearch_chunk_manifests/README.md",
+      "bytes": 544,
+      "sha256": "9bc5f9b39be5341d72827bf62cb9925eefa8db5a3a5efd6c773d58a6d59e2abb"
+    },
+    {
       "path": "data/autoresearch_chunk_manifests/liver_antigen_density_chunks.jsonl",
       "bytes": 1546512,
       "sha256": "ac20c8785cebeb77248ee49193475616baf6a2b55ea5e4ae0cf4133b6be65762"
@@ -542,11 +542,6 @@
       "sha256": "d9864531adb09f73e5d3171f707fac9161403f68200fb10b3b85333ff6b2d4c8"
     },
     {
-      "path": "data/autoresearch_chunk_manifests/README.md",
-      "bytes": 544,
-      "sha256": "9bc5f9b39be5341d72827bf62cb9925eefa8db5a3a5efd6c773d58a6d59e2abb"
-    },
-    {
       "path": "data/autoresearch_chunk_manifests/self_secreting_cytokine_chunks.jsonl",
       "bytes": 2623433,
       "sha256": "551f9f952ba87a625c9fa47893191ef4b51f969633daf5e61531b5373eb04e4b"
@@ -555,6 +550,11 @@
       "path": "data/autoresearch_chunk_manifests/self_secreting_cytokine_chunks_paper_index.json",
       "bytes": 217223,
       "sha256": "e07dd25d4aeba9a8b805a75f5a9d1eab8cbac915195c019cd9d35f241fe93dbe"
+    },
+    {
+      "path": "data/llm_replay_example/README.md",
+      "bytes": 227,
+      "sha256": "d33b34bc0776c44c3d00fca7d5ab1a2fb935fda6ecc2d9ab7f13f2107dfe2be2"
     },
     {
       "path": "data/llm_replay_example/chunk_evidence_extraction_agent.json",
@@ -567,9 +567,9 @@
       "sha256": "dcf26dab199c3fa27ca411269a2fbde74770d994559998788cfc899d1def2808"
     },
     {
-      "path": "data/llm_replay_example/README.md",
-      "bytes": 227,
-      "sha256": "d33b34bc0776c44c3d00fca7d5ab1a2fb935fda6ecc2d9ab7f13f2107dfe2be2"
+      "path": "data/manuscript_literature/README.md",
+      "bytes": 1015,
+      "sha256": "acba0cbcbc4bc429be0be1d890c58b53c92f3f9a1459046a40ba8a2464143e32"
     },
     {
       "path": "data/manuscript_literature/curated_papers.template.json",
@@ -577,14 +577,14 @@
       "sha256": "774d890cd2ecea40bcc63c282412ccdf781d5e8dee7f95422c844ef5296c20e7"
     },
     {
-      "path": "data/manuscript_literature/README.md",
-      "bytes": 1015,
-      "sha256": "acba0cbcbc4bc429be0be1d890c58b53c92f3f9a1459046a40ba8a2464143e32"
-    },
-    {
       "path": "data/mock_literature/mock_papers.json",
       "bytes": 4071,
       "sha256": "824c71ac20e8b48f8a58ac9fd60c4c032d7477d93d47a22123fb1218df42671b"
+    },
+    {
+      "path": "docs/REVIEWER_README.md",
+      "bytes": 2240,
+      "sha256": "57ab3e17c8d11e8bdb183860f3c6300fb27d9e13170790fda9bfc8384ac3f283"
     },
     {
       "path": "docs/autoresearch_local_workflow.md",
@@ -598,8 +598,8 @@
     },
     {
       "path": "docs/final_reviewer_response_checklist.md",
-      "bytes": 4268,
-      "sha256": "01219d4a20c5bad2077a7d8456200be7332aede5c5b6c9289ce7ec15bfd99d63"
+      "bytes": 4263,
+      "sha256": "7aa424f508bb445dd228028fa946b44f4135a51c212c13d7a13a8ad05e458ef2"
     },
     {
       "path": "docs/integration_status.md",
@@ -648,18 +648,18 @@
     },
     {
       "path": "docs/post_implementation_audit.md",
-      "bytes": 8315,
-      "sha256": "bc1cf494175262b49c6327799cf4db0cc1c83ff60fd4d3fe9bebb6972a78e6fd"
+      "bytes": 8309,
+      "sha256": "81f4bba4d2bf522570cd4eae788fbda19c08c0c89b9b33c765a5e1d033abe9cc"
     },
     {
       "path": "docs/pr_split_plan.md",
-      "bytes": 7699,
-      "sha256": "f16c9ac0fee2d3eb93400f4d0ec7489e459808b55704f16d869d54cfa7a97296"
+      "bytes": 7687,
+      "sha256": "7f86a238849592db68e526b99b27ac695d7ae9998d331e015e0d8b025f76e4c7"
     },
     {
       "path": "docs/rebuttal_to_reviewer_llm_workflow.md",
-      "bytes": 5422,
-      "sha256": "c30e42d218e24792c68db8e4d10bd83b8a11169b9441dc713b8f992bf083d15f"
+      "bytes": 5420,
+      "sha256": "ba01ced66ccd89e6af10719b1754766ee9399dc50757f2d889e033cb1bfd73ae"
     },
     {
       "path": "docs/remaining_limitations.md",
@@ -678,13 +678,8 @@
     },
     {
       "path": "docs/reviewer_offline_release_notes.md",
-      "bytes": 4167,
-      "sha256": "288aa6a9ee10e904b4f09e012be7c17d9ef749db4b39f53fa0d63c83695ce367"
-    },
-    {
-      "path": "docs/REVIEWER_README.md",
-      "bytes": 2242,
-      "sha256": "5fadb20b317f036783e99c688fa5d2be05b22f4def2e216cf9bee1ab2c580a93"
+      "bytes": 4237,
+      "sha256": "8ca0b5e4c25dfd5c2576395b1c5cbe4323fc888f78061409a290ad92bb90ae92"
     },
     {
       "path": "docs/reviewer_reproducibility_audit.md",
@@ -698,8 +693,8 @@
     },
     {
       "path": "docs/reviewer_response_implementation.md",
-      "bytes": 1004,
-      "sha256": "2c361503a0e7e4e4d46bed7dcc680d1ce0a191d1198b3fd74ffb468830138476"
+      "bytes": 1002,
+      "sha256": "89ac2c1fda2a634209feda03e0c6c51ae117216009abeb6af8fb5380865c39e8"
     },
     {
       "path": "docs/third_party_dependencies.md",
@@ -707,14 +702,9 @@
       "sha256": "8ce08ff08cc209cde48323c823a9243015cd997d95093e9ea81a1a802845f7d5"
     },
     {
-      "path": "LICENSE",
-      "bytes": 1100,
-      "sha256": "e33abe6c0ca88d1a0f31f1f145338b100c12128871c4e2766f83a23fa8c0d4c0"
-    },
-    {
-      "path": "MANIFEST.json",
-      "bytes": 51637,
-      "sha256": "9d6781dc2dfd8573904e5e98d5db71df156c303a2acb7540f94e23a7b67074d6"
+      "path": "physicell_project/README.md",
+      "bytes": 1115,
+      "sha256": "024a343f5334795053b77e674d50b1627fb43b8c84ed45b5a85b6e09addf3ea6"
     },
     {
       "path": "physicell_project/config/PhysiCell_settings.template.xml",
@@ -732,19 +722,9 @@
       "sha256": "0c5f83c703f305fb02c9c3a85fd222df045f3d981816e4bef14930809055be4a"
     },
     {
-      "path": "physicell_project/README.md",
-      "bytes": 1115,
-      "sha256": "024a343f5334795053b77e674d50b1627fb43b8c84ed45b5a85b6e09addf3ea6"
-    },
-    {
       "path": "pyproject.toml",
       "bytes": 696,
       "sha256": "8292d93a4edce9c32e1e2226447a9777dbb12715e42825e35e45ed0d09d75a8f"
-    },
-    {
-      "path": "README.md",
-      "bytes": 8084,
-      "sha256": "9d1918458d36751a6033983fc6bd9f23e642e72da72cdd9d15f21fb49d9f0c0d"
     },
     {
       "path": "scripts/build_manuscript_local_llm_archive.py",
@@ -758,8 +738,8 @@
     },
     {
       "path": "scripts/build_reviewer_offline_package.py",
-      "bytes": 12863,
-      "sha256": "1971def41ad9f7a87af5ba91c8efd53066740b1afa7e1302075ba37695cb9052"
+      "bytes": 12942,
+      "sha256": "b3a6da64caa4c65feb31e5797b3abd91739b4078427dc68c72231f228f971175"
     },
     {
       "path": "scripts/check_reviewer_response_consistency.py",
@@ -1142,6 +1122,16 @@
       "sha256": "d59f565caf6c500a72cfefde1e6d13d3949b0a1f806fc5866b5591536cf8d516"
     },
     {
+      "path": "src/cart_insilico_autolab.egg-info/PKG-INFO",
+      "bytes": 8666,
+      "sha256": "f1c9e84fe4dc743e09e02555f182f770239c56f755b83bfaaef9154e0c9ad700"
+    },
+    {
+      "path": "src/cart_insilico_autolab.egg-info/SOURCES.txt",
+      "bytes": 3900,
+      "sha256": "c10c68c60738c6a817999ac17a2994e833082bc7150e559c35eaccdf75f934db"
+    },
+    {
       "path": "src/cart_insilico_autolab.egg-info/dependency_links.txt",
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
@@ -1152,19 +1142,9 @@
       "sha256": "21f22550c8cb16dd587b23d54acccf7ab380d8791b53309bccf39ee3c448149e"
     },
     {
-      "path": "src/cart_insilico_autolab.egg-info/PKG-INFO",
-      "bytes": 8669,
-      "sha256": "f2dcf6b49d15b7beb9fd6d9d0f8c173d92f0290ff50b91b8f1e6d26a330a5ee8"
-    },
-    {
       "path": "src/cart_insilico_autolab.egg-info/requires.txt",
       "bytes": 126,
       "sha256": "63f613fc4f4a8eb28d66f59ed51a2545513fc38caccbceacefbdcbb6a3bf881b"
-    },
-    {
-      "path": "src/cart_insilico_autolab.egg-info/SOURCES.txt",
-      "bytes": 3900,
-      "sha256": "c10c68c60738c6a817999ac17a2994e833082bc7150e559c35eaccdf75f934db"
     },
     {
       "path": "src/cart_insilico_autolab.egg-info/top_level.txt",

@@ -25,7 +25,7 @@ The researcher defines the biological goal. The workflow operationalizes that go
 
 ## Workflow Modes
 
-This integration branch provides deterministic reference execution plus optional executable LLM-agent, archived/replay, hybrid, ablation, and external PhysiCell support.
+This reviewer package provides deterministic reference execution plus optional executable LLM-agent, archived/replay, hybrid, ablation, and external PhysiCell support.
 
 - Deterministic reference mode: default mode; no API key, internet access, or external PhysiCell executable required.
 - Executable LLM-agent mode: optional; records prompt, raw response, parsed JSON, schema validation, and audit metadata.

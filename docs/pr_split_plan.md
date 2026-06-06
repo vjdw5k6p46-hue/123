@@ -1,6 +1,6 @@
 # Historical PR Split Plan
 
-This historical plan records how the reviewer-response work was originally divided into reviewable branches before this integration branch was assembled. The integrated branch contains the implemented stack described in the README, reviewer audit, smoke tests, and reviewer demo docs.
+This historical plan records how the reviewer-response work was originally divided into reviewable branches before this reviewer package was assembled. The package contains the implemented stack described in the README, reviewer audit, smoke tests, and reviewer demo docs.
 
 ## PR 0: Audit Reviewer Reproducibility Gaps
 

@@ -1,6 +1,6 @@
 # Rebuttal to Reviewer Concern About the LLM Workflow
 
-This document provides two non-defensive response options. The strong version matches this integration branch. The conservative version can be used if the authors decide to describe only deterministic reference mode, prompt specifications, mock/replay fixtures, and clearer documentation.
+This document provides two non-defensive response options. The strong version matches this reviewer package. The conservative version can be used if the authors decide to describe only deterministic reference mode, prompt specifications, mock/replay fixtures, and clearer documentation.
 
 ## A. Strong Version
 

@@ -262,9 +262,9 @@ Deterministic mode requires no API key. The reviewer-safe demo runs deterministi
 
 LLM mock and replay artifacts are software fixtures only. Mock records are not real scholarly citations, not wet-lab data, and not manuscript evidence. They exist to exercise the LLM-guided, schema-constrained CAR-T in silico workflow code path offline.
 
-External PhysiCell mode is optional and requires a locally compiled executable configured through `PHYSICELL_EXECUTABLE`. Real external PhysiCell output artifacts are not included unless explicitly present in this package.
+External PhysiCell mode is optional and requires a locally compiled executable configured through `PHYSICELL_EXECUTABLE`. Local PhysiCell cytokine-arm summary artifacts may be included when explicitly present in this package; compiled binaries and large raw output folders are not included.
 
-Real live LLM manuscript artifacts are not included unless explicitly present in this package. The included LLM audit artifacts are mock/replay fixtures unless labeled otherwise.
+Real OpenAI-compatible LLM audit artifacts may be included when explicitly present in this package. Mock/replay fixtures remain labeled as software fixtures and are not manuscript evidence.
 
 GitHub Actions status recorded for this package: `{github_actions_status}`.
 

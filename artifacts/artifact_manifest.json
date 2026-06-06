@@ -6,8 +6,13 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_wet_lab_validation": false,
   "llm_orchestrator_artifact": "00_llm_orchestrator/orchestrator_plan.json",
-  "file_count": 84,
+  "file_count": 81,
   "files": [
+    {
+      "path": "00_llm_orchestrator/README.md",
+      "bytes": 668,
+      "sha256": "e84e9149791ff36b57559b950d3df5020a6fc07772fb45a4e1329b39ec3820f0"
+    },
     {
       "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e737fbda19e3_parsed.json",
       "bytes": 8792,
@@ -67,11 +72,6 @@
       "path": "00_llm_orchestrator/orchestrator_validation.json",
       "bytes": 1080,
       "sha256": "d1ad2f21e4de7323d65780e94a7d481e517bd8b3dfe39fd1fd668edf6e1a274c"
-    },
-    {
-      "path": "00_llm_orchestrator/README.md",
-      "bytes": 668,
-      "sha256": "e84e9149791ff36b57559b950d3df5020a6fc07772fb45a4e1329b39ec3820f0"
     },
     {
       "path": "01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
@@ -400,8 +400,8 @@
     },
     {
       "path": "07_final_report/final_report.md",
-      "bytes": 4311,
-      "sha256": "fe0037f3c131d526bf77a313fd2f1700af03e96d944194e649ff879ae25ec5d7"
+      "bytes": 4318,
+      "sha256": "e9d622954f7addea45cdc591ac3de58cb4d71d0f3d743974de16633ac5cf556e"
     },
     {
       "path": "07_final_report/final_report_article_list.xlsx",
@@ -409,24 +409,9 @@
       "sha256": "e67ee2e550232940746568026852c9abbe3dc03db4b9c13a3d488a81e93294d3"
     },
     {
-      "path": "07_final_report/final_report_context.json",
-      "bytes": 25359,
-      "sha256": "4f52d487f783554e7675ebd5d4b0da77a2f2e67bd43ce64a5cbceaa5cf7fc4ec"
-    },
-    {
-      "path": "07_final_report/final_report_llm_raw_response.md",
-      "bytes": 4267,
-      "sha256": "9812231d97515f4f0cb91a734d7b4bd3275b442168ffb84ea65539cc22a3a205"
-    },
-    {
       "path": "07_final_report/final_report_manifest.json",
-      "bytes": 1184,
-      "sha256": "e2a68fc30d419f906b61abe26b4c00df7ba1426343a8a29d9c15bf1ce76ff734"
-    },
-    {
-      "path": "07_final_report/final_report_prompt.txt",
-      "bytes": 21918,
-      "sha256": "9af776326784aca952de7f9d3a2693efb4b76995124f7f6b2a7db5faa552cddb"
+      "bytes": 1107,
+      "sha256": "b5e4ff44836c583a69878177839e1c9b900a0f25bc9d239143cfb0959c32503c"
     }
   ]
 }

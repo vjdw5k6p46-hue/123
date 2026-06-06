@@ -53,8 +53,8 @@ python scripts/check_reviewer_response_consistency.py --include-outputs
 - Mock and replay outputs are software fixtures only.
 - Mock records are not real scholarly citations, not manuscript evidence, and not substitutes for wet-lab validation.
 - The package does not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.
-- Real live LLM manuscript artifacts are not included unless explicitly present in the package.
-- Real external PhysiCell output artifacts are not included unless explicitly present in the package.
+- Real OpenAI-compatible LLM audit artifacts are included for the reviewer-facing AutoResearch package.
+- Local PhysiCell cytokine-arm simulation summary artifacts are included for the low-antigen runs; large raw output folders and compiled binaries are not included.
 - Live LLM execution requires provider credentials and is optional.
 - External PhysiCell execution requires a locally compiled executable configured through `PHYSICELL_EXECUTABLE`.
 - Wet-lab concordance is not evaluated unless the user supplies a validation table.
