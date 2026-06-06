@@ -4,14 +4,14 @@
     {
       "step_number": 1,
       "stage_name": "research_goal_parsing",
-      "llm_role": "research_goal_parser_agent",
+      "llm_role": "research goal parser agent",
       "deterministic_or_external_component": "deterministic",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\research_goal.json"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\research_goal.json",
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\llm_calls.jsonl"
       ],
       "output_artifacts": [
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_raw_response.txt",
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_validation.json"
       ],
       "guardrails": [
@@ -21,13 +21,13 @@
     {
       "step_number": 2,
       "stage_name": "literature_retrieval_and_classification",
-      "llm_role": "literature_retrieval_agent",
+      "llm_role": "literature search agent",
       "deterministic_or_external_component": "deterministic",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\search_log.json",
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\classification_summary.json"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\classification_summary.json",
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\ranked_classified_papers.tsv",
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\download_priority_1_core.tsv"
       ],
@@ -38,15 +38,15 @@
     {
       "step_number": 3,
       "stage_name": "central_hypothesis_generation",
-      "llm_role": "hypothesis_generation_agent",
+      "llm_role": "hypothesis generation agent",
       "deterministic_or_external_component": "deterministic",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\ranked_classified_papers.tsv"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_input_papers.json",
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\llm_calls.jsonl"
       ],
       "output_artifacts": [
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_output.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_parsed.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_raw_response.txt"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_validation.json"
       ],
       "guardrails": [
         "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
@@ -55,13 +55,13 @@
     {
       "step_number": 4,
       "stage_name": "cytokine_fingerprint_parameterization",
-      "llm_role": "parameterization_agent",
+      "llm_role": "parameterization agent",
       "deterministic_or_external_component": "deterministic",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_output.json"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters.json",
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\tumor_parameter_baseline_comparison.tsv"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters.json",
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json"
       ],
       "guardrails": [
@@ -71,14 +71,14 @@
     {
       "step_number": 5,
       "stage_name": "physicell_simulation_setup",
-      "llm_role": "physicell_setup_agent",
+      "llm_role": "simulation setup agent",
       "deterministic_or_external_component": "deterministic",
       "input_artifacts": [
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\run_manifest.json"
       ],
       "guardrails": [
         "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
@@ -87,14 +87,15 @@
     {
       "step_number": 6,
       "stage_name": "simulation_analysis_and_refinement",
-      "llm_role": "simulation_analysis_agent",
-      "deterministic_or_external_component": "external",
+      "llm_role": "simulation analysis agent",
+      "deterministic_or_external_component": "deterministic",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv",
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_metrics.csv"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json",
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md"
       ],
       "guardrails": [
         "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
@@ -103,14 +104,15 @@
     {
       "step_number": 7,
       "stage_name": "final_report_generation",
-      "llm_role": "report_generation_agent",
+      "llm_role": "report generation agent",
       "deterministic_or_external_component": "deterministic",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_context.json",
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_llm_raw_response.md"
       ],
       "output_artifacts": [
         "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report.md",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_llm_raw_response.md"
+        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_manifest.json"
       ],
       "guardrails": [
         "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
@@ -125,7 +127,6 @@
     "antigen_density_condition": "low tumor/cancer cell surface antigen density",
     "engineering_variable": "cytokine_payload",
     "candidate_interventions": [
-      "control",
       "IL-2",
       "IL-7",
       "IL-12",
@@ -163,14 +164,15 @@
   },
   "expected_outputs": {
     "final_report": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report.md",
-    "simulation_results": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md"
+    "simulation_results": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json"
   },
   "reproducibility_records": [
     "All intermediate artifacts are preserved for reproducibility.",
-    "Each stage's input and output artifacts are documented."
+    "Each stage outputs are documented and stored in the specified output directory."
   ],
   "unresolved_assumptions": [
-    "The effectiveness of cytokine payloads in low antigen density conditions remains to be validated experimentally."
+    "The effectiveness of the cytokine payloads in the context of low antigen density has not been validated experimentally.",
+    "The simulation parameters may require further refinement based on initial results."
   ]
 }
 ```

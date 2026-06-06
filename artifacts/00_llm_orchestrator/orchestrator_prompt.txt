@@ -18,7 +18,6 @@ Experiment configuration:
   "antigen_density_condition": "low tumor/cancer cell surface antigen density",
   "engineering_variable": "cytokine_payload",
   "candidate_interventions": [
-    "control",
     "IL-2",
     "IL-7",
     "IL-12",
@@ -78,7 +77,7 @@ Experiment configuration:
     "schema_validation": true
   },
   "autoresearch": {
-    "objective": "Coordinate the uploaded reviewer-facing AutoResearch artifact package for low-antigen GPC3 cytokine-armored CAR-T prioritization.",
+    "objective": "Coordinate the uploaded reviewer-facing AutoResearch artifact package for low-antigen GPC3 cytokine-armed CAR-T prioritization.",
     "iteration_count": 1,
     "require_human_review_before_external_physicell": true,
     "llm_steps": [
@@ -90,14 +89,14 @@ Experiment configuration:
 
 Available artifacts:
 {
-  "description": "Reviewer-facing artifact index supplied to the LLM Orchestrator. It summarizes existing workflow artifacts and excludes PDFs/full-text papers.",
+  "description": "Reviewer-facing artifact index supplied to the LLM Orchestrator. It summarizes existing workflow artifacts and excludes PDFs/full-text papers and control-arm XML files.",
   "artifact_root": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection",
-  "artifact_count": 73,
+  "artifact_count": 72,
   "artifacts": [
     {
       "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\artifact_manifest.json",
       "name": "artifact_manifest.json",
-      "bytes": 16803
+      "bytes": 18504
     },
     {
       "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\llm_calls.jsonl",
@@ -220,11 +219,6 @@ Available artifacts:
       "bytes": 7362
     },
     {
-      "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml",
-      "name": "control_PhysiCell_settings_low_antigen_0p2.xml",
-      "bytes": 26888
-    },
-    {
       "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
       "name": "low_antigen_config_manifest.json",
       "bytes": 4120
@@ -232,7 +226,7 @@ Available artifacts:
     {
       "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report.md",
       "name": "final_report.md",
-      "bytes": 4347
+      "bytes": 4303
     },
     {
       "path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_article_list.xlsx",
@@ -464,7 +458,7 @@ Available artifacts:
   "source_sets": {
     "paper_classification": "metadata/classification artifacts only; no full papers included",
     "llm_parameter_rounds": "archived live OpenAI LLM outputs from autoresearch parameter/refinement steps",
-    "physicell_results": "local PhysiCell simulation summaries only; large raw replicate outputs excluded from upload package"
+    "physicell_results": "local PhysiCell cytokine-arm simulation summaries only; large raw replicate outputs excluded from upload package"
   },
   "guardrails": [
     "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",

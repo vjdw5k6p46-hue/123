@@ -1,7 +1,7 @@
 {
   "schema_validation_status": "passed",
-  "call_id": "orchestrator_agent-1ce1dd3ca6e9",
-  "prompt_hash": "040ad92aa6024282",
+  "call_id": "orchestrator_agent-e737fbda19e3",
+  "prompt_hash": "89b74ed27d12d018",
   "stage_count": 7,
   "stage_names": [
     "research_goal_parsing",
