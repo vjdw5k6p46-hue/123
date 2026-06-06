@@ -1,0 +1,28 @@
+{
+  "fixture_type": "archived_replay_software_fixture",
+  "evidence": [
+    {
+      "intervention_name": "IL-15",
+      "car_target": "GPC3",
+      "tumor_model": "liver cancer",
+      "disease_context": "hepatocellular carcinoma",
+      "immune_cell_function_affected": ["persistence", "cytotoxicity"],
+      "proliferation_effect": "increased",
+      "survival_or_persistence_effect": "increased",
+      "cytotoxicity_effect": "increased",
+      "exhaustion_effect": "decreased",
+      "activation_induced_cell_death_effect": "not reported",
+      "cytokine_production_effect": "increased",
+      "tme_remodeling_effect": "mixed",
+      "antigen_density_relevance": "archived replay fixture only",
+      "experimental_model_type": "unknown",
+      "confidence_score": 0.6,
+      "supporting_text": "archived replay fixture span",
+      "citation": {
+        "title": "Replay fixture metadata only",
+        "doi": null,
+        "pmid": null
+      }
+    }
+  ]
+}

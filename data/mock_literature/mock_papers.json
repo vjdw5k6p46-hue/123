@@ -1,0 +1,86 @@
+[
+  {
+    "paper_id": "mock:il15-armored-cart",
+    "title": "IL-15 armored CAR T cells show enhanced persistence and antitumor activity in solid tumor models",
+    "authors": ["Mock Evidence Curator"],
+    "year": 2022,
+    "journal": "Demo literature record",
+    "doi": null,
+    "pmid": null,
+    "abstract": "Armored CAR T cells engineered to express IL-15 showed improved proliferation, survival, persistence, and cytotoxic activity in preclinical solid tumor models, with possible safety considerations from cytokine exposure. Low antigen settings were discussed as a challenge for CAR T activation.",
+    "url": null,
+    "source_database": "Mock"
+  },
+  {
+    "paper_id": "mock:il12-armored-cart",
+    "title": "IL-12 secreting CAR T cells remodel suppressive tumor microenvironments",
+    "authors": ["Mock Evidence Curator"],
+    "year": 2021,
+    "journal": "Demo literature record",
+    "doi": null,
+    "pmid": null,
+    "abstract": "IL-12 secreting CAR T cells can increase IFN-gamma and remodel immunosuppressive tumor microenvironments in preclinical models. Reports also describe toxicity and inflammatory risk, so translation requires careful validation.",
+    "url": null,
+    "source_database": "Mock"
+  },
+  {
+    "paper_id": "mock:il7-cart",
+    "title": "IL-7 support promotes T cell survival and memory-like persistence",
+    "authors": ["Mock Evidence Curator"],
+    "year": 2020,
+    "journal": "Demo literature record",
+    "doi": null,
+    "pmid": null,
+    "abstract": "IL-7 signaling supports T cell survival and memory phenotype maintenance. Direct evidence for GPC3 CAR T cells in low antigen density liver cancer is limited.",
+    "url": null,
+    "source_database": "Mock"
+  },
+  {
+    "paper_id": "mock:il2-cart",
+    "title": "IL-2 promotes T cell proliferation but may increase activation-induced cell death and exhaustion",
+    "authors": ["Mock Evidence Curator"],
+    "year": 2019,
+    "journal": "Demo literature record",
+    "doi": null,
+    "pmid": null,
+    "abstract": "IL-2 can expand activated T cells and has a long history in adoptive cell therapy support. High stimulation can increase activation-induced cell death, terminal differentiation, and regulatory or toxic inflammatory effects.",
+    "url": null,
+    "source_database": "Mock"
+  },
+  {
+    "paper_id": "mock:il18-cart",
+    "title": "IL-18 armored CAR T cells enhance inflammatory cytokine production in solid tumor models",
+    "authors": ["Mock Evidence Curator"],
+    "year": 2023,
+    "journal": "Demo literature record",
+    "doi": null,
+    "pmid": null,
+    "abstract": "IL-18 armored CAR T strategies may increase IFN-gamma production and innate immune activation in solid tumors, but context dependence and inflammatory risk remain important uncertainties.",
+    "url": null,
+    "source_database": "Mock"
+  },
+  {
+    "paper_id": "mock:gpc3-cart-hcc",
+    "title": "GPC3 targeted CAR T cells for hepatocellular carcinoma face antigen heterogeneity challenges",
+    "authors": ["Mock Evidence Curator"],
+    "year": 2022,
+    "journal": "Demo literature record",
+    "doi": null,
+    "pmid": null,
+    "abstract": "GPC3 is a candidate target antigen in hepatocellular carcinoma. Antigen heterogeneity and low antigen density can reduce CAR T activation and killing, motivating engineering strategies that improve persistence or activation thresholds.",
+    "url": null,
+    "source_database": "Mock"
+  },
+  {
+    "paper_id": "mock:physicell-cart",
+    "title": "PhysiCell agent-based modeling of CAR T cells in tumor microenvironments",
+    "authors": ["Mock Evidence Curator"],
+    "year": 2024,
+    "journal": "Demo literature record",
+    "doi": null,
+    "pmid": null,
+    "abstract": "PhysiCell and BioFVM can represent discrete tumor and immune agents with diffusive microenvironment fields, supporting in silico exploration of CAR T killing, proliferation, exhaustion, oxygen, and suppressive signals.",
+    "url": null,
+    "source_database": "Mock"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "fixture_type": "archived_replay_software_fixture",
+  "hypotheses": [
+    {
+      "hypothesis_type": "central",
+      "hypothesis": "Archived replay fixture hypothesis for testing artifact routing only.",
+      "candidate_intervention_arms": [
+        {
+          "intervention": "IL-15",
+          "expected_mechanism": "fixture",
+          "supporting_evidence": ["fixture-paper"],
+          "confidence": 0.5,
+          "uncertainty": ["fixture"]
+        }
+      ]
+    }
+  ],
+  "ranked_candidate_interventions_for_followup": ["IL-15"],
+  "papers_to_download_before_parameterization": []
+}

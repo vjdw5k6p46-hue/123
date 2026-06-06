@@ -1,11 +1,13 @@
 {
-  "package_name": "gh_upload_6fad06ee",
+  "package_name": "cart_autolab_autoresearch_workflow_source_and_artifacts",
   "repository": "haochennan-ucla/cart-insilico-autolab",
-  "branch": "feature/autoresearch-workflow-local",
-  "commit_hash": "6fad06eebd8f090994a9abfe0373f97230487ded",
-  "generated_at": "2026-06-06T04:04:36.951903+00:00",
-  "purpose": "GitHub-upload-ready package containing workflow scripts and LLM/PhysiCell audit artifacts.",
+  "source_branch": "feature/autoresearch-workflow-local",
+  "source_commit_hash": "6fad06eebd8f090994a9abfe0373f97230487ded",
+  "generated_at": "2026-06-06T04:38:27.078071+00:00",
+  "purpose": "PDF-free runnable source package plus LLM/PhysiCell audit artifacts and final-report article Excel.",
+  "runnable_scope": "Source code, tests, scripts, configs, metadata fixtures, and audit/replay artifacts are included. Full PDFs, secrets, compiled PhysiCell binaries, and raw large simulation outputs are excluded.",
   "final_report": "artifacts/07_final_report/final_report.md",
+  "article_excel": "artifacts/07_final_report/final_report_article_list.xlsx",
   "tumor_antigen_density_for_final_results": 0.2,
   "control_group_in_final_report": false,
   "contains_full_papers_or_pdf": false,
@@ -13,1109 +15,1302 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_api_keys_or_secrets": false,
   "contains_wet_lab_validation": false,
-  "copy_log": [
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\artifact_manifest.json",
-      "package_path": "artifacts\\artifact_manifest.json",
-      "status": "included",
-      "bytes": 16734
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\llm_calls.jsonl",
-      "package_path": "artifacts\\01_research_goal\\llm_calls.jsonl",
-      "status": "included",
-      "bytes": 818
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\llm_calls_public_redacted.jsonl",
-      "package_path": "artifacts\\01_research_goal\\llm_calls_public_redacted.jsonl",
-      "status": "included",
-      "bytes": 559
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\paper_download_queries.json",
-      "package_path": "artifacts\\01_research_goal\\paper_download_queries.json",
-      "status": "included",
-      "bytes": 1463
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\paper_download_queries.tsv",
-      "package_path": "artifacts\\01_research_goal\\paper_download_queries.tsv",
-      "status": "included",
-      "bytes": 508
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\research_goal.json",
-      "package_path": "artifacts\\01_research_goal\\research_goal.json",
-      "status": "included",
-      "bytes": 4288
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\research_goal_parse_status.json",
-      "package_path": "artifacts\\01_research_goal\\research_goal_parse_status.json",
-      "status": "included",
-      "bytes": 461
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\classification_summary.json",
-      "package_path": "artifacts\\02_literature_search\\classification_summary.json",
-      "status": "included",
-      "bytes": 1036
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\deduplicated_papers.json",
-      "package_path": "artifacts\\02_literature_search\\deduplicated_papers.json",
-      "status": "included",
-      "bytes": 1345867
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\download_priority_1_core.tsv",
-      "package_path": "artifacts\\02_literature_search\\download_priority_1_core.tsv",
-      "status": "included",
-      "bytes": 21757
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\ranked_classified_papers.json",
-      "package_path": "artifacts\\02_literature_search\\ranked_classified_papers.json",
-      "status": "included",
-      "bytes": 1345867
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\ranked_classified_papers.tsv",
-      "package_path": "artifacts\\02_literature_search\\ranked_classified_papers.tsv",
-      "status": "included",
-      "bytes": 113813
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\search_log.json",
-      "package_path": "artifacts\\02_literature_search\\search_log.json",
-      "status": "included",
-      "bytes": 6702
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_input_papers.json",
-      "package_path": "artifacts\\03_central_hypothesis\\central_hypothesis_input_papers.json",
-      "status": "included",
-      "bytes": 245214
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_manifest.json",
-      "package_path": "artifacts\\03_central_hypothesis\\central_hypothesis_manifest.json",
-      "status": "included",
-      "bytes": 767
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_output.json",
-      "package_path": "artifacts\\03_central_hypothesis\\central_hypothesis_output.json",
-      "status": "included",
-      "bytes": 5838
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_validation.json",
-      "package_path": "artifacts\\03_central_hypothesis\\central_hypothesis_validation.json",
-      "status": "included",
-      "bytes": 167
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\llm_calls.jsonl",
-      "package_path": "artifacts\\03_central_hypothesis\\llm_calls.jsonl",
-      "status": "included",
-      "bytes": 1049
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\llm_calls_public_redacted.jsonl",
-      "package_path": "artifacts\\03_central_hypothesis\\llm_calls_public_redacted.jsonl",
-      "status": "included",
-      "bytes": 749
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\papers_to_download_before_parameterization.json",
-      "package_path": "artifacts\\03_central_hypothesis\\papers_to_download_before_parameterization.json",
-      "status": "included",
-      "bytes": 2
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\papers_to_download_before_parameterization.tsv",
-      "package_path": "artifacts\\03_central_hypothesis\\papers_to_download_before_parameterization.tsv",
-      "status": "included",
-      "bytes": 51
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\llm_calls.jsonl",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\llm_calls.jsonl",
-      "status": "included",
-      "bytes": 1826
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters.json",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\physicell_ready_parameters.json",
-      "status": "included",
-      "bytes": 6686
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json",
-      "status": "included",
-      "bytes": 6746
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\tumor_parameter_baseline_comparison.tsv",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\tumor_parameter_baseline_comparison.tsv",
-      "status": "included",
-      "bytes": 7362
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml",
-      "status": "included",
-      "bytes": 26888
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
-      "status": "included",
-      "bytes": 4120
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report.md",
-      "package_path": "artifacts\\07_final_report\\final_report.md",
-      "status": "included",
-      "bytes": 4347
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_context.json",
-      "package_path": "artifacts\\07_final_report\\final_report_context.json",
-      "status": "included",
-      "bytes": 25359
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_llm_raw_response.md",
-      "package_path": "artifacts\\07_final_report\\final_report_llm_raw_response.md",
-      "status": "included",
-      "bytes": 4267
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_manifest.json",
-      "package_path": "artifacts\\07_final_report\\final_report_manifest.json",
-      "status": "included",
-      "bytes": 1288
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_prompt.txt",
-      "package_path": "artifacts\\07_final_report\\final_report_prompt.txt",
-      "status": "included",
-      "bytes": 21918
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md",
-      "status": "included",
-      "bytes": 933
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json",
-      "status": "included",
-      "bytes": 6098
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\round1_pre_refine_cytokine_only_ranking.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\round1_pre_refine_cytokine_only_ranking.csv",
-      "status": "included",
-      "bytes": 872
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\round2_post_refine_cytokine_only_ranking.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\round2_post_refine_cytokine_only_ranking.csv",
-      "status": "included",
-      "bytes": 870
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv",
-      "status": "included",
-      "bytes": 5412
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_ranking.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_ranking.csv",
-      "status": "included",
-      "bytes": 986
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_summary.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_summary.csv",
-      "status": "included",
-      "bytes": 969
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\run_manifest.json",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\run_manifest.json",
-      "status": "included",
-      "bytes": 1128
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_metrics.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_metrics.csv",
-      "status": "included",
-      "bytes": 5426
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_ranking.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_ranking.csv",
-      "status": "included",
-      "bytes": 988
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_summary.csv",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_summary.csv",
-      "status": "included",
-      "bytes": 971
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\run_manifest.json",
-      "package_path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\run_manifest.json",
-      "status": "included",
-      "bytes": 1132
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
-      "status": "included",
-      "bytes": 27473
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
-      "status": "included",
-      "bytes": 27474
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
-      "status": "included",
-      "bytes": 27473
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
-      "status": "included",
-      "bytes": 27472
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
-      "status": "included",
-      "bytes": 27473
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
-      "status": "included",
-      "bytes": 27472
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
-      "status": "included",
-      "bytes": 27474
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
-      "status": "included",
-      "bytes": 27472
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
-      "status": "included",
-      "bytes": 27471
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
-      "package_path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
-      "status": "included",
-      "bytes": 27472
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
-      "status": "included",
-      "bytes": 27531
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
-      "status": "included",
-      "bytes": 27545
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
-      "status": "included",
-      "bytes": 174
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_parsed.json",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_parsed.json",
-      "status": "included",
-      "bytes": 13951
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_raw_response.txt",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_raw_response.txt",
-      "status": "included",
-      "bytes": 11381
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_validation.json",
-      "package_path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_validation.json",
-      "status": "included",
-      "bytes": 253
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_parsed.json",
-      "package_path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_parsed.json",
-      "status": "included",
-      "bytes": 5844
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_prompt.txt",
-      "package_path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_prompt.txt",
-      "status": "included",
-      "bytes": 236789
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_raw_response.txt",
-      "package_path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_raw_response.txt",
-      "status": "included",
-      "bytes": 5838
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_validation.json",
-      "package_path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_validation.json",
-      "status": "included",
-      "bytes": 62
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\papers_by_topic.json",
-      "package_path": "artifacts\\02_literature_search\\topic_classification\\papers_by_topic.json",
-      "status": "included",
-      "bytes": 1411792
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\papers_by_topic.tsv",
-      "package_path": "artifacts\\02_literature_search\\topic_classification\\papers_by_topic.tsv",
-      "status": "included",
-      "bytes": 110483
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\topic_summary.json",
-      "package_path": "artifacts\\02_literature_search\\topic_classification\\topic_summary.json",
-      "status": "included",
-      "bytes": 988
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\topic_classification\\topic_summary.tsv",
-      "package_path": "artifacts\\02_literature_search\\topic_classification\\topic_summary.tsv",
-      "status": "included",
-      "bytes": 854
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json",
-      "package_path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json",
-      "status": "included",
-      "bytes": 1681
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_prompt.txt",
-      "package_path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_prompt.txt",
-      "status": "included",
-      "bytes": 4869
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_raw_response.txt",
-      "package_path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_raw_response.txt",
-      "status": "included",
-      "bytes": 1681
-    },
-    {
-      "role": "current_workflow_artifacts",
-      "source": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_validation.json",
-      "package_path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_validation.json",
-      "status": "included",
-      "bytes": 62
-    },
-    {
-      "role": "workflow_script",
-      "source": "scripts\\filter_autoresearch_relevant_chunks.py",
-      "package_path": "scripts\\filter_autoresearch_relevant_chunks.py",
-      "status": "included",
-      "bytes": 7317
-    },
-    {
-      "role": "workflow_script",
-      "source": "scripts\\run_autoresearch_parameter_proposal.py",
-      "package_path": "scripts\\run_autoresearch_parameter_proposal.py",
-      "status": "included",
-      "bytes": 28001
-    },
-    {
-      "role": "workflow_script",
-      "source": "scripts\\run_autoresearch_reasoning_first.py",
-      "package_path": "scripts\\run_autoresearch_reasoning_first.py",
-      "status": "included",
-      "bytes": 28101
-    },
-    {
-      "role": "workflow_script",
-      "source": "scripts\\run_autoresearch_simulation_refinement.py",
-      "package_path": "scripts\\run_autoresearch_simulation_refinement.py",
-      "status": "included",
-      "bytes": 9803
-    },
-    {
-      "role": "workflow_script",
-      "source": "scripts\\run_gemini_chunks_to_physicell.py",
-      "package_path": "scripts\\run_gemini_chunks_to_physicell.py",
-      "status": "included",
-      "bytes": 15441
-    },
-    {
-      "role": "workflow_script",
-      "source": "scripts\\run_physicell_autoresearch_replicates.py",
-      "package_path": "scripts\\run_physicell_autoresearch_replicates.py",
-      "status": "included",
-      "bytes": 10125
-    },
-    {
-      "role": "config_template",
-      "source": "configs\\openai_api.yaml",
-      "package_path": "configs\\openai_api.yaml",
-      "status": "included",
-      "bytes": 227
-    },
-    {
-      "role": "config_template",
-      "source": "configs\\gemini_api.yaml",
-      "package_path": "configs\\gemini_api.yaml",
-      "status": "included",
-      "bytes": 278
-    },
-    {
-      "role": "config_template",
-      "source": "configs\\autoresearch_gemini.yaml",
-      "package_path": "configs\\autoresearch_gemini.yaml",
-      "status": "included",
-      "bytes": 267
-    },
-    {
-      "role": "config_template",
-      "source": "configs\\autoresearch_reasoning_gemini.yaml",
-      "package_path": "configs\\autoresearch_reasoning_gemini.yaml",
-      "status": "included",
-      "bytes": 267
-    },
-    {
-      "role": "config_template",
-      "source": "configs\\experiment_cytokine_gpc3_liver_autoresearch.yaml",
-      "package_path": "configs\\experiment_cytokine_gpc3_liver_autoresearch.yaml",
-      "status": "included",
-      "bytes": 1639
-    },
-    {
-      "role": "config_template",
-      "source": "configs\\experiment_cytokine_gpc3_liver_local_llm.yaml",
-      "package_path": "configs\\experiment_cytokine_gpc3_liver_local_llm.yaml",
-      "status": "included",
-      "bytes": 1344
-    },
-    {
-      "role": "config_template",
-      "source": "configs\\simulator_physicell.yaml",
-      "package_path": "configs\\simulator_physicell.yaml",
-      "status": "included",
-      "bytes": 440
-    },
-    {
-      "role": "documentation",
-      "source": "docs\\autoresearch_local_workflow.md",
-      "package_path": "docs\\autoresearch_local_workflow.md",
-      "status": "included",
-      "bytes": 3722
-    },
-    {
-      "role": "documentation",
-      "source": "docs\\local_llm_manuscript_archive.md",
-      "package_path": "docs\\local_llm_manuscript_archive.md",
-      "status": "included",
-      "bytes": 4108
-    },
-    {
-      "role": "documentation",
-      "source": "docs\\llm_agent_workflow.md",
-      "package_path": "docs\\llm_agent_workflow.md",
-      "status": "included",
-      "bytes": 1389
-    },
-    {
-      "role": "documentation",
-      "source": "docs\\REVIEWER_README.md",
-      "package_path": "docs\\REVIEWER_README.md",
-      "status": "included",
-      "bytes": 2242
-    },
-    {
-      "role": "documentation",
-      "source": "docs\\limitations_llm_physicell.md",
-      "package_path": "docs\\limitations_llm_physicell.md",
-      "status": "included",
-      "bytes": 1423
-    }
-  ],
-  "file_count": 94,
+  "file_count": 259,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 154,
-      "sha256": "621a6278d641d10ce69457fa47440bbc6da7c8c0be29292e2cdb0dc4ee560a21"
+      "bytes": 169,
+      "sha256": "48ed79da93c2c02131ab3d2bfbf3b78d872e59c44e32a96ccac984a066e0db2b"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 633,
+      "sha256": "07a264691fb55ec0e9de9c4c18269c178310f8ea86ec1d3254ed38baa9e10e7c"
     },
     {
       "path": ".gitignore",
-      "bytes": 206,
-      "sha256": "76f73b7910951fcf5d6bf023098df04ebb7759212ded92a9822154559e8c575b"
+      "bytes": 166,
+      "sha256": "b8f74fea987a341c75480c33591884aa8002ed24b29d5c896c452ee3af38867d"
     },
     {
-      "path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json",
+      "path": "AGENTS.md",
+      "bytes": 1948,
+      "sha256": "94ac87e8da62ef199d6834b06553b0ab86399140ff502d429cbe87d28341ac9b"
+    },
+    {
+      "path": "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
       "bytes": 1681,
       "sha256": "8fc87d471b55dada8b18cc1cd5dd7c005afac1e50e283d037809b6b0aaf06768"
     },
     {
-      "path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_prompt.txt",
+      "path": "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_prompt.txt",
       "bytes": 4869,
       "sha256": "bd23439fe34c5c5d3b055014df0e0b1f97352c37ec67ff18579e4b9a4026d10c"
     },
     {
-      "path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_raw_response.txt",
+      "path": "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_raw_response.txt",
       "bytes": 1681,
       "sha256": "8fc87d471b55dada8b18cc1cd5dd7c005afac1e50e283d037809b6b0aaf06768"
     },
     {
-      "path": "artifacts\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_validation.json",
+      "path": "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_validation.json",
       "bytes": 62,
       "sha256": "037743e4053568794107d4bb35932f82e7d9c1124d4839ec0551fe5bd5352f96"
     },
     {
-      "path": "artifacts\\01_research_goal\\llm_calls.jsonl",
+      "path": "artifacts/01_research_goal/llm_calls.jsonl",
       "bytes": 818,
       "sha256": "6a382f075f6fa95a482e610e938e6b45b2624be283d0007a3daee3415e1c0298"
     },
     {
-      "path": "artifacts\\01_research_goal\\llm_calls_public_redacted.jsonl",
+      "path": "artifacts/01_research_goal/llm_calls_public_redacted.jsonl",
       "bytes": 559,
       "sha256": "1511e93b8d007059484ae189830c7c78e14b9eee75a26b27599e59746c2a9dcf"
     },
     {
-      "path": "artifacts\\01_research_goal\\paper_download_queries.json",
+      "path": "artifacts/01_research_goal/paper_download_queries.json",
       "bytes": 1463,
       "sha256": "3dd12dbc9012f76c8359b87a81319bd0f11c8aba514a27e9ba049df041f20357"
     },
     {
-      "path": "artifacts\\01_research_goal\\paper_download_queries.tsv",
+      "path": "artifacts/01_research_goal/paper_download_queries.tsv",
       "bytes": 508,
       "sha256": "9357c69865d309fc641651b45b543019931f499c533ca71aa6aca5e46f8c7a0b"
     },
     {
-      "path": "artifacts\\01_research_goal\\research_goal.json",
+      "path": "artifacts/01_research_goal/research_goal.json",
       "bytes": 4288,
       "sha256": "3abdbf740c528d3f9c43a93411fc1f163c637dd9d47a82ac46147e9a9635728b"
     },
     {
-      "path": "artifacts\\01_research_goal\\research_goal_parse_status.json",
+      "path": "artifacts/01_research_goal/research_goal_parse_status.json",
       "bytes": 461,
       "sha256": "2a4f32367af4e36bef28c37615c352e2bf3f70b3d1cdf1d45aa062258de424e2"
     },
     {
-      "path": "artifacts\\02_literature_search\\classification_summary.json",
+      "path": "artifacts/02_literature_search/classification_summary.json",
       "bytes": 1036,
       "sha256": "19d26d5eea2403a251638312900c6db0224a082aad35aa3d416915bb65636a97"
     },
     {
-      "path": "artifacts\\02_literature_search\\deduplicated_papers.json",
+      "path": "artifacts/02_literature_search/deduplicated_papers.json",
       "bytes": 1345867,
       "sha256": "0330e9c4a5c0278731d1bba3d98028de7ecec23c8988fe7205aae04a3304f9f4"
     },
     {
-      "path": "artifacts\\02_literature_search\\download_priority_1_core.tsv",
+      "path": "artifacts/02_literature_search/download_priority_1_core.tsv",
       "bytes": 21757,
       "sha256": "336ed680776d6b550605640d3c501b42d300e5ecb29b52018ac8a082fc3498d8"
     },
     {
-      "path": "artifacts\\02_literature_search\\ranked_classified_papers.json",
+      "path": "artifacts/02_literature_search/ranked_classified_papers.json",
       "bytes": 1345867,
       "sha256": "60b7714b3aef4248829aeef980ae9462d8df901f69c4a9ac897156b7dc777a62"
     },
     {
-      "path": "artifacts\\02_literature_search\\ranked_classified_papers.tsv",
+      "path": "artifacts/02_literature_search/ranked_classified_papers.tsv",
       "bytes": 113813,
       "sha256": "33bcb192780f8626b2511bdf595558881482dc18361d0640f5e6690489ddf9fa"
     },
     {
-      "path": "artifacts\\02_literature_search\\search_log.json",
+      "path": "artifacts/02_literature_search/search_log.json",
       "bytes": 6702,
       "sha256": "c4a273d4e2ca7b8c8f44bba3b9e51815f2912bfd97bdae043f2e53968164b2e7"
     },
     {
-      "path": "artifacts\\02_literature_search\\topic_classification\\papers_by_topic.json",
+      "path": "artifacts/02_literature_search/topic_classification/papers_by_topic.json",
       "bytes": 1411792,
       "sha256": "8ac87b45eed7d014dea3a26ba035c2e8b25b391b2b830eba750e61a936d44704"
     },
     {
-      "path": "artifacts\\02_literature_search\\topic_classification\\papers_by_topic.tsv",
+      "path": "artifacts/02_literature_search/topic_classification/papers_by_topic.tsv",
       "bytes": 110483,
       "sha256": "3a6d77aa7e1116ce8b2a61b613dc56c1d1d5010708c0cb36e5fdfbe91de0bad4"
     },
     {
-      "path": "artifacts\\02_literature_search\\topic_classification\\topic_summary.json",
+      "path": "artifacts/02_literature_search/topic_classification/topic_summary.json",
       "bytes": 988,
       "sha256": "531ddc3362b5775be1c64120b77c858d173d31ceb5704aacde495b26dfce9cee"
     },
     {
-      "path": "artifacts\\02_literature_search\\topic_classification\\topic_summary.tsv",
+      "path": "artifacts/02_literature_search/topic_classification/topic_summary.tsv",
       "bytes": 854,
       "sha256": "43ec12b5fd2a1f5e336a371f5d07f53f783579ee0bf55d689f0dbb8ecf1c9290"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_parsed.json",
+      "path": "artifacts/03_central_hypothesis/agent_outputs/hypothesis_generation_agent/hypothesis_generation_agent-4906b0050d7d_parsed.json",
       "bytes": 5844,
       "sha256": "45259f252c7a6687c88af03bb22d970db30e585b6a84a3d824b8601d4e838fff"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_prompt.txt",
+      "path": "artifacts/03_central_hypothesis/agent_outputs/hypothesis_generation_agent/hypothesis_generation_agent-4906b0050d7d_prompt.txt",
       "bytes": 236789,
       "sha256": "f94f6b11128a528e89677014c6228b676176aad92c98498e3c418cc49c12775b"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_raw_response.txt",
+      "path": "artifacts/03_central_hypothesis/agent_outputs/hypothesis_generation_agent/hypothesis_generation_agent-4906b0050d7d_raw_response.txt",
       "bytes": 5838,
       "sha256": "4efdf1f1a92fd7b9497ba9731db5197a144af89f472fedbba8aea91b7c5bf5bc"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\agent_outputs\\hypothesis_generation_agent\\hypothesis_generation_agent-4906b0050d7d_validation.json",
+      "path": "artifacts/03_central_hypothesis/agent_outputs/hypothesis_generation_agent/hypothesis_generation_agent-4906b0050d7d_validation.json",
       "bytes": 62,
       "sha256": "037743e4053568794107d4bb35932f82e7d9c1124d4839ec0551fe5bd5352f96"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\central_hypothesis_input_papers.json",
+      "path": "artifacts/03_central_hypothesis/central_hypothesis_input_papers.json",
       "bytes": 245214,
       "sha256": "435e89ae160bacc99825362b13902e5567ab4ada4d0091422d259c03e4e077d7"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\central_hypothesis_manifest.json",
+      "path": "artifacts/03_central_hypothesis/central_hypothesis_manifest.json",
       "bytes": 767,
       "sha256": "84c051a950a37e1f91254228963e29f4a77813be86c32a43c667f2d3f99da165"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\central_hypothesis_output.json",
+      "path": "artifacts/03_central_hypothesis/central_hypothesis_output.json",
       "bytes": 5838,
       "sha256": "4efdf1f1a92fd7b9497ba9731db5197a144af89f472fedbba8aea91b7c5bf5bc"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\central_hypothesis_validation.json",
+      "path": "artifacts/03_central_hypothesis/central_hypothesis_validation.json",
       "bytes": 167,
       "sha256": "fc811f358e6e7d02158b4faa68d5e2aef5ae542773c4fcd4a4a6443d0247ddd9"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\llm_calls.jsonl",
+      "path": "artifacts/03_central_hypothesis/llm_calls.jsonl",
       "bytes": 1049,
       "sha256": "c11be1c6e3c144aeae7201e9fa3e9c6f534e2e8765e1d4dda463a129226534ed"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\llm_calls_public_redacted.jsonl",
+      "path": "artifacts/03_central_hypothesis/llm_calls_public_redacted.jsonl",
       "bytes": 749,
       "sha256": "af1b88fd5a3167907444a9e28de0ef95cfe4ab4c776a64d81066f24fd77d54a7"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\papers_to_download_before_parameterization.json",
+      "path": "artifacts/03_central_hypothesis/papers_to_download_before_parameterization.json",
       "bytes": 2,
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     },
     {
-      "path": "artifacts\\03_central_hypothesis\\papers_to_download_before_parameterization.tsv",
+      "path": "artifacts/03_central_hypothesis/papers_to_download_before_parameterization.tsv",
       "bytes": 51,
       "sha256": "02945c10a5bcbd2c3d7b8855e1a4dbffd4e2b44de610ecbb0ec786e6f50f9796"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
+      "path": "artifacts/04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
       "bytes": 27531,
       "sha256": "10b5b8b6d1af897a9220834ed6146a51a36534864f3bfd8b20ae2f89cc411718"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
+      "path": "artifacts/04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
       "bytes": 27545,
       "sha256": "d875f1a6ada03418ed7d1864dd46c265c31165d6af68751be8fa23398a734307"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\autoresearch_reasoning_agent\\autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
+      "path": "artifacts/04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
       "bytes": 174,
       "sha256": "6a1057b85f8ffb69cdda3ac6b685f92abc192848ea0add881b010912b0f9c644"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_parsed.json",
+      "path": "artifacts/04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_parsed.json",
       "bytes": 13951,
       "sha256": "c1a32df553abe36fd65f13dd567770705081dc4807072ca98f57a45644cf371f"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_raw_response.txt",
+      "path": "artifacts/04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_raw_response.txt",
       "bytes": 11381,
       "sha256": "9114e907da19d8408c6e47e238f253c3154db7d2c1288f96e880b103e1ad2941"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\agent_outputs\\simulation_refinement_agent\\simulation_refinement_847c55a2b846dc61_validation.json",
+      "path": "artifacts/04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_validation.json",
       "bytes": 253,
       "sha256": "e35d87a8270223a156e910368fec49020155d30341fe1624f89deb55f47167ad"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\llm_calls.jsonl",
+      "path": "artifacts/04_llm_parameter_rounds/llm_calls.jsonl",
       "bytes": 1826,
       "sha256": "750d9ad8229b07ffe21381db500315136ab4119e43893bc2594d9f42c6a7fcf9"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\physicell_ready_parameters.json",
+      "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json",
       "bytes": 6686,
       "sha256": "c68b13765ff1d7e6a76fea96201ec42b8aed18c05a56a395aa193682c8f988b5"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json",
+      "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters_refined.json",
       "bytes": 6746,
       "sha256": "650b12babacc19a13eca8bda381fc00259ec7b1195a1adea008fa3d8caa09f49"
     },
     {
-      "path": "artifacts\\04_llm_parameter_rounds\\tumor_parameter_baseline_comparison.tsv",
+      "path": "artifacts/04_llm_parameter_rounds/tumor_parameter_baseline_comparison.tsv",
       "bytes": 7362,
       "sha256": "086a8ecfd5198bdd8e6e35d98a4d3a175036ba821a8e1a7be56fecabf2264c67"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\control_PhysiCell_settings_low_antigen_0p2.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/control_PhysiCell_settings_low_antigen_0p2.xml",
       "bytes": 26888,
       "sha256": "79e15d590cbcac078f62bad8fcb7ae7e391021b1fa0bc61e729ff1bfe4f4cf41"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
+      "path": "artifacts/05_low_antigen_physicell_inputs/low_antigen_config_manifest.json",
       "bytes": 4120,
       "sha256": "67da8875abc042969d77984adbf71840d9dea671126301c59aa4d9d22a860a02"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
       "bytes": 27473,
       "sha256": "f792e6319a07df49f707a097fdf13c3d756880dd8174171be03da48120890894"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_15.xml",
       "bytes": 27474,
       "sha256": "8c9d1a54b6f8c93a8c60c1dba125c4d9a9fd70fb6e747cfae1ccdbdde2c87165"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_18.xml",
       "bytes": 27473,
       "sha256": "2f10490d7188baad61ff01ddc1bd1e1f07c5df5adc956d51016a0b9277f6d31f"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_2.xml",
       "bytes": 27472,
       "sha256": "5ac428442b0b2f4978492c84d2690e7ce92f3ae1d66606db003f7ab0845a3d8b"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round1_pre_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_7.xml",
       "bytes": 27473,
       "sha256": "33628131aa91e606839e9ab42e8c288950267f7d89bcd759c59051dad2638c8a"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_12.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
       "bytes": 27472,
       "sha256": "cd4110afc42094cfd6765314112b58a92b3ec70849f635fb66ab98a916ef2b0d"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_15.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_15.xml",
       "bytes": 27474,
       "sha256": "38d3383814516d79573dd9a7d013ac2559da7698d20e57751d2a4d310e252bdd"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_18.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_18.xml",
       "bytes": 27472,
       "sha256": "d66588f15203cb753bac33834b3cfd8127aa30a4ab143eb5542a669ba8649fa9"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_2.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_2.xml",
       "bytes": 27471,
       "sha256": "2a970e8e54b3d18f040cdfbd001a8879ed4eb2a85c0b537bddd3f45e341355f9"
     },
     {
-      "path": "artifacts\\05_low_antigen_physicell_inputs\\round2_post_refine_low_antigen_configs\\PhysiCell_settings_reasoned_il_7.xml",
+      "path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_7.xml",
       "bytes": 27472,
       "sha256": "bc9bf02ab5f2a824c26b741bfac395bdc319e9a4925cf3243f61b3c19eb16dde"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md",
+      "path": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_report.md",
       "bytes": 933,
       "sha256": "628dd66ea97494129bb9a4abc10d3d541fae89e8a5bbd72baa094a6241c49ea9"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json",
+      "path": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_summary.json",
       "bytes": 6098,
       "sha256": "6751d6b9f0bc7a9bd94e307f0813cb1b9f499003be00ef059eb821603c7736c2"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\round1_pre_refine_cytokine_only_ranking.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round1_pre_refine_cytokine_only_ranking.csv",
       "bytes": 872,
       "sha256": "eeea5ea6ad5b02eac2ab0357bc15917bfda9bcbc89712d4145a4ad5d974c97a8"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\cytokine_only_summary\\round2_post_refine_cytokine_only_ranking.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round2_post_refine_cytokine_only_ranking.csv",
       "bytes": 870,
       "sha256": "09aa38034a846c6a2dd48b97e6a2305f79a81a3efb39ea061c3a7dafe5ea3484"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_metrics.csv",
       "bytes": 5412,
       "sha256": "2ec5187bfee152396d1c3d839176ec8bd2895fb690bc1f097233a67908e3c79c"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_ranking.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_ranking.csv",
       "bytes": 986,
       "sha256": "092ccdc54598ab80aeae793363cf6c7056a96121f14e9ab517aae40263c5e77b"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_summary.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_summary.csv",
       "bytes": 969,
       "sha256": "82a92cb1aad1befeed1103bf9ff5d86e87bdd47f9b91de156e2b8d215d3ffc40"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\run_manifest.json",
+      "path": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/run_manifest.json",
       "bytes": 1128,
       "sha256": "b384a262a880479136ca0db26651147827c56e2dc2082f0401a3befdf72ae799"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_metrics.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_metrics.csv",
       "bytes": 5426,
       "sha256": "2e1375261d84e4716ae3fd57845beabab6edb3a0f65ed2227116736e2b8cd250"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_ranking.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_ranking.csv",
       "bytes": 988,
       "sha256": "004c7ab2b8295f799d3a770612f32fd162f158e185b585761c025cda7f5ea81a"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_summary.csv",
+      "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_summary.csv",
       "bytes": 971,
       "sha256": "9b169bf301244757caa05444180e45ffa8b20e7d13917fe203e0892ec1460106"
     },
     {
-      "path": "artifacts\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\run_manifest.json",
+      "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/run_manifest.json",
       "bytes": 1132,
       "sha256": "1b7a26f1e67e7958d0c1eb658095117937153bd7ee7600635d6f52287b68c2e3"
     },
     {
-      "path": "artifacts\\07_final_report\\final_report.md",
+      "path": "artifacts/07_final_report/final_report.md",
       "bytes": 4347,
       "sha256": "e96a999a81c5178a0c275df5346117f26a8581f04fad6a51ef4d318a5d2ac4eb"
     },
     {
-      "path": "artifacts\\07_final_report\\final_report_context.json",
+      "path": "artifacts/07_final_report/final_report_article_list.xlsx",
+      "bytes": 68775,
+      "sha256": "e67ee2e550232940746568026852c9abbe3dc03db4b9c13a3d488a81e93294d3"
+    },
+    {
+      "path": "artifacts/07_final_report/final_report_context.json",
       "bytes": 25359,
       "sha256": "4f52d487f783554e7675ebd5d4b0da77a2f2e67bd43ce64a5cbceaa5cf7fc4ec"
     },
     {
-      "path": "artifacts\\07_final_report\\final_report_llm_raw_response.md",
+      "path": "artifacts/07_final_report/final_report_llm_raw_response.md",
       "bytes": 4267,
       "sha256": "9812231d97515f4f0cb91a734d7b4bd3275b442168ffb84ea65539cc22a3a205"
     },
     {
-      "path": "artifacts\\07_final_report\\final_report_manifest.json",
+      "path": "artifacts/07_final_report/final_report_manifest.json",
       "bytes": 1288,
       "sha256": "9c06e0825440b9f1fb87c868903daba58b4b143a043043eb8912af280a674a27"
     },
     {
-      "path": "artifacts\\07_final_report\\final_report_prompt.txt",
+      "path": "artifacts/07_final_report/final_report_prompt.txt",
       "bytes": 21918,
       "sha256": "9af776326784aca952de7f9d3a2693efb4b76995124f7f6b2a7db5faa552cddb"
     },
     {
-      "path": "artifacts\\artifact_manifest.json",
-      "bytes": 16734,
-      "sha256": "eec4fb60b67fe9e1d74c094aec75c7f00c64fc259b476fab84a71f41c3bfec91"
+      "path": "artifacts/artifact_manifest.json",
+      "bytes": 16803,
+      "sha256": "fda6eee15187e654d67198cb57bd4f761acc358c20a9a3c50f0403cbe7ddda62"
     },
     {
-      "path": "configs\\autoresearch_gemini.yaml",
+      "path": "configs/autoresearch_gemini.yaml",
       "bytes": 267,
       "sha256": "ee361062fe77aa7080af2c4714020e674d712c3fe5716f8b97275666165f7e1f"
     },
     {
-      "path": "configs\\autoresearch_reasoning_gemini.yaml",
+      "path": "configs/autoresearch_reasoning_gemini.yaml",
       "bytes": 267,
       "sha256": "0725c290460b7c79d9462a92f8a4684ee599e9584caf39ee5f8ed15ffcbde3bb"
     },
     {
-      "path": "configs\\experiment_cytokine_gpc3_liver_autoresearch.yaml",
+      "path": "configs/experiment_cytokine_gpc3_liver.yaml",
+      "bytes": 1240,
+      "sha256": "b186b98941baba0ea9509264036430f648a25b8ec15b26c11e34520f3b6d7c12"
+    },
+    {
+      "path": "configs/experiment_cytokine_gpc3_liver_ablation.yaml",
+      "bytes": 2562,
+      "sha256": "c1782786527284a5f344fbd8f2d407df788dc89676e223c4d792b0fc76a7d9a9"
+    },
+    {
+      "path": "configs/experiment_cytokine_gpc3_liver_autoresearch.yaml",
       "bytes": 1639,
       "sha256": "ec7d954524f7d2c3f29917ba9a3b03ee1992e165417d408fc3b65ea86ff2fdb0"
     },
     {
-      "path": "configs\\experiment_cytokine_gpc3_liver_local_llm.yaml",
+      "path": "configs/experiment_cytokine_gpc3_liver_llm_mock.yaml",
+      "bytes": 2581,
+      "sha256": "f71e72b1f3a9cbef0ff5fafd5e2add74aba41a64a36236a248093c6aa9077c5d"
+    },
+    {
+      "path": "configs/experiment_cytokine_gpc3_liver_local_llm.yaml",
       "bytes": 1344,
       "sha256": "3d7d2799ba6794eec74f771b0351905e33e031a6a340ee0b34b2bcbdf748e601"
     },
     {
-      "path": "configs\\gemini_api.yaml",
+      "path": "configs/experiment_cytokine_gpc3_liver_physicell.yaml",
+      "bytes": 916,
+      "sha256": "14198b6bd52131ebcefc8c77b06835797b64386bdd670d80f92e1030d6cab369"
+    },
+    {
+      "path": "configs/experiment_cytokine_gpc3_liver_replay.yaml",
+      "bytes": 1272,
+      "sha256": "b8ac4eebdfabe95dfdc95017657f52bc5375f27e9537989e1a0c7b0d6c176d56"
+    },
+    {
+      "path": "configs/gemini_api.yaml",
       "bytes": 278,
       "sha256": "55fd1c29f5e47d54a02ef6ba5333c74406dd3ea40a67f1139e27b0284d43ae85"
     },
     {
-      "path": "configs\\openai_api.yaml",
+      "path": "configs/llm_config.example.yaml",
+      "bytes": 545,
+      "sha256": "17caceb6cff01c52a62e55322829296471ba98fdf5feba31121382d7a4fe5afd"
+    },
+    {
+      "path": "configs/local_llm_gemma.yaml",
+      "bytes": 235,
+      "sha256": "7d3c4822e709fa26752fb4123a4d95b58c5629bc04c98bf1da5df95bd3aa1956"
+    },
+    {
+      "path": "configs/local_llm_qwen.yaml",
+      "bytes": 237,
+      "sha256": "6a1d112a99548660a8fac304a1dba64b905488d8d94ff55acbe02a18ce06495c"
+    },
+    {
+      "path": "configs/openai_api.yaml",
       "bytes": 227,
       "sha256": "19a454978256fed59c6df16b7bbdd2f9f3adc8a726cf58aa6eb1330186e21dab"
     },
     {
-      "path": "configs\\simulator_physicell.yaml",
+      "path": "configs/simulator_physicell.yaml",
       "bytes": 440,
       "sha256": "5afe689f26f9595546f74127ca7e40dc2ecad5ebf3199c201aa8a59f6d95322b"
     },
     {
-      "path": "docs\\autoresearch_local_workflow.md",
+      "path": "data/autoresearch_chunk_manifests/liver_antigen_density_chunks.jsonl",
+      "bytes": 1546512,
+      "sha256": "ac20c8785cebeb77248ee49193475616baf6a2b55ea5e4ae0cf4133b6be65762"
+    },
+    {
+      "path": "data/autoresearch_chunk_manifests/liver_antigen_density_chunks_paper_index.json",
+      "bytes": 89671,
+      "sha256": "2026ccffc60b17121ba141d7e60b6bfee343cc1098fea1d3ef3b637bdfbac2b7"
+    },
+    {
+      "path": "data/autoresearch_chunk_manifests/manifest_summary.json",
+      "bytes": 2421,
+      "sha256": "d9864531adb09f73e5d3171f707fac9161403f68200fb10b3b85333ff6b2d4c8"
+    },
+    {
+      "path": "data/autoresearch_chunk_manifests/README.md",
+      "bytes": 544,
+      "sha256": "9bc5f9b39be5341d72827bf62cb9925eefa8db5a3a5efd6c773d58a6d59e2abb"
+    },
+    {
+      "path": "data/autoresearch_chunk_manifests/self_secreting_cytokine_chunks.jsonl",
+      "bytes": 2623433,
+      "sha256": "551f9f952ba87a625c9fa47893191ef4b51f969633daf5e61531b5373eb04e4b"
+    },
+    {
+      "path": "data/autoresearch_chunk_manifests/self_secreting_cytokine_chunks_paper_index.json",
+      "bytes": 217223,
+      "sha256": "e07dd25d4aeba9a8b805a75f5a9d1eab8cbac915195c019cd9d35f241fe93dbe"
+    },
+    {
+      "path": "data/llm_replay_example/chunk_evidence_extraction_agent.json",
+      "bytes": 991,
+      "sha256": "148267f45d5347b45d3b6ef26880a77861cd70040eb5e6f3e3a565bc7ea3f594"
+    },
+    {
+      "path": "data/llm_replay_example/hypothesis_generation_agent.json",
+      "bytes": 597,
+      "sha256": "dcf26dab199c3fa27ca411269a2fbde74770d994559998788cfc899d1def2808"
+    },
+    {
+      "path": "data/llm_replay_example/README.md",
+      "bytes": 227,
+      "sha256": "d33b34bc0776c44c3d00fca7d5ab1a2fb935fda6ecc2d9ab7f13f2107dfe2be2"
+    },
+    {
+      "path": "data/manuscript_literature/curated_papers.template.json",
+      "bytes": 1073,
+      "sha256": "774d890cd2ecea40bcc63c282412ccdf781d5e8dee7f95422c844ef5296c20e7"
+    },
+    {
+      "path": "data/manuscript_literature/README.md",
+      "bytes": 1015,
+      "sha256": "acba0cbcbc4bc429be0be1d890c58b53c92f3f9a1459046a40ba8a2464143e32"
+    },
+    {
+      "path": "data/mock_literature/mock_papers.json",
+      "bytes": 4071,
+      "sha256": "824c71ac20e8b48f8a58ac9fd60c4c032d7477d93d47a22123fb1218df42671b"
+    },
+    {
+      "path": "docs/autoresearch_local_workflow.md",
       "bytes": 3722,
       "sha256": "06039c247379027717e0622bc45866ac81012db9b5f67c56a1a74a1c111fac63"
     },
     {
-      "path": "docs\\limitations_llm_physicell.md",
+      "path": "docs/code_availability_statement.md",
+      "bytes": 759,
+      "sha256": "107c82e6dc9400f1970df6d747854fc350afd1b2b7caa7e8a1e06a46aaaf4116"
+    },
+    {
+      "path": "docs/final_reviewer_response_checklist.md",
+      "bytes": 4268,
+      "sha256": "01219d4a20c5bad2077a7d8456200be7332aede5c5b6c9289ce7ec15bfd99d63"
+    },
+    {
+      "path": "docs/integration_status.md",
+      "bytes": 1989,
+      "sha256": "368aa39ba8e00bee3844d991a959b01e87f70a5b589d9740f5211eed011bfdef"
+    },
+    {
+      "path": "docs/limitations_llm_physicell.md",
       "bytes": 1423,
       "sha256": "5048e0b1047b4472a97a292bff28781f41af89b4ac200577bd2a9270426e05eb"
     },
     {
-      "path": "docs\\llm_agent_workflow.md",
+      "path": "docs/llm_agent_workflow.md",
       "bytes": 1389,
       "sha256": "4562c3977b34be48cc8d30478201866d414bc9cc2542b85a48e2e4a750f5f614"
     },
     {
-      "path": "docs\\local_llm_manuscript_archive.md",
+      "path": "docs/llm_contribution_verification.md",
+      "bytes": 1203,
+      "sha256": "372b45e2bf46cf68f99d830c17c293bfbbb829797d9c35ab1edde113fd1fa82d"
+    },
+    {
+      "path": "docs/local_llm_manuscript_archive.md",
       "bytes": 4108,
       "sha256": "1f3769427d291e07ed854db3c0422e04500c8bdb557a4803e1dcbdcaaf5ddf00"
     },
     {
-      "path": "docs\\REVIEWER_README.md",
+      "path": "docs/local_llm_model_comparison.md",
+      "bytes": 4179,
+      "sha256": "eb7ac3670b2a5a704e106da688f12f875b6e61f38abbea1936b94ec994fc1187"
+    },
+    {
+      "path": "docs/manuscript_revision_snippets.md",
+      "bytes": 3443,
+      "sha256": "38a1d5217c963172787d0cc731d087093fe71a6ab2713b7ad675a5f64b003ef8"
+    },
+    {
+      "path": "docs/manuscript_wording_revisions.md",
+      "bytes": 1778,
+      "sha256": "3958ae3a584d389ee87d3d1c60bbf08e1fbc8f6aad9ca35b22ce13189f35c7ab"
+    },
+    {
+      "path": "docs/mock_data_policy.md",
+      "bytes": 581,
+      "sha256": "b3505c1f5d4b28316e719b50a00bbb6a8b3b2f846c8776aea2cc0e64eee8738b"
+    },
+    {
+      "path": "docs/physicell_external_mode.md",
+      "bytes": 1938,
+      "sha256": "44abbadab30293062543ea0cf314f16d50d327594d1109012967dbe9e7105b92"
+    },
+    {
+      "path": "docs/post_implementation_audit.md",
+      "bytes": 8315,
+      "sha256": "bc1cf494175262b49c6327799cf4db0cc1c83ff60fd4d3fe9bebb6972a78e6fd"
+    },
+    {
+      "path": "docs/pr_split_plan.md",
+      "bytes": 7699,
+      "sha256": "f16c9ac0fee2d3eb93400f4d0ec7489e459808b55704f16d869d54cfa7a97296"
+    },
+    {
+      "path": "docs/rebuttal_to_reviewer_llm_workflow.md",
+      "bytes": 5422,
+      "sha256": "c30e42d218e24792c68db8e4d10bd83b8a11169b9441dc713b8f992bf083d15f"
+    },
+    {
+      "path": "docs/remaining_limitations.md",
+      "bytes": 2265,
+      "sha256": "2954cdd999c7456b7f410e58b518af9e9e31c1b8455a2def4e6ee0e4bb9d8150"
+    },
+    {
+      "path": "docs/reproducibility_artifacts.md",
+      "bytes": 1249,
+      "sha256": "a13ba8d5e5aff1bac63be465b8da799dbac398b51a300060e6e3bb954e9e2ad3"
+    },
+    {
+      "path": "docs/reproducibility_commands.md",
+      "bytes": 901,
+      "sha256": "9791321bd234c87060992897fd022a0ae72f9e79d3ceda4f4b86b34fe0165b9d"
+    },
+    {
+      "path": "docs/reviewer_offline_release_notes.md",
+      "bytes": 4167,
+      "sha256": "288aa6a9ee10e904b4f09e012be7c17d9ef749db4b39f53fa0d63c83695ce367"
+    },
+    {
+      "path": "docs/REVIEWER_README.md",
       "bytes": 2242,
       "sha256": "5fadb20b317f036783e99c688fa5d2be05b22f4def2e216cf9bee1ab2c580a93"
     },
     {
-      "path": "MANIFEST.json",
-      "bytes": 54255,
-      "sha256": "9d72006091e884ea07cee13584d3f52dfc3886afe38f273f72e83869c08e7cf0"
+      "path": "docs/reviewer_reproducibility_audit.md",
+      "bytes": 5504,
+      "sha256": "4e8d047eefcd82f479808d48ed81421005e800369d81564707c2c82e4b40ffc8"
     },
     {
-      "path": "scripts\\filter_autoresearch_relevant_chunks.py",
+      "path": "docs/reviewer_reproducibility_commands.md",
+      "bytes": 1254,
+      "sha256": "5c9a80da96f7c7cad3f6d5a94b4bd0dbcde3162b0f03e3ad408def299920b867"
+    },
+    {
+      "path": "docs/reviewer_response_implementation.md",
+      "bytes": 1004,
+      "sha256": "2c361503a0e7e4e4d46bed7dcc680d1ce0a191d1198b3fd74ffb468830138476"
+    },
+    {
+      "path": "docs/third_party_dependencies.md",
+      "bytes": 733,
+      "sha256": "8ce08ff08cc209cde48323c823a9243015cd997d95093e9ea81a1a802845f7d5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1100,
+      "sha256": "e33abe6c0ca88d1a0f31f1f145338b100c12128871c4e2766f83a23fa8c0d4c0"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 54409,
+      "sha256": "1aa0e5582bbe798963d6b58515b54893ed25a7c925e51a120a73cd8d4076d31d"
+    },
+    {
+      "path": "physicell_project/config/PhysiCell_settings.template.xml",
+      "bytes": 26728,
+      "sha256": "5ead84f85c8a82568c6637c340bf6211f92e39ef9c367f26f27a6817ad51c7af"
+    },
+    {
+      "path": "physicell_project/custom_modules/cancer_immune_3D.cpp",
+      "bytes": 129076,
+      "sha256": "d98f4bfdab6bba3b89a81d4dff2a931af5e6d4f33aefb930a4eb47c79629b176"
+    },
+    {
+      "path": "physicell_project/custom_modules/cancer_immune_3D.h",
+      "bytes": 3044,
+      "sha256": "0c5f83c703f305fb02c9c3a85fd222df045f3d981816e4bef14930809055be4a"
+    },
+    {
+      "path": "physicell_project/README.md",
+      "bytes": 1115,
+      "sha256": "024a343f5334795053b77e674d50b1627fb43b8c84ed45b5a85b6e09addf3ea6"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 691,
+      "sha256": "fac4922e6525d4304bceb0878ea505ace007b80fbdfd9cc0546cb4c8e1eabffc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8086,
+      "sha256": "d29b6bf1ee2250fb59a8f3fbe156ff1d35888250832d2e44a4d15b4446d79f08"
+    },
+    {
+      "path": "scripts/build_manuscript_local_llm_archive.py",
+      "bytes": 3152,
+      "sha256": "4be26962f268b9b913e711cf6ddd99f8c14010066e96be61a936058f10b4cf0e"
+    },
+    {
+      "path": "scripts/build_physicell_project.sh",
+      "bytes": 721,
+      "sha256": "6e16339d36598271c58fc26b313bf17eee6af3aa3b95f0ef5bd0e1f3c1aa169c"
+    },
+    {
+      "path": "scripts/build_qwen_gemma_comparison_archive.py",
+      "bytes": 2069,
+      "sha256": "3dddfb21174980b51939129b22215fc75804da80315ecd0ff7e5642a70c4f727"
+    },
+    {
+      "path": "scripts/build_reviewer_offline_package.py",
+      "bytes": 12863,
+      "sha256": "1971def41ad9f7a87af5ba91c8efd53066740b1afa7e1302075ba37695cb9052"
+    },
+    {
+      "path": "scripts/check_reviewer_response_consistency.py",
+      "bytes": 3690,
+      "sha256": "63e4decfc6b895eb1ba3b5d902936a96773b25169a7258301b0e38ae2bc941ff"
+    },
+    {
+      "path": "scripts/filter_autoresearch_relevant_chunks.py",
       "bytes": 7317,
       "sha256": "49c062fec246a53778a3b58933d5361e67d7f3165ffd773c37ce4feede805cbf"
     },
     {
-      "path": "scripts\\run_autoresearch_parameter_proposal.py",
+      "path": "scripts/run_autoresearch_parameter_proposal.py",
       "bytes": 28001,
       "sha256": "b4a96af69323196d8ad94584194c957fb00c1f1cd4637b265c146f0e442d0cf7"
     },
     {
-      "path": "scripts\\run_autoresearch_reasoning_first.py",
+      "path": "scripts/run_autoresearch_per_cytokine_fingerprints.py",
+      "bytes": 13104,
+      "sha256": "43669ac1877b0b214f98205ff3c218d2095311d983a44c730e1715966cf72ac7"
+    },
+    {
+      "path": "scripts/run_autoresearch_reasoning_first.py",
       "bytes": 28101,
       "sha256": "51f457ec9caa3623fd2031e502ca62051a9d4687f527152517eff799d05454df"
     },
     {
-      "path": "scripts\\run_autoresearch_simulation_refinement.py",
+      "path": "scripts/run_autoresearch_simulation_refinement.py",
       "bytes": 9803,
       "sha256": "cd112440ec6ec7f89d366ef8b70d13b27d45f84dcefaa838e9e5d6238c84638a"
     },
     {
-      "path": "scripts\\run_gemini_chunks_to_physicell.py",
+      "path": "scripts/run_chunk_evidence_model_comparison.py",
+      "bytes": 16595,
+      "sha256": "bf28eecda53b043c0e99f705c3c949d4ad71b085b595e11f1cb88cb9ecb935cd"
+    },
+    {
+      "path": "scripts/run_gemini_chunks_to_physicell.py",
       "bytes": 15441,
       "sha256": "d7e636949dc2c89253d705777d61ca4d4ec6f21926bb521f8a5b4bca4e1d0c98"
     },
     {
-      "path": "scripts\\run_physicell_autoresearch_replicates.py",
+      "path": "scripts/run_manuscript_local_llm_archive.py",
+      "bytes": 6618,
+      "sha256": "1b411bdb2bdfaea7b00a133405b97b8b07d57addbcbe2473dbcc1e57482fae82"
+    },
+    {
+      "path": "scripts/run_manuscript_local_llm_archive.sh",
+      "bytes": 119,
+      "sha256": "3063d42a1378b4ea03026c6831edea6e41e5055cbfd1d16024d8e666360b45ef"
+    },
+    {
+      "path": "scripts/run_physicell_autoresearch_replicates.py",
       "bytes": 10125,
       "sha256": "431f34c08f8a91d1c6cfce3bc2e185ae995ddc4135acd5d33c49ab15ca19ea05"
     },
     {
-      "path": "UPLOAD_NOTES.md",
-      "bytes": 625,
-      "sha256": "226648804b1cdc2e4afcd36f39518bd4d070b733e11c96e3d5dec72ac0a65b9f"
+      "path": "scripts/run_physicell_demo.sh",
+      "bytes": 497,
+      "sha256": "9a2fa9f3db90dc5f7b5824a68a0efae5336bfd37505c041729562055c4fe7d84"
+    },
+    {
+      "path": "scripts/run_qwen_gemma_chunk_comparison.py",
+      "bytes": 147,
+      "sha256": "e25d78e535467edd68e6943bb7f2922dd7f7e36a220cb69bfae5cbbff84786f4"
+    },
+    {
+      "path": "scripts/run_qwen_gemma_chunk_comparison.sh",
+      "bytes": 118,
+      "sha256": "46ea0be1290436b6db63f22ffb4ba73ea9d66e20cc201bb3138c40cfbe10c5e2"
+    },
+    {
+      "path": "scripts/run_reviewer_reproducibility_demo.py",
+      "bytes": 4390,
+      "sha256": "d2ea8d2765d271d64d5445dd4755914c3d4d72d663c3f44961f99d2ca52b7e31"
+    },
+    {
+      "path": "scripts/run_reviewer_reproducibility_demo.sh",
+      "bytes": 701,
+      "sha256": "7d7a5231cf3ca645cf804b9de1848eb90425539e3bfd3578146e6528aefc7628"
+    },
+    {
+      "path": "scripts/setup_physicell_submodule.sh",
+      "bytes": 845,
+      "sha256": "d6d69a9048f2a487f7742f8f6aeb637602ab272b6020510b2dccfce3a481ea0b"
+    },
+    {
+      "path": "scripts/smoke_test_local_llm_models.py",
+      "bytes": 3529,
+      "sha256": "fac92f86d91d13f286607e0393445b9e0e77ee4f44a11d83b71802cd80ca9eb5"
+    },
+    {
+      "path": "src/cart_autolab/__init__.py",
+      "bytes": 69,
+      "sha256": "c0865a679698cfebe1feb73358681afbad5fc464eb7ed7fcfa290bce899368a8"
+    },
+    {
+      "path": "src/cart_autolab/agents/__init__.py",
+      "bytes": 554,
+      "sha256": "339e533e309c35da0f8efcb90c3640c2d84ca0e19849d46470bf888b7ed2a5c6"
+    },
+    {
+      "path": "src/cart_autolab/agents/chunk_evidence_extraction.py",
+      "bytes": 5398,
+      "sha256": "8c026c220c44ee4e1789a23642a045cdbc699953fe0e63694200775a3d0e343a"
+    },
+    {
+      "path": "src/cart_autolab/agents/critique.py",
+      "bytes": 2103,
+      "sha256": "9d7a8412bfcee7c671ed7e76832c249cc5a35a08831de9d157d47a668c22ce31"
+    },
+    {
+      "path": "src/cart_autolab/agents/evidence_synthesis.py",
+      "bytes": 916,
+      "sha256": "ee352c42d917d33516854d9a661f72c2cc5ddb948529a209a5ffe5c9c20ae5af"
+    },
+    {
+      "path": "src/cart_autolab/agents/hypothesis_generation.py",
+      "bytes": 1483,
+      "sha256": "46a5e15d948353813929fb389ed7f05294ecee25eaeb69e1eb5af4e6d1c5f1ac"
+    },
+    {
+      "path": "src/cart_autolab/agents/literature_screening.py",
+      "bytes": 1034,
+      "sha256": "ab4f151f3fc303191af43668865cc097dcaacc68c90c99dd3e950262f3fdf5fd"
+    },
+    {
+      "path": "src/cart_autolab/agents/search_planner.py",
+      "bytes": 994,
+      "sha256": "25720f023fa05f07b7ea979c7213972eba81c7c7ac989b158bb4748726909999"
+    },
+    {
+      "path": "src/cart_autolab/analysis/ablation.py",
+      "bytes": 5618,
+      "sha256": "27892b0c2ed5742a140242115522d8a8957040b9a66b719750abdc7c65730ecf"
+    },
+    {
+      "path": "src/cart_autolab/analysis/compare_local_llm_models.py",
+      "bytes": 8957,
+      "sha256": "f74535879fffbfb8cf8fb1aacd1c89f0907402897794ba6fcd53c19e748d2e46"
+    },
+    {
+      "path": "src/cart_autolab/analysis/cytokine_fingerprint_aggregation.py",
+      "bytes": 6092,
+      "sha256": "64e244aa4fdf68ef41b786f4f85c204f6e2a95143ad14374339e881523a0891f"
+    },
+    {
+      "path": "src/cart_autolab/analysis/evidence_metrics.py",
+      "bytes": 2521,
+      "sha256": "647eb729425bc7df04b2bf4ff1d4af27058df6d9ff435f8aaa05a4b6c4a3edae"
+    },
+    {
+      "path": "src/cart_autolab/analysis/llm_contribution.py",
+      "bytes": 3877,
+      "sha256": "96901074dfdccb94cf17ab58268623dd0610a43f811488df8cbbd7018a36cb60"
+    },
+    {
+      "path": "src/cart_autolab/analysis/metrics.py",
+      "bytes": 2075,
+      "sha256": "5c2cf701b4728014ae9b22fd3e511be43f1d1e2f99d39516c819384db7773699"
+    },
+    {
+      "path": "src/cart_autolab/analysis/model_comparison_validation.py",
+      "bytes": 5938,
+      "sha256": "20ff3477ec35a8e6e8921e197727b190dd06cbe75ad763788dfd1f4a0839155a"
+    },
+    {
+      "path": "src/cart_autolab/analysis/parameter_proposal_from_fingerprint.py",
+      "bytes": 6652,
+      "sha256": "f9bcb7a3872b816e49b3645f8f458c3f9d65b36aa4312157ff764567a7a4b39c"
+    },
+    {
+      "path": "src/cart_autolab/analysis/plotting.py",
+      "bytes": 2621,
+      "sha256": "b94091ba9084eace98438d2f45fcd35f2945e25bf30fd5782802c484b533106f"
+    },
+    {
+      "path": "src/cart_autolab/analysis/ranking.py",
+      "bytes": 1777,
+      "sha256": "5e8939a80848ae7c648d51d6838267fb294decc374bb4bcd7980fd75f01b228c"
+    },
+    {
+      "path": "src/cart_autolab/analysis/ranking_stability.py",
+      "bytes": 1999,
+      "sha256": "f94ee4b1d72f4e8fcea974af26cf8ef06b17ebf14b96348f31747a5574ef2512"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/__init__.py",
+      "bytes": 79,
+      "sha256": "33f770adc9cf23bf841f981e74a8c79c1a016590beabe2ede0f5207a8a464266"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/design.py",
+      "bytes": 2311,
+      "sha256": "dd1bc36ed8a73026b07e7f0d618dcb60564a0ad4d0f7e1efd1cf5c1f714085a5"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/goal.py",
+      "bytes": 7992,
+      "sha256": "0ad0fd2af93ffd9be5e1a850cfc55b1fe77d4a0311b67d80011def818e6426ef"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/hypotheses.py",
+      "bytes": 2702,
+      "sha256": "21f550f57296f1b3aa5ab209770d9c8cf577e984ef3183458f7a58a865020bc4"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/knowledge_base.py",
+      "bytes": 3450,
+      "sha256": "6026e22b0ea806103df6cf222bfd9ed02381f2a80982ad7c06e608c3da1fdd41"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/llm_steps.py",
+      "bytes": 8857,
+      "sha256": "ca65f3c04de6b11c25cf1f065ab8a8914a4607ccd9f6175d8462986142b2fc86"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/report.py",
+      "bytes": 3720,
+      "sha256": "fec7a8a9995c02c074a40cdec30f233253856b97fb3a66621a766818c74774d5"
+    },
+    {
+      "path": "src/cart_autolab/autoresearch/workflow.py",
+      "bytes": 5339,
+      "sha256": "9eae00c2c7aa53f3aa95ba5bbda3bfef9a4ac5c179eac184ef27721149495974"
+    },
+    {
+      "path": "src/cart_autolab/cli.py",
+      "bytes": 3995,
+      "sha256": "3f7f56c719d8e10a08c89e572fc690504d4a3b09fbd7d14c2756f322fbfd853c"
+    },
+    {
+      "path": "src/cart_autolab/critique/critique_agent.py",
+      "bytes": 2265,
+      "sha256": "00f43c191ea6bcf0e309bc10115904cd98b74f62fab2c3114223efa5849dbe14"
+    },
+    {
+      "path": "src/cart_autolab/evidence/confidence.py",
+      "bytes": 631,
+      "sha256": "01786495b2e8c69547269e77f22f445a1b785379ae1d6f4054a95e6cce3b075e"
+    },
+    {
+      "path": "src/cart_autolab/evidence/extractor.py",
+      "bytes": 5013,
+      "sha256": "4d390c7aac43b4bcd3d5084390e2c0e20fc624b6e4963b3f200236f9299ccb91"
+    },
+    {
+      "path": "src/cart_autolab/evidence/schemas.py",
+      "bytes": 960,
+      "sha256": "0e5bb78ddceaa705625d6b4fc235a03e8daa018d50fd3bd3d685e1c43a476a11"
+    },
+    {
+      "path": "src/cart_autolab/literature/crossref_client.py",
+      "bytes": 1316,
+      "sha256": "869a7eb9038caa78fe4b8ed79559b37c5b81cb908ab3731e739ed325cedea572"
+    },
+    {
+      "path": "src/cart_autolab/literature/curated_loader.py",
+      "bytes": 2914,
+      "sha256": "2fe91ad3de8414c5d597ddaa252704409eaecb4aaa61281edead645b8e7bfaad"
+    },
+    {
+      "path": "src/cart_autolab/literature/deduplication.py",
+      "bytes": 971,
+      "sha256": "e23b3c9534567953dc239eb8304771a238eb733e8a3d4ef879f9f369159c70fe"
+    },
+    {
+      "path": "src/cart_autolab/literature/openalex_client.py",
+      "bytes": 1457,
+      "sha256": "b95d6678cb1bb443d7f2c5f7229555372050876e8d59467e47b62fa509363827"
+    },
+    {
+      "path": "src/cart_autolab/literature/paper_chunker.py",
+      "bytes": 5723,
+      "sha256": "abaab2e5c67731e51630c028d79e2df707f456a9e57a7692ad659b6b604eec61"
+    },
+    {
+      "path": "src/cart_autolab/literature/paper_downloader.py",
+      "bytes": 8662,
+      "sha256": "862d971aa24368aca2247733e5dc3ed7216086fb9e9572f5a2f865e889d4d9dc"
+    },
+    {
+      "path": "src/cart_autolab/literature/pubmed_client.py",
+      "bytes": 2232,
+      "sha256": "612d9a4d03b17179638ff6b993edde1c78fd40c27a736c1fd2b3f15c6f768822"
+    },
+    {
+      "path": "src/cart_autolab/literature/search_agent.py",
+      "bytes": 4733,
+      "sha256": "c3d3d0903e11e9a06cc085d05a53a9f4705ba857778e9f18ecc9821d8c635717"
+    },
+    {
+      "path": "src/cart_autolab/literature/semantic_scholar_client.py",
+      "bytes": 1436,
+      "sha256": "5848767433a21adde831a4fea443e247f746e4e97dda06039db07468a5f61a19"
+    },
+    {
+      "path": "src/cart_autolab/llm/__init__.py",
+      "bytes": 196,
+      "sha256": "5269c0ee5829fb3911d5ec5c6614b54431a6fa12211534e594a3ebd859f3344c"
+    },
+    {
+      "path": "src/cart_autolab/llm/agent_runner.py",
+      "bytes": 6775,
+      "sha256": "433667ec5c5ffeedf565288ec26363c4ec3026b7db745fb501c6b0c105802ce6"
+    },
+    {
+      "path": "src/cart_autolab/llm/audit.py",
+      "bytes": 1242,
+      "sha256": "8e545772033bfbe60999e9181e079de9ff21cee3ff1d6a76e6236acdb52a7920"
+    },
+    {
+      "path": "src/cart_autolab/llm/client.py",
+      "bytes": 1431,
+      "sha256": "19508d7a9896e0cc842333b0f9eb1ea3208227bc66b5ab63b92254e0577db5db"
+    },
+    {
+      "path": "src/cart_autolab/llm/providers.py",
+      "bytes": 5661,
+      "sha256": "8ae734e29508b891275a0a2871b28fac0b1aaa1c1217041d8cd93eb808544b27"
+    },
+    {
+      "path": "src/cart_autolab/llm/replay.py",
+      "bytes": 928,
+      "sha256": "86eb456a3315167385a1356e63ab7bdcf518cfca530927cab2e7e8a813bead41"
+    },
+    {
+      "path": "src/cart_autolab/llm/schema_validation.py",
+      "bytes": 2886,
+      "sha256": "36f0ba184e16db62005debfdf7bd52f506f544cf9f6735384e62286d877ac4f4"
+    },
+    {
+      "path": "src/cart_autolab/memory/memory_store.py",
+      "bytes": 982,
+      "sha256": "2cf9292736923e9775180ff7ff1d22364e7a3893d59fecf167a58b3414cc7a89"
+    },
+    {
+      "path": "src/cart_autolab/memory/schemas.py",
+      "bytes": 189,
+      "sha256": "dccb25e1f8f0b9f6b76ac0bce0df97faac261680fb109c174d49355bd2c81071"
+    },
+    {
+      "path": "src/cart_autolab/orchestrator.py",
+      "bytes": 11282,
+      "sha256": "17bd7c6b350cc6b27886b7578844455f5601ff0b15e5ebcea1ffcb8dd282ac98"
+    },
+    {
+      "path": "src/cart_autolab/parameters/evidence_loader.py",
+      "bytes": 2885,
+      "sha256": "34a5ddd9eeba9a9b2cd02cd5c5298c3a444669a119e38cccb7d5c56e3f45c2a3"
+    },
+    {
+      "path": "src/cart_autolab/parameters/fingerprint_builder.py",
+      "bytes": 8727,
+      "sha256": "c99d817314ee61a3be49120ca1fde1ae114669fa47ecb27982eb03686cfcb57f"
+    },
+    {
+      "path": "src/cart_autolab/parameters/normalization.py",
+      "bytes": 381,
+      "sha256": "bfee7137a44d1d4c561128626c14b94dde71b83479f1f376f1efbfe717a33a4b"
+    },
+    {
+      "path": "src/cart_autolab/parameters/physicell_exporter.py",
+      "bytes": 7754,
+      "sha256": "24f10acf3da58c3707fb6eee00a0190c03be073df6979c15292e6acd8e989720"
+    },
+    {
+      "path": "src/cart_autolab/parameters/schemas.py",
+      "bytes": 2231,
+      "sha256": "cfe2f3508074611bdceafe0782d06c90fa1dbc054d70f170e293237fb3f491c5"
+    },
+    {
+      "path": "src/cart_autolab/prompts.py",
+      "bytes": 20340,
+      "sha256": "a4cbda139e3c972842d6239fbc8587cef5a867766410b962c668f5a7ae1355d3"
+    },
+    {
+      "path": "src/cart_autolab/reporting/report_generator.py",
+      "bytes": 5621,
+      "sha256": "b9e3b129dbec56c3c00d8fa7ed063d2df9f25444d32c06faa208a18f5df3d152"
+    },
+    {
+      "path": "src/cart_autolab/simulation/alternative_adapter.py",
+      "bytes": 1262,
+      "sha256": "c9589f2426f9a7f16ceb5a1affc96482d58ddba5b92db199a30d32811420d531"
+    },
+    {
+      "path": "src/cart_autolab/simulation/base.py",
+      "bytes": 704,
+      "sha256": "5d3f4b925b60cadc6c6a87db724514efe9b827c722cc744f97fb3d779ffaf07f"
+    },
+    {
+      "path": "src/cart_autolab/simulation/experiment_designer.py",
+      "bytes": 1728,
+      "sha256": "722a8b3c686b9f237acca080312a510d97c6e5f045ac14c7e3603bdd159105fa"
+    },
+    {
+      "path": "src/cart_autolab/simulation/mock_simulator.py",
+      "bytes": 4208,
+      "sha256": "48bc21333aff7170d5b94fe087332705bb4a53c949a3b211e1c94fb2d9b4cc1b"
+    },
+    {
+      "path": "src/cart_autolab/simulation/physicell_adapter.py",
+      "bytes": 7496,
+      "sha256": "5309e23c1af27ac111e62ee9df56a673b005e2e280b28b4bd5369c36f98a08ca"
+    },
+    {
+      "path": "src/cart_autolab/simulation/physicell_output_converter.py",
+      "bytes": 2818,
+      "sha256": "b9391f7a28c183adae5df084d26d4c3bbb487ce3e6d8cf707063fcf74bb31d36"
+    },
+    {
+      "path": "src/cart_autolab/validation/scgpt_adapter.py",
+      "bytes": 713,
+      "sha256": "d59f565caf6c500a72cfefde1e6d13d3949b0a1f806fc5866b5591536cf8d516"
+    },
+    {
+      "path": "src/cart_insilico_autolab.egg-info/dependency_links.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/cart_insilico_autolab.egg-info/entry_points.txt",
+      "bytes": 55,
+      "sha256": "21f22550c8cb16dd587b23d54acccf7ab380d8791b53309bccf39ee3c448149e"
+    },
+    {
+      "path": "src/cart_insilico_autolab.egg-info/PKG-INFO",
+      "bytes": 8665,
+      "sha256": "36a2338b0695e611a7decc420773e67d50e97fb90c0ec611fe8ae61071a64b7b"
+    },
+    {
+      "path": "src/cart_insilico_autolab.egg-info/requires.txt",
+      "bytes": 126,
+      "sha256": "63f613fc4f4a8eb28d66f59ed51a2545513fc38caccbceacefbdcbb6a3bf881b"
+    },
+    {
+      "path": "src/cart_insilico_autolab.egg-info/SOURCES.txt",
+      "bytes": 3900,
+      "sha256": "c10c68c60738c6a817999ac17a2994e833082bc7150e559c35eaccdf75f934db"
+    },
+    {
+      "path": "src/cart_insilico_autolab.egg-info/top_level.txt",
+      "bytes": 13,
+      "sha256": "71a819e9ca377cd7fa26fb2098c8c6d105a9dd0feae6f0f790d4c099cf11efbd"
+    },
+    {
+      "path": "tests/test_ablation_metrics.py",
+      "bytes": 2512,
+      "sha256": "a6266613860612d118dff5c92b44c1dc2370d11698fc8185a827d9a87e1eda4b"
+    },
+    {
+      "path": "tests/test_autoresearch_loop_tools.py",
+      "bytes": 2572,
+      "sha256": "8a572b1aa4da0e97a7f5c9c59669bceeff31904349d5528c1c26d7adf24cff72"
+    },
+    {
+      "path": "tests/test_autoresearch_reasoning_first.py",
+      "bytes": 4009,
+      "sha256": "dda38d078e59219a86ce4025f329ec608fc903a87afd81e95065fc4166262ba7"
+    },
+    {
+      "path": "tests/test_autoresearch_workflow.py",
+      "bytes": 8186,
+      "sha256": "2a8ea2e83cd4f6a6fef09f7ce08e02e8919adcf4ff0a5655b6bf6b849a16ed28"
+    },
+    {
+      "path": "tests/test_compare_local_llm_models.py",
+      "bytes": 1930,
+      "sha256": "18f2d58748f9e6e7ba359fc2e8ed27e82285a4ff47f457ddf0f1acb4af45c56a"
+    },
+    {
+      "path": "tests/test_config.py",
+      "bytes": 341,
+      "sha256": "c8743fe864bb5792a7b69763645b921319457e8b8404dba22be8f72ff90702db"
+    },
+    {
+      "path": "tests/test_curated_literature_loader.py",
+      "bytes": 3069,
+      "sha256": "ce63a01b8a06a11f94d456e900557ee5351f5a6301f9a54f75988d20b8107f75"
+    },
+    {
+      "path": "tests/test_cytokine_fingerprint_aggregation.py",
+      "bytes": 1508,
+      "sha256": "90b26fd288013e09617440807a826f925b9d76c727e412023bf9fb065bafc347"
+    },
+    {
+      "path": "tests/test_executable_llm_agents.py",
+      "bytes": 5427,
+      "sha256": "0f66ce335ad8665dce49d9da5e0da21890771173e97991f97fe246154be87eed"
+    },
+    {
+      "path": "tests/test_fingerprint_builder.py",
+      "bytes": 1146,
+      "sha256": "06f7b4070619a0416d82526362afbb368727a416b6c0ac6398df8f312cdacb1f"
+    },
+    {
+      "path": "tests/test_literature_deduplication.py",
+      "bytes": 492,
+      "sha256": "f6a3d7690e84f079a5105b6570b1243f9d465f81ff8cdeba1429ed75909d0524"
+    },
+    {
+      "path": "tests/test_llm_agent_runner.py",
+      "bytes": 3184,
+      "sha256": "7022c47e23fb12ca678ce7d5ac258d59a495661a2e457112396bc8b17d1635bc"
+    },
+    {
+      "path": "tests/test_llm_audit_artifacts.py",
+      "bytes": 1119,
+      "sha256": "fd253f13ddac9751f03d9ffdab5879984ed4fb37350cf730b408fefe1804c604"
+    },
+    {
+      "path": "tests/test_llm_contribution_summary.py",
+      "bytes": 1928,
+      "sha256": "1558c4945bbfad27934888dd0b0d3829279a3bddda92f7dae277862570a88500"
+    },
+    {
+      "path": "tests/test_llm_evidence_to_parameters.py",
+      "bytes": 7567,
+      "sha256": "dde2ecd80c2d471bbe652a5b01afa2888c44ff0c5dd75bde2c509c9088c92948"
+    },
+    {
+      "path": "tests/test_llm_replay.py",
+      "bytes": 1217,
+      "sha256": "83d5979c66316a06c3f84b1b474d66ec616fb1e22148f9519a8e093347cbba15"
+    },
+    {
+      "path": "tests/test_local_llm_archive_manifest.py",
+      "bytes": 2492,
+      "sha256": "7c1eb4a5afb4a0edd1c7957adaefc0cb5416ed994e9b905b4e7f1469285456d7"
+    },
+    {
+      "path": "tests/test_mock_simulator.py",
+      "bytes": 2344,
+      "sha256": "9d33d5c4f0f14f2ea998a3b74a7f67f73182a43ec461056a6a0fa207b2bf2b09"
+    },
+    {
+      "path": "tests/test_model_comparison_validation.py",
+      "bytes": 1597,
+      "sha256": "eb498a803a8ec62e64714aa3b50a32cb50897f5f01145130633646913018d173"
+    },
+    {
+      "path": "tests/test_no_fabricated_artifacts.py",
+      "bytes": 2794,
+      "sha256": "d00ab494d900d79bee8161713ac10b8ec3d1e8467454984b662cfbd1a55a8743"
+    },
+    {
+      "path": "tests/test_paper_chunker.py",
+      "bytes": 1078,
+      "sha256": "70519dd00be961b5cc8d36436ed881cea5560e7cf80deb4bcc98c32b1d38160d"
+    },
+    {
+      "path": "tests/test_paper_downloader.py",
+      "bytes": 1717,
+      "sha256": "d69a4ee498bedc85b5497df311a4ffada12688eb6f193e807ecfd1328f469814"
+    },
+    {
+      "path": "tests/test_parameter_proposal_from_fingerprint.py",
+      "bytes": 1927,
+      "sha256": "30ea000ee38d360d9e5c97a97cb61254ac4afc6207349204ea197455a1e42ca5"
+    },
+    {
+      "path": "tests/test_physicell_exporter.py",
+      "bytes": 1706,
+      "sha256": "5f24d06613c252bcb4277f87e3717d385a01bb5fbde35fbd4aaa7de79925eb5b"
+    },
+    {
+      "path": "tests/test_physicell_external_mode_errors.py",
+      "bytes": 1081,
+      "sha256": "f46f10157fefd13b33a794a3eafebcb21304fa9699bcd9b010fba55d1a300d34"
+    },
+    {
+      "path": "tests/test_physicell_output_converter.py",
+      "bytes": 1367,
+      "sha256": "32d4bef26db6ecd23d93117ae7d2ebd88b8b7e87a47a5933764533397acb6069"
+    },
+    {
+      "path": "tests/test_prompts.py",
+      "bytes": 1009,
+      "sha256": "8c73edd5046df203dacdcd2e8f66af6044df8aa9ebe8b06baeec1bfee3950189"
+    },
+    {
+      "path": "tests/test_report_generation.py",
+      "bytes": 829,
+      "sha256": "995b352d97aea88222c2dadcc63b822e6a3bcfa2d6d81b39c193f0df59157150"
+    },
+    {
+      "path": "tests/test_reviewer_smoke_matrix.py",
+      "bytes": 7021,
+      "sha256": "8c644fc1454b359fdc78a2660a06e31662e767be1da34f5f4de9bf8f6b0d7958"
     }
   ]
 }

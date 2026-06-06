@@ -1,0 +1,22 @@
+{
+  "instructions": [
+    "Copy this file to curated_papers.json before a real manuscript local LLM archive run.",
+    "Replace this template with a JSON list of real paper records.",
+    "Each real record must include title and at least one provenance field: doi, pmid, pmcid, url, or source_paper_id.",
+    "Include abstracts or rights-compatible excerpts only; do not paste copyrighted full paper chunks unless open-access status and provenance are documented.",
+    "Do not use mock_literature records as manuscript evidence.",
+    "Do not invent citations, DOI, PMID, PMCID, URLs, LLM outputs, PhysiCell outputs, or wet-lab values."
+  ],
+  "expected_curated_papers_json_shape": [
+    {
+      "title": "REPLACE WITH REAL PAPER TITLE",
+      "abstract": "REPLACE WITH REAL ABSTRACT OR RIGHTS-COMPATIBLE EXCERPT",
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": null,
+      "source_paper_id": "REPLACE WITH REAL SOURCE IDENTIFIER IF DOI/PMID/PMCID/URL IS UNAVAILABLE",
+      "provenance_notes": "REPLACE WITH SOURCE AND ACCESS NOTES"
+    }
+  ]
+}

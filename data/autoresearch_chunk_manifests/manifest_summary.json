@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-06-05T17:27:46.213617+00:00",
+  "description": "Metadata-only chunk manifests for local AutoResearch review. Full paper text, PDFs, TEI files, and local paths are intentionally excluded.",
+  "copyright_policy": "These manifests do not include paper chunk text or full paper content. They are provenance/index records only.",
+  "sources": {
+    "self_secreting_cytokine_chunks": {
+      "source_chunk_file": "outputs/manuscript_self_secreting_combined_pdf_archive/paper_chunks_grobid_tei/paper_chunks.jsonl",
+      "source_sha256": "ce8238078a5b97064e4c4d22aa1c8030888d891853dec3b05501abd0c2a2ef40",
+      "manifest_file": "self_secreting_cytokine_chunks.jsonl",
+      "paper_index_file": "self_secreting_cytokine_chunks_paper_index.json",
+      "chunk_records": 3883,
+      "paper_records": 96,
+      "fields": [
+        "block_type",
+        "char_count",
+        "chunk_id",
+        "chunk_index",
+        "chunker",
+        "chunker_notes",
+        "doi",
+        "paper_id",
+        "pmid",
+        "section",
+        "source_collection",
+        "text_sha256",
+        "title",
+        "word_count"
+      ],
+      "excluded_fields": [
+        "artifact_path",
+        "full_text",
+        "local_path",
+        "pdf_path",
+        "source_path",
+        "tei_path",
+        "tei_xpath",
+        "text"
+      ]
+    },
+    "liver_antigen_density_chunks": {
+      "source_chunk_file": "outputs/liver_antigen_density_literature/paper_chunks_grobid_tei/paper_chunks.jsonl",
+      "source_sha256": "2a2a8c55bd2dd2bb2702971657139cb40eae4d8724d4bc997ecb8deaa9d2d96e",
+      "manifest_file": "liver_antigen_density_chunks.jsonl",
+      "paper_index_file": "liver_antigen_density_chunks_paper_index.json",
+      "chunk_records": 1712,
+      "paper_records": 44,
+      "fields": [
+        "block_type",
+        "char_count",
+        "chunk_id",
+        "chunk_index",
+        "chunker",
+        "chunker_notes",
+        "doi",
+        "paper_id",
+        "pmid",
+        "section",
+        "source_collection",
+        "text_sha256",
+        "title",
+        "tumor_antigen_bucket",
+        "word_count"
+      ],
+      "excluded_fields": [
+        "artifact_path",
+        "full_text",
+        "local_path",
+        "pdf_path",
+        "source_path",
+        "tei_path",
+        "tei_xpath",
+        "text"
+      ]
+    }
+  }
+}

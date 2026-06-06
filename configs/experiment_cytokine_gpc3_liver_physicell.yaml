@@ -1,0 +1,33 @@
+experiment_id: cytokine_gpc3_liver_low_antigen_physicell_external
+disease_context: hepatocellular carcinoma
+tumor_type: liver cancer
+car_target_antigen: GPC3
+antigen_density_condition: low
+engineering_variable: cytokine_payload
+candidate_interventions: [control, IL-2, IL-7, IL-12, IL-15, IL-18]
+biological_endpoints:
+  - tumor burden
+  - CAR-T expansion
+  - CAR-T persistence
+  - exhaustion fraction
+  - cytotoxicity
+  - IFN-gamma dynamics
+  - hypoxia dynamics
+  - PD-L1/TME remodeling signal
+simulator_choice: physicell
+simulator:
+  mode: external
+  require_external_executable: true
+replicates: 3
+random_seed: 1729
+parameter_sweep:
+  antigen_density: [0.2]
+  car_t_dose: [1.0]
+  tumor_burden: [1.0]
+  tme_severity: [0.6]
+output_dir: outputs/example_run_physicell_external
+literature:
+  mode: mock
+  max_results_per_query: 8
+  download_papers: false
+manual_parameter_overrides: {}
