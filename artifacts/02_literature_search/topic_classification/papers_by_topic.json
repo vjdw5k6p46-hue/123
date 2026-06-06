@@ -44,7 +44,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 1,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:34386015",
@@ -90,7 +91,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 2,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2472962727",
@@ -138,7 +140,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 3,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1182/blood-2021-146882",
@@ -186,7 +189,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 4,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:1506426b631219b5df8a76ceee1c2f11c53010c2",
@@ -241,7 +245,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 9,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41785602",
@@ -289,7 +294,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 10,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41990270",
@@ -345,7 +351,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 11,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40569285",
@@ -398,7 +405,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 12,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4405047283",
@@ -454,7 +462,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 13,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4310487383",
@@ -506,7 +515,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 15,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:36479116",
@@ -558,7 +568,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 16,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4283762571",
@@ -605,7 +616,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 17,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4297380470",
@@ -653,7 +665,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 18,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3214282732",
@@ -703,7 +716,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 19,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3208320308",
@@ -756,7 +770,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 21,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2017639055",
@@ -803,7 +818,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 22,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.2139/ssrn.6760526",
@@ -845,7 +861,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 23,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.21203/rs.3.rs-1600377/v1",
@@ -894,7 +911,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 24,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/2326-6074.io2026-a009",
@@ -938,7 +956,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 26,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:cf19ebd9161becc3759de3196d1751259b9c3f47",
@@ -984,7 +1003,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 27,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:0221d2fcf8e2d224956fa8a47680202afa08a1c4",
@@ -1033,7 +1053,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 28,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/2326-6074.tumimm18-a31",
@@ -1073,7 +1094,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 30,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/1538-7445.am2012-3501",
@@ -1115,7 +1137,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 31,
-      "autoresearch_topic": "core_armored_CART_multi_cytokine"
+      "autoresearch_topic": "core_armored_CART_multi_cytokine",
+      "retrieval_timestamp": null
     }
   ],
   "GPC3_HCC_CART_background": [
@@ -1168,7 +1191,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 5,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:c858d4b6f9e87d5e141765982c18443ed486f0ee",
@@ -1214,7 +1238,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 14,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3183435229",
@@ -1288,7 +1313,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 20,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39043602",
@@ -1333,7 +1359,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 85,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42102942",
@@ -1383,7 +1410,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 90,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.20517/2394-5079.2025.69",
@@ -1422,7 +1450,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 91,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:9d72885a50375bd70c234856d001f76ead289439",
@@ -1472,7 +1501,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 92,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3088185527",
@@ -1522,7 +1552,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 94,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2889641854",
@@ -1571,7 +1602,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 96,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.jcyt.2025.03.354",
@@ -1610,7 +1642,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 97,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4387765016",
@@ -1656,7 +1689,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 98,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41803088",
@@ -1705,7 +1739,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 117,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4404119926",
@@ -1748,7 +1783,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 128,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4317891438",
@@ -1793,7 +1829,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 134,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3023954831",
@@ -1843,7 +1880,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 141,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2997325433",
@@ -1894,7 +1932,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 142,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2570331434",
@@ -1949,7 +1988,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 148,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.29011/2688-8718.100139",
@@ -1983,7 +2023,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 153,
-      "autoresearch_topic": "GPC3_HCC_CART_background"
+      "autoresearch_topic": "GPC3_HCC_CART_background",
+      "retrieval_timestamp": null
     }
   ],
   "GPC3_HCC_low_antigen_background": [
@@ -2037,7 +2078,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 6,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4362514829",
@@ -2083,7 +2125,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 7,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4200370209",
@@ -2137,7 +2180,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 8,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42121900",
@@ -2183,7 +2227,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 88,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/1538-7445.am2026-4274",
@@ -2224,7 +2269,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 101,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/1538-7445.am2024-4011",
@@ -2265,7 +2311,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 105,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4385050390",
@@ -2310,7 +2357,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 106,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/1538-7445.am2025-3497",
@@ -2356,7 +2404,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 123,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1200/jco.2025.43.16_suppl.tps4218",
@@ -2402,7 +2451,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 124,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4281756386",
@@ -2441,7 +2491,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 137,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1200/jco.2017.35.15_suppl.3049",
@@ -2487,7 +2538,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 147,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.ajg.2024.12.002",
@@ -2529,7 +2581,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 152,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.omton.2024.200859",
@@ -2566,7 +2619,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 154,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1136/jitc-2020-sitc2020.0109",
@@ -2609,7 +2663,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 156,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.31525/ct1-nct04121273",
@@ -2645,7 +2700,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 157,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1021/acs.jmedchem.5c00847.s002",
@@ -2679,7 +2735,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 338,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1021/acs.jmedchem.5c00847.s001",
@@ -2713,7 +2770,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 339,
-      "autoresearch_topic": "GPC3_HCC_low_antigen_background"
+      "autoresearch_topic": "GPC3_HCC_low_antigen_background",
+      "retrieval_timestamp": null
     }
   ],
   "core_armored_CART_IL2": [
@@ -2759,7 +2817,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 25,
-      "autoresearch_topic": "core_armored_CART_IL2"
+      "autoresearch_topic": "core_armored_CART_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:4665138a15e0eceaf1b371134d6e358c47f40e9b",
@@ -2799,7 +2858,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 29,
-      "autoresearch_topic": "core_armored_CART_IL2"
+      "autoresearch_topic": "core_armored_CART_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1182/blood-2025-4104",
@@ -2847,7 +2907,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 43,
-      "autoresearch_topic": "core_armored_CART_IL2"
+      "autoresearch_topic": "core_armored_CART_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4234319381",
@@ -2895,7 +2956,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 81,
-      "autoresearch_topic": "core_armored_CART_IL2"
+      "autoresearch_topic": "core_armored_CART_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2589585076",
@@ -2942,7 +3004,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 82,
-      "autoresearch_topic": "core_armored_CART_IL2"
+      "autoresearch_topic": "core_armored_CART_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:e9d539cbc1a4ebcdd10de1398175301cd8bb58cb",
@@ -2988,7 +3051,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 84,
-      "autoresearch_topic": "core_armored_CART_IL2"
+      "autoresearch_topic": "core_armored_CART_IL2",
+      "retrieval_timestamp": null
     }
   ],
   "core_armored_CART_IL7": [
@@ -3044,7 +3108,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 32,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1182/blood-2025-3707",
@@ -3088,7 +3153,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 42,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39952598",
@@ -3134,7 +3200,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 44,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39776916",
@@ -3182,7 +3249,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 57,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39450160",
@@ -3229,7 +3297,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 58,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39443955",
@@ -3277,7 +3346,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 59,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39186002",
@@ -3329,7 +3399,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 60,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39093440",
@@ -3378,7 +3449,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 61,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4405047375",
@@ -3420,7 +3492,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 62,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4286472005",
@@ -3465,7 +3538,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 72,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3133622847",
@@ -3519,7 +3593,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 75,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3042970555",
@@ -3568,7 +3643,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 78,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.32388/ohva3w",
@@ -3606,7 +3682,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 83,
-      "autoresearch_topic": "core_armored_CART_IL7"
+      "autoresearch_topic": "core_armored_CART_IL7",
+      "retrieval_timestamp": null
     }
   ],
   "core_armored_CART_IL12": [
@@ -3663,7 +3740,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 33,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41576929",
@@ -3721,7 +3799,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 34,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40855348",
@@ -3776,7 +3855,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 46,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39751840",
@@ -3822,7 +3902,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 47,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:38641176",
@@ -3870,7 +3951,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 63,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:37660142",
@@ -3922,7 +4004,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 67,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:37045815",
@@ -3976,7 +4059,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 68,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:36463361",
@@ -4018,7 +4102,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 73,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1093/neuonc/noab196.657",
@@ -4062,7 +4147,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 77,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:30686356",
@@ -4103,7 +4189,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 80,
-      "autoresearch_topic": "core_armored_CART_IL12"
+      "autoresearch_topic": "core_armored_CART_IL12",
+      "retrieval_timestamp": null
     }
   ],
   "core_armored_CART_IL15": [
@@ -4145,7 +4232,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 35,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41860794",
@@ -4194,7 +4282,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 36,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41453427",
@@ -4242,7 +4331,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 37,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41346590",
@@ -4285,7 +4375,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 48,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40625735",
@@ -4334,7 +4425,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 49,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40523481",
@@ -4375,7 +4467,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 50,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4393577391",
@@ -4419,7 +4512,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 64,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4387058889",
@@ -4470,7 +4564,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 69,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3118588243",
@@ -4525,7 +4620,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 76,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3022890693",
@@ -4568,7 +4664,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 79,
-      "autoresearch_topic": "core_armored_CART_IL15"
+      "autoresearch_topic": "core_armored_CART_IL15",
+      "retrieval_timestamp": null
     }
   ],
   "core_armored_CART_IL18": [
@@ -4609,7 +4706,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 38,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:6d9800eb8149847e32c77955aa5fc772b58d4fcf",
@@ -4680,7 +4778,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 39,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:1dbccbe4b8ce0d3ac46208722370ca48cb6b3731",
@@ -4748,7 +4847,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 40,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:b436c14d8c6c956d4d38d66e45dc02abfd34a388",
@@ -4817,7 +4917,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 41,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40906384",
@@ -4865,7 +4966,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 45,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41415362",
@@ -4913,7 +5015,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 51,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40864984",
@@ -4981,7 +5084,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 52,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40722088",
@@ -5034,7 +5138,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 53,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40628538",
@@ -5075,7 +5180,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 54,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40334157",
@@ -5146,7 +5252,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 55,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:2ce027484f4cff9f8195c416939f1eb9e0ec42de",
@@ -5203,7 +5310,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 56,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39572158",
@@ -5258,7 +5366,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 65,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:38781564",
@@ -5327,7 +5436,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 66,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:36951942",
@@ -5371,7 +5481,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 70,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4360600671",
@@ -5415,7 +5526,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 71,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4310104199",
@@ -5478,7 +5590,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 74,
-      "autoresearch_topic": "core_armored_CART_IL18"
+      "autoresearch_topic": "core_armored_CART_IL18",
+      "retrieval_timestamp": null
     }
   ],
   "engineered_T_cell_support_multi_cytokine": [
@@ -5525,7 +5638,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 86,
-      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine"
+      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.4049/jimmunol.196.supp.214.23",
@@ -5570,7 +5684,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 87,
-      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine"
+      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41855715",
@@ -5613,7 +5728,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 89,
-      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine"
+      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3027131407",
@@ -5662,7 +5778,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 93,
-      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine"
+      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2946233185",
@@ -5707,7 +5824,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 95,
-      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine"
+      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/s1525-0016(16)33012-x",
@@ -5751,7 +5869,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 99,
-      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine"
+      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/1538-7445.am2022-588",
@@ -5791,7 +5910,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 108,
-      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine"
+      "autoresearch_topic": "engineered_T_cell_support_multi_cytokine",
+      "retrieval_timestamp": null
     }
   ],
   "engineered_T_cell_support_IL15": [
@@ -5844,7 +5964,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 100,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40474210",
@@ -5890,7 +6011,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 104,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4310126607",
@@ -5940,7 +6062,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 109,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41821313",
@@ -5992,7 +6115,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 116,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41137936",
@@ -6040,7 +6164,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 121,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40660312",
@@ -6101,7 +6226,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 122,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4324139688",
@@ -6159,7 +6285,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 133,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3212871396",
@@ -6215,7 +6342,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 139,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2901026782",
@@ -6276,7 +6404,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 146,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W1971746066",
@@ -6318,7 +6447,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 150,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.4161/21505594.2014.988098",
@@ -6357,7 +6487,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 160,
-      "autoresearch_topic": "engineered_T_cell_support_IL15"
+      "autoresearch_topic": "engineered_T_cell_support_IL15",
+      "retrieval_timestamp": null
     }
   ],
   "engineered_T_cell_support_IL7": [
@@ -6403,7 +6534,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 102,
-      "autoresearch_topic": "engineered_T_cell_support_IL7"
+      "autoresearch_topic": "engineered_T_cell_support_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40667190",
@@ -6447,7 +6579,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 103,
-      "autoresearch_topic": "engineered_T_cell_support_IL7"
+      "autoresearch_topic": "engineered_T_cell_support_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41450878",
@@ -6491,7 +6624,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 119,
-      "autoresearch_topic": "engineered_T_cell_support_IL7"
+      "autoresearch_topic": "engineered_T_cell_support_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39240078",
@@ -6536,7 +6670,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 125,
-      "autoresearch_topic": "engineered_T_cell_support_IL7"
+      "autoresearch_topic": "engineered_T_cell_support_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:38670095",
@@ -6585,7 +6720,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 126,
-      "autoresearch_topic": "engineered_T_cell_support_IL7"
+      "autoresearch_topic": "engineered_T_cell_support_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2917127842",
@@ -6648,7 +6784,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 143,
-      "autoresearch_topic": "engineered_T_cell_support_IL7"
+      "autoresearch_topic": "engineered_T_cell_support_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2984441016",
@@ -6694,7 +6831,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 144,
-      "autoresearch_topic": "engineered_T_cell_support_IL7"
+      "autoresearch_topic": "engineered_T_cell_support_IL7",
+      "retrieval_timestamp": null
     }
   ],
   "engineered_T_cell_support_IL12": [
@@ -6751,7 +6889,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 107,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41935032",
@@ -6795,7 +6934,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 114,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41355605",
@@ -6841,7 +6981,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 115,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40404208",
@@ -6890,7 +7031,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 120,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39624055",
@@ -6936,7 +7078,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 127,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:37851569",
@@ -6994,7 +7137,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 129,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:37663131",
@@ -7045,7 +7189,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 130,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:37550294",
@@ -7107,7 +7252,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 131,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:36711615",
@@ -7164,7 +7310,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 132,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.32388/f7zfm4",
@@ -7202,7 +7349,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 155,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/1538-7445.am2026-5195",
@@ -7242,7 +7390,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 158,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41608588",
@@ -7294,7 +7443,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 159,
-      "autoresearch_topic": "engineered_T_cell_support_IL12"
+      "autoresearch_topic": "engineered_T_cell_support_IL12",
+      "retrieval_timestamp": null
     }
   ],
   "engineered_T_cell_support_IL2": [
@@ -7339,7 +7489,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 110,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1182/blood-2020-140092",
@@ -7380,7 +7531,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 111,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42164864",
@@ -7433,7 +7585,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 112,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41213188",
@@ -7487,7 +7640,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 113,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41439964",
@@ -7540,7 +7694,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 118,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4210430515",
@@ -7600,7 +7755,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 135,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4210401235",
@@ -7640,7 +7796,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 136,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3213505915",
@@ -7683,7 +7840,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 138,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2903941856",
@@ -7737,7 +7895,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 145,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W1896894041",
@@ -7787,7 +7946,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 149,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41899506",
@@ -7833,7 +7993,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 151,
-      "autoresearch_topic": "engineered_T_cell_support_IL2"
+      "autoresearch_topic": "engineered_T_cell_support_IL2",
+      "retrieval_timestamp": null
     }
   ],
   "engineered_T_cell_support_IL18": [
@@ -7878,7 +8039,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 140,
-      "autoresearch_topic": "engineered_T_cell_support_IL18"
+      "autoresearch_topic": "engineered_T_cell_support_IL18",
+      "retrieval_timestamp": null
     }
   ],
   "review_or_general_CART_cytokine_context": [
@@ -7924,7 +8086,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 161,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3390/cells15060547",
@@ -7968,7 +8131,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 162,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40013750",
@@ -8011,7 +8175,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 165,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42242517",
@@ -8064,7 +8229,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 172,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41819983",
@@ -8103,7 +8269,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 173,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:66392a1eac33250f3ebf6fa5fbfedc5209ec1269",
@@ -8145,7 +8312,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 180,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:ac2f832aa84b4d86007260072665515885622195",
@@ -8186,7 +8354,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 182,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:08fb919f171b41afe1c08a315760c068de9f93bf",
@@ -8224,7 +8393,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 183,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42079652",
@@ -8265,7 +8435,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 184,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41802306",
@@ -8303,7 +8474,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 185,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:9364897cc3ab8aa13a46db5cb253b1ec034a3be8",
@@ -8362,7 +8534,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 191,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:60c2033c6a24e14fdc51ea3c3695380d0803934a",
@@ -8398,7 +8571,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 192,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41403741",
@@ -8441,7 +8615,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 195,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41371271",
@@ -8482,7 +8657,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 196,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:38619641",
@@ -8526,7 +8702,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 201,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:d13420d0374117626a5b22aba9dacb2ecbcb6b74",
@@ -8564,7 +8741,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 204,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2911543360",
@@ -8601,7 +8779,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 207,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2913781203",
@@ -8643,7 +8822,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 208,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42099608",
@@ -8682,7 +8862,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 213,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41905571",
@@ -8718,7 +8899,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 214,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41810431",
@@ -8766,7 +8948,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 215,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41810345",
@@ -8811,7 +8994,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 216,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.33590/emjoncol/tabt3057",
@@ -8847,7 +9031,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 217,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4396227371",
@@ -8886,7 +9071,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 218,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.54097/tr0x5g28",
@@ -8922,7 +9108,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 219,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3137669495",
@@ -8961,7 +9148,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 220,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2947412116",
@@ -8998,7 +9186,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 221,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2396185671",
@@ -9035,7 +9224,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 222,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4416094950",
@@ -9074,7 +9264,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 223,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41320228",
@@ -9131,7 +9322,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 224,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4401519600",
@@ -9171,7 +9363,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 225,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:37813764",
@@ -9216,7 +9409,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 226,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4321457619",
@@ -9259,7 +9453,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 227,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4318465547",
@@ -9305,7 +9500,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 228,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4376615273",
@@ -9346,7 +9542,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 229,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:36875111",
@@ -9384,7 +9581,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 230,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4327981245",
@@ -9426,7 +9624,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 231,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4281961745",
@@ -9466,7 +9665,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 232,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3148729173",
@@ -9503,7 +9703,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 233,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3080714131",
@@ -9544,7 +9745,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 234,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3038790873",
@@ -9590,7 +9792,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 235,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3036012880",
@@ -9630,7 +9833,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 236,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3093225819",
@@ -9674,7 +9878,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 237,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2926407393",
@@ -9711,7 +9916,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 238,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2976192812",
@@ -9754,7 +9960,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 239,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:31753718",
@@ -9796,7 +10003,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 240,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2740938625",
@@ -9835,7 +10043,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 241,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2567664749",
@@ -9874,7 +10083,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 242,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2603665089",
@@ -9916,7 +10126,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 244,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2562017637",
@@ -9959,7 +10170,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 245,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W1555553634",
@@ -9998,7 +10210,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 246,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.70534/quuq3318",
@@ -10045,7 +10258,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 248,
-      "autoresearch_topic": "review_or_general_CART_cytokine_context"
+      "autoresearch_topic": "review_or_general_CART_cytokine_context",
+      "retrieval_timestamp": null
     }
   ],
   "general_T_cell_cytokine_support_multi_cytokine": [
@@ -10095,7 +10309,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 163,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40923846",
@@ -10148,7 +10363,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 164,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39192092",
@@ -10207,7 +10423,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 166,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1182/blood-2021-147405",
@@ -10253,7 +10470,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 167,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3179304775",
@@ -10299,7 +10517,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 168,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/s2666-6367(21)00231-1",
@@ -10348,7 +10567,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 169,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/s2666-6367(21)00240-2",
@@ -10397,7 +10617,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 170,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1136/jitc-2020-sitc2020.0104",
@@ -10440,7 +10661,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 171,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40837601",
@@ -10486,7 +10708,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 174,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39606226",
@@ -10534,7 +10757,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 175,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:39299100",
@@ -10589,7 +10813,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 176,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.jcyt.2026.102615",
@@ -10635,7 +10860,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 177,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/s13238-019-0643-y",
@@ -10679,7 +10905,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 178,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2046512238",
@@ -10726,7 +10953,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 210,
-      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine"
+      "autoresearch_topic": "general_T_cell_cytokine_support_multi_cytokine",
+      "retrieval_timestamp": null
     }
   ],
   "general_T_cell_cytokine_support_IL2": [
@@ -10774,7 +11002,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 179,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41639009",
@@ -10835,7 +11064,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 186,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41536778",
@@ -10887,7 +11117,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 187,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41498261",
@@ -10930,7 +11161,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 188,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41993873",
@@ -10988,7 +11220,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 193,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41410870",
@@ -11034,7 +11267,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 194,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2212773922",
@@ -11079,7 +11313,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 209,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2778172184",
@@ -11127,7 +11362,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 243,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL2"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL2",
+      "retrieval_timestamp": null
     }
   ],
   "general_T_cell_cytokine_support_IL7": [
@@ -11168,7 +11404,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 181,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL7"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL7",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3126425024",
@@ -11212,7 +11449,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 211,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL7"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL7",
+      "retrieval_timestamp": null
     }
   ],
   "general_T_cell_cytokine_support_IL12": [
@@ -11273,7 +11511,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 189,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL12"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3123632399",
@@ -11330,7 +11569,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 205,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL12"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL12",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1136/jitc-2021-sitc2021.153",
@@ -11369,7 +11609,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 212,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL12"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL12",
+      "retrieval_timestamp": null
     }
   ],
   "general_T_cell_cytokine_support_IL15": [
@@ -11417,7 +11658,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 190,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL15"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41455698",
@@ -11463,7 +11705,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 197,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL15"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41098734",
@@ -11517,7 +11760,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 198,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL15"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40707782",
@@ -11574,7 +11818,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 199,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL15"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40537350",
@@ -11614,7 +11859,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 200,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL15"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL15",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3206099201",
@@ -11668,7 +11914,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 206,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL15"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL15",
+      "retrieval_timestamp": null
     }
   ],
   "general_T_cell_cytokine_support_IL18": [
@@ -11724,7 +11971,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 202,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL18"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:35705524",
@@ -11787,7 +12035,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 203,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL18"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL18",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.ymthe.2026.02.039",
@@ -11827,7 +12076,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 247,
-      "autoresearch_topic": "general_T_cell_cytokine_support_IL18"
+      "autoresearch_topic": "general_T_cell_cytokine_support_IL18",
+      "retrieval_timestamp": null
     }
   ],
   "likely_exclude_or_off_topic": [
@@ -11878,7 +12128,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 249,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:26c574046715ef141d48c64b51ca27eaa3a1d305",
@@ -11925,7 +12176,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 250,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42236119",
@@ -11970,7 +12222,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 251,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:f628af233e3304a2dd368b931223388a3e801315",
@@ -12015,7 +12268,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 252,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:74a9aea119579c1b50efaabf031a29c0dc4e7494",
@@ -12063,7 +12317,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 253,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:b52c7b5edd6f682c6e19331bf91bc1fe3fc92b2d",
@@ -12110,7 +12365,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 254,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:92bd2b83900d8147aab5df21cfd4d0198171dc31",
@@ -12150,7 +12406,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 255,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2999310669",
@@ -12189,7 +12446,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 256,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2042541303",
@@ -12240,7 +12498,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 257,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4220882995",
@@ -12344,7 +12603,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 259,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1136/jitc-2021-sitc2021.111",
@@ -12385,7 +12645,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 260,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41297423",
@@ -12427,7 +12688,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 265,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1101/2023.10.02.560460",
@@ -12467,7 +12729,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 271,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41859101",
@@ -12513,7 +12776,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 275,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41846913",
@@ -12558,7 +12822,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 276,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41564177",
@@ -12610,7 +12875,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 277,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42137288",
@@ -12669,7 +12935,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 278,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41915242",
@@ -12721,7 +12988,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 279,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41756431",
@@ -12766,7 +13034,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 280,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:40346805",
@@ -12811,7 +13080,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 284,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4392560879",
@@ -12876,7 +13146,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 285,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:38415653",
@@ -12921,7 +13192,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 286,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4327892664",
@@ -12990,7 +13262,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 287,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3122702917",
@@ -13045,7 +13318,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 288,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2944288721",
@@ -13095,7 +13369,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 289,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2970981785",
@@ -13147,7 +13422,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 290,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2984594015",
@@ -13198,7 +13474,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 291,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2791064759",
@@ -13238,7 +13515,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 292,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2900136343",
@@ -13278,7 +13556,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 293,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2901478468",
@@ -13336,7 +13615,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 294,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3233/978-1-61499-703-0-87",
@@ -13372,7 +13652,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 295,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2513573571",
@@ -13419,7 +13700,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 296,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W925209273",
@@ -13469,7 +13751,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 297,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2077994554",
@@ -13512,7 +13795,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 298,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2008825225",
@@ -13552,7 +13836,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 299,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.58837/chula.taic.3094",
@@ -13588,7 +13873,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 301,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.70675/b61c4a16z586fz4e18zbf98z42532152549e",
@@ -13625,7 +13911,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 302,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.26434/chemrxiv-2024-nt6g8",
@@ -13662,7 +13949,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 303,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1111/imcb.70112",
@@ -13701,7 +13989,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 304,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "semanticscholar:46bafe0918a9e9450bced743d3386f466d0c3528",
@@ -13743,7 +14032,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 307,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1158/2159-8290.cd-rw2024-045",
@@ -13777,7 +14067,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 308,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1200/adn.24.0525.2",
@@ -13811,7 +14102,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 310,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1182/blood.2023019760",
@@ -13845,7 +14137,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 311,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4382989463",
@@ -13899,7 +14192,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 312,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4381661028",
@@ -13989,7 +14283,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 313,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.29011/2574-7754.101535",
@@ -14023,7 +14318,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 314,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.33696/signaling.2.045",
@@ -14057,7 +14353,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 315,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3087645863",
@@ -14100,7 +14397,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 317,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2995900562",
@@ -14138,7 +14436,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 319,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2794160747",
@@ -14188,7 +14487,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 320,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1097/01.cot.0000459133.06776.62",
@@ -14224,7 +14524,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 321,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/s1525-0016(16)34986-3",
@@ -14258,7 +14559,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 322,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.cyto.2008.12.026",
@@ -14294,7 +14596,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 323,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1006/cyto.2000.0706",
@@ -14333,7 +14636,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 325,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1006/cyto.1995.0096",
@@ -14371,7 +14675,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 326,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/1043-4666(94)90296-8",
@@ -14409,7 +14714,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 327,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/1043-4666(89)91418-x",
@@ -14443,7 +14749,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 328,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/0043-1648(68)90358-x",
@@ -14477,7 +14784,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 329,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3171/jns.1958.15.2.0140",
@@ -14513,7 +14821,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 330,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1038/scientificamerican05171902-350a",
@@ -14547,7 +14856,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 331,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.2307/j.ctv6p4t9.30",
@@ -14581,7 +14891,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 332,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3998/mpub.11722857.cmp.23",
@@ -14615,7 +14926,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 333,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-1-4302-0258-5_3",
@@ -14649,7 +14961,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 334,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.62830/mmj1-2-16",
@@ -14683,7 +14996,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 335,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.2139/ssrn.4634355",
@@ -14723,7 +15037,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 337,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41528004",
@@ -14767,7 +15082,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 376,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.63277/gsc.v12i.5109",
@@ -14803,7 +15119,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 377,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42231576",
@@ -14850,7 +15167,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 378,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.30712/e3fa9588",
@@ -14884,7 +15202,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 379,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4406003699",
@@ -14929,7 +15248,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 380,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4394747404",
@@ -14971,7 +15291,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 381,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4400867712",
@@ -15013,7 +15334,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 382,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4388275106",
@@ -15057,7 +15379,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 383,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4381149624",
@@ -15097,7 +15420,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 384,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4388880158",
@@ -15140,7 +15464,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 385,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4210977854",
@@ -15180,7 +15505,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 386,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3012307045",
@@ -15220,7 +15546,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 387,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3044721763",
@@ -15257,7 +15584,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 388,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2890167612",
@@ -15304,7 +15632,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 389,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2774486220",
@@ -15342,7 +15671,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 390,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.29081/jesr.v18i2.224",
@@ -15380,7 +15710,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 391,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2106787323",
@@ -15420,7 +15751,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 392,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2026082697",
@@ -15465,7 +15797,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 393,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1182/blood.2025030952",
@@ -15501,7 +15834,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 394,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.30687/978-88-6969-760-9/000",
@@ -15538,7 +15872,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 395,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4287307650",
@@ -15576,7 +15911,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 396,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3143156272",
@@ -15614,7 +15950,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 397,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3165585845",
@@ -15655,7 +15992,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 398,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3028523516",
@@ -15693,7 +16031,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 399,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3089952857",
@@ -15757,7 +16096,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 400,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-3-319-96806-3_13",
@@ -15797,7 +16137,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 401,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3917/ae.380.0073",
@@ -15834,7 +16175,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 402,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2887418427",
@@ -15873,7 +16215,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 403,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1186/s40929-018-0018-2",
@@ -15910,7 +16253,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 404,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2588908659",
@@ -15954,7 +16298,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 405,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.4324/9781315570846-23",
@@ -15988,7 +16333,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 406,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.4324/9781315570846-6",
@@ -16022,7 +16368,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 407,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.25024/review.2015.18.2.004",
@@ -16058,7 +16405,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 408,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2031580454",
@@ -16107,7 +16455,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 409,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2052279202",
@@ -16157,7 +16506,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 410,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.25024/review.2012.15.2.003",
@@ -16193,7 +16543,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 411,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1134/s1063773711100070",
@@ -16236,7 +16587,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 412,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3724/sp.j.1187.2010.00179",
@@ -16275,7 +16627,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 413,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1093/acref/9780195301731.013.45320",
@@ -16311,7 +16664,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 414,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.applthermaleng.2006.09.004",
@@ -16349,7 +16703,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 415,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1093/acref/9780195301731.013.44825",
@@ -16385,7 +16740,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 416,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/s0014-827x(01)01124-7",
@@ -16423,7 +16779,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 417,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.2307/286687",
@@ -16459,7 +16816,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 418,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/bf02453300",
@@ -16495,7 +16853,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 419,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/bf02453310",
@@ -16531,7 +16890,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 420,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.2307/j.ctv18pgwnj.6",
@@ -16567,7 +16927,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 421,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.64628/aak.wder7sg44",
@@ -16603,7 +16964,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 422,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1163/2468-0303-cohu_31-087",
@@ -16637,7 +16999,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 423,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.14264/0413069",
@@ -16674,7 +17037,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 424,
-      "autoresearch_topic": "likely_exclude_or_off_topic"
+      "autoresearch_topic": "likely_exclude_or_off_topic",
+      "retrieval_timestamp": null
     }
   ],
   "GPC3_HCC_general_background": [
@@ -16720,7 +17084,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 258,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42097197",
@@ -16760,7 +17125,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 262,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41956538",
@@ -16801,7 +17167,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 263,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41888815",
@@ -16847,7 +17214,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 264,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4408551297",
@@ -16892,7 +17260,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 266,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4392162367",
@@ -16937,7 +17306,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 267,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3107786127",
@@ -16977,7 +17347,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 268,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3000870518",
@@ -17021,7 +17392,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 269,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2917676884",
@@ -17074,7 +17446,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 270,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4402762807",
@@ -17111,7 +17484,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 272,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/s40278-023-48391-9",
@@ -17145,7 +17519,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 273,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1117/12.2669678",
@@ -17181,7 +17556,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 274,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42087213",
@@ -17224,7 +17600,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 281,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41655433",
@@ -17270,7 +17647,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 282,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42220492",
@@ -17315,7 +17693,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 340,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42115179",
@@ -17373,7 +17752,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 341,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42114607",
@@ -17417,7 +17797,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 342,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42106688",
@@ -17468,7 +17849,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 343,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42047161",
@@ -17508,7 +17890,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 344,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:42035954",
@@ -17560,7 +17943,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 345,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41905572",
@@ -17601,7 +17985,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 346,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41812035",
@@ -17651,7 +18036,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 347,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41784912",
@@ -17694,7 +18080,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 348,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41673369",
@@ -17733,7 +18120,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 349,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41643403",
@@ -17775,7 +18163,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 350,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W4292553490",
@@ -17812,7 +18201,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 351,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.5772/intechopen.100257",
@@ -17848,7 +18238,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 352,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3164582693",
@@ -17887,7 +18278,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 353,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2973068330",
@@ -17926,7 +18318,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 354,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2954476990",
@@ -17963,7 +18356,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 355,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2625856057",
@@ -18019,7 +18413,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 356,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2570780322",
@@ -18057,7 +18452,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 357,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W2917837889",
@@ -18098,7 +18494,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 358,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W1971837077",
@@ -18157,7 +18554,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 359,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.32388/6y9vow",
@@ -18193,7 +18591,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 360,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1002/eji.201948457/v1/review1",
@@ -18227,7 +18626,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 361,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1002/eji.201948457/v1/review2",
@@ -18261,7 +18661,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 362,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1002/eji.201948457/v2/review1",
@@ -18295,7 +18696,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 363,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3791/57588",
@@ -18337,7 +18739,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 364,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.3791/57588-v",
@@ -18379,7 +18782,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 365,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-3-319-34214-6_35",
@@ -18415,7 +18819,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 366,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.5772/29781",
@@ -18451,7 +18856,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 367,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.5772/28626",
@@ -18490,7 +18896,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 368,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-1-60327-522-4_21",
@@ -18527,7 +18934,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 369,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-1-60327-522-4_23",
@@ -18564,7 +18972,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 370,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-1-60327-522-4_24",
@@ -18601,7 +19010,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 371,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-1-60327-522-4_5",
@@ -18638,7 +19048,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 372,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-1-60327-376-3_23",
@@ -18674,7 +19085,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 373,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-1-60327-376-3_4",
@@ -18710,7 +19122,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 374,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-4-431-53977-3_8",
@@ -18746,7 +19159,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 375,
-      "autoresearch_topic": "GPC3_HCC_general_background"
+      "autoresearch_topic": "GPC3_HCC_general_background",
+      "retrieval_timestamp": null
     }
   ],
   "cytokine_general_low_priority": [
@@ -18784,7 +19198,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 261,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "pmid:41333460",
@@ -18851,7 +19266,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 283,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1084/jem.181.5.1893",
@@ -18897,7 +19313,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 300,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.jcyt.2026.102588",
@@ -18939,7 +19356,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 305,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.jcyt.2026.102714",
@@ -18984,7 +19402,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 306,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.jcyt.2024.03.015",
@@ -19029,7 +19448,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 309,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "https://openalex.org/W3114668559",
@@ -19071,7 +19491,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 316,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/978-3-030-39903-0_26",
@@ -19109,7 +19530,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 318,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1016/j.fertnstert.2008.07.1570",
@@ -19152,7 +19574,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 324,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     },
     {
       "paper_id": "doi:10.1007/springerreference_32470",
@@ -19188,7 +19611,8 @@
         "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
       },
       "rank": 336,
-      "autoresearch_topic": "cytokine_general_low_priority"
+      "autoresearch_topic": "cytokine_general_low_priority",
+      "retrieval_timestamp": null
     }
   ]
 }

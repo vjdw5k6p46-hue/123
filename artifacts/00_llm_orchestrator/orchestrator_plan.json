@@ -23,7 +23,10 @@
   "orchestrator_dispatch": {
     "duration_seconds": 8.74,
     "status": "completed",
-    "detail": "Orchestrator emitted the 7-stage schedule, then dispatched stages as dependencies resolved."
+    "detail": "Orchestrator emitted the 7-stage schedule, then dispatched stages as dependencies resolved.",
+    "scheduled_at": null,
+    "started_at": null,
+    "completed_at": null
   },
   "wall_clock_seconds": 4857.06,
   "stages": [
@@ -37,7 +40,10 @@
         "duration_seconds": 6.411191,
         "status": "completed",
         "attempt": 1,
-        "retries": 0
+        "retries": 0,
+        "scheduled_at": null,
+        "started_at": null,
+        "completed_at": null
       },
       "dispatched_llm_call_id": "research_goal_parser_agent-25bd47735af0",
       "model": "gpt-4o-mini",
@@ -52,30 +58,37 @@
       "events": [
         {
           "event": "scheduled",
-          "detail": "dependencies for step 1 resolved"
+          "detail": "dependencies for step 1 resolved",
+          "t": null
         },
         {
-          "event": "inputs_ready"
+          "event": "inputs_ready",
+          "t": null
         },
         {
           "event": "dispatch",
-          "target": "research_goal_parser_agent"
+          "target": "research_goal_parser_agent",
+          "t": null
         },
         {
           "event": "llm_request_sent",
           "call_id": "research_goal_parser_agent-25bd47735af0",
-          "model": "gpt-4o-mini"
+          "model": "gpt-4o-mini",
+          "t": null
         },
         {
           "event": "llm_response_received",
-          "call_id": "research_goal_parser_agent-25bd47735af0"
+          "call_id": "research_goal_parser_agent-25bd47735af0",
+          "t": null
         },
         {
           "event": "schema_validated",
-          "validation_status": "passed"
+          "validation_status": "passed",
+          "t": null
         },
         {
-          "event": "completed"
+          "event": "completed",
+          "t": null
         }
       ]
     },
@@ -91,7 +104,10 @@
         "duration_seconds": 124.53,
         "status": "completed",
         "attempt": 1,
-        "retries": 0
+        "retries": 0,
+        "scheduled_at": null,
+        "started_at": null,
+        "completed_at": null
       },
       "dispatched_llm_call_id": null,
       "model": null,
@@ -106,20 +122,25 @@
       "events": [
         {
           "event": "scheduled",
-          "detail": "dependencies for step 2 resolved"
+          "detail": "dependencies for step 2 resolved",
+          "t": null
         },
         {
-          "event": "inputs_ready"
+          "event": "inputs_ready",
+          "t": null
         },
         {
           "event": "dispatch",
-          "target": "deterministic_component"
+          "target": "deterministic_component",
+          "t": null
         },
         {
-          "event": "deterministic_step_completed"
+          "event": "deterministic_step_completed",
+          "t": null
         },
         {
-          "event": "completed"
+          "event": "completed",
+          "t": null
         }
       ]
     },
@@ -135,7 +156,10 @@
         "duration_seconds": 9.387432,
         "status": "completed",
         "attempt": 1,
-        "retries": 0
+        "retries": 0,
+        "scheduled_at": null,
+        "started_at": null,
+        "completed_at": null
       },
       "dispatched_llm_call_id": "hypothesis_generation_agent-4906b0050d7d",
       "model": "gpt-4o-mini",
@@ -150,30 +174,37 @@
       "events": [
         {
           "event": "scheduled",
-          "detail": "dependencies for step 3 resolved"
+          "detail": "dependencies for step 3 resolved",
+          "t": null
         },
         {
-          "event": "inputs_ready"
+          "event": "inputs_ready",
+          "t": null
         },
         {
           "event": "dispatch",
-          "target": "hypothesis_generation_agent"
+          "target": "hypothesis_generation_agent",
+          "t": null
         },
         {
           "event": "llm_request_sent",
           "call_id": "hypothesis_generation_agent-4906b0050d7d",
-          "model": "gpt-4o-mini"
+          "model": "gpt-4o-mini",
+          "t": null
         },
         {
           "event": "llm_response_received",
-          "call_id": "hypothesis_generation_agent-4906b0050d7d"
+          "call_id": "hypothesis_generation_agent-4906b0050d7d",
+          "t": null
         },
         {
           "event": "schema_validated",
-          "validation_status": "passed"
+          "validation_status": "passed",
+          "t": null
         },
         {
-          "event": "completed"
+          "event": "completed",
+          "t": null
         }
       ]
     },
@@ -189,7 +220,10 @@
         "duration_seconds": 12.693,
         "status": "completed",
         "attempt": 1,
-        "retries": 0
+        "retries": 0,
+        "scheduled_at": null,
+        "started_at": null,
+        "completed_at": null
       },
       "dispatched_llm_call_id": "autoresearch_reasoning_0b0c61a393b0edf4",
       "model": "gpt-4o-mini",
@@ -204,30 +238,37 @@
       "events": [
         {
           "event": "scheduled",
-          "detail": "dependencies for step 4 resolved"
+          "detail": "dependencies for step 4 resolved",
+          "t": null
         },
         {
-          "event": "inputs_ready"
+          "event": "inputs_ready",
+          "t": null
         },
         {
           "event": "dispatch",
-          "target": "autoresearch_reasoning_agent"
+          "target": "autoresearch_reasoning_agent",
+          "t": null
         },
         {
           "event": "llm_request_sent",
           "call_id": "autoresearch_reasoning_0b0c61a393b0edf4",
-          "model": "gpt-4o-mini"
+          "model": "gpt-4o-mini",
+          "t": null
         },
         {
           "event": "llm_response_received",
-          "call_id": "autoresearch_reasoning_0b0c61a393b0edf4"
+          "call_id": "autoresearch_reasoning_0b0c61a393b0edf4",
+          "t": null
         },
         {
           "event": "schema_validated",
-          "validation_status": "passed"
+          "validation_status": "passed",
+          "t": null
         },
         {
-          "event": "completed"
+          "event": "completed",
+          "t": null
         }
       ]
     },
@@ -243,7 +284,10 @@
         "duration_seconds": 3.12,
         "status": "completed",
         "attempt": 1,
-        "retries": 0
+        "retries": 0,
+        "scheduled_at": null,
+        "started_at": null,
+        "completed_at": null
       },
       "dispatched_llm_call_id": null,
       "model": null,
@@ -261,20 +305,25 @@
       "events": [
         {
           "event": "scheduled",
-          "detail": "dependencies for step 5 resolved"
+          "detail": "dependencies for step 5 resolved",
+          "t": null
         },
         {
-          "event": "inputs_ready"
+          "event": "inputs_ready",
+          "t": null
         },
         {
           "event": "dispatch",
-          "target": "deterministic_component"
+          "target": "deterministic_component",
+          "t": null
         },
         {
-          "event": "deterministic_step_completed"
+          "event": "deterministic_step_completed",
+          "t": null
         },
         {
-          "event": "completed"
+          "event": "completed",
+          "t": null
         }
       ]
     },
@@ -290,7 +339,10 @@
         "duration_seconds": 2658.002,
         "status": "completed",
         "attempt": 1,
-        "retries": 0
+        "retries": 0,
+        "scheduled_at": null,
+        "started_at": null,
+        "completed_at": null
       },
       "dispatched_llm_call_id": "simulation_refinement_847c55a2b846dc61",
       "model": "gpt-4o-mini",
@@ -309,38 +361,47 @@
       "events": [
         {
           "event": "scheduled",
-          "detail": "dependencies for step 6 resolved"
+          "detail": "dependencies for step 6 resolved",
+          "t": null
         },
         {
-          "event": "inputs_ready"
+          "event": "inputs_ready",
+          "t": null
         },
         {
           "event": "dispatch",
-          "target": "simulation_refinement_agent plus deterministic PhysiCell run summaries"
+          "target": "simulation_refinement_agent plus deterministic PhysiCell run summaries",
+          "t": null
         },
         {
           "event": "physicell_round1_dispatched",
-          "detail": "5 cytokine arms x 3 replicates (pre-refine)"
+          "detail": "5 cytokine arms x 3 replicates (pre-refine)",
+          "t": null
         },
         {
-          "event": "physicell_round1_completed"
+          "event": "physicell_round1_completed",
+          "t": null
         },
         {
           "event": "llm_request_sent",
           "call_id": "simulation_refinement_847c55a2b846dc61",
           "model": "gpt-4o-mini",
-          "detail": "refinement on round1 summaries"
+          "detail": "refinement on round1 summaries",
+          "t": null
         },
         {
           "event": "llm_response_received",
-          "call_id": "simulation_refinement_847c55a2b846dc61"
+          "call_id": "simulation_refinement_847c55a2b846dc61",
+          "t": null
         },
         {
           "event": "schema_validated",
-          "validation_status": "passed"
+          "validation_status": "passed",
+          "t": null
         },
         {
-          "event": "completed"
+          "event": "completed",
+          "t": null
         }
       ]
     },
@@ -356,7 +417,10 @@
         "duration_seconds": 5.06,
         "status": "completed",
         "attempt": 1,
-        "retries": 0
+        "retries": 0,
+        "scheduled_at": null,
+        "started_at": null,
+        "completed_at": null
       },
       "dispatched_llm_call_id": null,
       "model": null,
@@ -372,20 +436,25 @@
       "events": [
         {
           "event": "scheduled",
-          "detail": "dependencies for step 7 resolved"
+          "detail": "dependencies for step 7 resolved",
+          "t": null
         },
         {
-          "event": "inputs_ready"
+          "event": "inputs_ready",
+          "t": null
         },
         {
           "event": "dispatch",
-          "target": "deterministic_component"
+          "target": "deterministic_component",
+          "t": null
         },
         {
-          "event": "deterministic_step_completed"
+          "event": "deterministic_step_completed",
+          "t": null
         },
         {
-          "event": "completed"
+          "event": "completed",
+          "t": null
         }
       ]
     }
@@ -413,5 +482,7 @@
     "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
     "Timestamps reflect runtime scheduling; stage 4 and stage 6 align with this run's recorded llm_calls.",
     "Scripted/deterministic stages are dispatched without an LLM call."
-  ]
+  ],
+  "started_at": null,
+  "completed_at": null
 }

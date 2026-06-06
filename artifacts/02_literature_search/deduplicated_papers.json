@@ -44,7 +44,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 253
+    "rank": 253,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:6d9800eb8149847e32c77955aa5fc772b58d4fcf",
@@ -114,7 +115,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 39
+    "rank": 39,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:26c574046715ef141d48c64b51ca27eaa3a1d305",
@@ -160,7 +162,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 250
+    "rank": 250,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:1dbccbe4b8ce0d3ac46208722370ca48cb6b3731",
@@ -227,7 +230,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 40
+    "rank": 40,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:9d72885a50375bd70c234856d001f76ead289439",
@@ -276,7 +280,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 92
+    "rank": 92,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:c858d4b6f9e87d5e141765982c18443ed486f0ee",
@@ -321,7 +326,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 14
+    "rank": 14,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:d8c515f5149ca7b4e91cdb7cffa789e8d4d04f05",
@@ -364,7 +370,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 25
+    "rank": 25,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:e9d539cbc1a4ebcdd10de1398175301cd8bb58cb",
@@ -409,7 +416,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 84
+    "rank": 84,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:ac2f832aa84b4d86007260072665515885622195",
@@ -449,7 +457,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 182
+    "rank": 182,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:cf19ebd9161becc3759de3196d1751259b9c3f47",
@@ -494,7 +503,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 27
+    "rank": 27,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:1506426b631219b5df8a76ceee1c2f11c53010c2",
@@ -548,7 +558,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 9
+    "rank": 9,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:b52c7b5edd6f682c6e19331bf91bc1fe3fc92b2d",
@@ -594,7 +605,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 254
+    "rank": 254,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:0221d2fcf8e2d224956fa8a47680202afa08a1c4",
@@ -642,7 +654,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 28
+    "rank": 28,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:9364897cc3ab8aa13a46db5cb253b1ec034a3be8",
@@ -700,7 +713,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 191
+    "rank": 191,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:0a570bf7bb62f5c9f1c47e10c3e677ae80af8763",
@@ -751,7 +765,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 6
+    "rank": 6,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:b436c14d8c6c956d4d38d66e45dc02abfd34a388",
@@ -819,7 +834,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 41
+    "rank": 41,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:08fb919f171b41afe1c08a315760c068de9f93bf",
@@ -856,7 +872,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 183
+    "rank": 183,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:46bafe0918a9e9450bced743d3386f466d0c3528",
@@ -897,7 +914,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 307
+    "rank": 307,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:92bd2b83900d8147aab5df21cfd4d0198171dc31",
@@ -936,7 +954,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 255
+    "rank": 255,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:4665138a15e0eceaf1b371134d6e358c47f40e9b",
@@ -975,7 +994,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 29
+    "rank": 29,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:d13420d0374117626a5b22aba9dacb2ecbcb6b74",
@@ -1012,7 +1032,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 204
+    "rank": 204,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:f628af233e3304a2dd368b931223388a3e801315",
@@ -1056,7 +1077,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 252
+    "rank": 252,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:66392a1eac33250f3ebf6fa5fbfedc5209ec1269",
@@ -1097,7 +1119,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 180
+    "rank": 180,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:2ce027484f4cff9f8195c416939f1eb9e0ec42de",
@@ -1153,7 +1176,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 56
+    "rank": 56,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "semanticscholar:60c2033c6a24e14fdc51ea3c3695380d0803934a",
@@ -1188,7 +1212,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 192
+    "rank": 192,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3028523516",
@@ -1225,7 +1250,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 399
+    "rank": 399,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3148729173",
@@ -1261,7 +1287,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 233
+    "rank": 233,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2926407393",
@@ -1297,7 +1324,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 238
+    "rank": 238,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2995900562",
@@ -1334,7 +1362,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 319
+    "rank": 319,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3143156272",
@@ -1371,7 +1400,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 397
+    "rank": 397,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2911543360",
@@ -1407,7 +1437,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 207
+    "rank": 207,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4321457619",
@@ -1449,7 +1480,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 227
+    "rank": 227,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3080714131",
@@ -1489,7 +1521,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 234
+    "rank": 234,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4318465547",
@@ -1534,7 +1567,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 228
+    "rank": 228,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3165585845",
@@ -1574,7 +1608,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 398
+    "rank": 398,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W1555553634",
@@ -1612,7 +1647,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 246
+    "rank": 246,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2976192812",
@@ -1654,7 +1690,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 239
+    "rank": 239,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4287307650",
@@ -1691,7 +1728,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 396
+    "rank": 396,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3038790873",
@@ -1736,7 +1774,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 235
+    "rank": 235,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2791064759",
@@ -1775,7 +1814,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 292
+    "rank": 292,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3214282732",
@@ -1824,7 +1864,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 19
+    "rank": 19,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2900136343",
@@ -1863,7 +1904,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 293
+    "rank": 293,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4401519600",
@@ -1902,7 +1944,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 225
+    "rank": 225,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2740938625",
@@ -1940,7 +1983,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 241
+    "rank": 241,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4220882995",
@@ -2043,7 +2087,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 259
+    "rank": 259,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4281961745",
@@ -2082,7 +2127,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 232
+    "rank": 232,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4394747404",
@@ -2123,7 +2169,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 381
+    "rank": 381,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4376615273",
@@ -2163,7 +2210,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 229
+    "rank": 229,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3036012880",
@@ -2202,7 +2250,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 236
+    "rank": 236,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3123632399",
@@ -2258,7 +2307,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 205
+    "rank": 205,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.2307/j.ctv6p4t9.30",
@@ -2291,7 +2341,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 332
+    "rank": 332,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3998/mpub.11722857.cmp.23",
@@ -2324,7 +2375,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 333
+    "rank": 333,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-1-4302-0258-5_3",
@@ -2357,7 +2409,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 334
+    "rank": 334,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.33696/signaling.2.045",
@@ -2390,7 +2443,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 315
+    "rank": 315,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1136/jitc-2021-sitc2021.111",
@@ -2430,7 +2484,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 260
+    "rank": 260,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1111/imcb.70112",
@@ -2468,7 +2523,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 304
+    "rank": 304,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood.2023019760",
@@ -2501,7 +2557,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 311
+    "rank": 311,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.58837/chula.taic.3094",
@@ -2536,7 +2593,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 301
+    "rank": 301,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/1043-4666(89)91418-x",
@@ -2569,7 +2627,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 328
+    "rank": 328,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood-2025-3707",
@@ -2612,7 +2671,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 42
+    "rank": 42,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1038/scientificamerican05171902-350a",
@@ -2645,7 +2705,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 331
+    "rank": 331,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3233/978-1-61499-703-0-87",
@@ -2680,7 +2741,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 295
+    "rank": 295,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/1043-4666(91)90277-k",
@@ -2715,7 +2777,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 261
+    "rank": 261,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/1043-4666(94)90296-8",
@@ -2752,7 +2815,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 327
+    "rank": 327,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.62830/mmj1-2-16",
@@ -2785,7 +2849,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 335
+    "rank": 335,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood-2025-4104",
@@ -2832,7 +2897,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 43
+    "rank": 43,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3724/sp.j.1187.2010.00179",
@@ -2870,7 +2936,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 413
+    "rank": 413,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1006/cyto.2000.0706",
@@ -2908,7 +2975,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 325
+    "rank": 325,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1006/cyto.1995.0096",
@@ -2945,7 +3013,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 326
+    "rank": 326,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1097/01.cot.0000459133.06776.62",
@@ -2980,7 +3049,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 321
+    "rank": 321,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.cyto.2008.12.026",
@@ -3015,7 +3085,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 323
+    "rank": 323,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42236119",
@@ -3059,7 +3130,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 251
+    "rank": 251,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42164864",
@@ -3111,7 +3183,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 112
+    "rank": 112,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42079652",
@@ -3151,7 +3224,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 184
+    "rank": 184,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41993873",
@@ -3208,7 +3282,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 193
+    "rank": 193,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41899506",
@@ -3253,7 +3328,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 151
+    "rank": 151,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41892338",
@@ -3296,7 +3372,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 161
+    "rank": 161,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41859101",
@@ -3341,7 +3418,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 275
+    "rank": 275,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41855715",
@@ -3383,7 +3461,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 89
+    "rank": 89,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41846913",
@@ -3427,7 +3506,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 276
+    "rank": 276,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41802306",
@@ -3464,7 +3544,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 185
+    "rank": 185,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41785602",
@@ -3511,7 +3592,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 10
+    "rank": 10,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41639009",
@@ -3571,7 +3653,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 186
+    "rank": 186,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41593208",
@@ -3616,7 +3699,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 179
+    "rank": 179,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41564177",
@@ -3667,7 +3751,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 277
+    "rank": 277,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41536778",
@@ -3718,7 +3803,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 187
+    "rank": 187,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41528004",
@@ -3761,7 +3847,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 376
+    "rank": 376,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41498261",
@@ -3803,7 +3890,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 188
+    "rank": 188,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41439964",
@@ -3855,7 +3943,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 118
+    "rank": 118,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41410870",
@@ -3900,7 +3989,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 194
+    "rank": 194,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41403741",
@@ -3942,7 +4032,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 195
+    "rank": 195,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41371271",
@@ -3982,7 +4073,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 196
+    "rank": 196,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41333460",
@@ -4048,7 +4140,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 283
+    "rank": 283,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41320228",
@@ -4104,7 +4197,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 224
+    "rank": 224,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41297423",
@@ -4145,7 +4239,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 265
+    "rank": 265,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41213188",
@@ -4198,7 +4293,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 113
+    "rank": 113,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2901478468",
@@ -4255,7 +4351,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 294
+    "rank": 294,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3183435229",
@@ -4328,7 +4425,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 20
+    "rank": 20,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4392560879",
@@ -4392,7 +4490,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 285
+    "rank": 285,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2917127842",
@@ -4454,7 +4553,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 143
+    "rank": 143,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2017639055",
@@ -4500,7 +4600,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 22
+    "rank": 22,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2794160747",
@@ -4549,7 +4650,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 320
+    "rank": 320,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2567664749",
@@ -4587,7 +4689,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 242
+    "rank": 242,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2077994554",
@@ -4629,7 +4732,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 298
+    "rank": 298,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2052279202",
@@ -4678,7 +4782,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 410
+    "rank": 410,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3213505915",
@@ -4720,7 +4825,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 138
+    "rank": 138,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2778172184",
@@ -4767,7 +4873,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 243
+    "rank": 243,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4382989463",
@@ -4820,7 +4927,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 312
+    "rank": 312,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2513573571",
@@ -4866,7 +4974,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 296
+    "rank": 296,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W1971746066",
@@ -4907,7 +5016,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 150
+    "rank": 150,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4405047283",
@@ -4962,7 +5072,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 13
+    "rank": 13,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4381661028",
@@ -5051,7 +5162,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 313
+    "rank": 313,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2913781203",
@@ -5092,7 +5204,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 208
+    "rank": 208,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2944288721",
@@ -5141,7 +5254,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 289
+    "rank": 289,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3206099201",
@@ -5194,7 +5308,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 206
+    "rank": 206,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2970981785",
@@ -5245,7 +5360,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 290
+    "rank": 290,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2212773922",
@@ -5289,7 +5405,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 209
+    "rank": 209,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4210430515",
@@ -5348,7 +5465,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 135
+    "rank": 135,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4210401235",
@@ -5387,7 +5505,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 136
+    "rank": 136,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3042970555",
@@ -5435,7 +5554,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 78
+    "rank": 78,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W1896894041",
@@ -5484,7 +5604,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 149
+    "rank": 149,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.64628/aak.wder7sg44",
@@ -5519,7 +5640,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 422
+    "rank": 422,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.32388/f7zfm4",
@@ -5556,7 +5678,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 155
+    "rank": 155,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood-2021-146882",
@@ -5603,7 +5726,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 4
+    "rank": 4,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.32388/ohva3w",
@@ -5640,7 +5764,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 83
+    "rank": 83,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1093/acref/9780195301731.013.44825",
@@ -5675,7 +5800,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 416
+    "rank": 416,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.70675/b61c4a16z586fz4e18zbf98z42532152549e",
@@ -5711,7 +5837,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 302
+    "rank": 302,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1163/2468-0303-cohu_31-087",
@@ -5744,7 +5871,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 423
+    "rank": 423,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.26434/chemrxiv-2024-nt6g8",
@@ -5780,7 +5908,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 303
+    "rank": 303,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1093/acref/9780195301731.013.45320",
@@ -5815,7 +5944,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 414
+    "rank": 414,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.4324/9781315570846-23",
@@ -5848,7 +5978,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 406
+    "rank": 406,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3917/ae.380.0073",
@@ -5884,7 +6015,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 402
+    "rank": 402,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/2159-8290.cd-rw2024-045",
@@ -5917,7 +6049,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 308
+    "rank": 308,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/2326-6074.tumimm18-a31",
@@ -5956,7 +6089,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 30
+    "rank": 30,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood-2021-147405",
@@ -6001,7 +6135,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 167
+    "rank": 167,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1134/s1063773711100070",
@@ -6043,7 +6178,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 412
+    "rank": 412,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.2139/ssrn.6760526",
@@ -6084,7 +6220,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 23
+    "rank": 23,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.2307/j.ctv18pgwnj.6",
@@ -6119,7 +6256,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 421
+    "rank": 421,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3171/jns.1958.15.2.0140",
@@ -6154,7 +6292,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 330
+    "rank": 330,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.29011/2574-7754.101535",
@@ -6187,7 +6326,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 314
+    "rank": 314,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1136/jitc-2020-sitc2020.0104",
@@ -6229,7 +6369,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 171
+    "rank": 171,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-3-319-96806-3_13",
@@ -6268,7 +6409,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 401
+    "rank": 401,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/1538-7445.am2012-3501",
@@ -6309,7 +6451,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 31
+    "rank": 31,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.30687/978-88-6969-760-9/000",
@@ -6345,7 +6488,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 395
+    "rank": 395,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.jcyt.2024.03.015",
@@ -6389,7 +6533,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 309
+    "rank": 309,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.63277/gsc.v12i.5109",
@@ -6424,7 +6569,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 377
+    "rank": 377,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42242517",
@@ -6476,7 +6622,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 172
+    "rank": 172,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42137288",
@@ -6534,7 +6681,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 278
+    "rank": 278,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41803093",
@@ -6587,7 +6735,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 32
+    "rank": 32,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41450878",
@@ -6630,7 +6779,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 119
+    "rank": 119,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41030086",
@@ -6677,7 +6827,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 163
+    "rank": 163,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40923846",
@@ -6729,7 +6880,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 164
+    "rank": 164,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40837601",
@@ -6774,7 +6926,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 174
+    "rank": 174,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40808942",
@@ -6817,7 +6970,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 102
+    "rank": 102,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40667190",
@@ -6860,7 +7014,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 103
+    "rank": 103,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40013750",
@@ -6902,7 +7057,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 165
+    "rank": 165,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39952598",
@@ -6947,7 +7103,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 44
+    "rank": 44,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39776916",
@@ -6994,7 +7151,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 57
+    "rank": 57,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39450160",
@@ -7040,7 +7198,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 58
+    "rank": 58,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39443955",
@@ -7087,7 +7246,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 59
+    "rank": 59,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39240078",
@@ -7131,7 +7291,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 125
+    "rank": 125,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39192092",
@@ -7189,7 +7350,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 166
+    "rank": 166,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39186002",
@@ -7240,7 +7402,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 60
+    "rank": 60,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39093440",
@@ -7288,7 +7451,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 61
+    "rank": 61,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39043602",
@@ -7332,7 +7496,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 85
+    "rank": 85,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:38670095",
@@ -7380,7 +7545,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 126
+    "rank": 126,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:38619641",
@@ -7423,7 +7589,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 201
+    "rank": 201,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:38415653",
@@ -7467,7 +7634,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 286
+    "rank": 286,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4286472005",
@@ -7511,7 +7679,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 72
+    "rank": 72,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3133622847",
@@ -7564,7 +7733,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 75
+    "rank": 75,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3126425024",
@@ -7607,7 +7777,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 211
+    "rank": 211,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2562017637",
@@ -7649,7 +7820,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 245
+    "rank": 245,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2026082697",
@@ -7693,7 +7865,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 393
+    "rank": 393,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3179304775",
@@ -7738,7 +7911,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 168
+    "rank": 168,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2999310669",
@@ -7776,7 +7950,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 256
+    "rank": 256,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4405047375",
@@ -7817,7 +7992,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 62
+    "rank": 62,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4234319381",
@@ -7864,7 +8040,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 81
+    "rank": 81,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3208320308",
@@ -7916,7 +8093,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 21
+    "rank": 21,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2042541303",
@@ -7966,7 +8144,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 257
+    "rank": 257,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3094069172",
@@ -8010,7 +8189,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 86
+    "rank": 86,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2008825225",
@@ -8049,7 +8229,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 299
+    "rank": 299,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3186849074",
@@ -8094,7 +8275,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 1
+    "rank": 1,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4387765016",
@@ -8139,7 +8321,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 98
+    "rank": 98,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4310487383",
@@ -8190,7 +8373,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 15
+    "rank": 15,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2984441016",
@@ -8235,7 +8419,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 144
+    "rank": 144,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2984594015",
@@ -8285,7 +8470,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 291
+    "rank": 291,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41935032",
@@ -8328,7 +8514,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 114
+    "rank": 114,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41876135",
@@ -8382,7 +8569,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 33
+    "rank": 33,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41720163",
@@ -8440,7 +8628,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 189
+    "rank": 189,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41608588",
@@ -8491,7 +8680,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 159
+    "rank": 159,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41576929",
@@ -8548,7 +8738,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 34
+    "rank": 34,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41576928",
@@ -8596,7 +8787,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 249
+    "rank": 249,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41355605",
@@ -8641,7 +8833,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 115
+    "rank": 115,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40906384",
@@ -8688,7 +8881,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 45
+    "rank": 45,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40855348",
@@ -8742,7 +8936,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 46
+    "rank": 46,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40404208",
@@ -8790,7 +8985,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 120
+    "rank": 120,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39751840",
@@ -8835,7 +9031,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 47
+    "rank": 47,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39624055",
@@ -8880,7 +9077,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 127
+    "rank": 127,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39606226",
@@ -8927,7 +9125,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 175
+    "rank": 175,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39299100",
@@ -8981,7 +9180,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 176
+    "rank": 176,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:38641176",
@@ -9028,7 +9228,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 63
+    "rank": 63,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:37851569",
@@ -9085,7 +9286,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 129
+    "rank": 129,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:37663131",
@@ -9135,7 +9337,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 130
+    "rank": 130,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:37660142",
@@ -9186,7 +9389,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 67
+    "rank": 67,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:37550294",
@@ -9247,7 +9451,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 131
+    "rank": 131,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:37045815",
@@ -9300,7 +9505,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 68
+    "rank": 68,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:36711615",
@@ -9356,7 +9562,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 132
+    "rank": 132,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:36479116",
@@ -9407,7 +9614,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 16
+    "rank": 16,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:36463361",
@@ -9448,7 +9656,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 73
+    "rank": 73,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:36353540",
@@ -9502,7 +9711,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 107
+    "rank": 107,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/1538-7445.am2022-588",
@@ -9541,7 +9751,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 108
+    "rank": 108,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/s0014-827x(01)01124-7",
@@ -9578,7 +9789,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 417
+    "rank": 417,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/1538-7445.am2026-5195",
@@ -9617,7 +9829,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 158
+    "rank": 158,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1084/jem.181.5.1893",
@@ -9662,7 +9875,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 300
+    "rank": 300,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/0043-1648(68)90358-x",
@@ -9695,7 +9909,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 329
+    "rank": 329,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/bf02453300",
@@ -9730,7 +9945,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 419
+    "rank": 419,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.jcyt.2026.102615",
@@ -9775,7 +9991,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 177
+    "rank": 177,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/bf02453310",
@@ -9810,7 +10027,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 420
+    "rank": 420,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1136/jitc-2021-sitc2021.153",
@@ -9848,7 +10066,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 212
+    "rank": 212,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41996826",
@@ -9887,7 +10106,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 35
+    "rank": 35,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41936184",
@@ -9932,7 +10152,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 190
+    "rank": 190,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41915242",
@@ -9983,7 +10204,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 279
+    "rank": 279,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41860794",
@@ -10031,7 +10253,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 36
+    "rank": 36,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41826286",
@@ -10081,7 +10304,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 100
+    "rank": 100,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41821313",
@@ -10132,7 +10356,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 116
+    "rank": 116,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41455698",
@@ -10177,7 +10402,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 197
+    "rank": 197,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41453427",
@@ -10224,7 +10450,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 37
+    "rank": 37,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41346590",
@@ -10266,7 +10493,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 48
+    "rank": 48,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41137936",
@@ -10313,7 +10541,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 121
+    "rank": 121,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41098734",
@@ -10366,7 +10595,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 198
+    "rank": 198,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40707782",
@@ -10422,7 +10652,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 199
+    "rank": 199,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40660312",
@@ -10482,7 +10713,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 122
+    "rank": 122,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40625735",
@@ -10530,7 +10762,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 49
+    "rank": 49,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40569285",
@@ -10582,7 +10815,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 12
+    "rank": 12,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40537350",
@@ -10621,7 +10855,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 200
+    "rank": 200,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40523481",
@@ -10661,7 +10896,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 50
+    "rank": 50,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40474210",
@@ -10706,7 +10942,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 104
+    "rank": 104,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40346805",
@@ -10750,7 +10987,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 284
+    "rank": 284,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3212871396",
@@ -10805,7 +11043,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 139
+    "rank": 139,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4283762571",
@@ -10851,7 +11090,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 17
+    "rank": 17,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W925209273",
@@ -10900,7 +11140,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 297
+    "rank": 297,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3118588243",
@@ -10954,7 +11195,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 76
+    "rank": 76,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2031580454",
@@ -11002,7 +11244,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 409
+    "rank": 409,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2946233185",
@@ -11046,7 +11289,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 95
+    "rank": 95,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3114668559",
@@ -11087,7 +11331,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 316
+    "rank": 316,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3027131407",
@@ -11135,7 +11380,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 93
+    "rank": 93,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4324139688",
@@ -11192,7 +11438,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 133
+    "rank": 133,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4297380470",
@@ -11239,7 +11486,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 18
+    "rank": 18,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4387058889",
@@ -11289,7 +11537,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 69
+    "rank": 69,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2887418427",
@@ -11327,7 +11576,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 403
+    "rank": 403,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3022890693",
@@ -11369,7 +11619,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 79
+    "rank": 79,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2396185671",
@@ -11405,7 +11656,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 222
+    "rank": 222,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3087645863",
@@ -11447,7 +11699,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 317
+    "rank": 317,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4393577391",
@@ -11490,7 +11743,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 64
+    "rank": 64,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.21203/rs.3.rs-1600377/v1",
@@ -11538,7 +11792,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 24
+    "rank": 24,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/2326-6074.io2026-a009",
@@ -11581,7 +11836,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 26
+    "rank": 26,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.4324/9781315570846-6",
@@ -11614,7 +11870,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 407
+    "rank": 407,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.70534/quuq3318",
@@ -11660,7 +11917,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 248
+    "rank": 248,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3390/cells15060547",
@@ -11703,7 +11961,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 162
+    "rank": 162,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/s13238-019-0643-y",
@@ -11746,7 +12005,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 178
+    "rank": 178,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.4161/21505594.2014.988098",
@@ -11784,7 +12044,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 160
+    "rank": 160,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/s2666-6367(21)00231-1",
@@ -11832,7 +12093,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 169
+    "rank": 169,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/s2666-6367(21)00240-2",
@@ -11880,7 +12142,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 170
+    "rank": 170,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/s1525-0016(16)33012-x",
@@ -11923,7 +12186,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 99
+    "rank": 99,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.jcyt.2026.102588",
@@ -11964,7 +12228,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 305
+    "rank": 305,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.25024/review.2012.15.2.003",
@@ -11999,7 +12264,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 411
+    "rank": 411,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.jcyt.2026.102714",
@@ -12043,7 +12309,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 306
+    "rank": 306,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.4049/jimmunol.196.supp.214.23",
@@ -12087,7 +12354,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 87
+    "rank": 87,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41990270",
@@ -12142,7 +12410,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 11
+    "rank": 11,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41756431",
@@ -12186,7 +12455,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 280
+    "rank": 280,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41728085",
@@ -12224,7 +12494,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 38
+    "rank": 38,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41415362",
@@ -12271,7 +12542,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 51
+    "rank": 51,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40864984",
@@ -12338,7 +12610,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 52
+    "rank": 52,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40722088",
@@ -12390,7 +12663,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 53
+    "rank": 53,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40628538",
@@ -12430,7 +12704,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 54
+    "rank": 54,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:40334157",
@@ -12500,7 +12775,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 55
+    "rank": 55,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39766097",
@@ -12553,7 +12829,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 202
+    "rank": 202,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:39572158",
@@ -12607,7 +12884,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 65
+    "rank": 65,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:38781564",
@@ -12675,7 +12953,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 66
+    "rank": 66,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:37813764",
@@ -12719,7 +12998,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 226
+    "rank": 226,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:36951942",
@@ -12762,7 +13042,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 70
+    "rank": 70,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:36875111",
@@ -12799,7 +13080,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 230
+    "rank": 230,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:35705524",
@@ -12861,7 +13143,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 203
+    "rank": 203,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:34386015",
@@ -12906,7 +13189,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 2
+    "rank": 2,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:33563660",
@@ -12948,7 +13232,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 140
+    "rank": 140,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:31753718",
@@ -12989,7 +13274,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 240
+    "rank": 240,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:30686356",
@@ -13029,7 +13315,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 80
+    "rank": 80,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4360600671",
@@ -13072,7 +13359,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 71
+    "rank": 71,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2046512238",
@@ -13118,7 +13406,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 210
+    "rank": 210,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4327892664",
@@ -13186,7 +13475,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 287
+    "rank": 287,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2774486220",
@@ -13223,7 +13513,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 390
+    "rank": 390,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2589585076",
@@ -13269,7 +13560,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 82
+    "rank": 82,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2472962727",
@@ -13316,7 +13608,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 3
+    "rank": 3,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2588908659",
@@ -13359,7 +13652,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 405
+    "rank": 405,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2903941856",
@@ -13412,7 +13706,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 145
+    "rank": 145,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2901026782",
@@ -13472,7 +13767,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 146
+    "rank": 146,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4310126607",
@@ -13521,7 +13817,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 109
+    "rank": 109,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4310104199",
@@ -13583,7 +13880,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 74
+    "rank": 74,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3089952857",
@@ -13646,7 +13944,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 400
+    "rank": 400,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.ymthe.2026.02.039",
@@ -13685,7 +13984,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 247
+    "rank": 247,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.applthermaleng.2006.09.004",
@@ -13722,7 +14022,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 415
+    "rank": 415,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1186/s40929-018-0018-2",
@@ -13758,7 +14059,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 404
+    "rank": 404,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.30712/e3fa9588",
@@ -13791,7 +14093,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 379
+    "rank": 379,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.29081/jesr.v18i2.224",
@@ -13828,7 +14131,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 391
+    "rank": 391,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1093/neuonc/noab196.657",
@@ -13871,7 +14175,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 77
+    "rank": 77,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.fertnstert.2008.07.1570",
@@ -13913,7 +14218,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 324
+    "rank": 324,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.25024/review.2015.18.2.004",
@@ -13948,7 +14254,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 408
+    "rank": 408,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.2307/286687",
@@ -13983,7 +14290,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 418
+    "rank": 418,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-3-030-39903-0_26",
@@ -14020,7 +14328,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 318
+    "rank": 318,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/springerreference_32470",
@@ -14055,7 +14364,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 336
+    "rank": 336,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2625856057",
@@ -14110,7 +14420,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 356
+    "rank": 356,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3012307045",
@@ -14149,7 +14460,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 387
+    "rank": 387,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2890167612",
@@ -14195,7 +14507,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 389
+    "rank": 389,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4388275106",
@@ -14238,7 +14551,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 383
+    "rank": 383,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4292553490",
@@ -14274,7 +14588,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 351
+    "rank": 351,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2973068330",
@@ -14312,7 +14627,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 354
+    "rank": 354,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4381149624",
@@ -14351,7 +14667,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 384
+    "rank": 384,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3164582693",
@@ -14389,7 +14706,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 353
+    "rank": 353,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2603665089",
@@ -14430,7 +14748,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 244
+    "rank": 244,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3044721763",
@@ -14466,7 +14785,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 388
+    "rank": 388,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4281756386",
@@ -14504,7 +14824,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 137
+    "rank": 137,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3122702917",
@@ -14558,7 +14879,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 288
+    "rank": 288,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4327981245",
@@ -14599,7 +14921,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 231
+    "rank": 231,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4396227371",
@@ -14637,7 +14960,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 218
+    "rank": 218,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2954476990",
@@ -14673,7 +14997,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 355
+    "rank": 355,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3093225819",
@@ -14716,7 +15041,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 237
+    "rank": 237,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4210977854",
@@ -14755,7 +15081,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 386
+    "rank": 386,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4400867712",
@@ -14796,7 +15123,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 382
+    "rank": 382,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4406003699",
@@ -14840,7 +15168,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 380
+    "rank": 380,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4388880158",
@@ -14882,7 +15211,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 385
+    "rank": 385,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2570780322",
@@ -14919,7 +15249,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 357
+    "rank": 357,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.32388/6y9vow",
@@ -14954,7 +15285,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 360
+    "rank": 360,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1200/jco.2017.35.15_suppl.3049",
@@ -14999,7 +15331,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 147
+    "rank": 147,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.31525/ct1-nct04121273",
@@ -15034,7 +15367,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 157
+    "rank": 157,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/1538-7445.am2024-4011",
@@ -15074,7 +15408,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 105
+    "rank": 105,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/1538-7445.am2026-4274",
@@ -15114,7 +15449,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 101
+    "rank": 101,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1158/1538-7445.am2025-3497",
@@ -15159,7 +15495,8 @@
       "abstract_only_or_supplement_signal": true,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 123
+    "rank": 123,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood.2025030952",
@@ -15194,7 +15531,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 394
+    "rank": 394,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1200/jco.2025.43.16_suppl.tps4218",
@@ -15239,7 +15577,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 124
+    "rank": 124,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3791/57588",
@@ -15280,7 +15619,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 364
+    "rank": 364,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.2139/ssrn.4634355",
@@ -15319,7 +15659,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 337
+    "rank": 337,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1101/2023.10.02.560460",
@@ -15358,7 +15699,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 271
+    "rank": 271,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1021/acs.jmedchem.5c00847.s002",
@@ -15391,7 +15733,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 338
+    "rank": 338,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.3791/57588-v",
@@ -15432,7 +15775,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 365
+    "rank": 365,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.omton.2024.200859",
@@ -15468,7 +15812,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 154
+    "rank": 154,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/s40278-023-48391-9",
@@ -15501,7 +15846,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 273
+    "rank": 273,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood-2020-140092",
@@ -15541,7 +15887,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 111
+    "rank": 111,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1021/acs.jmedchem.5c00847.s001",
@@ -15574,7 +15921,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 339
+    "rank": 339,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1136/jitc-2020-sitc2020.0109",
@@ -15616,7 +15964,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 156
+    "rank": 156,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/s1525-0016(16)34986-3",
@@ -15649,7 +15998,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 322
+    "rank": 322,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.ajg.2024.12.002",
@@ -15690,7 +16040,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 152
+    "rank": 152,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.hpb.2019.10.2097",
@@ -15728,7 +16079,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 181
+    "rank": 181,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1182/blood-2021-146995",
@@ -15770,7 +16122,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 110
+    "rank": 110,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.14264/0413069",
@@ -15806,7 +16159,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 424
+    "rank": 424,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42231576",
@@ -15852,7 +16206,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 378
+    "rank": 378,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42220492",
@@ -15896,7 +16251,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 340
+    "rank": 340,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42121900",
@@ -15941,7 +16297,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 88
+    "rank": 88,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42115179",
@@ -15998,7 +16355,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 341
+    "rank": 341,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42114607",
@@ -16041,7 +16399,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 342
+    "rank": 342,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42106688",
@@ -16091,7 +16450,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 343
+    "rank": 343,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42102942",
@@ -16140,7 +16500,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 90
+    "rank": 90,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42099608",
@@ -16178,7 +16539,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 213
+    "rank": 213,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42097197",
@@ -16217,7 +16579,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 262
+    "rank": 262,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42087213",
@@ -16259,7 +16622,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 281
+    "rank": 281,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42047161",
@@ -16298,7 +16662,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 344
+    "rank": 344,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:42035954",
@@ -16349,7 +16714,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 345
+    "rank": 345,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41956538",
@@ -16389,7 +16755,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 263
+    "rank": 263,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41905572",
@@ -16429,7 +16796,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 346
+    "rank": 346,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41905571",
@@ -16464,7 +16832,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 214
+    "rank": 214,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41888815",
@@ -16509,7 +16878,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 264
+    "rank": 264,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41819983",
@@ -16547,7 +16917,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 173
+    "rank": 173,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41812035",
@@ -16596,7 +16967,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 347
+    "rank": 347,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41810431",
@@ -16643,7 +17015,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 215
+    "rank": 215,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41810345",
@@ -16687,7 +17060,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 216
+    "rank": 216,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41803088",
@@ -16735,7 +17109,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 117
+    "rank": 117,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41784912",
@@ -16777,7 +17152,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 348
+    "rank": 348,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41673369",
@@ -16815,7 +17191,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 349
+    "rank": 349,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41655433",
@@ -16860,7 +17237,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 282
+    "rank": 282,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "pmid:41643403",
@@ -16901,7 +17279,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 350
+    "rank": 350,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4404119926",
@@ -16943,7 +17322,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 128
+    "rank": 128,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4385050390",
@@ -16987,7 +17367,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 106
+    "rank": 106,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2106787323",
@@ -17026,7 +17407,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 392
+    "rank": 392,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4317891438",
@@ -17070,7 +17452,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 134
+    "rank": 134,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3107786127",
@@ -17109,7 +17492,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 268
+    "rank": 268,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4392162367",
@@ -17153,7 +17537,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 267
+    "rank": 267,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3023954831",
@@ -17202,7 +17587,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 141
+    "rank": 141,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4416094950",
@@ -17240,7 +17626,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 223
+    "rank": 223,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4402762807",
@@ -17276,7 +17663,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 272
+    "rank": 272,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3000870518",
@@ -17319,7 +17707,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 269
+    "rank": 269,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2917837889",
@@ -17359,7 +17748,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 358
+    "rank": 358,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2997325433",
@@ -17409,7 +17799,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 142
+    "rank": 142,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2999031113",
@@ -17459,7 +17850,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 5
+    "rank": 5,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3088185527",
@@ -17508,7 +17900,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 94
+    "rank": 94,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2570331434",
@@ -17562,7 +17955,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 148
+    "rank": 148,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2917676884",
@@ -17614,7 +18008,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 270
+    "rank": 270,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4408551297",
@@ -17658,7 +18053,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 266
+    "rank": 266,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4200370209",
@@ -17711,7 +18107,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 8
+    "rank": 8,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W4362514829",
@@ -17756,7 +18153,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 7
+    "rank": 7,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W1971837077",
@@ -17814,7 +18212,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 359
+    "rank": 359,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2889641854",
@@ -17862,7 +18261,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 96
+    "rank": 96,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W2947412116",
@@ -17898,7 +18298,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 221
+    "rank": 221,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "https://openalex.org/W3137669495",
@@ -17936,7 +18337,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 220
+    "rank": 220,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.54097/tr0x5g28",
@@ -17971,7 +18373,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 219
+    "rank": 219,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.20517/2394-5079.2025.69",
@@ -18009,7 +18412,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 91
+    "rank": 91,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.22541/au.170664301.11370201/v1",
@@ -18052,7 +18456,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 258
+    "rank": 258,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-3-319-34214-6_35",
@@ -18087,7 +18492,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 366
+    "rank": 366,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1117/12.2669678",
@@ -18122,7 +18528,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 274
+    "rank": 274,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.5772/29781",
@@ -18157,7 +18564,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 367
+    "rank": 367,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.29011/2688-8718.100139",
@@ -18190,7 +18598,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 153
+    "rank": 153,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.5772/intechopen.100257",
@@ -18225,7 +18634,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 352
+    "rank": 352,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1016/j.jcyt.2025.03.354",
@@ -18263,7 +18673,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 97
+    "rank": 97,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-1-60327-376-3_23",
@@ -18298,7 +18709,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 373
+    "rank": 373,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-1-60327-376-3_4",
@@ -18333,7 +18745,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 374
+    "rank": 374,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-1-60327-522-4_21",
@@ -18369,7 +18782,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 369
+    "rank": 369,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-4-431-53977-3_8",
@@ -18404,7 +18818,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 375
+    "rank": 375,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.33590/emjoncol/tabt3057",
@@ -18439,7 +18854,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 217
+    "rank": 217,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-1-60327-522-4_23",
@@ -18475,7 +18891,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 370
+    "rank": 370,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1200/adn.24.0525.2",
@@ -18508,7 +18925,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 310
+    "rank": 310,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-1-60327-522-4_24",
@@ -18544,7 +18962,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 371
+    "rank": 371,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1002/eji.201948457/v1/review1",
@@ -18577,7 +18996,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 361
+    "rank": 361,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1002/eji.201948457/v1/review2",
@@ -18610,7 +19030,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 362
+    "rank": 362,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1002/eji.201948457/v2/review1",
@@ -18643,7 +19064,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 363
+    "rank": 363,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.1007/978-1-60327-522-4_5",
@@ -18679,7 +19101,8 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 372
+    "rank": 372,
+    "retrieval_timestamp": null
   },
   {
     "paper_id": "doi:10.5772/28626",
@@ -18717,6 +19140,7 @@
       "abstract_only_or_supplement_signal": false,
       "classification_basis": "metadata/title/abstract heuristic only; human screening required before manuscript use"
     },
-    "rank": 368
+    "rank": 368,
+    "retrieval_timestamp": null
   }
 ]

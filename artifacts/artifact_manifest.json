@@ -1,7 +1,8 @@
 {
   "package": "autoresearch_gpt4o_mini_fingerprint_v3_workflow_artifacts",
   "description": "Public audit workflow artifacts without full-paper PDFs, absolute runtime date/time values, or large raw PhysiCell outputs.",
-  "runtime_time_policy": "Absolute runtime date/time values are removed or redacted; call IDs, prompt hashes, dependency order, validation status, durations, and artifact paths are preserved.",
+  "generated_at": null,
+  "runtime_time_policy": "Absolute runtime date/time values are set to null; call IDs, prompt hashes, dependency order, validation status, durations, and artifact paths are preserved.",
   "contains_full_papers_or_pdf": false,
   "contains_compiled_binaries": false,
   "contains_large_raw_physicell_outputs": false,
@@ -11,8 +12,8 @@
   "files": [
     {
       "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_parsed.json",
-      "bytes": 13911,
-      "sha256": "4018562275e61c1725aca28abd7de8a1b743621d655cf33ac8bd9f1222509bc0"
+      "bytes": 15665,
+      "sha256": "2da9b163cd57707108fb1d14c79f83cc14344459a781b7348e75392f5d7a3172"
     },
     {
       "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_prompt.txt",
@@ -21,8 +22,8 @@
     },
     {
       "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_raw_response.txt",
-      "bytes": 13911,
-      "sha256": "4018562275e61c1725aca28abd7de8a1b743621d655cf33ac8bd9f1222509bc0"
+      "bytes": 15665,
+      "sha256": "2da9b163cd57707108fb1d14c79f83cc14344459a781b7348e75392f5d7a3172"
     },
     {
       "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_validation.json",
@@ -36,23 +37,23 @@
     },
     {
       "path": "00_llm_orchestrator/llm_calls.jsonl",
-      "bytes": 599,
-      "sha256": "e745edcba15d3e696f89425bc0b51418eb2e9877f95ab9e3b04c99d5e7d092f1"
+      "bytes": 618,
+      "sha256": "39b22355404e56797d42f6bd0cb51d8a606604238ad1b8fb88b3db6699196019"
     },
     {
       "path": "00_llm_orchestrator/llm_calls_public_redacted.jsonl",
-      "bytes": 599,
-      "sha256": "69333755a8e13b48d07afda8b005540c4713736fcebf7fb8e7d0c5b74fbbef55"
+      "bytes": 618,
+      "sha256": "f84ea65715affcb700261e9ed50843f5788ac2ec575d2f62838ab0461c344186"
     },
     {
       "path": "00_llm_orchestrator/orchestrator_parsed.json",
-      "bytes": 13911,
-      "sha256": "4018562275e61c1725aca28abd7de8a1b743621d655cf33ac8bd9f1222509bc0"
+      "bytes": 15665,
+      "sha256": "2da9b163cd57707108fb1d14c79f83cc14344459a781b7348e75392f5d7a3172"
     },
     {
       "path": "00_llm_orchestrator/orchestrator_plan.json",
-      "bytes": 13911,
-      "sha256": "4018562275e61c1725aca28abd7de8a1b743621d655cf33ac8bd9f1222509bc0"
+      "bytes": 15665,
+      "sha256": "2da9b163cd57707108fb1d14c79f83cc14344459a781b7348e75392f5d7a3172"
     },
     {
       "path": "00_llm_orchestrator/orchestrator_prompt.txt",
@@ -61,8 +62,8 @@
     },
     {
       "path": "00_llm_orchestrator/orchestrator_raw_response.txt",
-      "bytes": 13911,
-      "sha256": "4018562275e61c1725aca28abd7de8a1b743621d655cf33ac8bd9f1222509bc0"
+      "bytes": 15665,
+      "sha256": "2da9b163cd57707108fb1d14c79f83cc14344459a781b7348e75392f5d7a3172"
     },
     {
       "path": "00_llm_orchestrator/orchestrator_schema_validation.json",
@@ -101,13 +102,13 @@
     },
     {
       "path": "01_research_goal/llm_calls.jsonl",
-      "bytes": 769,
-      "sha256": "e2fb11b8e557a32940701297c80c99e9b9a14254d71ba4cdc0d5be267c92d19d"
+      "bytes": 788,
+      "sha256": "71c18c8a7a7706f74dcc450baa782bca26c01bfd2f4ed2bbb37cfb176bf4452e"
     },
     {
       "path": "01_research_goal/llm_calls_public_redacted.jsonl",
-      "bytes": 559,
-      "sha256": "1511e93b8d007059484ae189830c7c78e14b9eee75a26b27599e59746c2a9dcf"
+      "bytes": 578,
+      "sha256": "2665c175165ca397d868552e7fd07805d122931fd6f42c0f96286210ff6ae3bd"
     },
     {
       "path": "01_research_goal/paper_download_queries.json",
@@ -136,8 +137,8 @@
     },
     {
       "path": "02_literature_search/deduplicated_papers.json",
-      "bytes": 1318733,
-      "sha256": "1c0f4cc7354ba5aaa4602a6dc61031fc6c00122aea57547cfbe31a1e9c17b96c"
+      "bytes": 1333149,
+      "sha256": "7a292cd6840c29afb29ded5faa9f06b90a0f23a03a6faa3b37925987d24f0449"
     },
     {
       "path": "02_literature_search/download_priority_1_core.tsv",
@@ -146,8 +147,8 @@
     },
     {
       "path": "02_literature_search/ranked_classified_papers.json",
-      "bytes": 1318733,
-      "sha256": "a8ce6037cb7873dee610e4a5e8b6f528f101d0af5d3d341ced4271785ffb9855"
+      "bytes": 1333149,
+      "sha256": "ba58974a2b52003d86ffb4c8986787609da90ce45285aebd3cc63a7e75c48e04"
     },
     {
       "path": "02_literature_search/ranked_classified_papers.tsv",
@@ -161,8 +162,8 @@
     },
     {
       "path": "02_literature_search/topic_classification/papers_by_topic.json",
-      "bytes": 1383810,
-      "sha256": "b0725799871d0186a542b80d87b978f45bb089e1b6fa7a4538ff8ea722da6b04"
+      "bytes": 1399074,
+      "sha256": "8094b87e6f532ec74ca2ecf0f9dce789c976f9f0b8e5e31e53789c13b4479ea5"
     },
     {
       "path": "02_literature_search/topic_classification/papers_by_topic.tsv",
@@ -221,13 +222,13 @@
     },
     {
       "path": "03_central_hypothesis/llm_calls.jsonl",
-      "bytes": 1000,
-      "sha256": "d563f409fc9b89ff0add9a392ae148866c7953260ecf9983a06e75ea2f0ad469"
+      "bytes": 1019,
+      "sha256": "7c32fcd9c91870750e2b5af1dbc04e352347efd7154c14e43ea51b93bf28e95e"
     },
     {
       "path": "03_central_hypothesis/llm_calls_public_redacted.jsonl",
-      "bytes": 749,
-      "sha256": "af1b88fd5a3167907444a9e28de0ef95cfe4ab4c776a64d81066f24fd77d54a7"
+      "bytes": 768,
+      "sha256": "06dd83ca4871de510b47f33a8baf5f514b74f1ebb20024d40fa9954750bbbb0a"
     },
     {
       "path": "03_central_hypothesis/papers_to_download_before_parameterization.json",
@@ -271,8 +272,8 @@
     },
     {
       "path": "04_llm_parameter_rounds/llm_calls.jsonl",
-      "bytes": 1728,
-      "sha256": "0dcc6bc54b4443fa064a1aa44304c69c1fda9cc839dc96d9fe38307917e8d4b8"
+      "bytes": 1766,
+      "sha256": "38acb9f7b3dad6ed1b408b202803ef330934d14c388faf891c1326fd05737a7e"
     },
     {
       "path": "04_llm_parameter_rounds/physicell_ready_parameters.json",
