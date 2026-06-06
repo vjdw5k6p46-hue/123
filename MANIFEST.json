@@ -14,7 +14,7 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_api_keys_or_secrets": false,
   "contains_wet_lab_validation": false,
-  "file_count": 271,
+  "file_count": 258,
   "files": [
     {
       "path": ".gitattributes",
@@ -517,16 +517,6 @@
       "sha256": "17caceb6cff01c52a62e55322829296471ba98fdf5feba31121382d7a4fe5afd"
     },
     {
-      "path": "configs/local_llm_gemma.yaml",
-      "bytes": 235,
-      "sha256": "7d3c4822e709fa26752fb4123a4d95b58c5629bc04c98bf1da5df95bd3aa1956"
-    },
-    {
-      "path": "configs/local_llm_qwen.yaml",
-      "bytes": 237,
-      "sha256": "6a1d112a99548660a8fac304a1dba64b905488d8d94ff55acbe02a18ce06495c"
-    },
-    {
       "path": "configs/openai_api.yaml",
       "bytes": 227,
       "sha256": "19a454978256fed59c6df16b7bbdd2f9f3adc8a726cf58aa6eb1330186e21dab"
@@ -613,8 +603,8 @@
     },
     {
       "path": "docs/integration_status.md",
-      "bytes": 2192,
-      "sha256": "b524f1b24952fd96014c73346ed6fc63911bc8d6b930d4ecf76c6fcca52bee58"
+      "bytes": 2181,
+      "sha256": "0cd9ad277bd14f9a19d9127c40897be2314fa8243811921a616252386efb3a7e"
     },
     {
       "path": "docs/limitations_llm_physicell.md",
@@ -623,8 +613,8 @@
     },
     {
       "path": "docs/llm_agent_workflow.md",
-      "bytes": 1389,
-      "sha256": "4562c3977b34be48cc8d30478201866d414bc9cc2542b85a48e2e4a750f5f614"
+      "bytes": 2692,
+      "sha256": "09ed2358926dbcebb2cef763637fbdf868f9fc38c2353fb0fb491259a22a1f4c"
     },
     {
       "path": "docs/llm_contribution_verification.md",
@@ -635,11 +625,6 @@
       "path": "docs/local_llm_manuscript_archive.md",
       "bytes": 4108,
       "sha256": "1f3769427d291e07ed854db3c0422e04500c8bdb557a4803e1dcbdcaaf5ddf00"
-    },
-    {
-      "path": "docs/local_llm_model_comparison.md",
-      "bytes": 4179,
-      "sha256": "eb7ac3670b2a5a704e106da688f12f875b6e61f38abbea1936b94ec994fc1187"
     },
     {
       "path": "docs/manuscript_revision_snippets.md",
@@ -728,8 +713,8 @@
     },
     {
       "path": "MANIFEST.json",
-      "bytes": 53805,
-      "sha256": "e3d9711e31810e217d6fc740dcfb5b9a04a3a339862fc0b0a5210b402abb3a5c"
+      "bytes": 51637,
+      "sha256": "9d6781dc2dfd8573904e5e98d5db71df156c303a2acb7540f94e23a7b67074d6"
     },
     {
       "path": "physicell_project/config/PhysiCell_settings.template.xml",
@@ -758,8 +743,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8086,
-      "sha256": "d29b6bf1ee2250fb59a8f3fbe156ff1d35888250832d2e44a4d15b4446d79f08"
+      "bytes": 8084,
+      "sha256": "9d1918458d36751a6033983fc6bd9f23e642e72da72cdd9d15f21fb49d9f0c0d"
     },
     {
       "path": "scripts/build_manuscript_local_llm_archive.py",
@@ -770,11 +755,6 @@
       "path": "scripts/build_physicell_project.sh",
       "bytes": 721,
       "sha256": "6e16339d36598271c58fc26b313bf17eee6af3aa3b95f0ef5bd0e1f3c1aa169c"
-    },
-    {
-      "path": "scripts/build_qwen_gemma_comparison_archive.py",
-      "bytes": 2069,
-      "sha256": "3dddfb21174980b51939129b22215fc75804da80315ecd0ff7e5642a70c4f727"
     },
     {
       "path": "scripts/build_reviewer_offline_package.py",
@@ -812,16 +792,6 @@
       "sha256": "cd112440ec6ec7f89d366ef8b70d13b27d45f84dcefaa838e9e5d6238c84638a"
     },
     {
-      "path": "scripts/run_chunk_evidence_model_comparison.py",
-      "bytes": 16595,
-      "sha256": "bf28eecda53b043c0e99f705c3c949d4ad71b085b595e11f1cb88cb9ecb935cd"
-    },
-    {
-      "path": "scripts/run_gemini_chunks_to_physicell.py",
-      "bytes": 15441,
-      "sha256": "d7e636949dc2c89253d705777d61ca4d4ec6f21926bb521f8a5b4bca4e1d0c98"
-    },
-    {
       "path": "scripts/run_manuscript_local_llm_archive.py",
       "bytes": 6618,
       "sha256": "1b411bdb2bdfaea7b00a133405b97b8b07d57addbcbe2473dbcc1e57482fae82"
@@ -842,16 +812,6 @@
       "sha256": "9a2fa9f3db90dc5f7b5824a68a0efae5336bfd37505c041729562055c4fe7d84"
     },
     {
-      "path": "scripts/run_qwen_gemma_chunk_comparison.py",
-      "bytes": 147,
-      "sha256": "e25d78e535467edd68e6943bb7f2922dd7f7e36a220cb69bfae5cbbff84786f4"
-    },
-    {
-      "path": "scripts/run_qwen_gemma_chunk_comparison.sh",
-      "bytes": 118,
-      "sha256": "46ea0be1290436b6db63f22ffb4ba73ea9d66e20cc201bb3138c40cfbe10c5e2"
-    },
-    {
       "path": "scripts/run_reviewer_reproducibility_demo.py",
       "bytes": 4390,
       "sha256": "d2ea8d2765d271d64d5445dd4755914c3d4d72d663c3f44961f99d2ca52b7e31"
@@ -865,11 +825,6 @@
       "path": "scripts/setup_physicell_submodule.sh",
       "bytes": 845,
       "sha256": "d6d69a9048f2a487f7742f8f6aeb637602ab272b6020510b2dccfce3a481ea0b"
-    },
-    {
-      "path": "scripts/smoke_test_local_llm_models.py",
-      "bytes": 3529,
-      "sha256": "fac92f86d91d13f286607e0393445b9e0e77ee4f44a11d83b71802cd80ca9eb5"
     },
     {
       "path": "src/cart_autolab/__init__.py",
@@ -917,11 +872,6 @@
       "sha256": "27892b0c2ed5742a140242115522d8a8957040b9a66b719750abdc7c65730ecf"
     },
     {
-      "path": "src/cart_autolab/analysis/compare_local_llm_models.py",
-      "bytes": 8957,
-      "sha256": "f74535879fffbfb8cf8fb1aacd1c89f0907402897794ba6fcd53c19e748d2e46"
-    },
-    {
       "path": "src/cart_autolab/analysis/cytokine_fingerprint_aggregation.py",
       "bytes": 6092,
       "sha256": "64e244aa4fdf68ef41b786f4f85c204f6e2a95143ad14374339e881523a0891f"
@@ -940,11 +890,6 @@
       "path": "src/cart_autolab/analysis/metrics.py",
       "bytes": 2075,
       "sha256": "5c2cf701b4728014ae9b22fd3e511be43f1d1e2f99d39516c819384db7773699"
-    },
-    {
-      "path": "src/cart_autolab/analysis/model_comparison_validation.py",
-      "bytes": 5938,
-      "sha256": "20ff3477ec35a8e6e8921e197727b190dd06cbe75ad763788dfd1f4a0839155a"
     },
     {
       "path": "src/cart_autolab/analysis/parameter_proposal_from_fingerprint.py",
@@ -1247,11 +1192,6 @@
       "sha256": "2a8ea2e83cd4f6a6fef09f7ce08e02e8919adcf4ff0a5655b6bf6b849a16ed28"
     },
     {
-      "path": "tests/test_compare_local_llm_models.py",
-      "bytes": 1930,
-      "sha256": "18f2d58748f9e6e7ba359fc2e8ed27e82285a4ff47f457ddf0f1acb4af45c56a"
-    },
-    {
       "path": "tests/test_config.py",
       "bytes": 341,
       "sha256": "c8743fe864bb5792a7b69763645b921319457e8b8404dba22be8f72ff90702db"
@@ -1315,11 +1255,6 @@
       "path": "tests/test_mock_simulator.py",
       "bytes": 2344,
       "sha256": "9d33d5c4f0f14f2ea998a3b74a7f67f73182a43ec461056a6a0fa207b2bf2b09"
-    },
-    {
-      "path": "tests/test_model_comparison_validation.py",
-      "bytes": 1597,
-      "sha256": "eb498a803a8ec62e64714aa3b50a32cb50897f5f01145130633646913018d173"
     },
     {
       "path": "tests/test_no_fabricated_artifacts.py",
