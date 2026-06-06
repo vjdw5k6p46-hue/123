@@ -42,11 +42,11 @@ The `integration/reviewer-response-stack` branch integrates:
 
 ## Real LLM Manuscript Artifacts
 
-Real live LLM manuscript artifacts are not included. The repository includes mock and replay software fixtures for offline reproducibility testing and artifact inspection.
+Real OpenAI-compatible LLM audit artifacts are included for the reviewer-facing AutoResearch package, including the LLM Orchestrator output, prompt/response records, parsed JSON, and validation files. Mock and replay software fixtures remain clearly labeled as offline testing artifacts and are not manuscript evidence.
 
 ## Real External PhysiCell Output Artifacts
 
-Real external PhysiCell output artifacts are not included. The repository includes adapter inputs, external-mode error handling, execution-log support, and conversion reports for insufficient outputs.
+Local PhysiCell cytokine-arm simulation summary artifacts are included for the low-antigen runs, including summary/ranking outputs used by the final report. Large raw PhysiCell output folders, compiled binaries, and control-arm XML files are not included.
 
 ## Reviewer-Safe Outputs
 
