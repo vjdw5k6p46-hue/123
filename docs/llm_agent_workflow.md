@@ -1,12 +1,12 @@
 # LLM Agent Workflow
 
-This reviewer package implements an LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference execution, optional executable LLM-agent execution, archived/replay execution, and optional external PhysiCell execution.
+This workflow archive implements an LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference execution, optional executable LLM-agent execution, archived/replay execution, and optional external PhysiCell execution.
 
 ## Reviewer Package State
 
-The package includes executable LLM-agent infrastructure and reviewer-facing LLM audit artifacts. The default reproducible command remains deterministic, but LLM-backed runs can be executed when provider credentials are configured.
+The package includes executable LLM-agent infrastructure and public audit LLM audit artifacts. The default reproducible command remains deterministic, but LLM-backed runs can be executed when provider credentials are configured.
 
-Included reviewer-facing LLM artifacts include:
+Included public audit LLM artifacts include:
 
 - `artifacts/00_llm_orchestrator/`
 - `artifacts/00_llm_orchestrator/llm_calls.jsonl`
@@ -17,7 +17,7 @@ Included reviewer-facing LLM artifacts include:
 - `artifacts/04_llm_parameter_rounds/llm_calls.jsonl`
 - `artifacts/04_llm_parameter_rounds/agent_outputs/`
 
-The LLM Orchestrator artifact maps the package into seven reviewer-facing stages:
+The LLM Orchestrator artifact maps the package into seven public audit stages:
 
 1. `research_goal_parsing`
 2. `literature_retrieval_and_classification`

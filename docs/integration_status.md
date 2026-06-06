@@ -2,7 +2,7 @@
 
 ## Source Stack
 
-This reviewer package was assembled from the reviewer-response stack, including:
+This workflow archive was assembled from the reviewer-response stack, including:
 
 1. `audit/reviewer-reproducibility`
 2. `feature/llm-agent-runner`
@@ -42,7 +42,7 @@ This reviewer package was assembled from the reviewer-response stack, including:
 
 ## Real LLM Manuscript Artifacts
 
-Real OpenAI-compatible LLM audit artifacts are included for the reviewer-facing AutoResearch package, including the LLM Orchestrator output, prompt/response records, parsed JSON, and validation files. Mock and replay software fixtures remain clearly labeled as offline testing artifacts and are not manuscript evidence.
+Real OpenAI-compatible LLM audit artifacts are included for the public audit AutoResearch package, including the LLM Orchestrator output, prompt/response records, parsed JSON, and validation files. Mock and replay software fixtures remain clearly labeled as offline testing artifacts and are not manuscript evidence.
 
 ## Real External PhysiCell Output Artifacts
 
@@ -50,4 +50,4 @@ Local PhysiCell cytokine-arm simulation summary artifacts are included for the l
 
 ## Reviewer-Safe Outputs
 
-Generated reviewer demo outputs are intentionally ignored by Git under `outputs/` and are not committed.
+Generated reproducibility demo outputs are intentionally ignored by Git under `outputs/` and are not committed.

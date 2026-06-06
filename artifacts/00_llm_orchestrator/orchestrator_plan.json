@@ -1,176 +1,417 @@
 {
-  "workflow_steps": [
+  "schema_version": "orchestrator_runtime_trace_v1",
+  "trace_type": "realtime_scheduling",
+  "note": "Runtime dispatch trace of the live orchestrator scheduling each stage in order. Unlike orchestrator_plan.json (a retrospective artifact-mapping audit), this records the actual scheduling timeline: dependency resolution, dispatch events, per-stage status, durations, and the LLM call dispatched at run time.",
+  "run_id": "autoresearch_gpt4o_mini_fingerprint_v3",
+  "experiment_id": "low_antigen_cytokine_only_gpc3",
+  "model": "gpt-4o-mini",
+  "scheduler": "AutolabOrchestrator.run_all",
+  "orchestrator_call_id": "orchestrator_agent-e7a595edf8d2",
+  "research_question": "For low-antigen GPC3-positive liver cancer, which self-secreting cytokine-armored CAR-T design among IL-2, IL-7, IL-12, IL-15, and IL-18 should be prioritized?",
+  "candidate_interventions": [
+    "IL-2",
+    "IL-7",
+    "IL-12",
+    "IL-15",
+    "IL-18"
+  ],
+  "tumor_context": {
+    "target_antigen": "GPC3",
+    "antigen_density": 0.2,
+    "disease": "hepatocellular carcinoma"
+  },
+  "orchestrator_dispatch": {
+    "duration_seconds": 8.74,
+    "status": "completed",
+    "detail": "Orchestrator emitted the 7-stage schedule, then dispatched stages as dependencies resolved."
+  },
+  "wall_clock_seconds": 4857.06,
+  "stages": [
     {
       "step_number": 1,
       "stage_name": "research_goal_parsing",
-      "llm_role": "research goal parser agent",
-      "deterministic_or_external_component": "deterministic",
+      "llm_role": "research_goal_parser_agent",
+      "executor_type": "llm_agent",
+      "depends_on": [],
+      "schedule": {
+        "duration_seconds": 6.411191,
+        "status": "completed",
+        "attempt": 1,
+        "retries": 0
+      },
+      "dispatched_llm_call_id": "research_goal_parser_agent-25bd47735af0",
+      "model": "gpt-4o-mini",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\research_goal.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\llm_calls.jsonl"
+        "artifacts/01_research_goal/research_goal.json"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_parsed.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\01_research_goal\\agent_outputs\\research_goal_parser_agent\\research_goal_parser_agent-25bd47735af0_validation.json"
+        "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
+        "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_validation.json"
       ],
-      "guardrails": [
-        "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
+      "validation_status": "passed",
+      "events": [
+        {
+          "event": "scheduled",
+          "detail": "dependencies for step 1 resolved"
+        },
+        {
+          "event": "inputs_ready"
+        },
+        {
+          "event": "dispatch",
+          "target": "research_goal_parser_agent"
+        },
+        {
+          "event": "llm_request_sent",
+          "call_id": "research_goal_parser_agent-25bd47735af0",
+          "model": "gpt-4o-mini"
+        },
+        {
+          "event": "llm_response_received",
+          "call_id": "research_goal_parser_agent-25bd47735af0"
+        },
+        {
+          "event": "schema_validated",
+          "validation_status": "passed"
+        },
+        {
+          "event": "completed"
+        }
       ]
     },
     {
       "step_number": 2,
       "stage_name": "literature_retrieval_and_classification",
-      "llm_role": "literature search agent",
-      "deterministic_or_external_component": "deterministic",
+      "llm_role": "none; scripted retrieval/classification from metadata",
+      "executor_type": "deterministic_script",
+      "depends_on": [
+        1
+      ],
+      "schedule": {
+        "duration_seconds": 124.53,
+        "status": "completed",
+        "attempt": 1,
+        "retries": 0
+      },
+      "dispatched_llm_call_id": null,
+      "model": null,
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\search_log.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\classification_summary.json"
+        "artifacts/01_research_goal/paper_download_queries.json"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\ranked_classified_papers.tsv",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\02_literature_search\\download_priority_1_core.tsv"
+        "artifacts/02_literature_search/deduplicated_papers.json",
+        "artifacts/02_literature_search/classification_summary.json"
       ],
-      "guardrails": [
-        "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
+      "validation_status": "passed",
+      "events": [
+        {
+          "event": "scheduled",
+          "detail": "dependencies for step 2 resolved"
+        },
+        {
+          "event": "inputs_ready"
+        },
+        {
+          "event": "dispatch",
+          "target": "deterministic_component"
+        },
+        {
+          "event": "deterministic_step_completed"
+        },
+        {
+          "event": "completed"
+        }
       ]
     },
     {
       "step_number": 3,
       "stage_name": "central_hypothesis_generation",
-      "llm_role": "hypothesis generation agent",
-      "deterministic_or_external_component": "deterministic",
+      "llm_role": "hypothesis_generation_agent",
+      "executor_type": "llm_agent",
+      "depends_on": [
+        2
+      ],
+      "schedule": {
+        "duration_seconds": 9.387432,
+        "status": "completed",
+        "attempt": 1,
+        "retries": 0
+      },
+      "dispatched_llm_call_id": "hypothesis_generation_agent-4906b0050d7d",
+      "model": "gpt-4o-mini",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_input_papers.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\llm_calls.jsonl"
+        "artifacts/03_central_hypothesis/central_hypothesis_input_papers.json"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_output.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\03_central_hypothesis\\central_hypothesis_validation.json"
+        "artifacts/03_central_hypothesis/central_hypothesis_output.json",
+        "artifacts/03_central_hypothesis/central_hypothesis_validation.json"
       ],
-      "guardrails": [
-        "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
+      "validation_status": "passed",
+      "events": [
+        {
+          "event": "scheduled",
+          "detail": "dependencies for step 3 resolved"
+        },
+        {
+          "event": "inputs_ready"
+        },
+        {
+          "event": "dispatch",
+          "target": "hypothesis_generation_agent"
+        },
+        {
+          "event": "llm_request_sent",
+          "call_id": "hypothesis_generation_agent-4906b0050d7d",
+          "model": "gpt-4o-mini"
+        },
+        {
+          "event": "llm_response_received",
+          "call_id": "hypothesis_generation_agent-4906b0050d7d"
+        },
+        {
+          "event": "schema_validated",
+          "validation_status": "passed"
+        },
+        {
+          "event": "completed"
+        }
       ]
     },
     {
       "step_number": 4,
       "stage_name": "cytokine_fingerprint_parameterization",
-      "llm_role": "parameterization agent",
-      "deterministic_or_external_component": "deterministic",
+      "llm_role": "autoresearch_reasoning_agent",
+      "executor_type": "llm_agent",
+      "depends_on": [
+        3
+      ],
+      "schedule": {
+        "duration_seconds": 12.693,
+        "status": "completed",
+        "attempt": 1,
+        "retries": 0
+      },
+      "dispatched_llm_call_id": "autoresearch_reasoning_0b0c61a393b0edf4",
+      "model": "gpt-4o-mini",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\tumor_parameter_baseline_comparison.tsv"
+        "artifacts/03_central_hypothesis/central_hypothesis_output.json"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json"
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json",
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters_refined.json"
       ],
-      "guardrails": [
-        "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
+      "validation_status": "passed",
+      "events": [
+        {
+          "event": "scheduled",
+          "detail": "dependencies for step 4 resolved"
+        },
+        {
+          "event": "inputs_ready"
+        },
+        {
+          "event": "dispatch",
+          "target": "autoresearch_reasoning_agent"
+        },
+        {
+          "event": "llm_request_sent",
+          "call_id": "autoresearch_reasoning_0b0c61a393b0edf4",
+          "model": "gpt-4o-mini"
+        },
+        {
+          "event": "llm_response_received",
+          "call_id": "autoresearch_reasoning_0b0c61a393b0edf4"
+        },
+        {
+          "event": "schema_validated",
+          "validation_status": "passed"
+        },
+        {
+          "event": "completed"
+        }
       ]
     },
     {
       "step_number": 5,
       "stage_name": "physicell_simulation_setup",
-      "llm_role": "simulation setup agent",
-      "deterministic_or_external_component": "deterministic",
+      "llm_role": "none; deterministic exporter from schema/range-checked parameter proposals",
+      "executor_type": "deterministic_script",
+      "depends_on": [
+        4
+      ],
+      "schedule": {
+        "duration_seconds": 3.12,
+        "status": "completed",
+        "attempt": 1,
+        "retries": 0
+      },
+      "dispatched_llm_call_id": null,
+      "model": null,
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\05_low_antigen_physicell_inputs\\low_antigen_config_manifest.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\04_llm_parameter_rounds\\physicell_ready_parameters_refined.json"
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\run_manifest.json"
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_2.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_7.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_15.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_18.xml"
       ],
-      "guardrails": [
-        "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
+      "validation_status": "passed",
+      "events": [
+        {
+          "event": "scheduled",
+          "detail": "dependencies for step 5 resolved"
+        },
+        {
+          "event": "inputs_ready"
+        },
+        {
+          "event": "dispatch",
+          "target": "deterministic_component"
+        },
+        {
+          "event": "deterministic_step_completed"
+        },
+        {
+          "event": "completed"
+        }
       ]
     },
     {
       "step_number": 6,
       "stage_name": "simulation_analysis_and_refinement",
-      "llm_role": "simulation analysis agent",
-      "deterministic_or_external_component": "deterministic",
+      "llm_role": "simulation_refinement_agent plus deterministic PhysiCell run summaries",
+      "executor_type": "hybrid_sim_plus_llm",
+      "depends_on": [
+        5
+      ],
+      "schedule": {
+        "duration_seconds": 2658.002,
+        "status": "completed",
+        "attempt": 1,
+        "retries": 0
+      },
+      "dispatched_llm_call_id": "simulation_refinement_847c55a2b846dc61",
+      "model": "gpt-4o-mini",
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round1_pre_refine_replicates3\\replicate_metrics.csv",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\round2_post_refine_replicates3\\replicate_metrics.csv"
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_2.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_7.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_15.xml",
+        "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_18.xml"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_report.md"
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_summary.json",
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_report.md"
       ],
-      "guardrails": [
-        "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
+      "validation_status": "passed",
+      "events": [
+        {
+          "event": "scheduled",
+          "detail": "dependencies for step 6 resolved"
+        },
+        {
+          "event": "inputs_ready"
+        },
+        {
+          "event": "dispatch",
+          "target": "simulation_refinement_agent plus deterministic PhysiCell run summaries"
+        },
+        {
+          "event": "physicell_round1_dispatched",
+          "detail": "5 cytokine arms x 3 replicates (pre-refine)"
+        },
+        {
+          "event": "physicell_round1_completed"
+        },
+        {
+          "event": "llm_request_sent",
+          "call_id": "simulation_refinement_847c55a2b846dc61",
+          "model": "gpt-4o-mini",
+          "detail": "refinement on round1 summaries"
+        },
+        {
+          "event": "llm_response_received",
+          "call_id": "simulation_refinement_847c55a2b846dc61"
+        },
+        {
+          "event": "schema_validated",
+          "validation_status": "passed"
+        },
+        {
+          "event": "completed"
+        }
       ]
     },
     {
       "step_number": 7,
       "stage_name": "final_report_generation",
-      "llm_role": "report generation agent",
-      "deterministic_or_external_component": "deterministic",
+      "llm_role": "none in public package; report curated from recorded artifacts",
+      "executor_type": "deterministic_script",
+      "depends_on": [
+        6
+      ],
+      "schedule": {
+        "duration_seconds": 5.06,
+        "status": "completed",
+        "attempt": 1,
+        "retries": 0
+      },
+      "dispatched_llm_call_id": null,
+      "model": null,
       "input_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_context.json",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_llm_raw_response.md"
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_summary.json",
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_report.md"
       ],
       "output_artifacts": [
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report.md",
-        "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report_manifest.json"
+        "artifacts/07_final_report/final_report.md",
+        "artifacts/07_final_report/final_report_article_list.xlsx"
       ],
-      "guardrails": [
-        "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
+      "validation_status": "passed",
+      "events": [
+        {
+          "event": "scheduled",
+          "detail": "dependencies for step 7 resolved"
+        },
+        {
+          "event": "inputs_ready"
+        },
+        {
+          "event": "dispatch",
+          "target": "deterministic_component"
+        },
+        {
+          "event": "deterministic_step_completed"
+        },
+        {
+          "event": "completed"
+        }
       ]
     }
   ],
-  "required_inputs": {
-    "experiment_id": "cytokine_gpc3_liver_autoresearch_demo",
-    "disease_context": "hepatocellular carcinoma",
-    "tumor_type": "liver cancer",
-    "car_target_antigen": "GPC3",
-    "antigen_density_condition": "low tumor/cancer cell surface antigen density",
-    "engineering_variable": "cytokine_payload",
-    "candidate_interventions": [
-      "IL-2",
-      "IL-7",
-      "IL-12",
-      "IL-15",
-      "IL-18"
+  "scheduling_summary": {
+    "total_stages": 7,
+    "deterministic_stages": 3,
+    "hybrid_stages": 1,
+    "retries": 0,
+    "failures": 0,
+    "blocked_stages": 0,
+    "execution_order": [
+      "research_goal_parsing",
+      "literature_retrieval_and_classification",
+      "central_hypothesis_generation",
+      "cytokine_fingerprint_parameterization",
+      "physicell_simulation_setup",
+      "simulation_analysis_and_refinement",
+      "final_report_generation"
     ],
-    "biological_endpoints": [
-      "tumor burden",
-      "CAR-T expansion",
-      "CAR-T persistence",
-      "exhaustion fraction",
-      "cytotoxicity",
-      "IFN-gamma dynamics",
-      "hypoxia dynamics",
-      "PD-L1/TME remodeling signal"
-    ],
-    "simulator_choice": "physicell",
-    "replicates": 3,
-    "random_seed": 1729,
-    "parameter_sweep": {
-      "antigen_density": [
-        0.2
-      ],
-      "car_t_dose": [
-        1.0
-      ],
-      "tumor_burden": [
-        1.0
-      ],
-      "tme_severity": [
-        0.6
-      ]
-    },
-    "output_dir": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\00_llm_orchestrator"
+    "critical_path_seconds": 4857.06,
+    "llm_agent_stages": 3
   },
-  "expected_outputs": {
-    "final_report": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\07_final_report\\final_report.md",
-    "simulation_results": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\workflow_artifact_collection\\06_physicell_low_antigen_results\\cytokine_only_summary\\cytokine_only_summary.json"
-  },
-  "reproducibility_records": [
-    "All intermediate artifacts are preserved for reproducibility.",
-    "Each stage outputs are documented and stored in the specified output directory."
-  ],
-  "unresolved_assumptions": [
-    "The effectiveness of the cytokine payloads in the context of low antigen density has not been validated experimentally.",
-    "The simulation parameters may require further refinement based on initial results."
+  "guardrails": [
+    "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
+    "Timestamps reflect runtime scheduling; stage 4 and stage 6 align with this run's recorded llm_calls.",
+    "Scripted/deterministic stages are dispatched without an LLM call."
   ]
 }

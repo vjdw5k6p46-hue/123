@@ -1,6 +1,6 @@
 # LLM Contribution Verification
 
-The reviewer demo writes:
+The reproducibility demo writes:
 
 ```text
 outputs/reviewer_demo/llm_contribution_summary.csv

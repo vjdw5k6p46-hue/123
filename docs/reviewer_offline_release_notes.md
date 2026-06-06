@@ -10,8 +10,8 @@ It packages the LLM-guided, schema-constrained CAR-T in silico workflow as a loc
 
 - Integrated source snapshot from `integration/reviewer-response-stack`.
 - Reviewer commands and documentation.
-- Local verification logs for installation, pytest, reviewer demo generation, and wording consistency checks.
-- Reviewer demo artifacts under `outputs/reviewer_demo/`.
+- Local verification logs for installation, pytest, reproducibility demo generation, and wording consistency checks.
+- Reproducibility demo artifacts under `outputs/reviewer_demo/`.
 - Mock and replay LLM audit artifacts, including `llm_calls.jsonl`, prompt files, raw response fixture files, parsed JSON, and validation reports.
 - Ablation outputs and `llm_contribution_summary.csv`.
 - Limitations, mock-data policy, external PhysiCell notes, rebuttal wording, and manuscript revision snippets.
@@ -53,7 +53,7 @@ python scripts/check_reviewer_response_consistency.py --include-outputs
 - Mock and replay outputs are software fixtures only.
 - Mock records are not real scholarly citations, not manuscript evidence, and not substitutes for wet-lab validation.
 - The package does not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.
-- Real OpenAI-compatible LLM audit artifacts are included for the reviewer-facing AutoResearch package.
+- Real OpenAI-compatible LLM audit artifacts are included for the public audit AutoResearch package.
 - Local PhysiCell cytokine-arm simulation summary artifacts are included for the low-antigen runs; large raw output folders and compiled binaries are not included.
 - Live LLM execution requires provider credentials and is optional.
 - External PhysiCell execution requires a locally compiled executable configured through `PHYSICELL_EXECUTABLE`.

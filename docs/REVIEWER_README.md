@@ -1,6 +1,6 @@
 # Reviewer README
 
-This reviewer package provides the reviewer-ready LLM-guided, schema-constrained CAR-T in silico workflow package.
+This workflow archive provides the reproducibility-ready LLM-guided, schema-constrained CAR-T in silico workflow package.
 
 ## Install
 

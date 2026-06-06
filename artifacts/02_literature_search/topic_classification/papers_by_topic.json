@@ -19,7 +19,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102803+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -66,7 +65,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727327+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -116,7 +114,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832082+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -166,7 +163,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565593+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -223,7 +219,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694098+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -272,7 +267,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903360+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -329,7 +323,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727292+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -383,7 +376,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247453+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -440,7 +432,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499055+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -493,7 +484,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102805+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -546,7 +536,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339670+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -594,7 +583,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646308+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -642,7 +630,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646321+00:00",
       "source_databases": [
         "OpenAlex",
         "Crossref"
@@ -694,7 +681,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018892+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -748,7 +734,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102799+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -796,7 +781,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499040+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -839,7 +823,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565612+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -889,7 +872,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735778+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -934,7 +916,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735783+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -980,7 +961,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694097+00:00",
       "source_databases": [
         "Semantic Scholar",
         "Crossref"
@@ -1031,7 +1011,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694100+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -1072,7 +1051,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565608+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -1115,7 +1093,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565620+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -1169,7 +1146,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327440+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1217,7 +1193,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694092+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -1292,7 +1267,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499036+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1337,7 +1311,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601823+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -1391,7 +1364,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937078+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -1429,7 +1401,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.749991+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -1482,7 +1453,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694090+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -1533,7 +1503,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327441+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1581,7 +1550,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327453+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1623,7 +1591,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750001+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -1668,7 +1635,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102804+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1720,7 +1686,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937097+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -1764,7 +1729,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327407+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1810,7 +1774,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327427+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1861,7 +1824,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327432+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1913,7 +1875,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327439+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -1969,7 +1930,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327442+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -2004,7 +1964,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.749998+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2057,7 +2016,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694103+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -2104,7 +2062,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327450+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -2159,7 +2116,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327449+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -2206,7 +2162,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937072+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -2250,7 +2205,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962510+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2290,7 +2244,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962509+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2338,7 +2291,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327425+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -2385,7 +2337,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962514+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2432,7 +2383,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962517+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2472,7 +2422,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870295+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -2519,7 +2468,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962506+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2562,7 +2510,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962536+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2600,7 +2547,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962525+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2644,7 +2590,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962532+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2681,7 +2626,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962508+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2716,7 +2660,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962522+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2751,7 +2694,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962530+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2796,7 +2738,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694093+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -2837,7 +2778,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694111+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -2886,7 +2826,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482240+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -2935,7 +2874,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102798+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -2983,7 +2921,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832079+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -3030,7 +2967,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694094+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -3087,7 +3023,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601804+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3132,7 +3067,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482230+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -3179,7 +3113,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601814+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3228,7 +3161,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601815+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3276,7 +3208,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601817+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3325,7 +3256,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601818+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3378,7 +3308,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601821+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3428,7 +3357,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601822+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3471,7 +3399,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102797+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -3517,7 +3444,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102788+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -3572,7 +3498,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102790+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -3622,7 +3547,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499068+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -3661,7 +3585,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565595+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -3719,7 +3642,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339640+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3778,7 +3700,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339647+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3834,7 +3755,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339654+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3881,7 +3801,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339656+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3930,7 +3849,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339661+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -3983,7 +3901,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339665+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4038,7 +3955,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339668+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4081,7 +3997,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339672+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4126,7 +4041,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.927998+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -4168,7 +4082,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727331+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4211,7 +4124,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247428+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4261,7 +4173,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247434+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4310,7 +4221,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247439+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4354,7 +4264,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247441+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4404,7 +4313,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247451+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4446,7 +4354,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247455+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4491,7 +4398,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646332+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -4543,7 +4449,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646323+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -4599,7 +4504,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646311+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -4643,7 +4547,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646326+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -4685,7 +4588,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727309+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4757,7 +4659,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694085+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -4826,7 +4727,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694089+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -4895,7 +4795,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694104+00:00",
       "source_databases": [
         "Semantic Scholar",
         "OpenAlex"
@@ -4945,7 +4844,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339652+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -4994,7 +4892,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727311+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5063,7 +4960,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727313+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5117,7 +5013,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727314+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5158,7 +5053,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727315+00:00",
       "source_databases": [
         "PubMed",
         "Crossref"
@@ -5231,7 +5125,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727317+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5289,7 +5182,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694116+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -5345,7 +5237,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727319+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5415,7 +5306,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727320+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5460,7 +5350,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727323+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5505,7 +5394,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832046+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -5569,7 +5457,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832088+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -5615,7 +5502,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102801+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -5661,7 +5547,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735807+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -5706,7 +5591,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903356+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5756,7 +5640,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646318+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -5802,7 +5685,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646315+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -5847,7 +5729,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735800+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -5888,7 +5769,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205824+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -5943,7 +5823,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247435+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -5990,7 +5869,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247457+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6041,7 +5919,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832087+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -6094,7 +5971,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247437+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6143,7 +6019,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247442+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6205,7 +6080,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247450+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6264,7 +6138,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646319+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -6321,7 +6194,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646302+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -6383,7 +6255,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832085+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -6426,7 +6297,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499054+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -6466,7 +6336,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735793+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -6513,7 +6382,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601811+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6558,7 +6426,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601812+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6603,7 +6470,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601806+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6649,7 +6515,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601819+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6699,7 +6564,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601825+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6763,7 +6627,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499039+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -6810,7 +6673,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102806+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -6868,7 +6730,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339673+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6913,7 +6774,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339625+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -6960,7 +6820,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339651+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7010,7 +6869,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339655+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7057,7 +6915,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339658+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7116,7 +6973,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339663+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7168,7 +7024,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339664+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7231,7 +7086,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339666+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7289,7 +7143,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339669+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7328,7 +7181,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565591+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -7369,7 +7221,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205830+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -7422,7 +7273,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339646+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7468,7 +7318,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962538+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -7510,7 +7359,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962528+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -7564,7 +7412,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903346+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7619,7 +7466,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903378+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7673,7 +7519,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903369+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -7734,7 +7579,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499065+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -7775,7 +7619,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499066+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -7819,7 +7662,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499049+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -7874,7 +7716,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832084+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -7925,7 +7766,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499069+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -7972,7 +7812,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903352+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8018,7 +7857,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727328+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8063,7 +7901,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903353+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8108,7 +7945,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735788+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -8152,7 +7988,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601813+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8207,7 +8042,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601783+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8250,7 +8084,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937091+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8293,7 +8126,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694115+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -8335,7 +8167,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694096+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -8373,7 +8204,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694107+00:00",
       "source_databases": [
         "Semantic Scholar",
         "Crossref"
@@ -8414,7 +8244,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903349+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8453,7 +8282,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903359+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8515,7 +8343,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694102+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -8552,7 +8379,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694118+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -8594,7 +8420,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903372+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8636,7 +8461,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903373+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8681,7 +8505,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601826+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8722,7 +8545,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694113+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -8760,7 +8582,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018879+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -8801,7 +8622,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499058+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -8843,7 +8663,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937079+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8880,7 +8699,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937088+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8929,7 +8747,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937094+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -8975,7 +8792,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937095+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -9012,7 +8828,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750010+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -9052,7 +8867,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870298+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9089,7 +8903,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.749975+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -9129,7 +8942,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327455+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9167,7 +8979,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327454+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9205,7 +9016,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646327+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9244,7 +9054,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327433+00:00",
       "source_databases": [
         "OpenAlex",
         "Crossref"
@@ -9301,7 +9110,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903376+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -9344,7 +9152,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018895+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9388,7 +9195,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727322+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -9434,7 +9240,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018880+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9481,7 +9286,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018883+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9523,7 +9327,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018901+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9560,7 +9363,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727324+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -9605,7 +9407,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870297+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9646,7 +9447,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018898+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9684,7 +9484,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018873+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9726,7 +9525,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018881+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9773,7 +9571,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018889+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9814,7 +9611,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018902+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9857,7 +9653,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870302+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9897,7 +9692,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018875+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9941,7 +9735,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018887+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -9982,7 +9775,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727329+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -10024,7 +9816,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018896+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -10064,7 +9855,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499043+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -10107,7 +9897,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870292+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -10151,7 +9940,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102793+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -10191,7 +9979,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018886+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -10237,7 +10024,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735785+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -10286,7 +10072,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601807+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -10340,7 +10125,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601808+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -10400,7 +10184,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601820+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -10447,7 +10230,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565610+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -10493,7 +10275,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102795+00:00",
       "source_databases": [
         "OpenAlex",
         "Crossref"
@@ -10544,7 +10325,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735797+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -10594,7 +10374,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735799+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -10638,7 +10417,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565618+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -10686,7 +10464,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601810+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -10735,7 +10512,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339659+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -10790,7 +10566,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339660+00:00",
       "source_databases": [
         "PubMed",
         "Crossref"
@@ -10838,7 +10613,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205847+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -10883,7 +10657,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735792+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -10931,7 +10704,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832068+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -10981,7 +10753,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903363+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11043,7 +10814,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903361+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11096,7 +10866,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903365+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11140,7 +10909,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903368+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11199,7 +10967,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903350+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11246,7 +11013,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903371+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11292,7 +11058,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499063+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -11341,7 +11106,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499050+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -11383,7 +11147,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962537+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -11428,7 +11191,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102792+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -11490,7 +11252,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339644+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11548,7 +11309,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018903+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -11588,7 +11348,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205850+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -11637,7 +11396,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247429+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11684,7 +11442,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247438+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11739,7 +11496,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247443+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11797,7 +11553,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247449+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11838,7 +11593,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247454+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -11893,7 +11647,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499060+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -11950,7 +11703,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727318+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12014,7 +11766,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727326+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12055,7 +11806,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.927976+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -12109,7 +11859,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:26.339649+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12157,7 +11906,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694088+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -12203,7 +11951,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903333+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12249,7 +11996,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694114+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -12298,7 +12044,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694064+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -12346,7 +12091,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694099+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -12386,7 +12130,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694110+00:00",
       "source_databases": [
         "Semantic Scholar",
         "Crossref"
@@ -12427,7 +12170,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102796+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -12479,7 +12221,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102800+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -12584,7 +12325,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018897+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -12626,7 +12366,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482223+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -12669,7 +12408,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903377+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12710,7 +12448,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962521+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -12757,7 +12494,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903355+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12803,7 +12539,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903357+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12856,7 +12591,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903364+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12916,7 +12650,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601799+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -12969,7 +12702,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247431+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -13015,7 +12747,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:35.727307+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -13061,7 +12792,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:31.247458+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -13127,7 +12857,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499038+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13173,7 +12902,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:21.601827+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -13243,7 +12971,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832076+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13299,7 +13026,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870296+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13350,7 +13076,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499059+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13403,7 +13128,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499061+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13455,7 +13179,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102808+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13496,7 +13219,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018891+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13537,7 +13259,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018894+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13596,7 +13317,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499019+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13633,7 +13353,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482233+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -13681,7 +13400,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499053+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13732,7 +13450,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646310+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13776,7 +13493,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499045+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13817,7 +13533,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102802+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -13854,7 +13569,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482227+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -13892,7 +13606,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565598+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -13930,7 +13643,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565601+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -13970,7 +13682,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482224+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14013,7 +13724,6 @@
       "source_database": "Semantic Scholar",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:12.694109+00:00",
       "source_databases": [
         "Semantic Scholar"
       ],
@@ -14048,7 +13758,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565606+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14083,7 +13792,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750013+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14118,7 +13826,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482226+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14173,7 +13880,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499051+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -14264,7 +13970,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499056+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -14299,7 +14004,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565616+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14334,7 +14038,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482222+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14378,7 +14081,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646330+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -14417,7 +14119,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018876+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -14468,7 +14169,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499042+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -14505,7 +14205,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482246+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14540,7 +14239,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962533+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14577,7 +14275,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482248+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14617,7 +14314,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482244+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14656,7 +14352,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482245+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14695,7 +14390,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482237+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14730,7 +14424,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482229+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14765,7 +14458,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205836+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14802,7 +14494,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565615+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14837,7 +14528,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482231+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14872,7 +14562,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482201+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14907,7 +14596,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482217+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14942,7 +14630,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482220+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -14977,7 +14664,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482239+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -15018,7 +14704,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962519+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -15063,7 +14748,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903366+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -15100,7 +14784,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565624+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -15148,7 +14831,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937054+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -15183,7 +14865,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.927993+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -15229,7 +14910,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870306+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15272,7 +14952,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018900+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15315,7 +14994,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870305+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15360,7 +15038,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870287+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15401,7 +15078,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870290+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15445,7 +15121,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870307+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15486,7 +15161,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870304+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15527,7 +15201,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870280+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15565,7 +15238,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870293+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15613,7 +15285,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870282+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15652,7 +15323,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832077+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15691,7 +15361,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.927997+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -15732,7 +15401,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327426+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15778,7 +15446,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_03",
       "step1_query": "IL-7 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:23.102794+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15815,7 +15482,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962516+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -15853,7 +15519,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565621+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -15892,7 +15557,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018888+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15931,7 +15595,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018877+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -15973,7 +15636,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018884+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -16012,7 +15674,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:14.018857+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -16077,7 +15738,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832089+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -16118,7 +15778,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565619+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16156,7 +15815,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565605+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16196,7 +15854,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646324+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -16234,7 +15891,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.927992+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16279,7 +15935,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:37.832083+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -16314,7 +15969,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565603+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16349,7 +16003,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735784+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16386,7 +16039,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.928002+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16436,7 +16088,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646313+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -16487,7 +16138,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:19.499047+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -16524,7 +16174,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735803+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16568,7 +16217,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565611+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16608,7 +16256,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482243+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16645,7 +16292,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565602+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16684,7 +16330,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.927984+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16721,7 +16366,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565596+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16760,7 +16404,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205828+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16797,7 +16440,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.928003+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16834,7 +16476,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205843+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16871,7 +16512,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205848+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16908,7 +16548,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565614+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16945,7 +16584,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565576+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -16980,7 +16618,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565599+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -17018,7 +16655,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962539+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -17063,7 +16699,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.749993+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -17106,7 +16741,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937081+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17148,7 +16782,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937086+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17195,7 +16828,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937090+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17241,7 +16873,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327445+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -17287,7 +16918,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327430+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -17328,7 +16958,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327429+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -17373,7 +17002,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327436+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -17427,7 +17055,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327444+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -17465,7 +17092,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327435+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -17500,7 +17126,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962527+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -17537,7 +17162,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.749996+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -17581,7 +17205,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937082+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17628,7 +17251,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937101+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17674,7 +17296,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937070+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17733,7 +17354,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937074+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17778,7 +17398,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937075+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17830,7 +17449,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937077+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17871,7 +17489,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937083+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17924,7 +17541,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937085+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -17966,7 +17582,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937087+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -18017,7 +17632,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937093+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -18061,7 +17675,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937098+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -18101,7 +17714,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937100+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -18144,7 +17756,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:43.937102+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -18182,7 +17793,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870288+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18219,7 +17829,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750000+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18259,7 +17868,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870291+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18299,7 +17907,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870289+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18337,7 +17944,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870299+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18394,7 +18000,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870264+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18433,7 +18038,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:41.870308+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18475,7 +18079,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327437+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18535,7 +18138,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:45.327452+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -18572,7 +18174,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962490+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18607,7 +18208,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750015+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18642,7 +18242,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750017+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18677,7 +18276,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750018+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18720,7 +18318,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962518+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18763,7 +18360,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_07",
       "step1_query": "GPC3-targeting CAR-T in low-antigen contexts",
-      "retrieval_timestamp": "2026-06-05T20:26:42.962524+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18800,7 +18396,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.749995+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18837,7 +18432,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.749997+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18877,7 +18471,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750022+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18915,7 +18508,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750005+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18953,7 +18545,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750011+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -18991,7 +18582,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750014+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19029,7 +18619,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750021+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19066,7 +18655,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750002+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19103,7 +18691,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750004+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19140,7 +18727,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_08",
       "step1_query": "hepatocellular carcinoma CAR-T therapy",
-      "retrieval_timestamp": "2026-06-05T20:26:46.750006+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19177,7 +18763,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_01",
       "step1_query": "self-secreting cytokine-armored CAR-T design",
-      "retrieval_timestamp": "2026-06-05T20:26:16.482236+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19245,7 +18830,6 @@
       "source_database": "PubMed",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:17.903375+00:00",
       "source_databases": [
         "PubMed"
       ],
@@ -19292,7 +18876,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_04",
       "step1_query": "IL-12 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:30.205834+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19335,7 +18918,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735801+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19381,7 +18963,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:34.735804+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19427,7 +19008,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_02",
       "step1_query": "IL-2 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:20.565623+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19470,7 +19050,6 @@
       "source_database": "OpenAlex",
       "step1_query_id": "clean_step1_query_05",
       "step1_query": "IL-15 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:32.646316+00:00",
       "source_databases": [
         "OpenAlex"
       ],
@@ -19509,7 +19088,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.928005+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19553,7 +19131,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.928000+00:00",
       "source_databases": [
         "Crossref"
       ],
@@ -19590,7 +19167,6 @@
       "source_database": "Crossref",
       "step1_query_id": "clean_step1_query_06",
       "step1_query": "IL-18 CAR-T studies",
-      "retrieval_timestamp": "2026-06-05T20:26:39.928006+00:00",
       "source_databases": [
         "Crossref"
       ],

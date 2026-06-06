@@ -42,9 +42,9 @@ IL-15 was the top cytokine arm in both pre-refine and post-refine low-antigen in
 The results are based on in silico PhysiCell simulations and have not been validated in wet-lab settings. Real literature relevance and parameter choices require thorough human scientific review before any manuscript use.
 
 ## 10. Artifact Index
-- **Research Goal Document**: `outputs\\autoresearch_step1_goal_parse_openai_dynamic_clean_question\\research_goal.json`
-- **Paper Classification Summary**: `outputs\\autoresearch_step1_paper_search_classification\\classification_summary.json`
-- **Central Hypothesis Document**: `outputs\\autoresearch_step3_central_hypothesis_openai\\central_hypothesis_output.json`
-- **LLM Parameter Proposal Calls**: `outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\llm_calls.jsonl`
-- **Pre-Refinement Results**: `outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_runs_low_antigen_0p2\\round1_pre_refine_replicates3\\replicate_ranking.csv`
-- **Post-Refinement Results**: `outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_runs_low_antigen_0p2\\round2_post_refine_replicates3\\replicate_ranking.csv`
+- **Research Goal Document**: `artifacts/01_research_goal/research_goal.json`
+- **Paper Classification Summary**: `artifacts/02_literature_search/classification_summary.json`
+- **Central Hypothesis Document**: `artifacts/03_central_hypothesis/central_hypothesis_output.json`
+- **LLM Parameter Proposal Calls**: `artifacts/04_llm_parameter_rounds/llm_calls.jsonl`
+- **Pre-Refinement Results**: `artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_ranking.csv`
+- **Post-Refinement Results**: `artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_ranking.csv`

@@ -34,7 +34,7 @@ The prompt registry in `src/cart_autolab/prompts.py` defines the full agent inte
 - hypothesis generation
 - critique
 
-Other prompts remain registry specifications or deterministic workflow roles unless explicitly wired into execution. Reviewer-facing claims should not state that every prompt in the registry is a live LLM agent.
+Other prompts remain registry specifications or deterministic workflow roles unless explicitly wired into execution. Public audit claims should not state that every prompt in the registry is a live LLM agent.
 
 ## 3. LLM-Derived Output Boundaries
 
@@ -63,7 +63,7 @@ The integrated branch supports reviewer inspection of software-level LLM contrib
 - deterministic, LLM, and hybrid evidence artifacts
 - parameter fingerprints with evidence provenance
 - ablation summaries comparing deterministic, LLM, and hybrid modes
-- `outputs/reviewer_demo/llm_contribution_summary.csv` after running the reviewer demo
+- `outputs/reviewer_demo/llm_contribution_summary.csv` after running the reproducibility demo
 
 Mock and replay rows demonstrate software routing and provenance only. They are not biological validation.
 

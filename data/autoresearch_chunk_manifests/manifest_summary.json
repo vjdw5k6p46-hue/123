@@ -1,5 +1,4 @@
 {
-  "generated_at": "2026-06-05T17:27:46.213617+00:00",
   "description": "Metadata-only chunk manifests for local AutoResearch review. Full paper text, PDFs, TEI files, and local paths are intentionally excluded.",
   "copyright_policy": "These manifests do not include paper chunk text or full paper content. They are provenance/index records only.",
   "sources": {

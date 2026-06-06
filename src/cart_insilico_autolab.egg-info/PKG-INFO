@@ -25,7 +25,7 @@ The researcher defines the biological goal. The workflow operationalizes that go
 
 ## Workflow Modes
 
-This reviewer package provides deterministic reference execution plus optional executable LLM-agent, archived/replay, hybrid, ablation, and external PhysiCell support.
+This workflow archive provides deterministic reference execution plus optional executable LLM-agent, archived/replay, hybrid, ablation, and external PhysiCell support.
 
 - Deterministic reference mode: default mode; no API key, internet access, or external PhysiCell executable required.
 - Executable LLM-agent mode: optional; records prompt, raw response, parsed JSON, schema validation, and audit metadata.
@@ -52,7 +52,7 @@ pip install -e .[dev]
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
 ```
 
-Reviewer-facing safe demo bundle:
+Public audit safe demo bundle:
 
 ```bash
 bash scripts/run_reviewer_reproducibility_demo.sh

@@ -1,6 +1,6 @@
 # Reviewer Reproducibility Commands
 
-Run the safe reviewer demo:
+Run the safe reproducibility demo:
 
 ```bash
 bash scripts/run_reviewer_reproducibility_demo.sh

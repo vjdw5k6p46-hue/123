@@ -15,7 +15,7 @@ This audit reviews the integrated reviewer-response branch created after the rev
 
 ## 1. Implemented Reviewer-Response Tasks
 
-Implemented in this reviewer package:
+Implemented in this workflow archive:
 
 - Repository guardrails in `AGENTS.md`, including no fabricated citations, LLM outputs, PhysiCell outputs, or wet-lab data.
 - Documentation audit and PR split plan.
@@ -28,7 +28,7 @@ Implemented in this reviewer package:
 - Evidence loader and parameter fingerprint provenance fields.
 - Ablation analysis comparing deterministic, LLM, and hybrid modes.
 - External PhysiCell documentation, explicit external-mode error handling, execution logs, and output conversion reports.
-- Reviewer-facing documentation and conservative rebuttal wording.
+- Public audit documentation and conservative rebuttal wording.
 
 ## 2. Partially Implemented Tasks
 
@@ -39,11 +39,11 @@ Implemented in this reviewer package:
 
 ## 3. Documented but Not Fully Executable Without External Setup
 
-Executable LLM-agent mode, replay mode, hybrid evidence-to-parameter provenance, ablation, and external PhysiCell conversion are present in this reviewer package. Live LLM calls require provider credentials, and real external PhysiCell simulation requires a local compiled executable.
+Executable LLM-agent mode, replay mode, hybrid evidence-to-parameter provenance, ablation, and external PhysiCell conversion are present in this workflow archive. Live LLM calls require provider credentials, and real external PhysiCell simulation requires a local compiled executable.
 
 ## 4. Default Deterministic Pipeline
 
-The default deterministic pipeline still runs. Previous full-suite results from the component branches and this reviewer package are documented in PR descriptions and the final checklist.
+The default deterministic pipeline still runs. Previous full-suite results from the component branches and this workflow archive are documented in PR descriptions and the final checklist.
 
 - PR 1 branch: `pytest` passed with 18 tests.
 - PR 2 branch: `pytest` passed with 21 tests.
@@ -169,13 +169,13 @@ Tests cover missing executable errors and insufficient output conversion reports
 
 ## 13. Documentation Overclaiming
 
-The reviewer-facing docs use the phrase:
+The public audit docs use the phrase:
 
 ```text
 LLM-guided, schema-constrained CAR-T in silico workflow
 ```
 
-Autonomous-lab overclaiming language appears only in `AGENTS.md` as avoided wording. It should not be used in reviewer-facing claims.
+Autonomous-lab overclaiming language appears only in `AGENTS.md` as avoided wording. It should not be used in public audit claims.
 
 ## 14. Fake Artifacts
 

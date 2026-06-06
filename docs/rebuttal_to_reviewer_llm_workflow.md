@@ -1,6 +1,6 @@
 # Rebuttal to Reviewer Concern About the LLM Workflow
 
-This document provides two non-defensive response options. The strong version matches this reviewer package. The conservative version can be used if the authors decide to describe only deterministic reference mode, prompt specifications, mock/replay fixtures, and clearer documentation.
+This document provides two non-defensive response options. The strong version matches this workflow archive. The conservative version can be used if the authors decide to describe only deterministic reference mode, prompt specifications, mock/replay fixtures, and clearer documentation.
 
 ## A. Strong Version
 
@@ -24,7 +24,7 @@ We agree that the initial public release is best characterized as a deterministi
 
 The deterministic reference mode is retained intentionally because it is portable and reproducible without API keys, internet access, or a compiled PhysiCell executable. It demonstrates the evidence-to-parameter-to-simulation path in a controlled software setting.
 
-The prompt registry documents the intended LLM-agent interfaces and schemas. If any agents remain specification-only, reviewer-facing text should list them honestly rather than claiming they are executable. Mock and replay fixtures are used only to exercise software paths and artifact generation.
+The prompt registry documents the intended LLM-agent interfaces and schemas. If any agents remain specification-only, public audit text should list them honestly rather than claiming they are executable. Mock and replay fixtures are used only to exercise software paths and artifact generation.
 
 The intended LLM role is biological knowledge synthesis: converting dispersed CAR-T/cytokine evidence into structured cytokine functional fingerprints that can be bounded and checked before simulation. The deterministic pipeline, schema constraints, simulation adapter, and wet-lab validation form the reproducibility and validation harness.
 
@@ -43,7 +43,7 @@ When the implementation PR stack is used, selected executable agents include:
 - hypothesis generation
 - critique
 
-Other prompts may remain specifications or reproducibility templates unless explicitly wired into the workflow. Reviewer-facing text should not claim that every prompt in the registry is an executable live LLM agent.
+Other prompts may remain specifications or reproducibility templates unless explicitly wired into the workflow. Public audit text should not claim that every prompt in the registry is an executable live LLM agent.
 
 ## PhysiCell Wording
 

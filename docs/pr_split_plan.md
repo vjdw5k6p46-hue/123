@@ -1,6 +1,6 @@
 # Historical PR Split Plan
 
-This historical plan records how the reviewer-response work was originally divided into reviewable branches before this reviewer package was assembled. The package contains the implemented stack described in the README, reviewer audit, smoke tests, and reviewer demo docs.
+This historical plan records how the reviewer-response work was originally divided into reviewable branches before this workflow archive was assembled. The package contains the implemented stack described in the README, reviewer audit, smoke tests, and reproducibility demo docs.
 
 ## PR 0: Audit Reviewer Reproducibility Gaps
 
@@ -65,7 +65,7 @@ This historical plan records how the reviewer-response work was originally divid
 ## PR 6: Update Reviewer-Facing Documentation and Rebuttal Wording
 
 - Branch: `docs/reviewer-response`
-- Scope: Update README and reviewer-facing documentation after implementation PRs, labeling unavailable features conservatively.
+- Scope: Update README and public audit documentation after implementation PRs, labeling unavailable features conservatively.
 - Files likely touched: `README.md`, `docs/reviewer_response_implementation.md`, `docs/mock_data_policy.md`, `docs/llm_agent_workflow.md`, `docs/reproducibility_artifacts.md`, `docs/rebuttal_to_reviewer_llm_workflow.md`, `docs/manuscript_wording_revisions.md`.
 - Explicit non-goals: Do not sound defensive; do not say mock data are scientific evidence; do not imply PhysiCell is authored by this project; do not overclaim autonomous operation.
 - Acceptance criteria: Documentation matches implemented code; unavailable features are labeled conservatively; mock data are described as test fixtures; reviewer concern is addressed directly.
@@ -74,7 +74,7 @@ This historical plan records how the reviewer-response work was originally divid
 
 ## Final Self-Review Checklist
 
-- Branch: Prefer a documentation branch after all prior branches, or include in PR 6 if that is the active reviewer-facing documentation branch.
+- Branch: Prefer a documentation branch after all prior branches, or include in PR 6 if that is the active public audit documentation branch.
 - Scope: Create `docs/final_reviewer_response_checklist.md`.
 - Files likely touched: `docs/final_reviewer_response_checklist.md`.
 - Explicit non-goals: Do not claim incomplete features are implemented; do not fabricate test results.

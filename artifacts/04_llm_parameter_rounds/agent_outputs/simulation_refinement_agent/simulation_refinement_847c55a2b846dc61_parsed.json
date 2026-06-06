@@ -10,22 +10,22 @@
     },
     {
       "rank": 2,
-      "cytokine": "IL-7",
-      "reason": "based only on supplied simulation metrics"
-    },
-    {
-      "rank": 3,
-      "cytokine": "IL-2",
-      "reason": "based only on supplied simulation metrics"
-    },
-    {
-      "rank": 4,
       "cytokine": "IL-18",
       "reason": "based only on supplied simulation metrics"
     },
     {
-      "rank": 5,
+      "rank": 3,
       "cytokine": "IL-12",
+      "reason": "based only on supplied simulation metrics"
+    },
+    {
+      "rank": 4,
+      "cytokine": "IL-7",
+      "reason": "based only on supplied simulation metrics"
+    },
+    {
+      "rank": 5,
+      "cytokine": "IL-2",
       "reason": "based only on supplied simulation metrics"
     }
   ],

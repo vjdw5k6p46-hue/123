@@ -1,6 +1,6 @@
 # Final Reviewer Response Checklist
 
-This checklist summarizes stabilization work for the LLM-guided, schema-constrained CAR-T in silico workflow. It should be reviewed before merging any reviewer-facing branch.
+This checklist summarizes stabilization work for the LLM-guided, schema-constrained CAR-T in silico workflow. It should be reviewed before merging any public audit branch.
 
 ## Required Wording Present
 
@@ -40,8 +40,8 @@ cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver_physicell.
 
 ## Passing / Failing Status
 
-- Smoke matrix passed for the reviewer package.
-- Full pytest passed for the reviewer package after reviewer artifact and contribution-summary additions.
+- Smoke matrix passed for the workflow archive.
+- Full pytest passed for the workflow archive after reviewer artifact and contribution-summary additions.
 - Demo runner produced all expected artifacts under `outputs/reviewer_demo/`.
 - Consistency checker runs without external services and prints warnings rather than modifying files.
 - Live LLM execution was not tested because tests must not require API keys.
@@ -82,7 +82,7 @@ Earlier implementation branches:
 - Whether any prompt-defined agents should remain specification-only.
 - Whether the optional LLM provider behavior is acceptable for the manuscript claims.
 - Whether external PhysiCell setup instructions should pin a specific upstream commit.
-- Whether reviewer demo artifacts are sufficient for the response package.
+- Whether reproducibility demo artifacts are sufficient for the response package.
 
 ## Recommended Merge Order
 
@@ -100,4 +100,4 @@ Earlier implementation branches:
 12. `audit/post-implementation-review`
 13. `qa/final-consistency-check`
 
-Documentation should be reviewed again if this reviewer package is split, rebased, or only partially merged.
+Documentation should be reviewed again if this workflow archive is split, rebased, or only partially merged.

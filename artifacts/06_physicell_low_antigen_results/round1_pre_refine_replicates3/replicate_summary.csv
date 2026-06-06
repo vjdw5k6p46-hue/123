@@ -1,5 +1,4 @@
 condition,n,live_tumor_count_mean,live_tumor_count_sd,live_cart_count_mean,live_cart_count_sd,mean_cart_exhaustion_mean,mean_cart_exhaustion_sd,mean_aux_cytokine_mean,mean_aux_cytokine_sd,mean_IFNg_mean,mean_IFNg_sd,tumor_remaining_fraction_mean,tumor_remaining_fraction_sd
-control,3,1393.0,7.0,1016.333333,13.051181,0.413569,0.007156,0.230329,0.000239,0.048746,0.000254,0.6965,0.0035
 il_12,3,1586.0,47.286362,705.333333,23.965253,0.460218,0.00964,0.112033,0.001711,0.03356,0.000396,0.793,0.023643
 il_15,3,1373.0,32.186954,994.333333,27.592269,0.41188,0.005789,0.230728,0.002721,0.048487,0.000778,0.6865,0.016093
 il_18,3,1461.0,14.177447,853.666667,11.547005,0.433152,0.00734,0.202389,0.00283,0.040476,0.000926,0.7305,0.007089

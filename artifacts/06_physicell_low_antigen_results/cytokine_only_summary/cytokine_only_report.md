@@ -1,6 +1,6 @@
 # Low-Antigen Cytokine-Only PhysiCell Ranking
 
-Control group excluded by request. Tumor antigen density is 0.2 in all included cytokine-arm XML configs. Results are in silico only, not wet-lab validation.
+Tumor antigen density is 0.2 in all included cytokine-arm XML configs. Results are in silico only, not wet-lab validation.
 
 ## round1_pre_refine
 
