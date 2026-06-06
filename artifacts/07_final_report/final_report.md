@@ -1,4 +1,4 @@
-# Final Report: Cytokine-Only CAR-T Design for Low-Antigen Tumor Setting
+# Cytokine-Armed CAR-T Design
 
 ## 1. Research Goal
 The objective of this research is to determine which self-secreting cytokine-armored CAR-T design among IL-2, IL-7, IL-12, IL-15, and IL-18 should be prioritized for low-antigen GPC3-positive liver cancer.

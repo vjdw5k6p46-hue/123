@@ -14,7 +14,7 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_api_keys_or_secrets": false,
   "contains_wet_lab_validation": false,
-  "file_count": 258,
+  "file_count": 271,
   "files": [
     {
       "path": ".gitattributes",
@@ -35,6 +35,71 @@
       "path": "AGENTS.md",
       "bytes": 1948,
       "sha256": "94ac87e8da62ef199d6834b06553b0ab86399140ff502d429cbe87d28341ac9b"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-1ce1dd3ca6e9_parsed.json",
+      "bytes": 8686,
+      "sha256": "b2b7e7c6c6b2a5d5028e16ef9d25f8d2abb24f018a2f9eb508f3303d009903dd"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-1ce1dd3ca6e9_prompt.txt",
+      "bytes": 24100,
+      "sha256": "7dd06649d25d9ca2d8b72dac8c6e47d728ca49bbe180ada314b58fd11d33ab8a"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-1ce1dd3ca6e9_raw_response.txt",
+      "bytes": 8700,
+      "sha256": "16a8d55112a6d730c47f6318f2435b664d2cf0e7fe9abee94b2c23b46222a7a1"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-1ce1dd3ca6e9_validation.json",
+      "bytes": 62,
+      "sha256": "037743e4053568794107d4bb35932f82e7d9c1124d4839ec0551fe5bd5352f96"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/knowledge_base/index.json",
+      "bytes": 20334,
+      "sha256": "41eb75670b88de5e660438b54483b5de5ad813e14be2354be7a83d8868aabe72"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/llm_calls.jsonl",
+      "bytes": 991,
+      "sha256": "9422ba0a74cda9ab9b23488dd550eb80c84c90dbe9982d6670feeb96478015ca"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/llm_calls_public_redacted.jsonl",
+      "bytes": 942,
+      "sha256": "69ef35af77cbbceda7ce56e77c88fb162b486e96cf654b2558798a6af087d214"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/orchestrator_parsed.json",
+      "bytes": 8686,
+      "sha256": "b2b7e7c6c6b2a5d5028e16ef9d25f8d2abb24f018a2f9eb508f3303d009903dd"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/orchestrator_plan.json",
+      "bytes": 8686,
+      "sha256": "b2b7e7c6c6b2a5d5028e16ef9d25f8d2abb24f018a2f9eb508f3303d009903dd"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/orchestrator_prompt.txt",
+      "bytes": 24100,
+      "sha256": "7dd06649d25d9ca2d8b72dac8c6e47d728ca49bbe180ada314b58fd11d33ab8a"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/orchestrator_raw_response.txt",
+      "bytes": 8700,
+      "sha256": "16a8d55112a6d730c47f6318f2435b664d2cf0e7fe9abee94b2c23b46222a7a1"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/orchestrator_validation.json",
+      "bytes": 1080,
+      "sha256": "2e876a5782b4eceda1b3be494a582e141d1361b0baa652c5c97422a012913674"
+    },
+    {
+      "path": "artifacts/00_llm_orchestrator/README.md",
+      "bytes": 628,
+      "sha256": "52230e9e2aee8631de6c3e7c0184358211361df72145be5fc7e09af72f30bb76"
     },
     {
       "path": "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
@@ -248,8 +313,8 @@
     },
     {
       "path": "artifacts/05_low_antigen_physicell_inputs/low_antigen_config_manifest.json",
-      "bytes": 4120,
-      "sha256": "67da8875abc042969d77984adbf71840d9dea671126301c59aa4d9d22a860a02"
+      "bytes": 3810,
+      "sha256": "df7d76cf7a73afc51c5a63748f72ab61bdc9abfaaf2fe24906cd9b63646f9ce6"
     },
     {
       "path": "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
@@ -338,8 +403,8 @@
     },
     {
       "path": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/run_manifest.json",
-      "bytes": 1128,
-      "sha256": "b384a262a880479136ca0db26651147827c56e2dc2082f0401a3befdf72ae799"
+      "bytes": 985,
+      "sha256": "ef4fda4bdc7db0e00a87b04553df033be8d542c1a227c7af6ff180cf2a3596a7"
     },
     {
       "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_metrics.csv",
@@ -358,13 +423,13 @@
     },
     {
       "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/run_manifest.json",
-      "bytes": 1132,
-      "sha256": "1b7a26f1e67e7958d0c1eb658095117937153bd7ee7600635d6f52287b68c2e3"
+      "bytes": 989,
+      "sha256": "b2e6bd3fc977d1d406ae55f07f791a6f15dda712957b18879676e6859bf911a8"
     },
     {
       "path": "artifacts/07_final_report/final_report.md",
-      "bytes": 4347,
-      "sha256": "e96a999a81c5178a0c275df5346117f26a8581f04fad6a51ef4d318a5d2ac4eb"
+      "bytes": 4303,
+      "sha256": "1ab33a8c6955d8c585206d00b900cd8a104cf920cc00396cafcb85643642470d"
     },
     {
       "path": "artifacts/07_final_report/final_report_article_list.xlsx",
@@ -383,8 +448,8 @@
     },
     {
       "path": "artifacts/07_final_report/final_report_manifest.json",
-      "bytes": 1288,
-      "sha256": "9c06e0825440b9f1fb87c868903daba58b4b143a043043eb8912af280a674a27"
+      "bytes": 1184,
+      "sha256": "e2a68fc30d419f906b61abe26b4c00df7ba1426343a8a29d9c15bf1ce76ff734"
     },
     {
       "path": "artifacts/07_final_report/final_report_prompt.txt",
@@ -393,8 +458,8 @@
     },
     {
       "path": "artifacts/artifact_manifest.json",
-      "bytes": 16803,
-      "sha256": "fda6eee15187e654d67198cb57bd4f761acc358c20a9a3c50f0403cbe7ddda62"
+      "bytes": 18502,
+      "sha256": "26dd3c39d720bd0fca4cdd9eb5af7cd00dafb4c83cc82deb1e4a6ecc0e764b12"
     },
     {
       "path": "configs/autoresearch_gemini.yaml",
@@ -663,8 +728,8 @@
     },
     {
       "path": "MANIFEST.json",
-      "bytes": 54409,
-      "sha256": "1aa0e5582bbe798963d6b58515b54893ed25a7c925e51a120a73cd8d4076d31d"
+      "bytes": 51081,
+      "sha256": "ced440b323edfb6a5755e43733d2cfe03111000fae94b30a78db24309bd30ff8"
     },
     {
       "path": "physicell_project/config/PhysiCell_settings.template.xml",
@@ -688,8 +753,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 691,
-      "sha256": "fac4922e6525d4304bceb0878ea505ace007b80fbdfd9cc0546cb4c8e1eabffc"
+      "bytes": 696,
+      "sha256": "8292d93a4edce9c32e1e2226447a9777dbb12715e42825e35e45ed0d09d75a8f"
     },
     {
       "path": "README.md",
@@ -808,8 +873,8 @@
     },
     {
       "path": "src/cart_autolab/__init__.py",
-      "bytes": 69,
-      "sha256": "c0865a679698cfebe1feb73358681afbad5fc464eb7ed7fcfa290bce899368a8"
+      "bytes": 94,
+      "sha256": "9554e8a8b55a17c846db1f3e9fdae213df127724b406e04034c2a4774dd1ab84"
     },
     {
       "path": "src/cart_autolab/agents/__init__.py",
@@ -1088,8 +1153,8 @@
     },
     {
       "path": "src/cart_autolab/prompts.py",
-      "bytes": 20340,
-      "sha256": "a4cbda139e3c972842d6239fbc8587cef5a867766410b962c668f5a7ae1355d3"
+      "bytes": 21057,
+      "sha256": "fd3852dd31c79a399c92e4aeb3a95833c63821f89bcf08898be1b085f5962557"
     },
     {
       "path": "src/cart_autolab/reporting/report_generator.py",
@@ -1143,8 +1208,8 @@
     },
     {
       "path": "src/cart_insilico_autolab.egg-info/PKG-INFO",
-      "bytes": 8665,
-      "sha256": "36a2338b0695e611a7decc420773e67d50e97fb90c0ec611fe8ae61071a64b7b"
+      "bytes": 8669,
+      "sha256": "f2dcf6b49d15b7beb9fd6d9d0f8c173d92f0290ff50b91b8f1e6d26a330a5ee8"
     },
     {
       "path": "src/cart_insilico_autolab.egg-info/requires.txt",

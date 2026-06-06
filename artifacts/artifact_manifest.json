@@ -285,8 +285,8 @@
     },
     {
       "path": "05_low_antigen_physicell_inputs/low_antigen_config_manifest.json",
-      "bytes": 4120,
-      "sha256": "67da8875abc042969d77984adbf71840d9dea671126301c59aa4d9d22a860a02"
+      "bytes": 3810,
+      "sha256": "df7d76cf7a73afc51c5a63748f72ab61bdc9abfaaf2fe24906cd9b63646f9ce6"
     },
     {
       "path": "05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
@@ -375,8 +375,8 @@
     },
     {
       "path": "06_physicell_low_antigen_results/round1_pre_refine_replicates3/run_manifest.json",
-      "bytes": 1128,
-      "sha256": "b384a262a880479136ca0db26651147827c56e2dc2082f0401a3befdf72ae799"
+      "bytes": 985,
+      "sha256": "ef4fda4bdc7db0e00a87b04553df033be8d542c1a227c7af6ff180cf2a3596a7"
     },
     {
       "path": "06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_metrics.csv",
@@ -395,13 +395,13 @@
     },
     {
       "path": "06_physicell_low_antigen_results/round2_post_refine_replicates3/run_manifest.json",
-      "bytes": 1132,
-      "sha256": "1b7a26f1e67e7958d0c1eb658095117937153bd7ee7600635d6f52287b68c2e3"
+      "bytes": 989,
+      "sha256": "b2e6bd3fc977d1d406ae55f07f791a6f15dda712957b18879676e6859bf911a8"
     },
     {
       "path": "07_final_report/final_report.md",
-      "bytes": 4347,
-      "sha256": "e96a999a81c5178a0c275df5346117f26a8581f04fad6a51ef4d318a5d2ac4eb"
+      "bytes": 4303,
+      "sha256": "1ab33a8c6955d8c585206d00b900cd8a104cf920cc00396cafcb85643642470d"
     },
     {
       "path": "07_final_report/final_report_article_list.xlsx",
@@ -420,8 +420,8 @@
     },
     {
       "path": "07_final_report/final_report_manifest.json",
-      "bytes": 1288,
-      "sha256": "9c06e0825440b9f1fb87c868903daba58b4b143a043043eb8912af280a674a27"
+      "bytes": 1184,
+      "sha256": "e2a68fc30d419f906b61abe26b4c00df7ba1426343a8a29d9c15bf1ce76ff734"
     },
     {
       "path": "07_final_report/final_report_prompt.txt",
