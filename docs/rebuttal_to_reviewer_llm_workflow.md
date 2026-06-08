@@ -6,7 +6,7 @@ This document provides two non-defensive response options. The strong version ma
 
 We agree that the initial public release made the deterministic reference pipeline more visible than the optional LLM-agent execution path. We revised the repository to distinguish deterministic reference mode, executable LLM-agent mode with audit artifacts, hybrid mode, and optional external PhysiCell execution.
 
-The deterministic reference mode remains the default for portability, reproducibility, and testing. It requires no API key, no internet access, and no compiled PhysiCell executable. This mode provides a stable baseline for reviewers to reproduce the evidence-to-parameter-to-simulation path.
+The deterministic reference mode remains available for portability, reproducibility, and testing. It requires no API key, no internet access, and no compiled PhysiCell executable. The current default workflow path is the LLM-first AutoResearch configuration, while the deterministic safe-demo mode provides a stable baseline for reviewers to reproduce the evidence-to-parameter-to-simulation path without external dependencies.
 
 To address the concern that prompt definitions appeared to be placeholders, selected agents are now executable components. The revised implementation records prompt-response artifacts, raw responses, parsed JSON, schema validation reports, provider metadata, prompt hashes, and run-level `llm_calls.jsonl` audit records. Invalid JSON is saved and rejected rather than silently accepted. Completed executable runs can be inspected through the saved audit artifacts.
 

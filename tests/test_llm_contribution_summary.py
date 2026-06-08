@@ -17,7 +17,7 @@ def _run_config(tmp_path, source_config, output_name):
 
 
 def test_llm_contribution_summary_labels_fixture_modes(tmp_path):
-    _run_config(tmp_path, "configs/experiment_cytokine_gpc3_liver.yaml", "deterministic")
+    _run_config(tmp_path, "configs/experiment_cytokine_gpc3_liver_safe_demo.yaml", "deterministic")
     _run_config(tmp_path, "configs/experiment_cytokine_gpc3_liver_llm_mock.yaml", "llm_mock")
 
     ablation_config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver_ablation.yaml").read_text(encoding="utf-8"))

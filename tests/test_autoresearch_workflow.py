@@ -5,9 +5,25 @@ import yaml
 from cart_autolab.autoresearch import AutoResearchWorkflow
 
 
+def _make_safe_autoresearch_config() -> dict:
+    config = yaml.safe_load((Path.cwd() / "configs" / "experiment_cytokine_gpc3_liver_autoresearch.yaml").read_text(encoding="utf-8"))
+    config["literature"] = {
+        **config.get("literature", {}),
+        "mode": "mock",
+        "download_papers": False,
+        "max_results_per_query": 8,
+    }
+    config["workflow"] = {
+        "search_planning_source": "deterministic",
+        "evidence_source": "deterministic",
+        "critique_source": "deterministic",
+    }
+    config["simulator"] = {"mode": "mock", "require_external_executable": False}
+    return config
+
+
 def test_autoresearch_workflow_builds_on_existing_orchestrator(tmp_path):
-    root = Path.cwd()
-    config = yaml.safe_load((root / "configs" / "experiment_cytokine_gpc3_liver_autoresearch.yaml").read_text(encoding="utf-8"))
+    config = _make_safe_autoresearch_config()
     config["output_dir"] = str(tmp_path / "autoresearch")
     config["llm"] = {"provider": "none", "mode": "deterministic"}
     config["autoresearch"]["goal_source"] = "deterministic"
@@ -50,7 +66,7 @@ def test_autoresearch_skip_base_run_summarizes_existing_artifacts(tmp_path):
         '[{"intervention_name":"IL-15","confidence_score":0.7,"uncertainty":0.2}]',
         encoding="utf-8",
     )
-    config = yaml.safe_load((Path.cwd() / "configs" / "experiment_cytokine_gpc3_liver_autoresearch.yaml").read_text(encoding="utf-8"))
+    config = _make_safe_autoresearch_config()
     config["output_dir"] = str(run_dir)
     config["llm"] = {"provider": "none", "mode": "deterministic"}
     config["autoresearch"]["goal_source"] = "deterministic"
@@ -64,7 +80,7 @@ def test_autoresearch_skip_base_run_summarizes_existing_artifacts(tmp_path):
 
 
 def test_autoresearch_optional_llm_steps_use_agent_runner_with_mock_provider(tmp_path):
-    config = yaml.safe_load((Path.cwd() / "configs" / "experiment_cytokine_gpc3_liver_autoresearch.yaml").read_text(encoding="utf-8"))
+    config = _make_safe_autoresearch_config()
     config["output_dir"] = str(tmp_path / "autoresearch_llm")
     config["llm"] = {
         "provider": "mock",
@@ -110,7 +126,7 @@ def test_autoresearch_step1_can_parse_research_goal_with_mock_llm(tmp_path):
         '[{"intervention_name":"IL-15","confidence_score":0.7,"uncertainty":0.2}]',
         encoding="utf-8",
     )
-    config = yaml.safe_load((Path.cwd() / "configs" / "experiment_cytokine_gpc3_liver_autoresearch.yaml").read_text(encoding="utf-8"))
+    config = _make_safe_autoresearch_config()
     config["output_dir"] = str(run_dir)
     config["autoresearch"]["goal_source"] = "llm"
     config["autoresearch"]["research_question"] = "Which self-secreting cytokine CAR-T is best for low-antigen GPC3 liver cancer?"
@@ -160,7 +176,7 @@ def test_autoresearch_step1_can_parse_research_goal_with_mock_llm(tmp_path):
 
     assert goal["goal_source"] == "llm_research_goal_parser"
     assert goal["parsed_research_goal"]["search_scope"]["exclude"] == ["external cytokine bath only"]
-    assert goal["candidate_interventions"] == ["control", "IL-2", "IL-7", "IL-12", "IL-15", "IL-18"]
+    assert goal["candidate_interventions"] == ["IL-2", "IL-7", "IL-12", "IL-15", "IL-18"]
     assert status["status"] == "completed"
     assert (output_dir / "llm_calls.jsonl").exists()
     assert (output_dir / "agent_outputs" / "research_goal_parser_agent").exists()
@@ -181,7 +197,7 @@ def test_autoresearch_llm_can_decide_refinement_loop_continuation(tmp_path):
         '[{"intervention_name":"IL-15","confidence_score":0.7,"uncertainty":0.2}]',
         encoding="utf-8",
     )
-    config = yaml.safe_load((Path.cwd() / "configs" / "experiment_cytokine_gpc3_liver_autoresearch.yaml").read_text(encoding="utf-8"))
+    config = _make_safe_autoresearch_config()
     config["output_dir"] = str(run_dir)
     config["autoresearch"]["llm_steps"] = []
     config["autoresearch"]["refinement_controller_source"] = "llm"

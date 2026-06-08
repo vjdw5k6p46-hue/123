@@ -147,7 +147,7 @@ def _merge_llm_goal(fallback: dict[str, Any], parsed: dict[str, Any], call_id: s
         merged["car_target_antigen"] = tumor["target_antigen"]
     candidates = therapy.get("candidate_interventions") or therapy.get("candidate_cytokines")
     if candidates:
-        merged["candidate_interventions"] = ["control", *[str(item) for item in candidates if str(item) != "control"]]
+        merged["candidate_interventions"] = [str(item) for item in candidates if str(item).lower() != "control"]
     return merged
 
 

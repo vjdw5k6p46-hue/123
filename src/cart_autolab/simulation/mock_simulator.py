@@ -46,14 +46,16 @@ class MockSimulatorAdapter(SimulatorAdapter):
                 killing = 0.00032 * p.get("cytotoxicity_enhancement_aC", 1.0) * activation * max(0.1, 1 - exhaustion)
                 death = 0.008 + p.get("activation_induced_death_penalty_bD", 0.0) * 0.012
                 tumor_growth = 0.025 * (1 + condition["tme_severity"] * 0.2)
+                ifng = max(0, cart * (0.02 + 0.04 * p.get("ifng_effect", 0)))
+                tme = float(np.clip(condition["tme_severity"] - p.get("tme_remodeling_effect", 0) * 0.15 + hypoxia * 0.2 + pdl1 * 0.2, 0, 1))
+                rows.append({**condition, "time": time, "tumor_burden": tumor, "car_t_cells": cart, "exhaustion_fraction": exhaustion, "cytotoxicity": killing * cart, "IFN_gamma": ifng, "hypoxia": hypoxia, "PD_L1_signal": pdl1, "tme_suppression": tme})
+                if time == 240:
+                    continue
                 tumor = max(0, tumor + tumor * tumor_growth - killing * cart * tumor + rng.normal(0, 5))
                 cart = max(0, cart + cart * (expansion + persistence - death - 0.004 * exhaustion) + rng.normal(0, 1))
                 exhaustion = float(np.clip(exhaustion + 0.012 * condition["tme_severity"] + p.get("exhaustion_modulation_aE", 0) * 0.02, 0, 0.95))
-                ifng = max(0, cart * (0.02 + 0.04 * p.get("ifng_effect", 0)))
                 hypoxia = float(np.clip(hypoxia + tumor / 200000 - 0.01 * cart / 1000 + p.get("hypoxia_effect", 0) * 0.01, 0, 1))
                 pdl1 = float(np.clip(pdl1 + p.get("pdl1_effect", 0) * 0.01 + ifng / 100000, 0, 1))
-                tme = float(np.clip(condition["tme_severity"] - p.get("tme_remodeling_effect", 0) * 0.15 + hypoxia * 0.2 + pdl1 * 0.2, 0, 1))
-                rows.append({**condition, "time": time, "tumor_burden": tumor, "car_t_cells": cart, "exhaustion_fraction": exhaustion, "cytotoxicity": killing * cart, "IFN_gamma": ifng, "hypoxia": hypoxia, "PD_L1_signal": pdl1, "tme_suppression": tme})
         pd.DataFrame(rows).to_csv(sim_dir / "timeseries.csv", index=False)
 
     def parse_outputs(self, run_dir: Path) -> list[dict]:

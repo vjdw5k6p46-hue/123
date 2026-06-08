@@ -37,7 +37,7 @@ def _run_cli(config_path: Path, command: str = "run-all") -> subprocess.Complete
 
 
 def test_deterministic_run_all_reviewer_artifacts(tmp_path):
-    config_path = _write_tmp_config(tmp_path, "configs/experiment_cytokine_gpc3_liver.yaml", "deterministic")
+    config_path = _write_tmp_config(tmp_path, "configs/experiment_cytokine_gpc3_liver_safe_demo.yaml", "deterministic")
     _run_cli(config_path)
     run_dir = tmp_path / "deterministic"
 

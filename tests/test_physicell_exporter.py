@@ -11,7 +11,7 @@ def test_physicell_exporter_writes_ready_xml(tmp_path):
     base = Path("C:/code/PhysiCell/sample_projects/cancer_immune/config/PhysiCell_settings.xml")
     if not base.exists():
         return
-    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver.yaml").read_text(encoding="utf-8"))
+    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver_safe_demo.yaml").read_text(encoding="utf-8"))
     fingerprints = [
         {
             "intervention_name": "IL-15",
@@ -45,7 +45,7 @@ def test_physicell_exporter_control_uses_no_auxiliary_cytokine_mode(tmp_path):
     base = Path("C:/code/PhysiCell/sample_projects/cancer_immune/config/PhysiCell_settings.xml")
     if not base.exists():
         return
-    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver.yaml").read_text(encoding="utf-8"))
+    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver_safe_demo.yaml").read_text(encoding="utf-8"))
     fingerprints = [
         {
             "intervention_name": "control",

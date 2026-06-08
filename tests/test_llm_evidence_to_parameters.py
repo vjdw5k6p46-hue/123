@@ -104,7 +104,7 @@ def test_invalid_llm_evidence_is_rejected_or_marked_low_confidence(tmp_path):
 
 
 def test_build_parameters_cli_still_works_with_default_config(tmp_path):
-    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver.yaml").read_text(encoding="utf-8"))
+    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver_safe_demo.yaml").read_text(encoding="utf-8"))
     config["output_dir"] = str(tmp_path / "run")
     config_path = tmp_path / "config.yaml"
     config_path.write_text(yaml.safe_dump(config), encoding="utf-8")
@@ -123,7 +123,7 @@ def test_build_parameters_cli_still_works_with_default_config(tmp_path):
 
 
 def test_mock_llm_config_creates_parameter_fingerprints_with_llm_provenance(tmp_path):
-    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver.yaml").read_text(encoding="utf-8"))
+    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver_safe_demo.yaml").read_text(encoding="utf-8"))
     config["output_dir"] = str(tmp_path / "run")
     config["workflow"]["evidence_source"] = "llm"
     config["workflow"]["critique_source"] = "deterministic"

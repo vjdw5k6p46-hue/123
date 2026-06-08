@@ -1,10 +1,10 @@
 # LLM Agent Workflow
 
-This workflow archive implements an LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference execution, optional executable LLM-agent execution, hybrid validation, and optional external PhysiCell execution.
+This workflow archive implements an LLM-guided, schema-constrained CAR-T in silico workflow with a real AutoResearch default path, deterministic reference execution for software testing, executable LLM-agent execution, hybrid validation, and external PhysiCell execution when configured.
 
 ## Reviewer Package State
 
-The package includes executable LLM-agent infrastructure and public audit LLM audit artifacts. The default reproducible command remains deterministic, but LLM-backed runs can be executed when provider credentials are configured.
+The package includes executable LLM-agent infrastructure and public audit LLM audit artifacts. The default workflow path is the LLM-first AutoResearch configuration. A deterministic safe-demo configuration remains available for CI and dependency-free software testing.
 
 Included public audit LLM artifacts include:
 
@@ -33,9 +33,11 @@ The LLM Orchestrator artifact maps the package into seven public audit stages:
 
 ## Execution Modes
 
-Deterministic reference mode remains available and requires no API key, internet access, or external PhysiCell executable.
+Real AutoResearch mode is the default workflow path. It requires provider credentials for live LLM calls, online access for live literature retrieval/download, and `PHYSICELL_EXECUTABLE` for external PhysiCell execution.
 
-AutoResearch mode is the LLM-first workflow entry point. The default AutoResearch config uses an OpenAI-compatible provider for research-goal parsing, executable LLM agent audit steps, and refinement-loop decisions. If provider credentials are unavailable, the run records deterministic fallback or skipped LLM steps rather than fabricating output.
+Deterministic reference mode remains available through `configs/experiment_cytokine_gpc3_liver_safe_demo.yaml` and requires no API key, internet access, or external PhysiCell executable.
+
+AutoResearch mode is the LLM-first workflow entry point. The default AutoResearch config uses an OpenAI-compatible provider for research-goal parsing, executable LLM agent audit steps, and refinement-loop decisions. Missing provider credentials or external PhysiCell setup should be reported as setup failures rather than replaced with fabricated output.
 
 Executable LLM-agent mode is optional. When configured with an OpenAI-compatible provider, each LLM call records prompt text, raw response, parsed JSON, schema validation, and call metadata.
 

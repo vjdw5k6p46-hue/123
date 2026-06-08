@@ -1,4 +1,4 @@
-experiment_id: cytokine_gpc3_liver_low_antigen_ablation
+experiment_id: cytokine_gpc3_liver_low_antigen_demo
 disease_context: hepatocellular carcinoma
 tumor_type: liver cancer
 car_target_antigen: GPC3
@@ -15,17 +15,14 @@ biological_endpoints:
   - hypoxia dynamics
   - PD-L1/TME remodeling signal
 simulator_choice: physicell
-replicates: 1
+replicates: 3
 random_seed: 1729
 parameter_sweep:
   antigen_density: [0.2]
-  car_t_dose: [10.0]
-  tumor_burden: [2.0]
+  car_t_dose: [1.0]
+  tumor_burden: [1.0]
   tme_severity: [0.6]
-output_dir: outputs/ablation
-ablation:
-  output_dir: outputs/ablation
-  validation_csv: null
+output_dir: outputs/example_run
 literature:
   mode: mock
   max_results_per_query: 8
@@ -47,5 +44,5 @@ llm:
   seed: 1729
   save_raw_responses: true
   schema_validation: true
-  max_retries: 0
+  max_retries: 2
 manual_parameter_overrides: {}

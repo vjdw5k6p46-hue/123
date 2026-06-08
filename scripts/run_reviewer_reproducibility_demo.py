@@ -33,7 +33,7 @@ def main(argv: list[str] | None = None) -> int:
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
 
     runs = [
-        ("deterministic", "configs/experiment_cytokine_gpc3_liver.yaml", "run-all", "Deterministic reference mode. No LLM call and no external PhysiCell executable."),
+        ("deterministic", "configs/experiment_cytokine_gpc3_liver_safe_demo.yaml", "run-all", "Deterministic reference mode. No LLM call and no external PhysiCell executable."),
         ("llm_mock", "configs/experiment_cytokine_gpc3_liver_llm_mock.yaml", "run-all", "LLM mock mode using software fixture responses only. Not manuscript evidence."),
         ("ablation", "configs/experiment_cytokine_gpc3_liver_ablation.yaml", "ablation", "Ablation mode comparing deterministic, LLM mock, and hybrid software workflows."),
     ]

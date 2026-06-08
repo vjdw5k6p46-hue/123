@@ -1,4 +1,4 @@
-experiment_id: cytokine_gpc3_liver_low_antigen_demo
+experiment_id: cytokine_gpc3_liver_low_antigen_real_autoresearch
 disease_context: hepatocellular carcinoma
 tumor_type: liver cancer
 car_target_antigen: GPC3
@@ -15,34 +15,39 @@ biological_endpoints:
   - hypoxia dynamics
   - PD-L1/TME remodeling signal
 simulator_choice: physicell
-replicates: 3
+replicates: 1
 random_seed: 1729
 parameter_sweep:
   antigen_density: [0.2]
   car_t_dose: [1.0]
   tumor_burden: [1.0]
   tme_severity: [0.6]
-output_dir: outputs/example_run
+output_dir: outputs/real_autoresearch_run
 literature:
-  mode: mock
-  max_results_per_query: 8
-  download_papers: false
-  max_downloads: 10
-  download_timeout_seconds: 30
+  mode: online
+  max_results_per_query: 25
+  download_papers: true
+  max_downloads: 80
+  download_timeout_seconds: 60
   chunk_chars: 3500
   chunk_overlap_chars: 350
   email: null
 workflow:
-  search_planning_source: deterministic
-  evidence_source: deterministic
-  critique_source: deterministic
+  search_planning_source: llm
+  evidence_source: hybrid
+  critique_source: llm
 llm:
-  provider: none
-  mode: deterministic
-  model: null
+  provider: openai_compatible
+  mode: llm
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  base_url: https://api.openai.com/v1
   temperature: 0
   seed: 1729
   save_raw_responses: true
   schema_validation: true
   max_retries: 2
+simulator:
+  mode: external
+  require_external_executable: true
 manual_parameter_overrides: {}

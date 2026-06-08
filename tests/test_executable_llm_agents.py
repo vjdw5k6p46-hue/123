@@ -7,7 +7,7 @@ from cart_autolab.orchestrator import AutolabOrchestrator
 
 
 def _base_config(tmp_path):
-    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver.yaml").read_text(encoding="utf-8"))
+    config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver_safe_demo.yaml").read_text(encoding="utf-8"))
     config["output_dir"] = str(tmp_path / "run")
     return config
 

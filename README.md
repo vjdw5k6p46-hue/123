@@ -6,16 +6,17 @@ The researcher defines the biological goal. The workflow operationalizes that go
 
 ## Workflow Modes
 
-This workflow archive provides deterministic reference execution plus optional executable LLM-agent, hybrid, ablation, and external PhysiCell support. Executable LLM runs save audit artifacts that can be inspected after the run.
+This workflow archive provides a real AutoResearch default path plus deterministic reference execution, executable LLM-agent, hybrid, ablation, and external PhysiCell support. Executable LLM runs save audit artifacts that can be inspected after the run.
 
-- Deterministic reference mode: default mode; no API key, internet access, or external PhysiCell executable required.
-- Executable LLM-agent mode: optional; records prompt, raw response, parsed JSON, schema validation, and audit metadata.
-- Hybrid mode: optional; uses validated LLM evidence while retaining deterministic schema checks, confidence bounds, and parameter clamping.
+- Real AutoResearch mode: default mode; uses online literature retrieval/download, executable LLM agents, hybrid evidence use, and external PhysiCell execution when configured.
+- Deterministic reference mode: available as a safe software demo; no API key, internet access, or external PhysiCell executable required.
+- Executable LLM-agent mode: records prompt, raw response, parsed JSON, schema validation, and audit metadata.
+- Hybrid mode: uses validated LLM evidence while retaining schema checks, confidence bounds, and parameter checks.
 
 Simulator modes:
 
+- External PhysiCell mode: default for the real workflow; requires a local PhysiCell build and `PHYSICELL_EXECUTABLE`.
 - Mock simulator mode: for CI and software testing only.
-- External PhysiCell mode: optional; requires a local PhysiCell build and `PHYSICELL_EXECUTABLE`.
 
 ## Install
 
@@ -26,10 +27,28 @@ python -m venv .venv
 pip install -e .[dev]
 ```
 
-## Run the demo
+## Run the Real Workflow
+
+```bash
+set OPENAI_API_KEY=your_key
+set PHYSICELL_EXECUTABLE=C:\path\to\cancer_immune.exe
+cart-autolab autoresearch-run --config configs/experiment_cytokine_gpc3_liver_autoresearch.yaml
+```
+
+The default experiment config, `configs/experiment_cytokine_gpc3_liver.yaml`, is also configured for the real path:
 
 ```bash
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
+```
+
+It uses online literature mode, paper download/chunking, hybrid LLM evidence extraction, LLM critique, and external PhysiCell mode. If `OPENAI_API_KEY` or `PHYSICELL_EXECUTABLE` is missing, the run should fail clearly rather than silently substituting mock scientific outputs.
+
+## Safe Software Demo
+
+The dependency-free demo is retained for CI and software smoke testing:
+
+```bash
+cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_safe_demo.yaml
 ```
 
 Public audit safe demo bundle:
@@ -40,14 +59,14 @@ bash scripts/run_reviewer_reproducibility_demo.sh
 
 This writes deterministic, LLM mock, and ablation artifacts under `outputs/reviewer_demo/` without requiring API keys, internet access, or a compiled PhysiCell executable.
 
-Outputs are written to `outputs/example_run`, including search results, extracted evidence, parameter fingerprints, PhysiCell adapter configs, random seeds, simulation output, metrics, figures, critique, `memory.jsonl`, `final_report.md`, and `final_report.html`.
+Real workflow outputs are written to `outputs/real_autoresearch_run` or `outputs/autoresearch_real`, depending on the entry point. Safe-demo outputs are written to `outputs/example_run`.
 
-Offline demo mode uses `data/mock_literature/mock_papers.json`. Those records are explicitly labeled mock test records and are not real scholarly citations. Online literature mode can be enabled by setting `literature.mode: online` in the experiment config. The clients support PubMed/NCBI E-utilities, Semantic Scholar, OpenAlex, and Crossref. Semantic Scholar can use `SEMANTIC_SCHOLAR_API_KEY`.
+Safe demo mode uses `data/mock_literature/mock_papers.json`. Those records are explicitly labeled mock test records and are not real scholarly citations. The default real config uses `literature.mode: online`. The clients support PubMed/NCBI E-utilities, Semantic Scholar, OpenAlex, and Crossref. Semantic Scholar can use `SEMANTIC_SCHOLAR_API_KEY`.
 
 Reviewer reproducibility commands:
 
 ```bash
-cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
+cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_safe_demo.yaml
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_llm_mock.yaml
 cart-autolab ablation --config configs/experiment_cytokine_gpc3_liver_ablation.yaml
 cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver_physicell.yaml
@@ -79,7 +98,7 @@ cart-autolab build-parameters --config configs/experiment_cytokine_gpc3_liver.ya
 cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver.yaml --simulator physicell
 cart-autolab analyze --run outputs/example_run
 cart-autolab report --run outputs/example_run
-cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
+cart-autolab autoresearch-run --config configs/experiment_cytokine_gpc3_liver_autoresearch.yaml
 ```
 
 ## PhysiCell integration

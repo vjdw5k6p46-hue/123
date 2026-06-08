@@ -8,21 +8,23 @@ This workflow archive provides the reproducibility-ready LLM-guided, schema-cons
 pip install -e .[dev]
 ```
 
-## Deterministic Mode
+## Real Default Workflow
 
 ```bash
-cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
-```
-
-This is the default reference workflow. It requires no API key, no internet access, and no external PhysiCell executable.
-
-## LLM-First AutoResearch Mode
-
-```bash
+set OPENAI_API_KEY=your_key
+set PHYSICELL_EXECUTABLE=C:\path\to\cancer_immune.exe
 cart-autolab autoresearch-run --config configs/experiment_cytokine_gpc3_liver_autoresearch.yaml
 ```
 
-This is the primary AutoResearch workflow. With provider credentials configured, the LLM parses the research goal, records executable agent audit steps, and decides whether refinement should continue. Without credentials, the run records deterministic fallback or skipped LLM steps rather than fabricating outputs.
+This is the default workflow path. It uses online literature retrieval/download, executable LLM calls, hybrid evidence handling, and external PhysiCell execution when local dependencies are configured. Missing credentials or a missing `PHYSICELL_EXECUTABLE` should produce a clear setup error rather than fabricated outputs.
+
+## Deterministic Safe Demo
+
+```bash
+cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_safe_demo.yaml
+```
+
+This dependency-free mode is retained for CI and smoke testing. It requires no API key, no internet access, and no external PhysiCell executable.
 
 ## Reviewer-Safe Demo
 

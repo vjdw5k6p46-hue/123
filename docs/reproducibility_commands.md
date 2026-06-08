@@ -1,9 +1,17 @@
 # Reproducibility Commands
 
-## Deterministic Demo
+## Real Default Workflow
 
 ```bash
-cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
+export OPENAI_API_KEY=your_key
+export PHYSICELL_EXECUTABLE=/path/to/local/PhysiCell/project_executable
+cart-autolab autoresearch-run --config configs/experiment_cytokine_gpc3_liver_autoresearch.yaml
+```
+
+## Deterministic Safe Demo
+
+```bash
+cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_safe_demo.yaml
 ```
 
 ## LLM Mock Demo
@@ -30,4 +38,4 @@ export PHYSICELL_EXECUTABLE=/path/to/local/PhysiCell/project_executable
 cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver_physicell.yaml
 ```
 
-The LLM mock and ablation commands use software fixtures by default and require no API key. External PhysiCell mode requires a local executable and should not be used as a CI requirement.
+The safe demo, LLM mock, and ablation commands use software fixtures by default and require no API key. The real default workflow requires provider credentials, online literature access, and a local external PhysiCell executable. Missing external dependencies should be reported clearly rather than replaced with fabricated scientific outputs.
