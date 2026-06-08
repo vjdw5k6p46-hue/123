@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import copy
 import json
+import shutil
 from pathlib import Path
 from typing import Any
 
@@ -24,7 +25,15 @@ def run_ablation(config_path: str | Path) -> dict[str, Any]:
         "hybrid": output_root / "hybrid",
     }
 
+    runnable_modes = _runnable_modes(base_config)
     for mode, run_dir in run_dirs.items():
+        if mode not in runnable_modes:
+            if run_dir.exists():
+                shutil.rmtree(run_dir)
+            stale_config = output_root / f"{mode}_config.yaml"
+            if stale_config.exists():
+                stale_config.unlink()
+            continue
         mode_config = _mode_config(base_config, mode, run_dir.resolve())
         mode_config_path = output_root / f"{mode}_config.yaml"
         mode_config_path.write_text(yaml.safe_dump(mode_config), encoding="utf-8")
@@ -44,7 +53,7 @@ def run_ablation(config_path: str | Path) -> dict[str, Any]:
                 "schema_valid_rate": schema_valid_rate(run_dir),
                 "low_confidence_fraction": low_confidence_fraction(evidence),
                 "experimental_concordance": _experimental_concordance(base_config),
-                "status_label": _status_label(base_config, mode),
+                "status_label": _status_label(base_config, mode, mode in runnable_modes),
             }
         )
 
@@ -83,11 +92,17 @@ def _mode_config(base_config: dict[str, Any], mode: str, run_dir: Path) -> dict[
         config.setdefault("llm", {})["provider"] = "none"
     else:
         config["llm"] = copy.deepcopy(base_config.get("llm", {}))
-        if config["llm"].get("provider") == "none":
-            config["llm"]["provider"] = "mock"
         config["llm"].setdefault("mode", "llm")
         config["llm"].setdefault("max_retries", 0)
     return config
+
+
+def _runnable_modes(config: dict[str, Any]) -> set[str]:
+    provider = str(config.get("llm", {}).get("provider", "none")).lower()
+    modes = {"deterministic"}
+    if provider == "openai_compatible":
+        modes.update({"llm", "hybrid"})
+    return modes
 
 
 def _experimental_concordance(config: dict[str, Any]) -> str:
@@ -97,22 +112,25 @@ def _experimental_concordance(config: dict[str, Any]) -> str:
     return "not evaluated; validation table loading is reserved for user-supplied data review"
 
 
-def _status_label(config: dict[str, Any], mode: str) -> str:
+def _status_label(config: dict[str, Any], mode: str, was_run: bool) -> str:
     if mode == "deterministic":
         return "deterministic reference"
+    if not was_run:
+        provider = str(config.get("llm", {}).get("provider", "none")).lower()
+        if provider == "mock":
+            return "skipped; mock LLM provider is disabled for ablation"
+        return "skipped; no live LLM provider configured"
     provider = config.get("llm", {}).get("provider", "mock")
-    if provider == "mock":
-        return "mock software fixture"
-    return "optional live LLM"
+    return f"live LLM provider: {provider}"
 
 
 def _write_readme(output_root: Path, summary: pd.DataFrame, config: dict[str, Any]) -> None:
     lines = [
         "# LLM Ablation Outputs",
         "",
-        "This ablation compares deterministic reference, LLM-agent, and hybrid LLM plus deterministic validation modes.",
+        "This ablation reports deterministic reference results and includes LLM/hybrid rows only when a non-mock live LLM provider is explicitly configured.",
         "",
-        "Mock records or mock LLM outputs are software fixtures only. They are not manuscript evidence and do not validate the biology.",
+        "Mock LLM outputs are not run in ablation mode and are not used to support LLM contribution claims.",
         "",
         f"Experimental concordance: {_experimental_concordance(config)}.",
         "",

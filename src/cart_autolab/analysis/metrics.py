@@ -14,6 +14,7 @@ def compute_metrics(run_dir: Path) -> pd.DataFrame:
         group = group.sort_values("time")
         baseline_tumor = group["tumor_burden"].iloc[0]
         final_tumor = group["tumor_burden"].iloc[-1]
+        initial_cart = group["car_t_cells"].iloc[0]
         control_times = group.loc[group["tumor_burden"] < baseline_tumor * 0.5, "time"]
         rows.append(
             {
@@ -24,8 +25,12 @@ def compute_metrics(run_dir: Path) -> pd.DataFrame:
                 "tumor_killing_rate": max(0.0, (baseline_tumor - final_tumor) / max(group["time"].iloc[-1], 1)),
                 "time_to_tumor_control": float(control_times.iloc[0]) if not control_times.empty else np.nan,
                 "car_t_expansion_auc": float(np.trapezoid(group["car_t_cells"], group["time"])),
+                "tumor_remaining_fraction": float(final_tumor / max(baseline_tumor, 1e-9)),
+                "persist_avg_life_min": float(np.trapezoid(group["car_t_cells"], group["time"]) / max(initial_cart, 1e-9)),
                 "car_t_persistence": float(group["car_t_cells"].tail(3).mean()),
                 "exhaustion_fraction": float(group["exhaustion_fraction"].tail(3).mean()),
+                "mean_cart_exhaustion": float(group["exhaustion_fraction"].tail(3).mean()),
+                "mean_tumor_PDL1": float(group["PD_L1_signal"].tail(3).mean()),
                 "cytotoxicity_score": float(group["cytotoxicity"].mean()),
                 "tme_suppression_score": float(group["tme_suppression"].mean()),
             }

@@ -3,6 +3,8 @@ import re
 import subprocess
 from pathlib import Path
 
+import yaml
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,14 +26,15 @@ def test_mock_records_do_not_contain_fake_doi_or_pmid_values():
 
 
 def test_reviewer_configs_label_fixtures_and_do_not_require_secrets():
-    for rel_path in [
-        "configs/experiment_cytokine_gpc3_liver_llm_mock.yaml",
-        "configs/experiment_cytokine_gpc3_liver_ablation.yaml",
-    ]:
-        text = (ROOT / rel_path).read_text(encoding="utf-8").lower()
-        assert "fixture" in text
-        assert "api_key" not in text
-        assert "10.0000" not in text
+    mock_text = (ROOT / "configs/experiment_cytokine_gpc3_liver_llm_mock.yaml").read_text(encoding="utf-8").lower()
+    assert "fixture" in mock_text
+    assert "api_key" not in mock_text
+    assert "10.0000" not in mock_text
+
+    ablation_text = (ROOT / "configs/experiment_cytokine_gpc3_liver_ablation.yaml").read_text(encoding="utf-8")
+    ablation = yaml.safe_load(ablation_text)
+    assert ablation["llm"]["provider"] == "none"
+    assert "mock-fixture" not in ablation_text
 
 
 def test_no_large_outputs_or_binaries_are_committed():

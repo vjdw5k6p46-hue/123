@@ -65,6 +65,8 @@ def test_deterministic_run_all_reviewer_artifacts(tmp_path):
     assert "control" not in {row["intervention_name"].lower() for row in params}
     ranking = pd.read_csv(run_dir / "ranked_interventions.csv")
     assert "control" not in set(ranking["intervention_name"].str.lower())
+    assert {"K_score", "P_score", "E_score", "R_score", "ranked_intervention_score"}.issubset(ranking.columns)
+    assert ranking["ranked_intervention_score"].between(0, 100).all()
     assert "Mock test records are not real scholarly citations" in (run_dir / "final_report.md").read_text(encoding="utf-8")
 
 
@@ -100,7 +102,14 @@ def test_ablation_reviewer_artifacts_without_wet_lab_fabrication(tmp_path):
         assert (out_dir / rel_path).exists(), rel_path
     summary = json.loads((out_dir / "ablation_summary.json").read_text(encoding="utf-8"))
     assert {row["mode"] for row in summary} == {"deterministic", "llm", "hybrid"}
-    assert all(row["top_ranked_intervention"] != "not available" for row in summary)
+    by_mode = {row["mode"]: row for row in summary}
+    assert by_mode["deterministic"]["top_ranked_intervention"] != "not available"
+    assert by_mode["llm"]["top_ranked_intervention"] == "not available"
+    assert by_mode["hybrid"]["top_ranked_intervention"] == "not available"
+    assert by_mode["llm"]["status_label"] == "skipped; no live LLM provider configured"
+    assert by_mode["hybrid"]["status_label"] == "skipped; no live LLM provider configured"
+    assert not (out_dir / "llm").exists()
+    assert not (out_dir / "hybrid").exists()
     deterministic_config = yaml.safe_load((out_dir / "deterministic_config.yaml").read_text(encoding="utf-8"))
     assert "control" not in {item.lower() for item in deterministic_config["candidate_interventions"]}
     deterministic_params = json.loads((out_dir / "deterministic" / "parameter_fingerprints.json").read_text(encoding="utf-8"))

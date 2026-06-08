@@ -42,6 +42,9 @@ def test_ablation_runs_without_api_key_or_physicell(tmp_path):
     config["ablation"]["output_dir"] = str(tmp_path / "ablation")
     config_path = tmp_path / "ablation.yaml"
     config_path.write_text(yaml.safe_dump(config), encoding="utf-8")
+    stale_llm = tmp_path / "ablation" / "llm"
+    stale_llm.mkdir(parents=True)
+    (stale_llm / "llm_calls.jsonl").write_text('{"provider":"mock"}\n', encoding="utf-8")
 
     result = run_ablation(config_path)
     output_dir = Path(result["output_dir"])
@@ -51,15 +54,24 @@ def test_ablation_runs_without_api_key_or_physicell(tmp_path):
     assert (output_dir / "evidence_coverage_matrix.csv").exists()
     assert (output_dir / "ranking_comparison.csv").exists()
     assert (output_dir / "README.md").exists()
-    for mode in ["deterministic", "llm", "hybrid"]:
-        assert (output_dir / mode / "simulation" / "timeseries.csv").exists()
-        assert (output_dir / mode / "ranked_interventions.csv").exists()
+    assert (output_dir / "deterministic" / "simulation" / "timeseries.csv").exists()
+    assert (output_dir / "deterministic" / "ranked_interventions.csv").exists()
+    ranking = json.loads((output_dir / "deterministic" / "analysis_summary.json").read_text(encoding="utf-8"))
+    assert any("persist_avg_life_min_mean" in row for row in ranking)
     summary = json.loads((output_dir / "ablation_summary.json").read_text(encoding="utf-8"))
     assert {row["mode"] for row in summary} == {"deterministic", "llm", "hybrid"}
-    assert all(row["top_ranked_intervention"] != "not available" for row in summary)
+    by_mode = {row["mode"]: row for row in summary}
+    assert by_mode["deterministic"]["top_ranked_intervention"] != "not available"
+    assert by_mode["llm"]["top_ranked_intervention"] == "not available"
+    assert by_mode["hybrid"]["top_ranked_intervention"] == "not available"
+    assert by_mode["llm"]["status_label"] == "skipped; no live LLM provider configured"
+    assert by_mode["hybrid"]["status_label"] == "skipped; no live LLM provider configured"
+    assert not (output_dir / "llm").exists()
+    assert not (output_dir / "hybrid").exists()
     deterministic_config = yaml.safe_load((output_dir / "deterministic_config.yaml").read_text(encoding="utf-8"))
     assert "control" not in {item.lower() for item in deterministic_config["candidate_interventions"]}
     deterministic_params = json.loads((output_dir / "deterministic" / "parameter_fingerprints.json").read_text(encoding="utf-8"))
     assert "control" not in {row["intervention_name"].lower() for row in deterministic_params}
     assert all(row["experimental_concordance"] == "not evaluated; user-supplied validation table required" for row in summary)
-    assert "software fixtures only" in (output_dir / "README.md").read_text(encoding="utf-8")
+    readme = (output_dir / "README.md").read_text(encoding="utf-8")
+    assert "Mock LLM outputs are not run in ablation mode" in readme

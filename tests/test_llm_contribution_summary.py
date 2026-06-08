@@ -34,4 +34,4 @@ def test_llm_contribution_summary_labels_fixture_modes(tmp_path):
     assert "user-supplied validation table required" in df["notes"].iloc[0]
     assert "IL15_rank" in df.columns
     assert df.loc[df["workflow_mode"] == "deterministic", "evidence_source"].iloc[0] == "deterministic"
-    assert df.loc[df["workflow_mode"] == "hybrid", "evidence_source"].iloc[0] == "deterministic+llm"
+    assert df.loc[df["workflow_mode"] == "hybrid", "top_ranked_intervention"].iloc[0] == "not available"

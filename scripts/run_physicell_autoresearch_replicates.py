@@ -123,6 +123,10 @@ def run_job(
     stderr_path.write_text(proc.stderr or "", encoding="utf-8")
     metrics_csv = condition_dir / "metrics.csv"
     selected = selected_metrics(metrics_csv)
+    if selected is not None:
+        persist_avg_life_min = strict_persist_avg_life_min(condition_dir / "time_series.csv")
+        if persist_avg_life_min is not None:
+            selected["persist_avg_life_min"] = f"{persist_avg_life_min:.10e}"
     seed = extract_seed(proc.stdout or "")
     return {
         "condition": condition,
@@ -187,6 +191,7 @@ def write_replicate_csv(path: Path, results: list[dict[str, Any]]) -> None:
         "time_min",
         "live_tumor_count",
         "live_cart_count",
+        "persist_avg_life_min",
         "mean_cart_activation",
         "mean_cart_exhaustion",
         "mean_aux_cytokine",
@@ -212,7 +217,16 @@ def summarize_results(results: list[dict[str, Any]]) -> list[dict[str, Any]]:
     rows = []
     for condition, metrics_rows in sorted(by_condition.items()):
         row: dict[str, Any] = {"condition": condition, "n": len(metrics_rows)}
-        for field in ["live_tumor_count", "live_cart_count", "mean_cart_exhaustion", "mean_aux_cytokine", "mean_IFNg", "tumor_remaining_fraction"]:
+        for field in [
+            "live_tumor_count",
+            "live_cart_count",
+            "persist_avg_life_min",
+            "mean_cart_exhaustion",
+            "mean_aux_cytokine",
+            "mean_IFNg",
+            "mean_tumor_PDL1",
+            "tumor_remaining_fraction",
+        ]:
             values = [float(item[field]) for item in metrics_rows if item.get(field) not in (None, "")]
             row[f"{field}_mean"] = round(statistics.fmean(values), 6) if values else ""
             row[f"{field}_sd"] = round(statistics.stdev(values), 6) if len(values) > 1 else 0 if values else ""
@@ -220,12 +234,85 @@ def summarize_results(results: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return rows
 
 
+def strict_persist_avg_life_min(time_series_csv: Path) -> float | None:
+    """Compute CAR-T persistence as RMST from the observed live CAR-T trajectory.
+
+    This is the strict metric available from current PhysiCell outputs:
+    integral(CAR_T_count(t) dt) / CAR_T_count(t=0), in minutes.
+    It uses the full time series and does not substitute final live cell count.
+    Exact per-cell lineage lifespan would require the C++ model to emit CAR-T
+    birth/death records, which the current output files do not contain.
+    """
+    if not time_series_csv.exists():
+        return None
+    points: list[tuple[float, float]] = []
+    with time_series_csv.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            time_value = row.get("time_min")
+            count_value = row.get("CAR_T_count") or row.get("live_cart_count")
+            if time_value in (None, "") or count_value in (None, ""):
+                continue
+            try:
+                points.append((float(time_value), float(count_value)))
+            except ValueError:
+                continue
+    points = sorted(points)
+    if len(points) < 2:
+        return None
+    initial_count = points[0][1]
+    if initial_count <= 0:
+        return None
+    auc = 0.0
+    for (t0, n0), (t1, n1) in zip(points, points[1:]):
+        dt = t1 - t0
+        if dt <= 0:
+            continue
+        auc += dt * (max(n0, 0.0) + max(n1, 0.0)) / 2.0
+    return auc / initial_count
+
+
 def rank_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    ranked = sorted(rows, key=lambda row: (float(row.get("live_tumor_count_mean") or 1e99), -float(row.get("live_cart_count_mean") or 0)))
+    scored = []
+    for row in rows:
+        score_components = cytokine_priority_score_from_summary(row)
+        scored.append({**row, **score_components})
+    ranked = sorted(scored, key=lambda row: -float(row.get("ranked_intervention_score") or -1))
     out = []
     for index, row in enumerate(ranked, start=1):
         out.append({"rank": index, **row})
     return out
+
+
+def clamp01(value: float) -> float:
+    return min(1.0, max(0.0, float(value)))
+
+
+def cytokine_priority_score_from_summary(row: dict[str, Any]) -> dict[str, float | str]:
+    required = ["tumor_remaining_fraction_mean", "persist_avg_life_min_mean", "mean_cart_exhaustion_mean", "mean_tumor_PDL1_mean"]
+    if any(row.get(field) in (None, "") for field in required):
+        return {
+            "K_score": "",
+            "P_score": "",
+            "E_score": "",
+            "R_score": "",
+            "ranked_intervention_score": "",
+        }
+    tumor_remaining_fraction = float(row["tumor_remaining_fraction_mean"])
+    persist_avg_life_min = float(row["persist_avg_life_min_mean"])
+    mean_cart_exhaustion = float(row["mean_cart_exhaustion_mean"])
+    mean_tumor_pdl1 = float(row["mean_tumor_PDL1_mean"])
+    k_score = 1.0 - clamp01((tumor_remaining_fraction - 0.30) / (1.00 - 0.30))
+    p_score = clamp01((persist_avg_life_min - 600.0) / (1200.0 - 600.0))
+    e_score = 1.0 - clamp01((mean_cart_exhaustion - 0.15) / (0.35 - 0.15))
+    r_score = 1.0 - clamp01((mean_tumor_pdl1 - 0.03) / (0.18 - 0.03))
+    score = 100.0 * clamp01(0.40 * k_score + 0.30 * p_score + 0.20 * e_score + 0.10 * r_score)
+    return {
+        "K_score": round(k_score, 6),
+        "P_score": round(p_score, 6),
+        "E_score": round(e_score, 6),
+        "R_score": round(r_score, 6),
+        "ranked_intervention_score": round(score, 6),
+    }
 
 
 def write_summary_csv(path: Path, rows: list[dict[str, Any]]) -> None:

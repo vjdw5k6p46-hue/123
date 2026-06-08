@@ -20,7 +20,7 @@ def generate_figures(run_dir: Path) -> list[str]:
     paths.append(_line(df, "exhaustion_fraction", "Exhaustion fraction", fig_dir / "exhaustion_dynamics.png"))
     paths.append(_line(df, "IFN_gamma", "IFN-gamma", fig_dir / "ifng_dynamics.png"))
     paths.append(_line(df, "hypoxia", "Hypoxia", fig_dir / "hypoxia_dynamics.png"))
-    paths.append(_bar(ranked, "ranked_intervention_score", "Ranked intervention score", fig_dir / "ranking_bar_plot.png"))
+    paths.append(_bar(ranked, "ranked_intervention_score", "Cytokine priority score", fig_dir / "ranking_bar_plot.png"))
     paths.append(_heatmap(ranked, fig_dir / "intervention_performance_heatmap.png"))
     paths.append(_bar(ranked, "tme_suppression_score", "TME suppression score", fig_dir / "parameter_sensitivity_proxy.png"))
     return [str(p) for p in paths]
@@ -53,13 +53,13 @@ def _bar(df: pd.DataFrame, value: str, title: str, path: Path) -> Path:
 
 
 def _heatmap(df: pd.DataFrame, path: Path) -> Path:
-    cols = ["final_tumor_burden_score", "car_t_persistence_score", "exhaustion_fraction_score", "cytotoxicity_score_score", "tme_suppression_score_score"]
+    cols = ["K_score", "P_score", "E_score", "R_score"]
     matrix = df.set_index("intervention_name")[cols]
     plt.figure(figsize=(8, 4))
     plt.imshow(matrix.values, aspect="auto", cmap="viridis")
     plt.xticks(range(len(cols)), cols, rotation=35, ha="right", fontsize=7)
     plt.yticks(range(len(matrix.index)), matrix.index)
-    plt.colorbar(label="normalized score")
+    plt.colorbar(label="score component")
     plt.tight_layout()
     plt.savefig(path, dpi=160)
     plt.close()
