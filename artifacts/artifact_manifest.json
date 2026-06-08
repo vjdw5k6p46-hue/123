@@ -472,8 +472,8 @@
     },
     {
       "path": "07_final_report/final_report.md",
-      "bytes": 6056,
-      "sha256": "9931a56ec57c215e750a2bccfe7c05980c281f10729fbca8d66c14e2a4261072"
+      "bytes": 6131,
+      "sha256": "e5d8e9df8f367b6deb9ad16ff6cf224d36a3c2773d506bfee07a035b999eebcb"
     },
     {
       "path": "07_final_report/final_report_article_list.xlsx",
@@ -482,8 +482,8 @@
     },
     {
       "path": "07_final_report/final_report_manifest.json",
-      "bytes": 1763,
-      "sha256": "b35e2b4e5f554fb2fc42cbf94271dd5ccb2757093ab58221d6ddc08d7fea2728"
+      "bytes": 2126,
+      "sha256": "12dc315244a105e7b1fcee8cc38f83776851bf82683c5eb37721cd5558be11d8"
     }
   ]
 }

@@ -5,6 +5,8 @@
   "model": "gpt-4o-mini",
   "provider": "openai_compatible",
   "report_generation_note": "The reviewer-facing final_report.md was curated from the recorded workflow artifacts. Raw final-report prompt/context/response files are omitted from this package to avoid stale wording after reviewer-facing edits; upstream LLM proposal and refinement audit records remain under artifacts/04_llm_parameter_rounds/.",
+  "final_ranking_endpoint": "live_tumor_count_mean ascending from manifest-listed replicate_ranking.csv files",
+  "composite_score_note": "Composite cytokine scores should be reported only when all required input columns and computed score columns are included in the artifact package. This archived report uses the tumor-count ranking artifacts listed below.",
   "round1_jobs_total_in_manifest": 18,
   "round1_successful_returncodes": 18,
   "round2_jobs_total_in_manifest": 18,
