@@ -51,7 +51,15 @@ def test_ablation_runs_without_api_key_or_physicell(tmp_path):
     assert (output_dir / "evidence_coverage_matrix.csv").exists()
     assert (output_dir / "ranking_comparison.csv").exists()
     assert (output_dir / "README.md").exists()
+    for mode in ["deterministic", "llm", "hybrid"]:
+        assert (output_dir / mode / "simulation" / "timeseries.csv").exists()
+        assert (output_dir / mode / "ranked_interventions.csv").exists()
     summary = json.loads((output_dir / "ablation_summary.json").read_text(encoding="utf-8"))
     assert {row["mode"] for row in summary} == {"deterministic", "llm", "hybrid"}
+    assert all(row["top_ranked_intervention"] != "not available" for row in summary)
+    deterministic_config = yaml.safe_load((output_dir / "deterministic_config.yaml").read_text(encoding="utf-8"))
+    assert "control" not in {item.lower() for item in deterministic_config["candidate_interventions"]}
+    deterministic_params = json.loads((output_dir / "deterministic" / "parameter_fingerprints.json").read_text(encoding="utf-8"))
+    assert "control" not in {row["intervention_name"].lower() for row in deterministic_params}
     assert all(row["experimental_concordance"] == "not evaluated; user-supplied validation table required" for row in summary)
     assert "software fixtures only" in (output_dir / "README.md").read_text(encoding="utf-8")

@@ -25,7 +25,7 @@ def run_ablation(config_path: str | Path) -> dict[str, Any]:
     }
 
     for mode, run_dir in run_dirs.items():
-        mode_config = _mode_config(base_config, mode, run_dir)
+        mode_config = _mode_config(base_config, mode, run_dir.resolve())
         mode_config_path = output_root / f"{mode}_config.yaml"
         mode_config_path.write_text(yaml.safe_dump(mode_config), encoding="utf-8")
         AutolabOrchestrator(mode_config_path).run_all()
@@ -79,6 +79,7 @@ def _mode_config(base_config: dict[str, Any], mode: str, run_dir: Path) -> dict[
     config["workflow"]["evidence_source"] = mode
     config["workflow"]["critique_source"] = "deterministic"
     if mode == "deterministic":
+        config["candidate_interventions"] = [item for item in config.get("candidate_interventions", []) if str(item).lower() != "control"]
         config.setdefault("llm", {})["provider"] = "none"
     else:
         config["llm"] = copy.deepcopy(base_config.get("llm", {}))

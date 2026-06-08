@@ -76,7 +76,7 @@ class PhysiCellParameterExporter:
 
         user_parameters = {
             "aux_cytokine_name": "none" if is_control else cytokine_name,
-            "aux_mode": "bath" if is_control else "armored",
+            "aux_mode": "none" if is_control else "armored",
             "aux_bath_dose": 0.0,
             "qmax_aux_engineered": 0.0 if is_control else self._base_float(base, "qmax_aux_engineered") * max(0.25, (aP + aS + aC) / 3.0),
             "tumor_antigen_density": antigen_density,

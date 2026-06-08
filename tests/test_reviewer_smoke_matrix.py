@@ -61,6 +61,10 @@ def test_deterministic_run_all_reviewer_artifacts(tmp_path):
     for rel_path in expected:
         assert (run_dir / rel_path).exists(), rel_path
     assert not (run_dir / "llm_calls.jsonl").exists()
+    params = json.loads((run_dir / "parameter_fingerprints.json").read_text(encoding="utf-8"))
+    assert "control" not in {row["intervention_name"].lower() for row in params}
+    ranking = pd.read_csv(run_dir / "ranked_interventions.csv")
+    assert "control" not in set(ranking["intervention_name"].str.lower())
     assert "Mock test records are not real scholarly citations" in (run_dir / "final_report.md").read_text(encoding="utf-8")
 
 
@@ -96,6 +100,11 @@ def test_ablation_reviewer_artifacts_without_wet_lab_fabrication(tmp_path):
         assert (out_dir / rel_path).exists(), rel_path
     summary = json.loads((out_dir / "ablation_summary.json").read_text(encoding="utf-8"))
     assert {row["mode"] for row in summary} == {"deterministic", "llm", "hybrid"}
+    assert all(row["top_ranked_intervention"] != "not available" for row in summary)
+    deterministic_config = yaml.safe_load((out_dir / "deterministic_config.yaml").read_text(encoding="utf-8"))
+    assert "control" not in {item.lower() for item in deterministic_config["candidate_interventions"]}
+    deterministic_params = json.loads((out_dir / "deterministic" / "parameter_fingerprints.json").read_text(encoding="utf-8"))
+    assert "control" not in {row["intervention_name"].lower() for row in deterministic_params}
     assert all(row["experimental_concordance"] == "not evaluated; user-supplied validation table required" for row in summary)
 
 
