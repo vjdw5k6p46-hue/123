@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import re
 import shutil
 import statistics
@@ -14,15 +15,14 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_EXECUTABLE = Path(r"C:\code\PhysiCell\sample_projects\cancer_immune\cancer_immune_3D")
-DEFAULT_CONTROL_CONFIG = Path(r"C:\code\PhysiCell\sample_projects\cancer_immune\config\PhysiCell_settings.xml")
+DEFAULT_CONTROL_CONFIG = Path(os.environ.get("PHYSICELL_CONTROL_CONFIG", "physicell_project/config/PhysiCell_settings.template.xml"))
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run multi-replicate PhysiCell validation for AutoResearch cytokine XML configs.")
     parser.add_argument("--configs-dir", required=True)
     parser.add_argument("--output", default="outputs/physicell_autoresearch_replicates")
-    parser.add_argument("--executable", default=str(DEFAULT_EXECUTABLE))
+    parser.add_argument("--executable", default=os.environ.get("PHYSICELL_EXECUTABLE"))
     parser.add_argument("--control-config", default=str(DEFAULT_CONTROL_CONFIG))
     parser.add_argument("--replicates", type=int, default=3)
     parser.add_argument("--max-time", type=float, default=1440)
@@ -32,6 +32,8 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     configs_dir = Path(args.configs_dir)
+    if not args.executable:
+        raise SystemExit("PhysiCell executable not configured. Set PHYSICELL_EXECUTABLE or pass --executable.")
     executable = Path(args.executable)
     control_config = Path(args.control_config)
     output = Path(args.output)

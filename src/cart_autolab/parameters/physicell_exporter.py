@@ -54,7 +54,7 @@ class PhysiCellParameterExporter:
         return payload
 
     def _default_base_config(self) -> Path:
-        return Path("C:/code/PhysiCell/sample_projects/cancer_immune/config/PhysiCell_settings.xml")
+        return Path(__file__).resolve().parents[3] / "physicell_project" / "config" / "PhysiCell_settings.template.xml"
 
     def _map_fingerprint(self, fp: dict, base: dict[str, str], antigen_density: float) -> dict:
         name = fp["intervention_name"]

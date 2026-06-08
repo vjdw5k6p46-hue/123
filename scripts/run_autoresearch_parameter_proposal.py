@@ -20,7 +20,7 @@ import yaml
 
 CYTOKINE_CHUNKS = Path("outputs/manuscript_self_secreting_combined_pdf_archive/paper_chunks_grobid_tei/paper_chunks.jsonl")
 TUMOR_CHUNKS = Path("outputs/liver_antigen_density_literature/paper_chunks_grobid_tei/paper_chunks.jsonl")
-BASE_PHYSICELL_CONFIG = Path("C:/code/PhysiCell/sample_projects/cancer_immune/config/PhysiCell_settings.xml")
+BASE_PHYSICELL_CONFIG = Path(os.environ.get("PHYSICELL_BASE_CONFIG", "physicell_project/config/PhysiCell_settings.template.xml"))
 INTERVENTIONS = ["control", "IL-2", "IL-7", "IL-12", "IL-15", "IL-18"]
 
 ALLOWED_USER_PARAMETER_RANGES: dict[str, tuple[float, float]] = {
