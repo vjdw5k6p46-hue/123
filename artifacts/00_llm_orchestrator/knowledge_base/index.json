@@ -62,8 +62,8 @@
       "path": "artifacts/01_research_goal/research_goal.json",
       "name": "research_goal.json",
       "category": "01_research_goal",
-      "size_bytes": 4439,
-      "sha256": "328abd32d1fa6c6806ecb35616c2732c67c663c924c081130ba487e048721272"
+      "size_bytes": 4305,
+      "sha256": "3ca9541897d1555e4010714dc70b8331daa4d6e06efdbba89549b6d4842d363e"
     },
     {
       "path": "artifacts/01_research_goal/research_goal_parse_status.json",
@@ -272,22 +272,22 @@
       "path": "artifacts/04_llm_parameter_rounds/llm_calls.jsonl",
       "name": "llm_calls.jsonl",
       "category": "04_llm_parameter_rounds",
-      "size_bytes": 1766,
-      "sha256": "38acb9f7b3dad6ed1b408b202803ef330934d14c388faf891c1326fd05737a7e"
+      "size_bytes": 1342,
+      "sha256": "1ff1124b0eed673004fb0f1b9d857f7f5b8be36de5c74108ecabdad62148eb89"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json",
       "name": "physicell_ready_parameters.json",
       "category": "04_llm_parameter_rounds",
-      "size_bytes": 7142,
-      "sha256": "65f6dee31c2c9c9662196145dddc13c4bffd5af9f32ed68b3bf7c7425c4a551e"
+      "size_bytes": 7002,
+      "sha256": "576c72b03e8c4200964e3b524a8b477414e7cf24fcc700b10f69bd8b2e32e736"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters_refined.json",
       "name": "physicell_ready_parameters_refined.json",
       "category": "04_llm_parameter_rounds",
-      "size_bytes": 7221,
-      "sha256": "08d6659f9a9745c7d868bff661db73531aaa9182d70d022c264e08f164fadb06"
+      "size_bytes": 7086,
+      "sha256": "68ac80ebeae7759c5afc3285e13f887a8ad0fd38b72569fb493749ca123c228a"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/tumor_parameter_baseline_comparison.tsv",
@@ -461,8 +461,8 @@
       "path": "artifacts/07_final_report/final_report.md",
       "name": "final_report.md",
       "category": "07_final_report",
-      "size_bytes": 6119,
-      "sha256": "44e90245a9a41eb587b50a3d7b8cc5dd87785bf7b00b814bd9d57e6353bd6d10"
+      "size_bytes": 6056,
+      "sha256": "9931a56ec57c215e750a2bccfe7c05980c281f10729fbca8d66c14e2a4261072"
     },
     {
       "path": "artifacts/07_final_report/final_report_article_list.xlsx",
@@ -475,50 +475,50 @@
       "path": "artifacts/07_final_report/final_report_manifest.json",
       "name": "final_report_manifest.json",
       "category": "07_final_report",
-      "size_bytes": 1789,
-      "sha256": "2e3fb00abac6380ac89fde15b88d67f9ab5e8775bfdb92db13396befbb02b4cb"
+      "size_bytes": 1763,
+      "sha256": "b35e2b4e5f554fb2fc42cbf94271dd5ccb2757093ab58221d6ddc08d7fea2728"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/llm_calls.jsonl",
       "name": "llm_calls.jsonl",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 2116,
-      "sha256": "ba824cd9734dffcb82401fabad883ae10e70ae1f6af541bd83b0547a5712dfcd"
+      "size_bytes": 1580,
+      "sha256": "6dc2a35aece4665f119f582592d70f4799dd1482214b8a02cf67515beb3f8a62"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/llm_calls_public_redacted.jsonl",
       "name": "llm_calls_public_redacted.jsonl",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 588,
-      "sha256": "15551c9fb3dc06e3ec2ea1e6e5dc2713f2d657d61ce431f2e01923ab415e49b1"
+      "size_bytes": 632,
+      "sha256": "7f2a7b3a1db9da7fd722fc0e450c1c5b5f893bab719f7267019323f275d6e995"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/refinement_loop_decisions.json",
       "name": "refinement_loop_decisions.json",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 6807,
-      "sha256": "c1babf6e717be3c6986b565be9235f02eb6a8ad4ac37e3604c517fa7ddbdf825"
+      "size_bytes": 6725,
+      "sha256": "f2c361d172ea27367af352f927885059364d63043789cf96ec964812fc16534e"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/refinement_loop_decision_manifest.json",
       "name": "refinement_loop_decision_manifest.json",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 2287,
-      "sha256": "d51fc121b1cfba4a2bf31449774a7a3800e97c42ff82ccecf5ab1407aaf505c1"
+      "size_bytes": 2308,
+      "sha256": "0279c3a6c68de4e4ad790dbe7fe3da9d8ba65c835edfb80f82076f3f85437653"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/refinement_loop_decision_validation.json",
       "name": "refinement_loop_decision_validation.json",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 161,
-      "sha256": "5d90cc18ad7f6b05e9d7ca37dd596f52e0ba23c8c60a70a984c351c0937cd93c"
+      "size_bytes": 154,
+      "sha256": "6c4529e036c147b788ec47a1c6cc42f370584cb86e248245cc88b12972e07a66"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_parsed.json",
       "name": "refinement_loop_decision_agent-1cf1a53a6e84_parsed.json",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 1412,
-      "sha256": "9068f00de557cd764633493504607f0aec4a83c323c86a67f310832a02e2a01e"
+      "size_bytes": 1378,
+      "sha256": "a58108f110c9dda4fa8f92505a9b53509bdc46f60514b84a480f8b25aa0e0f5f"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_prompt.txt",
@@ -538,15 +538,15 @@
       "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_validation.json",
       "name": "refinement_loop_decision_agent-1cf1a53a6e84_validation.json",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 201,
-      "sha256": "cb42b4c7c8c82ea96afbf8a31e20dfb6698787bf028f168699c01e820eda62e0"
+      "size_bytes": 193,
+      "sha256": "2cba1c3e3bf964ffab8b8924a94e96f65f7ccda8fa0b847b6bbcd4d336186db2"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_parsed.json",
       "name": "refinement_loop_decision_agent-b07d99fcc29e_parsed.json",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 1613,
-      "sha256": "192ef3ed92ea002a748f8dd833cb78fe1e58e63f4d938ef429b9c7b7361d4c7b"
+      "size_bytes": 1579,
+      "sha256": "d53cb1cc5e06ef35ec68871fac4f17f1870cc64e5dcd9e45e76e48ce7ab71506"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_prompt.txt",
@@ -566,8 +566,8 @@
       "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_validation.json",
       "name": "refinement_loop_decision_agent-b07d99fcc29e_validation.json",
       "category": "06_refinement_loop_decision",
-      "size_bytes": 201,
-      "sha256": "b8592cdaf6dd416e37cb68bb062d9deaeca28f67dfc1da905082b08686bf2e48"
+      "size_bytes": 193,
+      "sha256": "ea4d757964a793485fde0ec36d3df7f47bd1a7a1931fe977fa616ea5ffd490db"
     }
   ],
   "guardrails": [

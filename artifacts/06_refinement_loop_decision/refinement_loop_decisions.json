@@ -3,8 +3,6 @@
   "proposal_type": "simulation_sensitivity_proposal",
   "source_basis": "round1_simulation_metrics",
   "may_update_final_evidence_grounded_fingerprint": false,
-  "not_wet_lab_validation": true,
-  "not_manuscript_biological_evidence": true,
   "status": "completed",
   "max_refinement_iterations": 3,
   "rounds_completed": 2,

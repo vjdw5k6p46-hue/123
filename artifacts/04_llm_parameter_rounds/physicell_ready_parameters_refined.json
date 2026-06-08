@@ -2,11 +2,8 @@
   "base_config": "C:\\code\\PhysiCell\\sample_projects\\cancer_immune\\config\\PhysiCell_settings.xml",
   "output_dir": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined",
   "note": "gpt-4o-mini cytokine fingerprint knobs (round 2, after refinement; exploratory simulation-sensitivity proposal, not a new literature-grounded fingerprint).",
-  "proposal_type": "simulation_sensitivity_proposal",
   "source_basis": "round1_simulation_metrics",
   "may_update_final_evidence_grounded_fingerprint": false,
-  "not_wet_lab_validation": true,
-  "not_manuscript_biological_evidence": true,
   "model_input_not_biological_constant": true,
   "interpretation": "Exploratory simulation-sensitivity proposal, not a new literature-grounded cytokine fingerprint.",
   "interventions": [
