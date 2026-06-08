@@ -3,7 +3,6 @@ mode: deterministic
 model: null
 temperature: 0
 seed: 1729
-replay_dir: null
 save_raw_responses: true
 schema_validation: true
 max_retries: 2
@@ -11,6 +10,6 @@ api_key_env: OPENAI_API_KEY
 base_url: https://api.openai.com/v1
 notes: >
   The default demo does not require an LLM key. Allowed providers are none,
-  mock, replay, and openai_compatible. Mock responses are software fixtures
-  for tests only. Replay responses are archived prompt-response artifacts.
+  mock, and openai_compatible. Mock responses are software fixtures
+  for tests only. Executable LLM calls save prompt-response audit artifacts.
   Live OpenAI-compatible calls are optional and require API configuration.

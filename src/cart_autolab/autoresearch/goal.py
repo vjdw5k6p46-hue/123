@@ -32,7 +32,7 @@ def build_research_goal(config: dict[str, Any]) -> dict[str, Any]:
         ),
         "guardrails": [
             "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
-            "Mock and replay records are software fixtures only.",
+            "Mock records are software fixtures only.",
             "External PhysiCell execution is optional and requires a local executable.",
             "Generated model inputs require human scientific review before manuscript use.",
         ],

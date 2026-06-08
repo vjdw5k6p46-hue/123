@@ -1,6 +1,6 @@
 # Reviewer Reproducibility Audit
 
-This audit documents the integrated reviewer-response branch. It clarifies why the original release could appear deterministic and how the integrated branch now supports the revised framing: an LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference mode, optional executable LLM-agent mode, archived/replay mode, hybrid mode, and optional external PhysiCell execution.
+This audit documents the integrated reviewer-response branch. It clarifies why the original release could appear deterministic and how the integrated branch now supports the revised framing: an LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference mode, optional executable LLM-agent mode, hybrid mode, audit artifacts, and optional external PhysiCell execution.
 
 No scientific results, LLM outputs, PhysiCell outputs, citations, or wet-lab data are fabricated by this audit.
 
@@ -43,13 +43,15 @@ LLM-derived artifacts enter the downstream pipeline only at explicit schema-cons
 - `workflow.evidence_source: llm`
 - `workflow.evidence_source: hybrid`
 
-LLM outputs are parsed, validated, audited, and written as artifacts before they can affect cytokine fingerprints. Deterministic mode remains independent of live, mock, or replay LLM artifacts.
+LLM outputs are parsed, validated, audited, and written as artifacts before they can affect cytokine fingerprints. Deterministic mode remains independent of live or mock LLM artifacts.
+
+The AutoResearch layer also supports an optional LLM refinement-loop decision agent. This agent can decide whether the workflow should continue to another refinement loop or stop, but Python validates the JSON decision, enforces maximum iterations, and does not fabricate missing simulation or wet-lab outputs.
 
 ## 4. Why the Original Release Looked Deterministic
 
 The original default code path used deterministic implementations for query generation, evidence extraction, fingerprint construction, and mock simulation. The prompt registry documented intended LLM-agent interfaces, but most prompts were not executable LLM calls in the default path.
 
-The integrated branch keeps the deterministic reference mode but adds optional executable LLM, replay, hybrid, ablation, and artifact-audit paths.
+The integrated branch keeps the deterministic reference mode but adds optional executable LLM, hybrid, ablation, and artifact-audit paths.
 
 ## 5. Evidence of LLM Contribution
 
@@ -65,7 +67,7 @@ The integrated branch supports reviewer inspection of software-level LLM contrib
 - ablation summaries comparing deterministic, LLM, and hybrid modes
 - `outputs/reviewer_demo/llm_contribution_summary.csv` after running the reproducibility demo
 
-Mock and replay rows demonstrate software routing and provenance only. They are not biological validation.
+Mock rows demonstrate software routing and provenance only. They are not biological validation.
 
 ## 6. External PhysiCell Reproducibility
 
@@ -104,9 +106,9 @@ External mode requires a local executable configured through `PHYSICELL_EXECUTAB
 - `extracted_evidence_llm.json`
 - `hypotheses_llm.json`
 
-### Archived/Replay Mode
+### Audit Artifacts
 
-Replay mode uses archived prompt-response fixture artifacts and writes the same audit artifacts as executable LLM mode. It does not require live LLM credentials.
+Executable LLM runs save prompt-response artifacts and validation reports. These artifacts support inspection of completed runs without representing a separate workflow mode.
 
 ### Hybrid Mode
 

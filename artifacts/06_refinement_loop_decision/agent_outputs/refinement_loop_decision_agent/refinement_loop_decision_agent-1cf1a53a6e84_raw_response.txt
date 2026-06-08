@@ -1,0 +1,21 @@
+```json
+{
+  "iteration": 1,
+  "continue_refinement": true,
+  "next_action": "request_parameter_refinement",
+  "reason": "Round1 pre-refinement cytokine-only ranking establishes IL-15 as the lead arm (live tumor count 1373.0). Run one schema-constrained parameter-refinement pass to test whether the ranking is stable under a plausible sensitivity adjustment before reporting.",
+  "stopping_criteria_met": false,
+  "stopping_criteria": [],
+  "requested_inputs_for_next_loop": [
+    "round2 post-refinement cytokine-only simulation ranking"
+  ],
+  "parameter_or_simulation_focus": [
+    "cytokine fingerprint knobs for IL-2/IL-7/IL-12/IL-15/IL-18"
+  ],
+  "confidence": 0.6,
+  "human_review_required": false,
+  "do_not_overinterpret": [
+    "3-replicate in silico ranking is not wet-lab validation"
+  ]
+}
+```

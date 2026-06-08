@@ -5,7 +5,7 @@ This checklist summarizes stabilization work for the LLM-guided, schema-constrai
 ## Required Wording Present
 
 - Deterministic reference mode is distinguished from optional LLM execution.
-- Prompt-response artifacts are documented for executable LLM-agent and replay modes.
+- Prompt-response artifacts are documented for executable LLM-agent runs and audit archives.
 - Schema validation is documented as software validation, not biological validation.
 - Mock records are software fixtures.
 - Mock records are not real scholarly citations.
@@ -18,7 +18,6 @@ This checklist summarizes stabilization work for the LLM-guided, schema-constrai
 - `pytest`
 - `python scripts/run_reviewer_reproducibility_demo.py --force`
 - `bash scripts/run_reviewer_reproducibility_demo.sh --force`
-- `python scripts/check_reviewer_response_consistency.py --include-outputs`
 
 ## Commands Run
 
@@ -28,7 +27,6 @@ Reviewer-safe commands:
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
 bash scripts/run_reviewer_reproducibility_demo.sh --force
 cart-autolab ablation --config configs/experiment_cytokine_gpc3_liver_ablation.yaml
-python scripts/check_reviewer_response_consistency.py --include-outputs
 ```
 
 Optional external PhysiCell command:
@@ -43,7 +41,6 @@ cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver_physicell.
 - Smoke matrix passed for the workflow archive.
 - Full pytest passed for the workflow archive after reviewer artifact and contribution-summary additions.
 - Demo runner produced all expected artifacts under `outputs/reviewer_demo/`.
-- Consistency checker runs without external services and prints warnings rather than modifying files.
 - Live LLM execution was not tested because tests must not require API keys.
 - External PhysiCell execution was not run because tests must not require a compiled executable.
 
@@ -69,7 +66,7 @@ Earlier implementation branches:
 
 ## Remaining Limitations
 
-- Mock and replay rows demonstrate software routing, provenance, and artifact generation only.
+- Mock rows demonstrate software routing, provenance, and artifact generation only.
 - Mock records are software fixtures and not real scholarly citations.
 - Mock simulator outputs are not PhysiCell evidence.
 - Wet-lab concordance is not evaluated unless a user-supplied validation table is provided.

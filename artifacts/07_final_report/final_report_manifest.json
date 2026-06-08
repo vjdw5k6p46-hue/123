@@ -12,7 +12,7 @@
   "warnings": [
     "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
     "These are in silico PhysiCell results only, not wet-lab validation.",
-    "Mock/replay fixtures are not used in this final report context.",
+    "Mock fixtures are not used in this final report context.",
     "All claims must be tied to supplied artifact paths and tables."
   ],
   "package_artifact_paths": {
@@ -21,6 +21,7 @@
     "central_hypothesis": "artifacts/03_central_hypothesis/central_hypothesis_output.json",
     "llm_parameter_calls": "artifacts/04_llm_parameter_rounds/llm_calls.jsonl",
     "pre_refinement_ranking": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_ranking.csv",
-    "post_refinement_ranking": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_ranking.csv"
+    "post_refinement_ranking": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_ranking.csv",
+    "refinement_loop_decision": "artifacts/06_refinement_loop_decision/refinement_loop_decisions.json"
   }
 }

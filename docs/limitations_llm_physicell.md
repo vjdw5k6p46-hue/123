@@ -2,15 +2,15 @@
 
 ## LLM Mode
 
-Executable LLM-agent mode is optional. It should be used only when provider configuration is supplied or archived replay artifacts are available.
+Executable LLM-agent mode is optional. It should be used only when provider configuration is supplied.
 
 Live LLM outputs can vary by model and provider. Therefore, prompt-response artifacts, parsed JSON, schema validation reports, model metadata, prompt hashes, warnings, and run-level audit logs should be archived for review.
 
 The LLM layer is a biological knowledge synthesis component. It does not prove biological efficacy, discover a validated therapy, or replace wet-lab validation.
 
-## Replay Mode
+## Audit Archives
 
-Replay mode is useful for reviewing archived prompt-response behavior without making live LLM calls. Replay fixtures must be labeled. They should not be treated as newly generated live LLM outputs.
+Executable LLM runs should save prompt-response artifacts for review. These audit archives document completed runs and should not be described as newly generated live LLM outputs.
 
 ## PhysiCell Mode
 

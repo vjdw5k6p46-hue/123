@@ -100,8 +100,6 @@ def _status_label(config: dict[str, Any], mode: str) -> str:
     if mode == "deterministic":
         return "deterministic reference"
     provider = config.get("llm", {}).get("provider", "mock")
-    if provider == "replay":
-        return "archived replay"
     if provider == "mock":
         return "mock software fixture"
     return "optional live LLM"

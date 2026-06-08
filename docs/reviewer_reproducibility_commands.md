@@ -16,8 +16,7 @@ The script runs only modes that require no API key, no internet access, and no c
 
 - deterministic demo
 - LLM mock demo using software fixture responses
-- replay demo using archived software fixture responses
-- ablation demo using mock/replay software workflows
+- ablation demo using mock software workflows
 
 Outputs are written under:
 
@@ -29,16 +28,14 @@ Expected subdirectories:
 
 - `deterministic/`
 - `llm_mock/`
-- `replay/`
 - `ablation/`
 
-Each subdirectory contains a `README.txt` labeling the mode. Mock and replay outputs are software fixtures only. They are not real scholarly citations, manuscript evidence, PhysiCell outputs, or wet-lab validation.
+Each subdirectory contains a `README.txt` labeling the mode. Mock outputs are software fixtures only. They are not real scholarly citations, manuscript evidence, PhysiCell outputs, or wet-lab validation.
 
 The final printed checklist reports:
 
 - deterministic `final_report.md`
 - LLM mock `llm_calls.jsonl`
 - LLM mock `agent_outputs/`
-- replay `llm_calls.jsonl`
 - ablation `ablation_summary.csv`
 - ablation `ranking_comparison.csv`

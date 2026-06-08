@@ -8,7 +8,6 @@ import pandas as pd
 import pytest
 import yaml
 
-from cart_autolab.llm import AgentRunner, InvalidLLMOutputError
 from cart_autolab.orchestrator import AutolabOrchestrator
 from cart_autolab.simulation.physicell_output_converter import PhysiCellOutputConverter
 
@@ -86,24 +85,6 @@ def test_llm_mock_run_all_reviewer_artifacts(tmp_path):
     records = [json.loads(line) for line in (run_dir / "llm_calls.jsonl").read_text(encoding="utf-8").splitlines()]
     assert any("software fixture" in " ".join(record["warnings"]).lower() for record in records)
     assert "Fixture metadata only" in (run_dir / "final_report.md").read_text(encoding="utf-8")
-
-
-def test_replay_run_all_reviewer_artifacts_and_missing_replay_error(tmp_path):
-    config_path = _write_tmp_config(tmp_path, "configs/experiment_cytokine_gpc3_liver_replay.yaml", "replay")
-    _run_cli(config_path)
-    run_dir = tmp_path / "replay"
-
-    assert (run_dir / "llm_calls.jsonl").exists()
-    assert (run_dir / "agent_outputs").exists()
-    raw_responses = "\n".join(path.read_text(encoding="utf-8") for path in (run_dir / "agent_outputs").glob("*/*_raw_response.txt"))
-    assert "archived_replay_software_fixture" in raw_responses
-    records = [json.loads(line) for line in (run_dir / "llm_calls.jsonl").read_text(encoding="utf-8").splitlines()]
-    assert all(record["provider"] == "replay" for record in records)
-    assert any("archived response" in " ".join(record["warnings"]) for record in records)
-
-    runner = AgentRunner({"provider": "replay", "replay_dir": str(tmp_path / "missing_replay"), "max_retries": 0}, tmp_path / "bad_replay")
-    with pytest.raises(InvalidLLMOutputError, match="No archived replay response"):
-        runner.run("search_planner_agent", {"experiment_config": "{}"})
 
 
 def test_ablation_reviewer_artifacts_without_wet_lab_fabrication(tmp_path):

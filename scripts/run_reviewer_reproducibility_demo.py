@@ -33,10 +33,9 @@ def main(argv: list[str] | None = None) -> int:
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
 
     runs = [
-        ("deterministic", "configs/experiment_cytokine_gpc3_liver.yaml", "run-all", "Deterministic reference mode. No LLM call, no replay artifact, no external PhysiCell executable."),
+        ("deterministic", "configs/experiment_cytokine_gpc3_liver.yaml", "run-all", "Deterministic reference mode. No LLM call and no external PhysiCell executable."),
         ("llm_mock", "configs/experiment_cytokine_gpc3_liver_llm_mock.yaml", "run-all", "LLM mock mode using software fixture responses only. Not manuscript evidence."),
-        ("replay", "configs/experiment_cytokine_gpc3_liver_replay.yaml", "run-all", "Replay mode using archived software fixture responses. No live LLM call."),
-        ("ablation", "configs/experiment_cytokine_gpc3_liver_ablation.yaml", "ablation", "Ablation mode comparing deterministic, LLM mock/replay, and hybrid software workflows."),
+        ("ablation", "configs/experiment_cytokine_gpc3_liver_ablation.yaml", "ablation", "Ablation mode comparing deterministic, LLM mock, and hybrid software workflows."),
     ]
 
     for name, config_rel, command, readme in runs:
@@ -78,7 +77,7 @@ def _write_readme(run_dir: Path, text: str) -> None:
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / "README.txt").write_text(
         text
-        + "\n\nMock and replay records are software fixtures only. They are not real scholarly citations, manuscript evidence, PhysiCell outputs, or wet-lab validation.\n",
+        + "\n\nMock records are software fixtures only. They are not real scholarly citations, manuscript evidence, PhysiCell outputs, or wet-lab validation.\n",
         encoding="utf-8",
     )
 
@@ -88,7 +87,6 @@ def _artifact_checklist() -> list[tuple[str, Path, bool]]:
         ("deterministic final_report.md", OUTPUT_ROOT / "deterministic" / "final_report.md"),
         ("llm_mock llm_calls.jsonl", OUTPUT_ROOT / "llm_mock" / "llm_calls.jsonl"),
         ("llm_mock agent_outputs", OUTPUT_ROOT / "llm_mock" / "agent_outputs"),
-        ("replay llm_calls.jsonl", OUTPUT_ROOT / "replay" / "llm_calls.jsonl"),
         ("ablation ablation_summary.csv", OUTPUT_ROOT / "ablation" / "ablation_summary.csv"),
         ("ablation ranking_comparison.csv", OUTPUT_ROOT / "ablation" / "ranking_comparison.csv"),
         ("LLM contribution summary", OUTPUT_ROOT / "llm_contribution_summary.csv"),

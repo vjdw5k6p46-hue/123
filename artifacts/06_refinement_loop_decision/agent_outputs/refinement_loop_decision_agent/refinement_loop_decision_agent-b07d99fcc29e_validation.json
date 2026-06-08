@@ -1,0 +1,8 @@
+{
+  "call_id": "refinement_loop_decision_agent-b07d99fcc29e",
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    "Validation checks schema/range only; not biological correctness."
+  ]
+}

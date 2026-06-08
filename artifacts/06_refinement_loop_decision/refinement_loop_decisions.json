@@ -1,0 +1,174 @@
+{
+  "controller": "llm_refinement_loop_decision_agent",
+  "proposal_type": "simulation_sensitivity_proposal",
+  "source_basis": "round1_simulation_metrics",
+  "may_update_final_evidence_grounded_fingerprint": false,
+  "not_wet_lab_validation": true,
+  "not_manuscript_biological_evidence": true,
+  "status": "completed",
+  "max_refinement_iterations": 3,
+  "rounds_completed": 2,
+  "final_decision": {
+    "continue_refinement": false,
+    "next_action": "stop_and_report",
+    "stopping_criteria_met": true
+  },
+  "top_intervention": "IL-15",
+  "round1_order": [
+    "IL-15",
+    "IL-18",
+    "IL-12",
+    "IL-7",
+    "IL-2"
+  ],
+  "round2_order": [
+    "IL-15",
+    "IL-18",
+    "IL-12",
+    "IL-7",
+    "IL-2"
+  ],
+  "ranking_order_unchanged": true,
+  "round_comparison": [
+    {
+      "cytokine": "IL-15",
+      "round1_rank": 1,
+      "round2_rank": 1,
+      "round1_live_tumor_count": 1373.0,
+      "round2_live_tumor_count": 1398.666667,
+      "delta_live_tumor_count": 25.667,
+      "pct_change_live_tumor_count": 1.869,
+      "round1_mean_cart_exhaustion": 0.41188,
+      "round2_mean_cart_exhaustion": 0.42048,
+      "delta_mean_cart_exhaustion": 0.0086,
+      "within_replicate_noise": true
+    },
+    {
+      "cytokine": "IL-18",
+      "round1_rank": 2,
+      "round2_rank": 2,
+      "round1_live_tumor_count": 1461.0,
+      "round2_live_tumor_count": 1488.0,
+      "delta_live_tumor_count": 27.0,
+      "pct_change_live_tumor_count": 1.848,
+      "round1_mean_cart_exhaustion": 0.433152,
+      "round2_mean_cart_exhaustion": 0.437729,
+      "delta_mean_cart_exhaustion": 0.00458,
+      "within_replicate_noise": true
+    },
+    {
+      "cytokine": "IL-12",
+      "round1_rank": 3,
+      "round2_rank": 3,
+      "round1_live_tumor_count": 1586.0,
+      "round2_live_tumor_count": 1597.0,
+      "delta_live_tumor_count": 11.0,
+      "pct_change_live_tumor_count": 0.694,
+      "round1_mean_cart_exhaustion": 0.460218,
+      "round2_mean_cart_exhaustion": 0.466036,
+      "delta_mean_cart_exhaustion": 0.00582,
+      "within_replicate_noise": true
+    },
+    {
+      "cytokine": "IL-7",
+      "round1_rank": 4,
+      "round2_rank": 4,
+      "round1_live_tumor_count": 1604.0,
+      "round2_live_tumor_count": 1610.333333,
+      "delta_live_tumor_count": 6.333,
+      "pct_change_live_tumor_count": 0.395,
+      "round1_mean_cart_exhaustion": 0.457285,
+      "round2_mean_cart_exhaustion": 0.458689,
+      "delta_mean_cart_exhaustion": 0.0014,
+      "within_replicate_noise": true
+    },
+    {
+      "cytokine": "IL-2",
+      "round1_rank": 5,
+      "round2_rank": 5,
+      "round1_live_tumor_count": 1661.333333,
+      "round2_live_tumor_count": 1690.666667,
+      "delta_live_tumor_count": 29.333,
+      "pct_change_live_tumor_count": 1.766,
+      "round1_mean_cart_exhaustion": 0.48714,
+      "round2_mean_cart_exhaustion": 0.473024,
+      "delta_mean_cart_exhaustion": -0.01412,
+      "within_replicate_noise": true
+    }
+  ],
+  "iterations": [
+    {
+      "iteration": 1,
+      "decision_source": "llm",
+      "call_id": "refinement_loop_decision_agent-1cf1a53a6e84",
+      "continue_refinement": true,
+      "next_action": "request_parameter_refinement",
+      "reason": "Round1 pre-refinement cytokine-only ranking establishes IL-15 as the lead arm (live tumor count 1373.0). Run one schema-constrained parameter-refinement pass to test whether the ranking is stable under a plausible sensitivity adjustment before reporting.",
+      "stopping_criteria_met": false,
+      "stopping_criteria": [],
+      "requested_inputs_for_next_loop": [
+        "round2 post-refinement cytokine-only simulation ranking"
+      ],
+      "parameter_or_simulation_focus": [
+        "cytokine fingerprint knobs for IL-2/IL-7/IL-12/IL-15/IL-18"
+      ],
+      "confidence": 0.6,
+      "human_review_required": false,
+      "do_not_overinterpret": [
+        "3-replicate in silico ranking is not wet-lab validation"
+      ],
+      "validation": {
+        "status": "passed",
+        "errors": []
+      },
+      "warnings": [],
+      "input_artifacts": [
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round1_pre_refine_cytokine_only_ranking.csv",
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json"
+      ],
+      "output_artifacts": [
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters_refined.json",
+        "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/"
+      ]
+    },
+    {
+      "iteration": 2,
+      "decision_source": "llm",
+      "call_id": "refinement_loop_decision_agent-b07d99fcc29e",
+      "continue_refinement": false,
+      "next_action": "stop_and_report",
+      "reason": "Cytokine ranking is identical across round1 and round2 (IL-15 > IL-18 > IL-12 > IL-7 > IL-2). The lead arm IL-15 changes by only +1.87% live tumor count between rounds (1373.00 -> 1398.67), within the round2 3-replicate standard deviation (46.93). The round-2 change is a simulation-sensitivity adjustment, not new biological evidence, so stop and proceed to final report.",
+      "stopping_criteria_met": true,
+      "stopping_criteria": [
+        "ranking order stable across round1 and round2",
+        "lead-arm live-tumor-count change within round2 replicate noise",
+        "max_refinement_iterations (3) not exceeded"
+      ],
+      "requested_inputs_for_next_loop": [],
+      "parameter_or_simulation_focus": [],
+      "confidence": 0.8,
+      "human_review_required": true,
+      "do_not_overinterpret": [
+        "in silico PhysiCell ranking only; human scientific review required before manuscript use",
+        "round-2 values are a simulation_sensitivity_proposal, not a literature-grounded fingerprint"
+      ],
+      "validation": {
+        "status": "passed",
+        "errors": []
+      },
+      "warnings": [],
+      "input_artifacts": [
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round1_pre_refine_cytokine_only_ranking.csv",
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round2_post_refine_cytokine_only_ranking.csv"
+      ],
+      "output_artifacts": [
+        "artifacts/07_final_report/final_report.md"
+      ]
+    }
+  ],
+  "notes": [
+    "The refinement controller decides whether another loop is needed using the schema-constrained decision schema (continue_refinement, next_action, reason, stopping_criteria_met).",
+    "Python validates the decision, enforces max_refinement_iterations, and executes only whitelisted actions.",
+    "Round-2 changes are a simulation-sensitivity proposal and do not overwrite the evidence-grounded round-1 fingerprint."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "mode": "refinement_loop_decision",
+  "top_intervention": "IL-15",
+  "rounds_completed": 2,
+  "max_refinement_iterations": 3,
+  "model": "gpt-4o-mini",
+  "provider": "openai_compatible",
+  "decision_note": "Schema-constrained refinement-loop controller decision derived from the recorded round1/round2 cytokine-only rankings. Absolute runtime timestamps are null per the package runtime_time_policy.",
+  "package_artifact_paths": {
+    "refinement_loop_decisions": "artifacts/06_refinement_loop_decision/refinement_loop_decisions.json",
+    "round1_ranking": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round1_pre_refine_cytokine_only_ranking.csv",
+    "round2_ranking": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round2_post_refine_cytokine_only_ranking.csv"
+  },
+  "files": [
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_parsed.json",
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_prompt.txt",
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_raw_response.txt",
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_validation.json",
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_parsed.json",
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_prompt.txt",
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_raw_response.txt",
+    "agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_validation.json",
+    "llm_calls.jsonl",
+    "llm_calls_public_redacted.jsonl",
+    "refinement_loop_decision_manifest.json",
+    "refinement_loop_decision_validation.json",
+    "refinement_loop_decisions.json"
+  ],
+  "warnings": [
+    "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
+    "In silico PhysiCell metrics only, not wet-lab validation."
+  ],
+  "controller": "llm_refinement_loop_decision_agent",
+  "final_continue_refinement": false,
+  "final_next_action": "stop_and_report",
+  "final_stopping_criteria_met": true
+}

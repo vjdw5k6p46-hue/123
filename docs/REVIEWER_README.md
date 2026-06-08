@@ -16,6 +16,14 @@ cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
 
 This is the default reference workflow. It requires no API key, no internet access, and no external PhysiCell executable.
 
+## LLM-First AutoResearch Mode
+
+```bash
+cart-autolab autoresearch-run --config configs/experiment_cytokine_gpc3_liver_autoresearch.yaml
+```
+
+This is the primary AutoResearch workflow. With provider credentials configured, the LLM parses the research goal, records executable agent audit steps, and decides whether refinement should continue. Without credentials, the run records deterministic fallback or skipped LLM steps rather than fabricating outputs.
+
 ## Reviewer-Safe Demo
 
 ```bash
@@ -28,7 +36,7 @@ This writes:
 outputs/reviewer_demo/
 ```
 
-The demo runs deterministic, LLM mock, replay, and ablation modes without API keys, internet access, or a compiled PhysiCell executable.
+The demo runs deterministic, LLM mock, and ablation modes without API keys, internet access, or a compiled PhysiCell executable.
 
 ## LLM Audit Artifacts
 
@@ -37,11 +45,11 @@ Inspect these files after the reviewer-safe demo:
 ```text
 outputs/reviewer_demo/llm_mock/llm_calls.jsonl
 outputs/reviewer_demo/llm_mock/agent_outputs/
-outputs/reviewer_demo/replay/llm_calls.jsonl
-outputs/reviewer_demo/replay/agent_outputs/
 ```
 
 Each LLM call records prompt, raw response, parsed JSON, validation report, provider metadata, and warnings.
+
+The recorded refinement-loop decision for this package is archived at `artifacts/06_refinement_loop_decision/refinement_loop_decisions.json` (with prompt/response audit under `artifacts/06_refinement_loop_decision/agent_outputs/`). Optional AutoResearch refinement-loop decisions are saved as `refinement_loop_decisions.json` when `autoresearch.refinement_controller_source: llm` is enabled. The LLM can request another refinement loop or stop, but Python validates the decision and enforces max-iteration and executor guardrails.
 
 ## Contribution Summary
 
@@ -49,7 +57,7 @@ Each LLM call records prompt, raw response, parsed JSON, validation report, prov
 outputs/reviewer_demo/llm_contribution_summary.csv
 ```
 
-This table compares deterministic, LLM mock, LLM replay, and hybrid software workflows. Mock and replay rows are software-fixture demonstrations only.
+This table compares deterministic, LLM mock, and hybrid software workflows. Mock rows are software-fixture demonstrations only.
 
 ## Ablation Outputs
 

@@ -15,11 +15,11 @@ This historical plan records how the reviewer-response work was originally divid
 ## PR 1: Add Optional Executable LLM Agent Infrastructure
 
 - Branch: `feature/llm-agent-runner`
-- Scope: Add optional LLM provider, runner, replay, audit, and schema-validation infrastructure without changing deterministic defaults.
+- Scope: Add optional LLM provider, runner, audit, and schema-validation infrastructure without changing deterministic defaults.
 - Files likely touched: `src/cart_autolab/llm/`, configuration loading, focused tests under `tests/`.
 - Explicit non-goals: Do not change simulation logic, PhysiCell adapter behavior, wet-lab data, or default deterministic run behavior.
 - Acceptance criteria: `pytest` passes; default deterministic config runs without API keys; mock LLM provider creates `llm_calls.jsonl` and `agent_outputs/`; no fake scientific evidence is generated.
-- Tests to run: `pytest`, plus targeted tests such as `pytest tests/test_llm_agent_runner.py tests/test_llm_replay.py tests/test_llm_audit_artifacts.py`.
+- Tests to run: `pytest`, plus targeted tests such as `pytest tests/test_llm_agent_runner.py tests/test_llm_audit_artifacts.py`.
 - Dependency order: After PR 0.
 
 ## PR 2: Turn Prompt Definitions Into Executable LLM Agents
@@ -48,7 +48,7 @@ This historical plan records how the reviewer-response work was originally divid
 - Scope: Add ablation metrics and CLI support comparing deterministic-only, LLM-agent, and hybrid modes.
 - Files likely touched: `src/cart_autolab/analysis/ablation.py`, `src/cart_autolab/analysis/evidence_metrics.py`, `src/cart_autolab/analysis/ranking_stability.py`, `src/cart_autolab/cli.py`, ablation config, focused tests.
 - Explicit non-goals: No API key requirement; no PhysiCell executable requirement; no fabricated wet-lab validation values.
-- Acceptance criteria: Ablation runs with deterministic and mock/replay modes; outputs clearly label mock/replay/demo status; wet-lab concordance is marked not evaluated unless a user-supplied validation table is provided.
+- Acceptance criteria: Ablation runs with deterministic and mock modes; outputs clearly label mock/demo status; wet-lab concordance is marked not evaluated unless a user-supplied validation table is provided.
 - Tests to run: `pytest`, targeted `pytest tests/test_ablation_metrics.py`.
 - Dependency order: After PR 1, PR 2, and PR 3, or based on the feature stack with dependency stated clearly.
 

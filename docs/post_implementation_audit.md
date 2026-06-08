@@ -1,6 +1,6 @@
 # Post-Implementation Audit
 
-This audit reviews the integrated reviewer-response branch created after the reviewer concern. The default workflow remains deterministic, while optional LLM, replay, hybrid, ablation, and external PhysiCell modes are available in this branch.
+This audit reviews the integrated reviewer-response branch created after the reviewer concern. The default workflow remains deterministic, while optional LLM, hybrid, ablation, and external PhysiCell modes are available in this branch.
 
 ## Branches Reviewed
 
@@ -19,7 +19,7 @@ Implemented in this workflow archive:
 
 - Repository guardrails in `AGENTS.md`, including no fabricated citations, LLM outputs, PhysiCell outputs, or wet-lab data.
 - Documentation audit and PR split plan.
-- Optional LLM runner infrastructure with providers `none`, `mock`, `replay`, and `openai_compatible`.
+- Optional LLM runner infrastructure with providers `none`, `mock`, and `openai_compatible`.
 - LLM audit logging to `outputs/<run>/llm_calls.jsonl`.
 - Per-call prompt, raw response, parsed JSON, and validation artifacts under `outputs/<run>/agent_outputs/<agent_name>/`.
 - JSON parsing and schema/custom validation checks for LLM outputs.
@@ -33,13 +33,13 @@ Implemented in this workflow archive:
 ## 2. Partially Implemented Tasks
 
 - Executable LLM mode is implemented for selected agents, not every prompt in `cart_autolab.prompts`.
-- The LLM provider stack is executable for mock and replay modes without credentials. Live `openai_compatible` mode is implemented but intentionally untested in CI because it requires API credentials.
-- Ablation demonstrates software-level differences between deterministic, mock/replay LLM, and hybrid paths. It does not demonstrate biological superiority from mock data.
+- The LLM provider stack is executable for mock mode without credentials. Live `openai_compatible` mode is implemented but intentionally untested in CI because it requires API credentials.
+- Ablation demonstrates software-level differences between deterministic, mock LLM, and hybrid paths. It does not demonstrate biological superiority from mock data.
 - External PhysiCell mode validates configuration and can call a local executable, but tests do not run a compiled PhysiCell binary.
 
 ## 3. Documented but Not Fully Executable Without External Setup
 
-Executable LLM-agent mode, replay mode, hybrid evidence-to-parameter provenance, ablation, and external PhysiCell conversion are present in this workflow archive. Live LLM calls require provider credentials, and real external PhysiCell simulation requires a local compiled executable.
+Executable LLM-agent mode, hybrid evidence-to-parameter provenance, ablation, and external PhysiCell conversion are present in this workflow archive. Live LLM calls require provider credentials, and real external PhysiCell simulation requires a local compiled executable.
 
 ## 4. Default Deterministic Pipeline
 
@@ -65,7 +65,6 @@ Implemented providers:
 
 - `none`: default-safe mode; no LLM call.
 - `mock`: deterministic software fixture provider for tests.
-- `replay`: reads archived prompt-response artifacts from disk.
 - `openai_compatible`: optional live provider; requires API configuration and fails clearly without it.
 
 The mode remains optional and is not the default.
@@ -195,13 +194,12 @@ cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
 pytest
 ```
 
-### LLM, Replay, and Ablation Modes
+### LLM and Ablation Modes
 
 ```bash
 pytest
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_llm_mock.yaml
-cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_replay.yaml
 cart-autolab ablation --config configs/experiment_cytokine_gpc3_liver_ablation.yaml
 ```
 

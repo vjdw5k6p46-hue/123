@@ -2,7 +2,7 @@
 
 This document describes how to generate a real executable local-LLM archive for the LLM-guided, schema-constrained CAR-T in silico workflow.
 
-The archive is optional. It is not required for deterministic mode, CI, mock tests, replay tests, or external PhysiCell documentation.
+The archive is optional. It is not required for deterministic mode, CI, mock tests, or external PhysiCell documentation.
 
 ## Requirements
 
@@ -87,12 +87,12 @@ The ZIP is a generated artifact and should not be committed.
 
 `llm_calls.jsonl` records each executable LLM call, including agent name, provider, model, prompt hash, response artifact paths, schema validation status, retry count, and warnings.
 
-`agent_outputs/` contains prompt text, raw local-LLM responses, parsed JSON, and validation reports. These artifacts are archived for auditability and replay comparison.
+`agent_outputs/` contains prompt text, raw local-LLM responses, parsed JSON, and validation reports. These artifacts are archived for auditability.
 
 Local LLM outputs may vary by model, backend, quantization, prompt handling, and runtime settings. The archive records model name, base URL, temperature, seed, workflow settings, curated literature path, included-paper count, LLM call count, and downstream artifact locations.
 
 ## Separation From Fixtures
 
-Mock and replay fixtures are separate from manuscript local-LLM evidence. They are used for offline software tests and CI only. Do not describe mock/replay outputs as real LLM evidence, scholarly citations, wet-lab data, or PhysiCell outputs.
+Mock fixtures are separate from manuscript local-LLM evidence. They are used for offline software tests and CI only. Do not describe mock outputs as real LLM evidence, scholarly citations, wet-lab data, or PhysiCell outputs.
 
 The local LLM archive must use curated real paper metadata with provenance. The workflow still does not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.

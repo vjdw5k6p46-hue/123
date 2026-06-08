@@ -53,7 +53,7 @@ def build_knowledge_index(run_dir: Path) -> dict[str, Any]:
         "paper_count": len(included) if isinstance(included, list) else 0,
         "notes": [
             "This is an artifact index for auditability, not a scientific database.",
-            "Mock/replay records remain software fixtures only.",
+            "Mock records remain software fixtures only.",
         ],
     }
 

@@ -8,8 +8,7 @@ from typing import Any, Protocol
 
 import requests
 
-from .client import LLMConfig, resolve_replay_dir
-from .replay import ReplayArtifactError, load_replay_response
+from .client import LLMConfig
 
 
 class LLMProviderError(RuntimeError):
@@ -40,7 +39,7 @@ class NoneProvider:
         self.config = config
 
     def generate(self, *, agent_name: str, prompt: str, prompt_hash: str, call_id: str) -> LLMResponse:
-        raise LLMProviderError("LLM provider is 'none'; no LLM call was made. Use deterministic workflow or configure mock, replay, or openai_compatible.")
+        raise LLMProviderError("LLM provider is 'none'; no LLM call was made. Use deterministic workflow or configure mock or openai_compatible.")
 
 
 class MockProvider:
@@ -69,31 +68,6 @@ class MockProvider:
             temperature=self.config.temperature,
             seed=self.config.seed,
             warnings=["Mock provider output is a software fixture only, not scientific evidence."],
-        )
-
-
-class ReplayProvider:
-    name = "replay"
-
-    def __init__(self, config: LLMConfig, run_dir: Path):
-        self.config = config
-        self.run_dir = run_dir
-        self.replay_dir = resolve_replay_dir(config, run_dir)
-        if self.replay_dir is None:
-            raise LLMProviderError("Replay provider requires llm.replay_dir.")
-
-    def generate(self, *, agent_name: str, prompt: str, prompt_hash: str, call_id: str) -> LLMResponse:
-        try:
-            raw = load_replay_response(self.replay_dir, agent_name=agent_name, prompt_hash=prompt_hash, call_id=call_id)
-        except ReplayArtifactError as exc:
-            raise LLMProviderError(str(exc)) from exc
-        return LLMResponse(
-            raw_text=raw,
-            provider=self.name,
-            model=self.config.model or "archived-replay",
-            temperature=self.config.temperature,
-            seed=self.config.seed,
-            warnings=["Replay provider loaded an archived response; no live LLM call was made."],
         )
 
 
@@ -143,8 +117,6 @@ def build_provider(config: LLMConfig, run_dir: Path) -> LLMProvider:
         return NoneProvider(config, run_dir)
     if provider == "mock":
         return MockProvider(config, run_dir)
-    if provider == "replay":
-        return ReplayProvider(config, run_dir)
     if provider == "openai_compatible":
         return OpenAICompatibleProvider(config, run_dir)
-    raise LLMProviderError(f"Unsupported LLM provider '{config.provider}'. Allowed values: none, mock, replay, openai_compatible.")
+    raise LLMProviderError(f"Unsupported LLM provider '{config.provider}'. Allowed values: none, mock, openai_compatible.")

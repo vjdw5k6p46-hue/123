@@ -14,7 +14,6 @@ def write_llm_contribution_summary(reviewer_demo_dir: str | Path) -> Path:
     rows = [
         _summarize_mode("deterministic", reviewer_demo_dir / "deterministic", "deterministic reference mode"),
         _summarize_mode("llm_mock", reviewer_demo_dir / "llm_mock", "software-fixture demonstration; not biological validation"),
-        _summarize_mode("llm_replay", reviewer_demo_dir / "replay", "archived replay software fixture; no live LLM call"),
         _summarize_mode("hybrid", reviewer_demo_dir / "ablation" / "hybrid", "hybrid software-fixture demonstration; not biological validation"),
     ]
     out = reviewer_demo_dir / "llm_contribution_summary.csv"

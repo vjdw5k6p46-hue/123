@@ -14,6 +14,7 @@ from .goal import write_research_goal
 from .hypotheses import write_ranked_hypotheses
 from .knowledge_base import write_knowledge_index
 from .llm_steps import run_configured_llm_steps
+from .refinement_loop import write_refinement_loop_trace
 from .report import write_autoresearch_report
 
 
@@ -40,8 +41,8 @@ class AutoResearchWorkflow:
         self.base.memory.add("autoresearch_hypotheses", hypothesis_paths["json"], "Ranked hypotheses generated from workflow artifacts.")
         design_path = write_simulation_design_plan(self.config, self.run_dir)
         self.base.memory.add("autoresearch_design", design_path, "AutoResearch simulation design plan saved.")
-        refinement_path = self._write_refinement_trace()
-        self.base.memory.add("autoresearch_refinement", refinement_path, "Single-iteration refinement trace saved.")
+        refinement_path = write_refinement_loop_trace(self.config, self.run_dir)
+        self.base.memory.add("autoresearch_refinement", refinement_path, "Refinement loop decision trace saved.")
         kb_path = write_knowledge_index(self.run_dir)
         self.base.memory.add("autoresearch_knowledge_base", kb_path, "Knowledge base artifact index saved.")
         llm_status = run_configured_llm_steps(self.config, self.run_dir)
@@ -62,26 +63,6 @@ class AutoResearchWorkflow:
             "autoresearch_report": report,
         }
 
-    def _write_refinement_trace(self) -> Path:
-        trace = {
-            "iterations": [
-                {
-                    "iteration": 1,
-                    "status": "completed",
-                    "inputs": ["research_goal.json", "included_papers.json", "extracted_evidence.json", "parameter_fingerprints.json"],
-                    "outputs": ["ranked_interventions.csv", "critique_report.json", "final_report.md"],
-                    "next_step": "Human review before optional external PhysiCell execution or another LLM-guided refinement iteration.",
-                }
-            ],
-            "notes": [
-                "This local implementation records one complete workflow iteration.",
-                "Future iterations must use real generated artifacts; missing simulation or wet-lab outputs must not be fabricated.",
-            ],
-        }
-        path = self.run_dir / "refinement_trace.json"
-        path.write_text(json.dumps(trace, indent=2), encoding="utf-8")
-        return path
-
     def _write_manifest(self, started: str, base_result: dict[str, Any] | None) -> Path:
         artifacts = []
         for path in sorted(self.run_dir.rglob("*")):
@@ -97,7 +78,7 @@ class AutoResearchWorkflow:
             "artifacts": artifacts,
             "real_external_physicell_outputs_included": (self.run_dir / "simulation" / "physicell_execution_log.json").exists(),
             "notes": [
-                "Mock/replay fixtures are not manuscript evidence.",
+                "Mock fixtures are not manuscript evidence.",
                 "Real LLM outputs are included only if live or archived provider artifacts exist in llm_calls.jsonl and agent_outputs.",
             ],
         }

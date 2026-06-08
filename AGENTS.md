@@ -27,7 +27,7 @@ This repository should be framed as an LLM-guided, schema-constrained CAR-T in s
 - Do not revert user changes unless explicitly requested.
 - Do not commit compiled PhysiCell binaries, object files, or large simulation output files.
 - Add focused tests for code changes.
-- If tests would require API keys, internet access, wet-lab data, or an external PhysiCell executable, redesign them to use mock, replay, or synthetic software fixtures.
+- If tests would require API keys, internet access, wet-lab data, or an external PhysiCell executable, redesign them to use mock or synthetic software fixtures.
 
 ## Preferred Wording
 

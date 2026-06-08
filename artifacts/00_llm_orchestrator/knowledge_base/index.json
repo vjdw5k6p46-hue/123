@@ -1,6 +1,6 @@
 {
   "description": "Reviewer-facing artifact index supplied to the LLM Orchestrator. It summarizes existing workflow artifacts and excludes PDFs/full-text papers and control-arm XML files.",
-  "artifact_count": 68,
+  "artifact_count": 81,
   "artifacts": [
     {
       "path": "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
@@ -34,15 +34,15 @@
       "path": "artifacts/01_research_goal/llm_calls.jsonl",
       "name": "llm_calls.jsonl",
       "category": "01_research_goal",
-      "size_bytes": 818,
-      "sha256": "56b8f8c6c687267d0ea4b23cce0e6ed864ed649f67ba43ea826d1efc8c7cc2cb"
+      "size_bytes": 788,
+      "sha256": "71c18c8a7a7706f74dcc450baa782bca26c01bfd2f4ed2bbb37cfb176bf4452e"
     },
     {
       "path": "artifacts/01_research_goal/llm_calls_public_redacted.jsonl",
       "name": "llm_calls_public_redacted.jsonl",
       "category": "01_research_goal",
-      "size_bytes": 559,
-      "sha256": "1511e93b8d007059484ae189830c7c78e14b9eee75a26b27599e59746c2a9dcf"
+      "size_bytes": 578,
+      "sha256": "2665c175165ca397d868552e7fd07805d122931fd6f42c0f96286210ff6ae3bd"
     },
     {
       "path": "artifacts/01_research_goal/paper_download_queries.json",
@@ -62,8 +62,8 @@
       "path": "artifacts/01_research_goal/research_goal.json",
       "name": "research_goal.json",
       "category": "01_research_goal",
-      "size_bytes": 4444,
-      "sha256": "69a4fb2ffa402df125ba483072d1782c011612aabee681de832cb36c08d1fdbb"
+      "size_bytes": 4439,
+      "sha256": "328abd32d1fa6c6806ecb35616c2732c67c663c924c081130ba487e048721272"
     },
     {
       "path": "artifacts/01_research_goal/research_goal_parse_status.json",
@@ -83,8 +83,8 @@
       "path": "artifacts/02_literature_search/deduplicated_papers.json",
       "name": "deduplicated_papers.json",
       "category": "02_literature_search",
-      "size_bytes": 1345867,
-      "sha256": "c9bc725a3ea4f2534f32ebbcf6b8b2f6974e99ecbb16b5217fa2afc7bcafd869"
+      "size_bytes": 1333149,
+      "sha256": "7a292cd6840c29afb29ded5faa9f06b90a0f23a03a6faa3b37925987d24f0449"
     },
     {
       "path": "artifacts/02_literature_search/download_priority_1_core.tsv",
@@ -97,8 +97,8 @@
       "path": "artifacts/02_literature_search/ranked_classified_papers.json",
       "name": "ranked_classified_papers.json",
       "category": "02_literature_search",
-      "size_bytes": 1345867,
-      "sha256": "fe6773e6e30c88a33d9de6dda9f9677e3336bcf2c2a1fcb76ccb1c50d78e0cd6"
+      "size_bytes": 1333149,
+      "sha256": "ba58974a2b52003d86ffb4c8986787609da90ce45285aebd3cc63a7e75c48e04"
     },
     {
       "path": "artifacts/02_literature_search/ranked_classified_papers.tsv",
@@ -118,8 +118,8 @@
       "path": "artifacts/02_literature_search/topic_classification/papers_by_topic.json",
       "name": "papers_by_topic.json",
       "category": "02_literature_search",
-      "size_bytes": 1411792,
-      "sha256": "d97109db9df0fa48640b6f96485ffbe7871e5cf5311bcdb70e339b65e353631c"
+      "size_bytes": 1399074,
+      "sha256": "8094b87e6f532ec74ca2ecf0f9dce789c976f9f0b8e5e31e53789c13b4479ea5"
     },
     {
       "path": "artifacts/02_literature_search/topic_classification/papers_by_topic.tsv",
@@ -202,15 +202,15 @@
       "path": "artifacts/03_central_hypothesis/llm_calls.jsonl",
       "name": "llm_calls.jsonl",
       "category": "03_central_hypothesis",
-      "size_bytes": 1049,
-      "sha256": "e25b108dbaa67c2007a9654e01973321a51f6142e53d17e1e3d35c8cd6e0aba1"
+      "size_bytes": 1019,
+      "sha256": "7c32fcd9c91870750e2b5af1dbc04e352347efd7154c14e43ea51b93bf28e95e"
     },
     {
       "path": "artifacts/03_central_hypothesis/llm_calls_public_redacted.jsonl",
       "name": "llm_calls_public_redacted.jsonl",
       "category": "03_central_hypothesis",
-      "size_bytes": 749,
-      "sha256": "af1b88fd5a3167907444a9e28de0ef95cfe4ab4c776a64d81066f24fd77d54a7"
+      "size_bytes": 768,
+      "sha256": "06dd83ca4871de510b47f33a8baf5f514b74f1ebb20024d40fa9954750bbbb0a"
     },
     {
       "path": "artifacts/03_central_hypothesis/papers_to_download_before_parameterization.json",
@@ -272,22 +272,22 @@
       "path": "artifacts/04_llm_parameter_rounds/llm_calls.jsonl",
       "name": "llm_calls.jsonl",
       "category": "04_llm_parameter_rounds",
-      "size_bytes": 1826,
-      "sha256": "750d9ad8229b07ffe21381db500315136ab4119e43893bc2594d9f42c6a7fcf9"
+      "size_bytes": 1766,
+      "sha256": "38acb9f7b3dad6ed1b408b202803ef330934d14c388faf891c1326fd05737a7e"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json",
       "name": "physicell_ready_parameters.json",
       "category": "04_llm_parameter_rounds",
-      "size_bytes": 6686,
-      "sha256": "c68b13765ff1d7e6a76fea96201ec42b8aed18c05a56a395aa193682c8f988b5"
+      "size_bytes": 7142,
+      "sha256": "65f6dee31c2c9c9662196145dddc13c4bffd5af9f32ed68b3bf7c7425c4a551e"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters_refined.json",
       "name": "physicell_ready_parameters_refined.json",
       "category": "04_llm_parameter_rounds",
-      "size_bytes": 6746,
-      "sha256": "650b12babacc19a13eca8bda381fc00259ec7b1195a1adea008fa3d8caa09f49"
+      "size_bytes": 7221,
+      "sha256": "08d6659f9a9745c7d868bff661db73531aaa9182d70d022c264e08f164fadb06"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/tumor_parameter_baseline_comparison.tsv",
@@ -461,8 +461,8 @@
       "path": "artifacts/07_final_report/final_report.md",
       "name": "final_report.md",
       "category": "07_final_report",
-      "size_bytes": 4140,
-      "sha256": "deb5ea84f647c6460801d51b4d360c7baee3446209d77b1ff33b1e2433feaf8b"
+      "size_bytes": 6119,
+      "sha256": "44e90245a9a41eb587b50a3d7b8cc5dd87785bf7b00b814bd9d57e6353bd6d10"
     },
     {
       "path": "artifacts/07_final_report/final_report_article_list.xlsx",
@@ -475,13 +475,104 @@
       "path": "artifacts/07_final_report/final_report_manifest.json",
       "name": "final_report_manifest.json",
       "category": "07_final_report",
-      "size_bytes": 1693,
-      "sha256": "2d0a9bb6e684737ee5abc5d5c0ac26b12af72ca79cdcce2252ce88eb4520c554"
+      "size_bytes": 1789,
+      "sha256": "2e3fb00abac6380ac89fde15b88d67f9ab5e8775bfdb92db13396befbb02b4cb"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/llm_calls.jsonl",
+      "name": "llm_calls.jsonl",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 2116,
+      "sha256": "ba824cd9734dffcb82401fabad883ae10e70ae1f6af541bd83b0547a5712dfcd"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/llm_calls_public_redacted.jsonl",
+      "name": "llm_calls_public_redacted.jsonl",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 588,
+      "sha256": "15551c9fb3dc06e3ec2ea1e6e5dc2713f2d657d61ce431f2e01923ab415e49b1"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/refinement_loop_decisions.json",
+      "name": "refinement_loop_decisions.json",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 6807,
+      "sha256": "c1babf6e717be3c6986b565be9235f02eb6a8ad4ac37e3604c517fa7ddbdf825"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/refinement_loop_decision_manifest.json",
+      "name": "refinement_loop_decision_manifest.json",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 2287,
+      "sha256": "d51fc121b1cfba4a2bf31449774a7a3800e97c42ff82ccecf5ab1407aaf505c1"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/refinement_loop_decision_validation.json",
+      "name": "refinement_loop_decision_validation.json",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 161,
+      "sha256": "5d90cc18ad7f6b05e9d7ca37dd596f52e0ba23c8c60a70a984c351c0937cd93c"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_parsed.json",
+      "name": "refinement_loop_decision_agent-1cf1a53a6e84_parsed.json",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 1412,
+      "sha256": "9068f00de557cd764633493504607f0aec4a83c323c86a67f310832a02e2a01e"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_prompt.txt",
+      "name": "refinement_loop_decision_agent-1cf1a53a6e84_prompt.txt",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 1470,
+      "sha256": "7d94e1c346169cc0f2489b6a31c7ca7362e932cfc4a836e8be72c3566ccac7fb"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_raw_response.txt",
+      "name": "refinement_loop_decision_agent-1cf1a53a6e84_raw_response.txt",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 825,
+      "sha256": "9fd43e1d55bd89708675f151739adf8083061871641d68825bae9f467df0c9e4"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_validation.json",
+      "name": "refinement_loop_decision_agent-1cf1a53a6e84_validation.json",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 201,
+      "sha256": "cb42b4c7c8c82ea96afbf8a31e20dfb6698787bf028f168699c01e820eda62e0"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_parsed.json",
+      "name": "refinement_loop_decision_agent-b07d99fcc29e_parsed.json",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 1613,
+      "sha256": "192ef3ed92ea002a748f8dd833cb78fe1e58e63f4d938ef429b9c7b7361d4c7b"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_prompt.txt",
+      "name": "refinement_loop_decision_agent-b07d99fcc29e_prompt.txt",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 284,
+      "sha256": "9941f36b498797b0654462784e8ceb6eed1b1a7474da65dd0e50ae82b208ff2b"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_raw_response.txt",
+      "name": "refinement_loop_decision_agent-b07d99fcc29e_raw_response.txt",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 1104,
+      "sha256": "01ece2c4e5ebe98ac1e66e6e13f43f76fc0323f3dba65471c6ad9a6a42fd924b"
+    },
+    {
+      "path": "artifacts/06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-b07d99fcc29e_validation.json",
+      "name": "refinement_loop_decision_agent-b07d99fcc29e_validation.json",
+      "category": "06_refinement_loop_decision",
+      "size_bytes": 201,
+      "sha256": "b8592cdaf6dd416e37cb68bb062d9deaeca28f67dfc1da905082b08686bf2e48"
     }
   ],
   "guardrails": [
     "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",
-    "Mock/replay records are software fixtures only and are not manuscript evidence.",
+    "Mock records are software fixtures only and are not manuscript evidence.",
     "PhysiCell output files in this package are recorded in-silico simulation artifacts, not wet-lab validation."
   ],
   "actual_stage_implementation": [

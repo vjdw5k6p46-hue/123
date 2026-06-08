@@ -22,14 +22,14 @@
   ],
   "scheduling_consistency_checks": [
     "stage_order_matches_dependencies: passed",
-    "event_order_consistency: passed",
-    "stage4 dispatch matches reasoning llm_call 0b0c61a393b0edf4: passed",
-    "stage6 refinement event matches refinement llm_call 847c55a2b846dc61: passed",
-    "all stages status=completed; retries=0; failures=0"
+    "7 reviewer stages; refinement_loop_decision dispatched within stage 6 (simulation_analysis_and_refinement)",
+    "stage4 dispatched autoresearch_reasoning_0b0c61a393b0edf4; stage6 dispatched simulation_refinement_847c55a2b846dc61 and refinement_loop_decision_agent-1cf1a53a6e84",
+    "retries=0; failures=0"
   ],
   "forbidden_hits": [],
   "notes": [
     "Real-time scheduling runtime trace; complements (does not replace) the retrospective orchestrator_plan.json.",
     "Maps existing artifacts only; does not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values."
-  ]
+  ],
+  "runtime_time_policy": "absolute runtime timestamps null; dependency order, call_ids and structure preserved"
 }

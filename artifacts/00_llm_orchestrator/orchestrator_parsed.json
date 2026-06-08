@@ -355,7 +355,8 @@
       ],
       "output_artifacts": [
         "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_summary.json",
-        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_report.md"
+        "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/cytokine_only_report.md",
+        "artifacts/06_refinement_loop_decision/refinement_loop_decisions.json"
       ],
       "validation_status": "passed",
       "events": [
@@ -400,10 +401,42 @@
           "t": null
         },
         {
-          "event": "completed",
-          "t": null
+          "t": null,
+          "event": "physicell_round2_dispatched",
+          "detail": "5 cytokine arms x 3 replicates (post-refine)"
+        },
+        {
+          "t": null,
+          "event": "physicell_round2_completed"
+        },
+        {
+          "t": null,
+          "event": "refinement_loop_decision_dispatched",
+          "call_id": "refinement_loop_decision_agent-1cf1a53a6e84",
+          "model": "gpt-4o-mini"
+        },
+        {
+          "t": null,
+          "event": "refinement_loop_decision_received",
+          "decision": "stop",
+          "loop_status": "converged"
+        },
+        {
+          "t": null,
+          "event": "completed"
         }
-      ]
+      ],
+      "secondary_llm_call_ids": [
+        "refinement_loop_decision_agent-1cf1a53a6e84",
+        "refinement_loop_decision_agent-b07d99fcc29e"
+      ],
+      "loop_decision": {
+        "controller": "llm_refinement_loop_decision_agent",
+        "iterations": 2,
+        "final_continue_refinement": false,
+        "final_next_action": "stop_and_report",
+        "final_stopping_criteria_met": true
+      }
     },
     {
       "step_number": 7,
@@ -476,7 +509,8 @@
       "final_report_generation"
     ],
     "critical_path_seconds": 4857.06,
-    "llm_agent_stages": 3
+    "llm_agent_stages": 3,
+    "llm_calls_dispatched": 5
   },
   "guardrails": [
     "Do not fabricate citations, LLM outputs, PhysiCell outputs, or wet-lab values.",

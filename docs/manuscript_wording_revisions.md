@@ -14,7 +14,7 @@ Replace overbroad autonomous-lab wording with:
 
 ## Figure 1 Legend
 
-> Figure 1. Overview of the LLM-guided, schema-constrained CAR-T in silico workflow. Deterministic reference mode runs without live LLM calls. Optional executable LLM-agent and archived/replay modes record prompt-response artifacts and schema validation reports before evidence enters cytokine fingerprint construction.
+> Figure 1. Overview of the LLM-guided, schema-constrained CAR-T in silico workflow. Deterministic reference mode runs without live LLM calls. Optional executable LLM-agent mode records prompt-response artifacts and schema validation reports before evidence enters cytokine fingerprint construction.
 
 ## Limitations
 
@@ -22,4 +22,4 @@ Replace overbroad autonomous-lab wording with:
 
 ## Code Availability
 
-> The code provides a deterministic reference mode and optional modes for executable LLM-agent execution, archived/replay artifacts, hybrid schema-constrained evidence use, and external PhysiCell execution. The repository does not include compiled PhysiCell binaries or large simulation outputs.
+> The code provides a deterministic reference mode and optional modes for executable LLM-agent execution, hybrid schema-constrained evidence use, and external PhysiCell execution. Executable LLM runs save prompt-response audit artifacts. The repository does not include compiled PhysiCell binaries or large simulation outputs.

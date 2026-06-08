@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from pathlib import Path
 from typing import Any
 
 
@@ -12,7 +11,6 @@ class LLMConfig:
     model: str | None = None
     temperature: float = 0.0
     seed: int | None = 1729
-    replay_dir: str | None = None
     save_raw_responses: bool = True
     schema_validation: bool = True
     max_retries: int = 2
@@ -33,14 +31,3 @@ class LLMConfig:
 
 def load_llm_config(config: dict[str, Any] | None) -> LLMConfig:
     return LLMConfig.from_dict((config or {}).get("llm", config if config else {}))
-
-
-def resolve_replay_dir(config: LLMConfig, run_dir: Path) -> Path | None:
-    if not config.replay_dir:
-        return None
-    path = Path(config.replay_dir)
-    if path.is_absolute():
-        return path
-    if path.exists():
-        return path
-    return run_dir / path

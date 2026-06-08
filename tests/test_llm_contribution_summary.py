@@ -19,7 +19,6 @@ def _run_config(tmp_path, source_config, output_name):
 def test_llm_contribution_summary_labels_fixture_modes(tmp_path):
     _run_config(tmp_path, "configs/experiment_cytokine_gpc3_liver.yaml", "deterministic")
     _run_config(tmp_path, "configs/experiment_cytokine_gpc3_liver_llm_mock.yaml", "llm_mock")
-    _run_config(tmp_path, "configs/experiment_cytokine_gpc3_liver_replay.yaml", "replay")
 
     ablation_config = yaml.safe_load(Path("configs/experiment_cytokine_gpc3_liver_ablation.yaml").read_text(encoding="utf-8"))
     ablation_config["ablation"]["output_dir"] = str(tmp_path / "ablation")
@@ -30,7 +29,7 @@ def test_llm_contribution_summary_labels_fixture_modes(tmp_path):
     out = write_llm_contribution_summary(tmp_path)
     df = pd.read_csv(out)
 
-    assert set(df["workflow_mode"]) == {"deterministic", "llm_mock", "llm_replay", "hybrid"}
+    assert set(df["workflow_mode"]) == {"deterministic", "llm_mock", "hybrid"}
     assert "software-fixture demonstration" in df.loc[df["workflow_mode"] == "llm_mock", "notes"].iloc[0]
     assert "user-supplied validation table required" in df["notes"].iloc[0]
     assert "IL15_rank" in df.columns

@@ -6,7 +6,7 @@ The reproducibility demo writes:
 outputs/reviewer_demo/llm_contribution_summary.csv
 ```
 
-The table compares deterministic, LLM mock, LLM replay, and hybrid software workflows.
+The table compares deterministic, LLM mock, and hybrid software workflows.
 
 Columns:
 
@@ -22,7 +22,7 @@ Columns:
 - `top_ranked_intervention`
 - `notes`
 
-Rows using mock or replay data are labeled as software-fixture demonstrations. They show that the LLM layer can alter the software path and parameter provenance, but they do not establish biological superiority and are not manuscript evidence.
+Rows using mock data are labeled as software-fixture demonstrations. They show that the LLM layer can alter the software path and parameter provenance, but they do not establish biological superiority and are not manuscript evidence.
 
 Wet-lab concordance is not fabricated. If no user-supplied validation CSV is available, the notes state:
 

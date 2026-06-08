@@ -91,6 +91,52 @@ The seven stage_name values must be:
         "inputs": ["experiment_config", "artifact_index"],
         "outputs": ["workflow_steps", "required_inputs", "expected_outputs", "unresolved_assumptions"],
     },
+    "refinement_loop_decision_agent": {
+        "role": "Decide whether the AutoResearch refinement loop should continue or stop.",
+        "system_prompt": """You are the refinement-loop decision agent for an LLM-guided, schema-constrained CAR-T in silico workflow.
+Review only the supplied artifacts, simulation ranking, critique, and prior decisions. Decide whether another refinement loop is needed.
+Do not fabricate citations, LLM outputs, PhysiCell outputs, wet-lab values, or missing simulation results.
+You may request another parameter refinement, more literature, additional simulation, human review, or stop and report.
+Python will validate your decision, enforce max iteration limits, and execute only whitelisted actions.""",
+        "user_prompt_template": """Current refinement iteration:
+{iteration}
+
+Maximum allowed iterations:
+{max_iterations}
+
+Experiment configuration:
+{experiment_config}
+
+Available artifact summary:
+{artifact_summary}
+
+Simulation ranking summary:
+{simulation_summary}
+
+Critique report:
+{critique_report}
+
+Previous refinement decisions:
+{previous_decisions}
+
+Return strict JSON only:
+{{
+  "iteration": {iteration},
+  "continue_refinement": true,
+  "next_action": "stop_and_report | request_parameter_refinement | request_more_literature | request_additional_simulation | human_review_required",
+  "reason": "evidence- and metric-grounded explanation",
+  "stopping_criteria_met": false,
+  "stopping_criteria": [],
+  "requested_inputs_for_next_loop": [],
+  "parameter_or_simulation_focus": [],
+  "confidence": 0.0,
+  "human_review_required": true,
+  "do_not_overinterpret": []
+}}
+""",
+        "inputs": ["iteration", "max_iterations", "experiment_config", "artifact_summary", "simulation_summary", "critique_report", "previous_decisions"],
+        "outputs": ["continue_refinement", "next_action", "reason", "stopping_criteria_met"],
+    },
     "search_planner_agent": {
         "role": "Generate search queries from the researcher experiment configuration.",
         "system_prompt": """You are a scholarly search planning agent for CAR-T engineering.

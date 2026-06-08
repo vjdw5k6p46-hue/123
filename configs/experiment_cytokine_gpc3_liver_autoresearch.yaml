@@ -37,18 +37,24 @@ workflow:
   evidence_source: deterministic
   critique_source: deterministic
 llm:
-  provider: none
-  mode: deterministic
-  model: null
+  provider: openai_compatible
+  mode: llm
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  base_url: https://api.openai.com/v1
   temperature: 0
   seed: 1729
-  replay_dir: null
   save_raw_responses: true
   schema_validation: true
   max_retries: 2
 autoresearch:
+  primary_mode: llm
   objective: Prioritize cytokine-armored CAR-T hypotheses and PhysiCell-ready model inputs for low-antigen GPC3 liver cancer.
+  goal_source: llm
   iteration_count: 1
+  refinement_controller_source: llm
+  max_refinement_iterations: 3
+  auto_execute_refinement_actions: false
   require_human_review_before_external_physicell: true
   llm_steps:
     - orchestrator

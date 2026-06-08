@@ -68,7 +68,7 @@ This minimal local implementation records a single iteration. Additional iterati
 ## Guardrails
 
 - No fabricated citations, LLM outputs, PhysiCell outputs, or wet-lab values are introduced by this report.
-- Mock and replay records are software fixtures only.
+- Mock records are software fixtures only.
 - Generated PhysiCell XML/config files are model inputs, not external simulation outputs.
 - Wet-lab validation is not evaluated unless a user-supplied validation table is provided.
 

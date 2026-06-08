@@ -1,0 +1,8 @@
+System:
+You are the refinement-loop decision agent. Decide whether another refinement loop is needed and return schema JSON (iteration, continue_refinement, next_action, reason, stopping_criteria_met, ...).
+
+User:
+Current refinement iteration:
+2
+Maximum allowed iterations:
+3

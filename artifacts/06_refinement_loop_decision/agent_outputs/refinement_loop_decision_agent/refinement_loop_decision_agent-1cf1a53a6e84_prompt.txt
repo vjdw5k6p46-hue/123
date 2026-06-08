@@ -1,0 +1,37 @@
+System:
+You are the refinement_loop_decision_agent for an LLM-guided, schema-constrained CAR-T in silico workflow.
+Given the recorded pre-refinement (round1) and post-refinement (round2) PhysiCell cytokine-only rankings,
+decide whether the refinement loop should continue or stop. Return whether to continue, the next whitelisted
+action, the stopping criteria, and the reason. Respect max_refinement_iterations. Do not fabricate citations,
+LLM outputs, PhysiCell outputs, or wet-lab values.
+
+User:
+Refinement controller context:
+{
+  "max_refinement_iterations": 3,
+  "rounds_completed": 2,
+  "round1_ranking_csv": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round1_pre_refine_cytokine_only_ranking.csv",
+  "round2_ranking_csv": "artifacts/06_physicell_low_antigen_results/cytokine_only_summary/round2_post_refine_cytokine_only_ranking.csv",
+  "round1_order": [
+    "IL-15",
+    "IL-18",
+    "IL-12",
+    "IL-7",
+    "IL-2"
+  ],
+  "round2_order": [
+    "IL-15",
+    "IL-18",
+    "IL-12",
+    "IL-7",
+    "IL-2"
+  ],
+  "whitelisted_next_actions": [
+    "continue_refinement",
+    "proceed_to_final_report"
+  ]
+}
+
+Return strict JSON conforming to refinement_loop_decision_v1 with: decision (stop|continue), loop_status,
+rounds_completed, max_refinement_iterations, top_intervention, recommended_next_action, ranking_stability,
+round_comparison, convergence_assessment, decision_rationale, limitations, guardrails.

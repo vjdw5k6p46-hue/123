@@ -24,8 +24,12 @@ In the pre-refinement round, the cytokine-only ranking was as follows:
 4. **IL-7**: Live tumor count mean = 1604.0, Live CAR-T count mean = 902.67, Mean CAR-T exhaustion = 0.45729.
 5. **IL-2**: Live tumor count mean = 1661.33, Live CAR-T count mean = 742.33, Mean CAR-T exhaustion = 0.48714.
 
-## 6. LLM Simulation-Refinement Round
-A second round of simulations was conducted to refine the parameters. The LLM agent proposed refinement candidates, which were passed through deterministic validation and range constraints before simulation execution.
+## 6. LLM Simulation-Refinement Round (Simulation-Sensitivity Proposal)
+After the first in silico simulation round, the LLM reviewed the simulation metrics and generated a second-round simulation-sensitivity proposal. This second-round proposal was based on the observed in silico behavior (such as tumor-control ranking and CAR-T exhaustion trends) and should therefore be interpreted as exploratory simulation tuning, not as a new literature-grounded cytokine fingerprint.
+
+The second-round parameter changes were used to evaluate whether the initial cytokine ranking was stable under a plausible sensitivity adjustment. They were not used as independent biological evidence, wet-lab validation, or proof that a cytokine is biologically superior, and they do not overwrite the evidence-grounded (round 1) fingerprint.
+
+In this workflow, literature/chunk-derived LLM reasoning defines the evidence-grounded cytokine parameter proposal; PhysiCell simulations then test the downstream consequences of those proposed model inputs. Simulation-based refinement can suggest sensitivity checks or additional experiments, but it does not replace literature evidence and does not automatically overwrite the evidence-grounded fingerprint.
 
 ## 7. Low-Antigen PhysiCell Cytokine-Only Results After Refinement
 In the post-refinement round, the cytokine-only ranking was as follows:
@@ -36,10 +40,19 @@ In the post-refinement round, the cytokine-only ranking was as follows:
 5. **IL-2**: Live tumor count mean = 1690.67, Live CAR-T count mean = 755.33, Mean CAR-T exhaustion = 0.47302.
 
 ## 8. Cytokine-Only Conclusion
-IL-15 was the top cytokine arm in both pre-refine and post-refine low-antigen in silico runs. Within this 3-replicate PhysiCell comparison, IL-15 had the lowest mean live tumor count among the cytokine arms and maintained high CAR-T cell counts.
+IL-15 was the top cytokine arm in both pre-refine and post-refine low-antigen in silico runs. Within this 3-replicate PhysiCell comparison, IL-15 had the lowest mean live tumor count among the cytokine arms and maintained high CAR-T cell counts. The ranking was stable between the evidence-grounded round and the simulation-sensitivity round, so the second-round parameter changes function as an in silico sensitivity check rather than new biological evidence and do not overwrite the evidence-grounded fingerprint.
 
 ## 9. Limitations and Required Human Scientific Review
 The results are based on in silico PhysiCell simulations and have not been validated in wet-lab settings. Real literature relevance and parameter choices require thorough human scientific review before any manuscript use.
+
+The final interpretation should distinguish the following, which must not be conflated:
+1. evidence-grounded LLM parameter proposals from supplied literature/chunk context;
+2. deterministic schema/range/provenance validation;
+3. PhysiCell simulation outputs generated from those proposed inputs;
+4. simulation-sensitivity proposals based on in silico behavior (model inputs, not biological constants); and
+5. final ranking and reporting with explicit limitations.
+
+The round-2 (post-refinement) values are a `simulation_sensitivity_proposal`: a model input, not a measured biological constant, not wet-lab validation, and not manuscript biological evidence. They do not update the evidence-grounded round-1 fingerprint.
 
 ## 10. Artifact Index
 - **Research Goal Document**: `artifacts/01_research_goal/research_goal.json`

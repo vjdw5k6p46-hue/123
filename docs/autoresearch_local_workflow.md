@@ -18,7 +18,7 @@ The local AutoResearch workflow can:
 - ask an LLM critique/refinement agent to propose a next parameter round.
 
 The workflow does not fabricate citations, LLM outputs, PhysiCell outputs, or
-wet-lab values. Mock or replay outputs are software fixtures only.
+wet-lab values. Mock outputs are software fixtures only.
 
 ## Safe Git Policy
 

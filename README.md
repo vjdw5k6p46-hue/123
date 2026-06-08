@@ -6,11 +6,10 @@ The researcher defines the biological goal. The workflow operationalizes that go
 
 ## Workflow Modes
 
-This workflow archive provides deterministic reference execution plus optional executable LLM-agent, archived/replay, hybrid, ablation, and external PhysiCell support.
+This workflow archive provides deterministic reference execution plus optional executable LLM-agent, hybrid, ablation, and external PhysiCell support. Executable LLM runs save audit artifacts that can be inspected after the run.
 
 - Deterministic reference mode: default mode; no API key, internet access, or external PhysiCell executable required.
 - Executable LLM-agent mode: optional; records prompt, raw response, parsed JSON, schema validation, and audit metadata.
-- Archived/replay mode: optional; reuses archived prompt-response artifacts without live LLM calls.
 - Hybrid mode: optional; uses validated LLM evidence while retaining deterministic schema checks, confidence bounds, and parameter clamping.
 
 Simulator modes:
@@ -39,7 +38,7 @@ Public audit safe demo bundle:
 bash scripts/run_reviewer_reproducibility_demo.sh
 ```
 
-This writes deterministic, LLM mock, replay, and ablation artifacts under `outputs/reviewer_demo/` without requiring API keys, internet access, or a compiled PhysiCell executable.
+This writes deterministic, LLM mock, and ablation artifacts under `outputs/reviewer_demo/` without requiring API keys, internet access, or a compiled PhysiCell executable.
 
 Outputs are written to `outputs/example_run`, including search results, extracted evidence, parameter fingerprints, PhysiCell adapter configs, random seeds, simulation output, metrics, figures, critique, `memory.jsonl`, `final_report.md`, and `final_report.html`.
 
@@ -50,18 +49,21 @@ Reviewer reproducibility commands:
 ```bash
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver.yaml
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_llm_mock.yaml
-cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_replay.yaml
 cart-autolab ablation --config configs/experiment_cytokine_gpc3_liver_ablation.yaml
 cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver_physicell.yaml
 ```
 
-LLM mock, replay, and ablation commands use software fixtures by default and do not require API keys. External PhysiCell execution requires local setup.
+LLM mock and ablation commands use software fixtures by default and do not require API keys. External PhysiCell execution requires local setup.
 
 Automatic paper acquisition is available with `cart-autolab download-papers` or `literature.download_papers: true`. It only downloads open-access or directly available artifacts from sources such as PMC, Europe PMC, bioRxiv/medRxiv, Unpaywall OA links, or publisher-provided OA URLs. It writes `downloaded_papers_manifest.json` with every attempted URL and saved artifact path.
 
 Downloaded PDFs/XML/text can be converted into LLM-ready chunks with `cart-autolab chunk-papers`. The chunker writes `paper_chunks/paper_chunks.jsonl` and `paper_chunks/paper_chunk_index.json`, preserving paper IDs, DOI/PMID, title, artifact path, chunk index, and text.
 
 Agent prompts are explicit and versioned in `cart_autolab.prompts`. Use `cart-autolab prompts` to list agents, `cart-autolab prompts --agent <name>` to inspect one prompt, or `cart-autolab prompts --export outputs/agent_prompts.json` to save the registry. `run-all` also saves `agent_prompts.json` in the run directory.
+
+`cart-autolab autoresearch-run` is the LLM-first workflow entry point. Its default AutoResearch config uses an OpenAI-compatible provider for research-goal parsing, LLM agent audit steps, and refinement-loop decisions. If provider credentials are unavailable, the run records a deterministic fallback instead of fabricating LLM output.
+
+AutoResearch refinement control uses a schema-constrained LLM decision agent when `autoresearch.refinement_controller_source: llm`. The LLM decides whether another refinement loop is needed; Python validates the decision, enforces `max_refinement_iterations`, and executes only whitelisted actions. Requested actions that need human review or an external executor are recorded rather than fabricated.
 
 ## CLI
 

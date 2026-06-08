@@ -45,7 +45,6 @@ llm:
   api_key_env: LOCAL_LLM_API_KEY
   temperature: 0
   seed: 1729
-  replay_dir: null
   save_raw_responses: true
   schema_validation: true
   max_retries: 1

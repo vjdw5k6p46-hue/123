@@ -173,7 +173,7 @@ def main(argv: list[str] | None = None) -> int:
         "warnings": [
             "AutoResearch mode lets the LLM directly propose PhysiCell user_parameters, but code rejects unsupported/out-of-range/provenance-free proposals.",
             "Generated XML files are model inputs only, not PhysiCell simulation outputs or wet-lab validation.",
-            "Mock/replay fixtures are not used unless supplied in the chunk inputs.",
+            "Mock fixtures are not used unless supplied in the chunk inputs.",
         ],
     }
     (output / "autoresearch_manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")

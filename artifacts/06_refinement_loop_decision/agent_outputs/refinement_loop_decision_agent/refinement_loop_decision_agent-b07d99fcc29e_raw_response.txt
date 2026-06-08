@@ -1,0 +1,22 @@
+```json
+{
+  "iteration": 2,
+  "continue_refinement": false,
+  "next_action": "stop_and_report",
+  "reason": "Cytokine ranking is identical across round1 and round2 (IL-15 > IL-18 > IL-12 > IL-7 > IL-2). The lead arm IL-15 changes by only +1.87% live tumor count between rounds (1373.00 -> 1398.67), within the round2 3-replicate standard deviation (46.93). The round-2 change is a simulation-sensitivity adjustment, not new biological evidence, so stop and proceed to final report.",
+  "stopping_criteria_met": true,
+  "stopping_criteria": [
+    "ranking order stable across round1 and round2",
+    "lead-arm live-tumor-count change within round2 replicate noise",
+    "max_refinement_iterations (3) not exceeded"
+  ],
+  "requested_inputs_for_next_loop": [],
+  "parameter_or_simulation_focus": [],
+  "confidence": 0.8,
+  "human_review_required": true,
+  "do_not_overinterpret": [
+    "in silico PhysiCell ranking only; human scientific review required before manuscript use",
+    "round-2 values are a simulation_sensitivity_proposal, not a literature-grounded fingerprint"
+  ]
+}
+```

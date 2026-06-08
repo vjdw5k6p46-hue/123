@@ -10,8 +10,7 @@ This file distinguishes fully executable software workflows from optional extern
 - Mock simulator mode for CI/software testing.
 - Report generation from deterministic outputs.
 - Draft mock LLM provider tests and mock LLM workflow paths.
-- Draft replay provider tests when archived response fixtures are present.
-- Draft ablation workflow using mock/replay software fixtures.
+- Draft ablation workflow using mock software fixtures.
 - Draft external PhysiCell error handling and output-conversion tests using synthetic local files.
 
 ## Requires Optional External Setup
@@ -26,12 +25,11 @@ This file distinguishes fully executable software workflows from optional extern
 - Live LLM mode is intentionally not required for tests.
 - Live LLM outputs must be saved and reviewed; they should not be fabricated or substituted with mock outputs.
 
-## Mock or Replay Only
+## Mock Only
 
 - Mock literature records are software fixtures only.
 - Mock LLM responses are software fixtures only.
-- Replay mode demonstrates archived prompt-response execution only when archived artifacts are supplied.
-- Ablation rows using mock/replay data demonstrate software routing and provenance, not biological validation.
+- Ablation rows using mock data demonstrate software routing and provenance, not biological validation.
 
 ## Not Scientific Evidence
 
@@ -39,7 +37,6 @@ The following must not be interpreted as scientific evidence:
 
 - mock literature records
 - mock LLM outputs
-- replay fixtures unless the archived source is explicitly reviewed and documented
 - mock simulator outputs
 - ablation metrics computed from fixture data
 - conversion reports generated from insufficient PhysiCell outputs

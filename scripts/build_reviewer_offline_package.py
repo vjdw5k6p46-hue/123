@@ -17,11 +17,9 @@ PACKAGE_NAME = "cart_autolab_reviewer_response"
 KEY_CHECKSUMS = [
     "logs/pytest.log",
     "logs/reviewer_demo.log",
-    "logs/consistency_checker.log",
     "outputs/reviewer_demo/llm_contribution_summary.csv",
     "outputs/reviewer_demo/ablation/ablation_summary.csv",
     "outputs/reviewer_demo/llm_mock/llm_calls.jsonl",
-    "outputs/reviewer_demo/replay/llm_calls.jsonl",
 ]
 
 
@@ -72,11 +70,6 @@ def main() -> int:
             "command": ["bash", "scripts/run_reviewer_reproducibility_demo.sh", "--force"],
             "log": logs_dir / "reviewer_demo.log",
         },
-        {
-            "name": "consistency_checker",
-            "command": [sys.executable, "scripts/check_reviewer_response_consistency.py", "--include-outputs"],
-            "log": logs_dir / "consistency_checker.log",
-        },
     ]
 
     command_results = []
@@ -101,7 +94,6 @@ def main() -> int:
 
     local_pytest_passed = exit_code(command_results, "pytest") == 0
     reviewer_demo_passed = exit_code(command_results, "reviewer_demo") == 0
-    consistency_checker_passed = exit_code(command_results, "consistency_checker") == 0
 
     write_package_readme(
         package_dir / "REVIEWER_PACKAGE_README.md",
@@ -125,7 +117,6 @@ def main() -> int:
         "commands_run": command_results,
         "pytest_passed_locally": local_pytest_passed,
         "reviewer_demo_passed_locally": reviewer_demo_passed,
-        "consistency_checker_passed_locally": consistency_checker_passed,
         "github_actions_status": args.github_actions_status,
         "github_actions_status_known_failing": args.github_actions_status == "failing",
         "github_actions_note": args.github_actions_note,
@@ -205,7 +196,6 @@ def copy_snapshot(repo_root: Path, package_dir: Path) -> None:
     ]
     data_subdirs = [
         Path("data") / "mock_literature",
-        Path("data") / "llm_replay_example",
     ]
     files = [
         "README.md",
@@ -258,13 +248,13 @@ def write_package_readme(path: Path, *, commit: str, github_actions_status: str,
 
 This is an offline reviewer package generated from `{BRANCH}` at commit `{commit}`.
 
-Deterministic mode requires no API key. The reviewer-safe demo runs deterministic, LLM mock, replay, and ablation modes without internet access, live LLM credentials, or a compiled PhysiCell executable.
+Deterministic mode requires no API key. The reviewer-safe demo runs deterministic, LLM mock, and ablation modes without internet access, live LLM credentials, or a compiled PhysiCell executable.
 
-LLM mock and replay artifacts are software fixtures only. Mock records are not real scholarly citations, not wet-lab data, and not manuscript evidence. They exist to exercise the LLM-guided, schema-constrained CAR-T in silico workflow code path offline.
+LLM mock artifacts are software fixtures only. Mock records are not real scholarly citations, not wet-lab data, and not manuscript evidence. They exist to exercise the LLM-guided, schema-constrained CAR-T in silico workflow code path offline.
 
 External PhysiCell mode is optional and requires a locally compiled executable configured through `PHYSICELL_EXECUTABLE`. Local PhysiCell cytokine-arm summary artifacts may be included when explicitly present in this package; compiled binaries and large raw output folders are not included.
 
-Real OpenAI-compatible LLM audit artifacts may be included when explicitly present in this package. Mock/replay fixtures remain labeled as software fixtures and are not manuscript evidence.
+Real OpenAI-compatible LLM audit artifacts may be included when explicitly present in this package. Mock fixtures remain labeled as software fixtures and are not manuscript evidence.
 
 GitHub Actions status recorded for this package: `{github_actions_status}`.
 
@@ -290,10 +280,9 @@ def build_known_issues(
         f"- GitHub Actions note: {github_actions_note}",
         f"- Local pytest status from this package run: {'passed' if exit_code(command_results, 'pytest') == 0 else 'failed'}.",
         f"- Reviewer demo status from this package run: {'passed' if exit_code(command_results, 'reviewer_demo') == 0 else 'failed'}.",
-        f"- Consistency checker status from this package run: {'passed' if exit_code(command_results, 'consistency_checker') == 0 else 'failed'}.",
         "- Live LLM execution requires provider credentials and is not required for the offline reviewer package.",
         "- External PhysiCell mode requires a local compiled executable configured through `PHYSICELL_EXECUTABLE`.",
-        "- Mock and replay outputs are software fixtures only, not real scholarly citations, manuscript evidence, PhysiCell outputs, or wet-lab data.",
+        "- Mock outputs are software fixtures only, not real scholarly citations, manuscript evidence, PhysiCell outputs, or wet-lab data.",
         "- Wet-lab concordance is not evaluated unless the user supplies a validation table.",
     ]
     if failures:

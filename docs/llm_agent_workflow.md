@@ -1,6 +1,6 @@
 # LLM Agent Workflow
 
-This workflow archive implements an LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference execution, optional executable LLM-agent execution, archived/replay execution, and optional external PhysiCell execution.
+This workflow archive implements an LLM-guided, schema-constrained CAR-T in silico workflow with deterministic reference execution, optional executable LLM-agent execution, hybrid validation, and optional external PhysiCell execution.
 
 ## Reviewer Package State
 
@@ -16,6 +16,10 @@ Included public audit LLM artifacts include:
 - `artifacts/00_llm_orchestrator/orchestrator_validation.json`
 - `artifacts/04_llm_parameter_rounds/llm_calls.jsonl`
 - `artifacts/04_llm_parameter_rounds/agent_outputs/`
+- `artifacts/06_refinement_loop_decision/`
+- `artifacts/06_refinement_loop_decision/refinement_loop_decisions.json`
+- `artifacts/06_refinement_loop_decision/llm_calls.jsonl`
+- `artifacts/06_refinement_loop_decision/agent_outputs/`
 
 The LLM Orchestrator artifact maps the package into seven public audit stages:
 
@@ -29,13 +33,24 @@ The LLM Orchestrator artifact maps the package into seven public audit stages:
 
 ## Execution Modes
 
-Deterministic reference mode remains the default and requires no API key, internet access, or external PhysiCell executable.
+Deterministic reference mode remains available and requires no API key, internet access, or external PhysiCell executable.
+
+AutoResearch mode is the LLM-first workflow entry point. The default AutoResearch config uses an OpenAI-compatible provider for research-goal parsing, executable LLM agent audit steps, and refinement-loop decisions. If provider credentials are unavailable, the run records deterministic fallback or skipped LLM steps rather than fabricating output.
 
 Executable LLM-agent mode is optional. When configured with an OpenAI-compatible provider, each LLM call records prompt text, raw response, parsed JSON, schema validation, and call metadata.
 
-Archived/replay mode is optional and reuses archived prompt-response artifacts without making live LLM calls.
+The AutoResearch layer uses `refinement_loop_decision_agent` as a schema-constrained refinement-loop decider when LLM mode is configured. The LLM reviews recorded simulation rankings, critique artifacts, and prior decisions, then returns whether refinement should continue, the next whitelisted action, stopping criteria, and the reason. The recorded decision for this package is archived under `artifacts/06_refinement_loop_decision/`. Python validates the decision, enforces `max_refinement_iterations`, and pauses when a requested next action needs human review or an external executor.
 
-Mock mode is for software tests only. Mock and replay fixtures are not manuscript evidence and must not be interpreted as biological validation.
+Executable LLM runs save prompt-response audit artifacts. These audit archives document completed runs; they are not a separate workflow mode.
+
+Mock mode is for software tests only. Mock fixtures are not manuscript evidence and must not be interpreted as biological validation.
+
+## Evidence-Grounded vs Simulation-Sensitivity Proposals
+
+The workflow separates two proposal types and must not conflate them:
+
+- `evidence_grounded_parameter_proposal` (round 1): LLM cytokine parameter proposals derived from supplied literature/chunk context, deterministically schema/range/provenance validated, treated as simulation hypotheses (model inputs) rather than measured biological constants.
+- `simulation_sensitivity_proposal` (round 2): exploratory tuning the LLM proposes after reviewing round-1 in silico metrics (tumor-control ranking and CAR-T exhaustion trends). It is a model input, not biological evidence; it is `not_wet_lab_validation` and `not_manuscript_biological_evidence`, and it does not overwrite (`may_update_final_evidence_grounded_fingerprint: false`) the evidence-grounded fingerprint. Its role is to test whether the round-1 ranking is stable under a plausible sensitivity adjustment.
 
 ## Audit Records
 

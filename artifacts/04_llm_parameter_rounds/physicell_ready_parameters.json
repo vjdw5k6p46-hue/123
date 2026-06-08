@@ -1,7 +1,11 @@
 {
   "base_config": "C:\\code\\PhysiCell\\sample_projects\\cancer_immune\\config\\PhysiCell_settings.xml",
   "output_dir": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs",
-  "note": "gpt-4o-mini cytokine fingerprint knobs (before refinement; initial estimates).",
+  "note": "gpt-4o-mini cytokine fingerprint knobs (round 1, before refinement; evidence-grounded initial estimates).",
+  "proposal_type": "evidence_grounded_parameter_proposal",
+  "source_basis": "supplied_literature_and_chunk_context",
+  "model_input_not_biological_constant": true,
+  "interpretation": "Evidence-grounded LLM cytokine parameter proposal derived from supplied literature/chunk context; deterministically schema/range/provenance validated; treated as a simulation hypothesis (model input), not a measured biological constant.",
   "interventions": [
     {
       "intervention_name": "IL-2",

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    "Decision derived from supplied in silico ranking metrics only; human review required."
+  ]
+}
