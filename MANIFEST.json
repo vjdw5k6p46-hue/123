@@ -1,12 +1,12 @@
 {
   "package_name": "cart_autolab_autoresearch_workflow_source_and_artifacts",
-  "repository": "haochennan-ucla/cart-insilico-autolab",
-  "source_branch": "feature/autoresearch-workflow-local",
-  "source_commit_hash": "6fad06eebd8f090994a9abfe0373f97230487ded",
+  "repository": "vjdw5k6p46-hue/123",
+  "source_branch": "main",
+  "source_commit_hash": null,
   "generated_at": null,
   "purpose": "PDF-free runnable source workflow archive plus LLM/PhysiCell audit artifacts and final-report article Excel.",
   "runnable_scope": "Source code, tests, scripts, configs, metadata fixtures, and audit artifacts are included. Full PDFs, secrets, compiled PhysiCell binaries, and raw large simulation outputs are excluded.",
-  "runtime_time_policy": "Absolute runtime date/time values are set to null in the public workflow archive; call IDs, prompt hashes, dependency order, validation status, durations, and artifact paths are preserved.",
+  "runtime_time_policy": "Absolute runtime date/time values are set to null in the public workflow archive. Call IDs, prompt hashes, dependency order, validation status, and artifact paths are preserved where available. Post-processed summary artifacts do not report measured durations unless backed by explicit start/end timing artifacts.",
   "final_report": "artifacts/07_final_report/final_report.md",
   "article_excel": "artifacts/07_final_report/final_report_article_list.xlsx",
   "tumor_antigen_density_for_final_results": 0.2,
@@ -15,7 +15,7 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_api_keys_or_secrets": false,
   "contains_wet_lab_validation": false,
-  "file_count": 251,
+  "file_count": 244,
   "files": [
     {
       "path": ".gitattributes",
@@ -678,11 +678,6 @@
       "sha256": "e33abe6c0ca88d1a0f31f1f145338b100c12128871c4e2766f83a23fa8c0d4c0"
     },
     {
-      "path": "MANIFEST.json",
-      "bytes": 51249,
-      "sha256": "7920f664553ae8d0fef97fd04578f0214d7c45b4a37be4d113239e5857a54940"
-    },
-    {
       "path": "physicell_project/config/PhysiCell_settings.template.xml",
       "bytes": 26728,
       "sha256": "5ead84f85c8a82568c6637c340bf6211f92e39ef9c367f26f27a6817ad51c7af"
@@ -724,8 +719,8 @@
     },
     {
       "path": "scripts/build_reviewer_offline_package.py",
-      "bytes": 12229,
-      "sha256": "108bf17057086c1d838f49d5c37113f5b6e62224e3f7b537dac07e2b90dddeae"
+      "bytes": 12179,
+      "sha256": "d12b2b109f3c1be8ad959ef7b1b441acff0340b8c4193bb04a34d7ea71f0b0c2"
     },
     {
       "path": "scripts/filter_autoresearch_relevant_chunks.py",
@@ -734,8 +729,8 @@
     },
     {
       "path": "scripts/run_autoresearch_parameter_proposal.py",
-      "bytes": 28014,
-      "sha256": "569655e38309c8e761fe1c84dc38710d80db8a79a1bc7fa9a916d31e6ff4af68"
+      "bytes": 27995,
+      "sha256": "c76a3b8954d2a4669f07cb4f1bf160a4ac2823026126f0e6431821b2b3d28398"
     },
     {
       "path": "scripts/run_autoresearch_per_cytokine_fingerprints.py",
@@ -744,8 +739,8 @@
     },
     {
       "path": "scripts/run_autoresearch_reasoning_first.py",
-      "bytes": 28101,
-      "sha256": "51f457ec9caa3623fd2031e502ca62051a9d4687f527152517eff799d05454df"
+      "bytes": 28082,
+      "sha256": "6014a96478cb887461a305368f4fa6437be199df5335340f05c73e5a04c8ae89"
     },
     {
       "path": "scripts/run_autoresearch_simulation_refinement.py",
@@ -754,8 +749,8 @@
     },
     {
       "path": "scripts/run_manuscript_local_llm_archive.py",
-      "bytes": 6618,
-      "sha256": "1b411bdb2bdfaea7b00a133405b97b8b07d57addbcbe2473dbcc1e57482fae82"
+      "bytes": 6599,
+      "sha256": "bb7467d02d88e15c7d407c61f964fbbb8b484b176a49840c08978e85d8cae389"
     },
     {
       "path": "scripts/run_manuscript_local_llm_archive.sh",
@@ -1103,36 +1098,6 @@
       "sha256": "d59f565caf6c500a72cfefde1e6d13d3949b0a1f806fc5866b5591536cf8d516"
     },
     {
-      "path": "src/cart_insilico_autolab.egg-info/dependency_links.txt",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
-      "path": "src/cart_insilico_autolab.egg-info/entry_points.txt",
-      "bytes": 55,
-      "sha256": "21f22550c8cb16dd587b23d54acccf7ab380d8791b53309bccf39ee3c448149e"
-    },
-    {
-      "path": "src/cart_insilico_autolab.egg-info/PKG-INFO",
-      "bytes": 9269,
-      "sha256": "1b4628dfb314979d14daca10f9be609898e2effc701ba282a828efe8e0e8b1d4"
-    },
-    {
-      "path": "src/cart_insilico_autolab.egg-info/requires.txt",
-      "bytes": 126,
-      "sha256": "63f613fc4f4a8eb28d66f59ed51a2545513fc38caccbceacefbdcbb6a3bf881b"
-    },
-    {
-      "path": "src/cart_insilico_autolab.egg-info/SOURCES.txt",
-      "bytes": 4575,
-      "sha256": "c083d287705608a343ee25e26fc08a958ad58cea534ff634e3451100e0e98c96"
-    },
-    {
-      "path": "src/cart_insilico_autolab.egg-info/top_level.txt",
-      "bytes": 13,
-      "sha256": "71a819e9ca377cd7fa26fb2098c8c6d105a9dd0feae6f0f790d4c099cf11efbd"
-    },
-    {
       "path": "tests/test_ablation_metrics.py",
       "bytes": 4055,
       "sha256": "4d7ababf0a96fb21e2b7c490a557db4569a97d1a54637a42689fcc6f871144fb"
@@ -1209,8 +1174,8 @@
     },
     {
       "path": "tests/test_local_llm_archive_manifest.py",
-      "bytes": 2492,
-      "sha256": "7c1eb4a5afb4a0edd1c7957adaefc0cb5416ed994e9b905b4e7f1469285456d7"
+      "bytes": 2473,
+      "sha256": "58f74120797fcc4ec3ef6f217ca4a276295627685704f3f671a30f89d3668f1e"
     },
     {
       "path": "tests/test_mock_simulator.py",
@@ -1274,5 +1239,9 @@
     }
   ],
   "artifact_manifest_note": "artifacts/artifact_manifest.json file_count excludes the manifest file itself; directory_file_count_including_this_manifest includes it. The workflow audit summary is post-processed and is not a real-time LLM scheduler trace.",
-  "workflow_audit_summary_artifact": "artifacts/00_workflow_audit_summary/workflow_audit_summary.json"
+  "workflow_audit_summary_artifact": "artifacts/00_workflow_audit_summary/workflow_audit_summary.json",
+  "repository_url": "https://github.com/vjdw5k6p46-hue/123",
+  "source_commit_note": "Use the Git commit containing this MANIFEST.json as the exact source version; the hash is not embedded to avoid becoming stale when this tracked manifest is updated.",
+  "file_count_definition": "Number of repository payload files listed in files; excludes MANIFEST.json itself because embedding its own checksum would be self-referential.",
+  "directory_file_count_including_this_manifest": 245
 }

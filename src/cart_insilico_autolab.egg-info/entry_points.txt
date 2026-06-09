@@ -1,2 +1,0 @@
-[console_scripts]
-cart-autolab = cart_autolab.cli:main

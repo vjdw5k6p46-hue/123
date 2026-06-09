@@ -11,8 +11,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-REPOSITORY = "haochennan-ucla/cart-insilico-autolab"
-BRANCH = "integration/reviewer-response-stack"
+REPOSITORY = "vjdw5k6p46-hue/123"
+BRANCH = "main"
 PACKAGE_NAME = "cart_autolab_reviewer_response"
 KEY_CHECKSUMS = [
     "logs/pytest.log",

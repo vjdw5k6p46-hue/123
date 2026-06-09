@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 import yaml
 
 
-REPOSITORY = "haochennan-ucla/cart-insilico-autolab"
+REPOSITORY = "vjdw5k6p46-hue/123"
 CONFIG_PATH = Path("configs/experiment_cytokine_gpc3_liver_local_llm.yaml")
 
 

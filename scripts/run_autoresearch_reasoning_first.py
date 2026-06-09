@@ -101,7 +101,7 @@ def main(argv: list[str] | None = None) -> int:
     report_path = _write_reasoning_report(output, cfg, args.research_question, validation, export)
     _write_llm_call(output, cfg, call_id, prompt_hash, prompt_path, raw_path, parsed_path, validation_path, validation)
     manifest = {
-        "repository": "haochennan-ucla/cart-insilico-autolab",
+        "repository": "vjdw5k6p46-hue/123",
         "branch": _git(["branch", "--show-current"]),
         "commit_hash": _git(["rev-parse", "HEAD"]),
         "run_timestamp": datetime.now(timezone.utc).isoformat(),

@@ -154,7 +154,7 @@ def main(argv: list[str] | None = None) -> int:
     (output / "physicell_ready_parameters.json").write_text(json.dumps(physicell_payload, indent=2), encoding="utf-8")
     report = _write_report(output, cfg, selected_chunks, proposal_records, merged, physicell_payload)
     manifest = {
-        "repository": "haochennan-ucla/cart-insilico-autolab",
+        "repository": "vjdw5k6p46-hue/123",
         "branch": _git(["branch", "--show-current"]),
         "commit_hash": _git(["rev-parse", "HEAD"]),
         "run_timestamp": datetime.now(timezone.utc).isoformat(),

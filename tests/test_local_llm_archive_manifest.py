@@ -51,7 +51,7 @@ def test_local_llm_archive_manifest_uses_existing_artifacts_without_endpoint_cal
 
     manifest = build_manifest(ROOT, ROOT / "configs/experiment_cytokine_gpc3_liver_local_llm.yaml", config, output_dir, ["test warning"])
 
-    assert manifest["repository"] == "haochennan-ucla/cart-insilico-autolab"
+    assert manifest["repository"] == "vjdw5k6p46-hue/123"
     assert manifest["workflow"]["evidence_source"] == "hybrid"
     assert manifest["workflow"]["critique_source"] == "llm"
     assert manifest["literature_mode"] == "curated"
