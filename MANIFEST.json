@@ -74,13 +74,13 @@
     },
     {
       "path": "artifacts/01_research_goal/llm_calls.jsonl",
-      "bytes": 577,
-      "sha256": "5846351c9f86d493f2caf1471241f5e23aaafa2dbfc79c6f2fba8a72e691752c"
+      "bytes": 578,
+      "sha256": "1585626ec5af27de6c1f7f3b8e02445e8fb213e79a340042d317bb15c2257663"
     },
     {
       "path": "artifacts/01_research_goal/llm_calls_public_redacted.jsonl",
-      "bytes": 577,
-      "sha256": "5846351c9f86d493f2caf1471241f5e23aaafa2dbfc79c6f2fba8a72e691752c"
+      "bytes": 578,
+      "sha256": "1585626ec5af27de6c1f7f3b8e02445e8fb213e79a340042d317bb15c2257663"
     },
     {
       "path": "artifacts/01_research_goal/paper_download_queries.json",
@@ -194,13 +194,13 @@
     },
     {
       "path": "artifacts/03_central_hypothesis/llm_calls.jsonl",
-      "bytes": 719,
-      "sha256": "08205d284de68e52f605a03ba49c060b3bded64b01a5d0282dbcd4082449c57d"
+      "bytes": 720,
+      "sha256": "06e297bc22debc6bb9125cd3be5fa1e410421b4623a1fc47da00e410aa37cdd9"
     },
     {
       "path": "artifacts/03_central_hypothesis/llm_calls_public_redacted.jsonl",
-      "bytes": 767,
-      "sha256": "67b5b008282050ba9f72ec5eac5c5b4f48821aa40a62b0e6037c48d0640b0e19"
+      "bytes": 768,
+      "sha256": "05f4ecca889a0c11566e80dd587e1f1780b42f171f882ca8898cb7d5ac2fd0d9"
     },
     {
       "path": "artifacts/03_central_hypothesis/papers_to_download_before_parameterization.json",
@@ -254,8 +254,8 @@
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/llm_calls.jsonl",
-      "bytes": 1624,
-      "sha256": "58f79ed92a2b7efc56cadc11beaf65af098dfdd22e3c13915fa22481dcbabf6c"
+      "bytes": 1626,
+      "sha256": "d59e43b4cff828c43d48ae4fb6cff2771de50f7daace53278ff408c429876145"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json",
@@ -429,13 +429,13 @@
     },
     {
       "path": "artifacts/06_refinement_loop_decision/llm_calls.jsonl",
-      "bytes": 1578,
-      "sha256": "0e9449e9d5cbabf7e77670208b041449858256e17ad522b3ae56704bf9b03621"
+      "bytes": 1608,
+      "sha256": "1b7359352ac4a08a467b09c7a579ea223784ac0014e3a62b8be35e19100199a6"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/llm_calls_public_redacted.jsonl",
-      "bytes": 650,
-      "sha256": "3933ea38000c07f2f85f99d25a152a61686c1779c9c73a1dbedb040a6bc7e649"
+      "bytes": 652,
+      "sha256": "f3e53914d26b56f8d8b6ed96f4b64fcc3b555f22bfc70c77480d50f89320dd56"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/refinement_loop_decision_manifest.json",
@@ -470,7 +470,7 @@
     {
       "path": "artifacts/artifact_manifest.json",
       "bytes": 20555,
-      "sha256": "840f801fdf6b5a16ef5353874cd9855bbc12c5dab700c3ff1fdb5f12296ed78d"
+      "sha256": "ec9ab31d54c8fe6cbed3ccd5e332be59e1b4e8e1478c135d9a2587ff506cd97f"
     },
     {
       "path": "configs/autoresearch_gemini.yaml",
