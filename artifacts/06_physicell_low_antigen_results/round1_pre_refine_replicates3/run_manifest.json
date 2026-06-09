@@ -1,6 +1,6 @@
 {
-  "configs_dir": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\low_antigen_0p2_configs\\round1_pre_refine_low_antigen_configs",
-  "executable": "C:\\code\\PhysiCell\\sample_projects\\cancer_immune\\cancer_immune_3D",
+  "configs_dir": "artifacts/05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs",
+  "executable": "external_physicell_executable_not_included; set PHYSICELL_EXECUTABLE",
   "replicates": 3,
   "max_time": 1440.0,
   "workers": 3,
@@ -8,8 +8,8 @@
   "successful_returncodes": 18,
   "metrics_outputs": 18,
   "elapsed_seconds": 1109.45,
-  "replicate_metrics_csv": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_runs_low_antigen_0p2\\round1_pre_refine_replicates3\\replicate_metrics.csv",
-  "replicate_summary_csv": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_runs_low_antigen_0p2\\round1_pre_refine_replicates3\\replicate_summary.csv",
-  "replicate_ranking_csv": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_runs_low_antigen_0p2\\round1_pre_refine_replicates3\\replicate_ranking.csv",
+  "replicate_metrics_csv": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_metrics.csv",
+  "replicate_summary_csv": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_summary.csv",
+  "replicate_ranking_csv": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_ranking.csv",
   "note": "Multi-replicate in silico PhysiCell run. Results are not wet-lab validation."
 }

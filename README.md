@@ -13,6 +13,12 @@ This workflow archive provides a real AutoResearch default path plus determinist
 - Executable LLM-agent mode: records prompt, raw response, parsed JSON, schema validation, and audit metadata.
 - Hybrid mode: uses validated LLM evidence while retaining schema checks, confidence bounds, and parameter checks.
 
+Final-report provenance boundary:
+
+- `artifacts/07_final_report/final_report.md` is a reviewer-facing curated report assembled from the recorded workflow artifacts.
+- The public package does not include raw final-report-generation prompt, context, or response files.
+- Prompt-response provenance claims apply to archived executable LLM calls, not to the curated final-report editing step.
+
 Simulator modes:
 
 - External PhysiCell mode: default for the real workflow; requires a local PhysiCell build and `PHYSICELL_EXECUTABLE`.

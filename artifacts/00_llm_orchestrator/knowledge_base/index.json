@@ -405,8 +405,8 @@
       "path": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_metrics.csv",
       "name": "replicate_metrics.csv",
       "category": "06_physicell_low_antigen_results",
-      "size_bytes": 4530,
-      "sha256": "eaec655eed0f0658e9e968f1e493e5db4e67a2b9ae08d145fa52e9e2b482991b"
+      "size_bytes": 3500,
+      "sha256": "02697f8103a43137c444bb66f091a8008efcfa5aace9ebb52b69d7a1373e57a1"
     },
     {
       "path": "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_ranking.csv",
@@ -433,8 +433,8 @@
       "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_metrics.csv",
       "name": "replicate_metrics.csv",
       "category": "06_physicell_low_antigen_results",
-      "size_bytes": 4545,
-      "sha256": "7c2c2b6e7500ef51f53d352a695c8748d372b4304ea74f02e7c071fa3ed47973"
+      "size_bytes": 3500,
+      "sha256": "061b730dc47704f7cbf5f03dcfc171388b083061bc0c0f23d8fc191bd4769d2b"
     },
     {
       "path": "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_ranking.csv",
@@ -461,8 +461,8 @@
       "path": "artifacts/07_final_report/final_report.md",
       "name": "final_report.md",
       "category": "07_final_report",
-      "size_bytes": 6056,
-      "sha256": "9931a56ec57c215e750a2bccfe7c05980c281f10729fbca8d66c14e2a4261072"
+      "size_bytes": 6131,
+      "sha256": "e5d8e9df8f367b6deb9ad16ff6cf224d36a3c2773d506bfee07a035b999eebcb"
     },
     {
       "path": "artifacts/07_final_report/final_report_article_list.xlsx",
@@ -475,8 +475,8 @@
       "path": "artifacts/07_final_report/final_report_manifest.json",
       "name": "final_report_manifest.json",
       "category": "07_final_report",
-      "size_bytes": 1763,
-      "sha256": "b35e2b4e5f554fb2fc42cbf94271dd5ccb2757093ab58221d6ddc08d7fea2728"
+      "size_bytes": 2126,
+      "sha256": "12dc315244a105e7b1fcee8cc38f83776851bf82683c5eb37721cd5558be11d8"
     },
     {
       "path": "artifacts/06_refinement_loop_decision/llm_calls.jsonl",

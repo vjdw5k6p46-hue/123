@@ -6,8 +6,8 @@
   "candidate_arm_count": 5,
   "missing_candidate_arms": [],
   "validation_status": "passed",
-  "output_dir": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai",
-  "llm_calls": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai\\llm_calls.jsonl",
-  "parsed_output": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai\\central_hypothesis_output.json",
-  "papers_to_download": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step3_central_hypothesis_openai\\papers_to_download_before_parameterization.tsv"
+  "output_dir": "artifacts/03_central_hypothesis",
+  "llm_calls": "artifacts/03_central_hypothesis/llm_calls.jsonl",
+  "parsed_output": "artifacts/03_central_hypothesis/central_hypothesis_output.json",
+  "papers_to_download": "artifacts/03_central_hypothesis/papers_to_download_before_parameterization.tsv"
 }

@@ -1,6 +1,6 @@
 {
-  "query_file": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_goal_parse_openai_dynamic_clean_question\\paper_download_queries.json",
-  "output_dir": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_paper_search_classification",
+  "query_file": "artifacts/01_research_goal/paper_download_queries.json",
+  "output_dir": "artifacts/02_literature_search",
   "queries": 8,
   "raw_records": 553,
   "valid_titled_records": 538,
@@ -19,6 +19,6 @@
     "4": 88,
     "5": 176
   },
-  "ranked_tsv": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_paper_search_classification\\ranked_classified_papers.tsv",
-  "priority_1_core_tsv": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_paper_search_classification\\download_priority_1_core.tsv"
+  "ranked_tsv": "artifacts/02_literature_search/ranked_classified_papers.tsv",
+  "priority_1_core_tsv": "artifacts/02_literature_search/download_priority_1_core.tsv"
 }

@@ -8,7 +8,7 @@
   "contains_large_raw_physicell_outputs": false,
   "contains_wet_lab_validation": false,
   "llm_orchestrator_artifact": "00_llm_orchestrator/orchestrator_plan.json",
-  "file_count": 95,
+  "file_count": 97,
   "files": [
     {
       "path": "00_llm_orchestrator/README.md",
@@ -38,17 +38,17 @@
     {
       "path": "00_llm_orchestrator/knowledge_base/index.json",
       "bytes": 30363,
-      "sha256": "eaab2183bafa87c3de52463d7a366038bf4a1bb526b90429ec729ee7f526edb6"
+      "sha256": "6584a2e28941556ddb098f69de6e2b7d08099d68f05e12d7901bed3b504dc2ce"
     },
     {
       "path": "00_llm_orchestrator/llm_calls.jsonl",
-      "bytes": 618,
-      "sha256": "39b22355404e56797d42f6bd0cb51d8a606604238ad1b8fb88b3db6699196019"
+      "bytes": 617,
+      "sha256": "fe4e4f0d73d22b48513ef4250f5dc0a5908cb164afff19e6a775fd5a8e9c324a"
     },
     {
       "path": "00_llm_orchestrator/llm_calls_public_redacted.jsonl",
-      "bytes": 618,
-      "sha256": "f84ea65715affcb700261e9ed50843f5788ac2ec575d2f62838ab0461c344186"
+      "bytes": 617,
+      "sha256": "2004c9012ca1ff4b775bcd65312c28a47d40213fa8719632ce0b723eb6c33daf"
     },
     {
       "path": "00_llm_orchestrator/orchestrator_parsed.json",
@@ -102,18 +102,18 @@
     },
     {
       "path": "01_research_goal/llm_calls.jsonl",
-      "bytes": 788,
-      "sha256": "71c18c8a7a7706f74dcc450baa782bca26c01bfd2f4ed2bbb37cfb176bf4452e"
+      "bytes": 577,
+      "sha256": "5846351c9f86d493f2caf1471241f5e23aaafa2dbfc79c6f2fba8a72e691752c"
     },
     {
       "path": "01_research_goal/llm_calls_public_redacted.jsonl",
-      "bytes": 578,
-      "sha256": "2665c175165ca397d868552e7fd07805d122931fd6f42c0f96286210ff6ae3bd"
+      "bytes": 577,
+      "sha256": "5846351c9f86d493f2caf1471241f5e23aaafa2dbfc79c6f2fba8a72e691752c"
     },
     {
       "path": "01_research_goal/paper_download_queries.json",
-      "bytes": 1463,
-      "sha256": "3dd12dbc9012f76c8359b87a81319bd0f11c8aba514a27e9ba049df041f20357"
+      "bytes": 1387,
+      "sha256": "126319507509e50991c8080dd083a7dd7a2ff177ba8b769bfdcc90b68eabf7c5"
     },
     {
       "path": "01_research_goal/paper_download_queries.tsv",
@@ -132,8 +132,8 @@
     },
     {
       "path": "02_literature_search/classification_summary.json",
-      "bytes": 1036,
-      "sha256": "19d26d5eea2403a251638312900c6db0224a082aad35aa3d416915bb65636a97"
+      "bytes": 784,
+      "sha256": "6710cf77717df2ad177264ce055eca9d1881154ecba0f0a5acd324b5475e2d05"
     },
     {
       "path": "02_literature_search/deduplicated_papers.json",
@@ -207,8 +207,8 @@
     },
     {
       "path": "03_central_hypothesis/central_hypothesis_manifest.json",
-      "bytes": 767,
-      "sha256": "84c051a950a37e1f91254228963e29f4a77813be86c32a43c667f2d3f99da165"
+      "bytes": 544,
+      "sha256": "8e86edf549ba0da123309adf0ff5816d11c91435cc683338b3932d369650c3ae"
     },
     {
       "path": "03_central_hypothesis/central_hypothesis_output.json",
@@ -222,13 +222,13 @@
     },
     {
       "path": "03_central_hypothesis/llm_calls.jsonl",
-      "bytes": 1019,
-      "sha256": "7c32fcd9c91870750e2b5af1dbc04e352347efd7154c14e43ea51b93bf28e95e"
+      "bytes": 719,
+      "sha256": "08205d284de68e52f605a03ba49c060b3bded64b01a5d0282dbcd4082449c57d"
     },
     {
       "path": "03_central_hypothesis/llm_calls_public_redacted.jsonl",
-      "bytes": 768,
-      "sha256": "06dd83ca4871de510b47f33a8baf5f514b74f1ebb20024d40fa9954750bbbb0a"
+      "bytes": 767,
+      "sha256": "67b5b008282050ba9f72ec5eac5c5b4f48821aa40a62b0e6037c48d0640b0e19"
     },
     {
       "path": "03_central_hypothesis/papers_to_download_before_parameterization.json",
@@ -239,6 +239,11 @@
       "path": "03_central_hypothesis/papers_to_download_before_parameterization.tsv",
       "bytes": 51,
       "sha256": "02945c10a5bcbd2c3d7b8855e1a4dbffd4e2b44de610ecbb0ec786e6f50f9796"
+    },
+    {
+      "path": "04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_prompt.txt",
+      "bytes": 70000,
+      "sha256": "f4d57b786177ab89dceca1928a7f0658acf44ee17754aaf464c641108c2bf357"
     },
     {
       "path": "04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
@@ -254,6 +259,11 @@
       "path": "04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_validation.json",
       "bytes": 174,
       "sha256": "6a1057b85f8ffb69cdda3ac6b685f92abc192848ea0add881b010912b0f9c644"
+    },
+    {
+      "path": "04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_prompt.txt",
+      "bytes": 45113,
+      "sha256": "cf50587a9da7fb237c92c4214ead2112271cc0144b0af7ecc5c5db962de99dd8"
     },
     {
       "path": "04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_parsed.json",
@@ -272,18 +282,18 @@
     },
     {
       "path": "04_llm_parameter_rounds/llm_calls.jsonl",
-      "bytes": 1342,
-      "sha256": "1ff1124b0eed673004fb0f1b9d857f7f5b8be36de5c74108ecabdad62148eb89"
+      "bytes": 1838,
+      "sha256": "1d5fa8abe698e5d64d9cb8a41dcfa9ca24eb781e37f9fbce695c1ce11be9ef16"
     },
     {
       "path": "04_llm_parameter_rounds/physicell_ready_parameters.json",
-      "bytes": 7002,
-      "sha256": "576c72b03e8c4200964e3b524a8b477414e7cf24fcc700b10f69bd8b2e32e736"
+      "bytes": 7152,
+      "sha256": "4757b71651e4058de2dff47d293860c15a4dbf2d2e251f71120b2bbf0db5c952"
     },
     {
       "path": "04_llm_parameter_rounds/physicell_ready_parameters_refined.json",
-      "bytes": 7086,
-      "sha256": "68ac80ebeae7759c5afc3285e13f887a8ad0fd38b72569fb493749ca123c228a"
+      "bytes": 7054,
+      "sha256": "b4f3b1080a568f5efedf3b510c4df867bd02646497b778b0512d6e3d17354a51"
     },
     {
       "path": "04_llm_parameter_rounds/tumor_parameter_baseline_comparison.tsv",
@@ -292,8 +302,8 @@
     },
     {
       "path": "05_low_antigen_physicell_inputs/low_antigen_config_manifest.json",
-      "bytes": 3810,
-      "sha256": "df7d76cf7a73afc51c5a63748f72ab61bdc9abfaaf2fe24906cd9b63646f9ce6"
+      "bytes": 3515,
+      "sha256": "6606a9d7df321843a54fff29b76c0bd8684c1908eba1e780aec4f6686e7b64a2"
     },
     {
       "path": "05_low_antigen_physicell_inputs/round1_pre_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
@@ -382,8 +392,8 @@
     },
     {
       "path": "06_physicell_low_antigen_results/round1_pre_refine_replicates3/run_manifest.json",
-      "bytes": 985,
-      "sha256": "ef4fda4bdc7db0e00a87b04553df033be8d542c1a227c7af6ff180cf2a3596a7"
+      "bytes": 835,
+      "sha256": "999cd919c97cac1a117996c532ad82b4629fcc00530423c326fa7eba5a86ad32"
     },
     {
       "path": "06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_metrics.csv",
@@ -402,8 +412,8 @@
     },
     {
       "path": "06_physicell_low_antigen_results/round2_post_refine_replicates3/run_manifest.json",
-      "bytes": 989,
-      "sha256": "b2e6bd3fc977d1d406ae55f07f791a6f15dda712957b18879676e6859bf911a8"
+      "bytes": 839,
+      "sha256": "a96c9b903964d9e1c1def770956c0cd18aa5cbec4a21e91ee4981885685d7878"
     },
     {
       "path": "06_refinement_loop_decision/agent_outputs/refinement_loop_decision_agent/refinement_loop_decision_agent-1cf1a53a6e84_parsed.json",
@@ -447,13 +457,13 @@
     },
     {
       "path": "06_refinement_loop_decision/llm_calls.jsonl",
-      "bytes": 1580,
-      "sha256": "6dc2a35aece4665f119f582592d70f4799dd1482214b8a02cf67515beb3f8a62"
+      "bytes": 1578,
+      "sha256": "0e9449e9d5cbabf7e77670208b041449858256e17ad522b3ae56704bf9b03621"
     },
     {
       "path": "06_refinement_loop_decision/llm_calls_public_redacted.jsonl",
-      "bytes": 632,
-      "sha256": "7f2a7b3a1db9da7fd722fc0e450c1c5b5f893bab719f7267019323f275d6e995"
+      "bytes": 650,
+      "sha256": "3933ea38000c07f2f85f99d25a152a61686c1779c9c73a1dbedb040a6bc7e649"
     },
     {
       "path": "06_refinement_loop_decision/refinement_loop_decision_manifest.json",

@@ -1,6 +1,6 @@
 {
   "source": "research_goal_parser_agent",
-  "research_goal": "C:\\code\\cart_insilico_autolab\\outputs\\autoresearch_step1_goal_parse_openai_dynamic_clean_question\\research_goal.json",
+  "research_goal": "artifacts/01_research_goal/research_goal.json",
   "queries": [
     {
       "query_id": "clean_step1_query_01",

@@ -1,6 +1,6 @@
 {
-  "base_config": "C:\\code\\PhysiCell\\sample_projects\\cancer_immune\\config\\PhysiCell_settings.xml",
-  "output_dir": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined",
+  "base_config": "physicell_project/config/PhysiCell_settings.template.xml",
+  "output_dir": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs",
   "note": "gpt-4o-mini cytokine fingerprint knobs (round 2, after refinement; exploratory simulation-sensitivity proposal, not a new literature-grounded fingerprint).",
   "source_basis": "round1_simulation_metrics",
   "may_update_final_evidence_grounded_fingerprint": false,
@@ -11,7 +11,7 @@
       "intervention_name": "IL-2",
       "aux_cytokine_name": "IL2",
       "aux_mode": "armored",
-      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_2.xml",
+      "config_path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_2.xml",
       "changed_user_parameters": {
         "use_gate": false,
         "K_cyto": 0.3,
@@ -37,7 +37,7 @@
       "intervention_name": "IL-7",
       "aux_cytokine_name": "IL7",
       "aux_mode": "armored",
-      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_7.xml",
+      "config_path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_7.xml",
       "changed_user_parameters": {
         "use_gate": false,
         "K_cyto": 0.5,
@@ -63,7 +63,7 @@
       "intervention_name": "IL-15",
       "aux_cytokine_name": "IL15",
       "aux_mode": "armored",
-      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_15.xml",
+      "config_path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_15.xml",
       "changed_user_parameters": {
         "use_gate": false,
         "K_cyto": 0.4,
@@ -89,7 +89,7 @@
       "intervention_name": "IL-12",
       "aux_cytokine_name": "IL12",
       "aux_mode": "armored",
-      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_12.xml",
+      "config_path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_12.xml",
       "changed_user_parameters": {
         "use_gate": true,
         "K_cyto": 0.2,
@@ -115,7 +115,7 @@
       "intervention_name": "IL-18",
       "aux_cytokine_name": "IL18",
       "aux_mode": "armored",
-      "config_path": "outputs\\autoresearch_gpt4o_mini_fingerprint_v3\\physicell_ready_configs_refined\\PhysiCell_settings_reasoned_il_18.xml",
+      "config_path": "artifacts/05_low_antigen_physicell_inputs/round2_post_refine_low_antigen_configs/PhysiCell_settings_reasoned_il_18.xml",
       "changed_user_parameters": {
         "use_gate": true,
         "K_cyto": 0.2,
