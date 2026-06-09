@@ -14,11 +14,7 @@ This workflow archive exposes three workflow modes. The executable LLM-agent lay
 
 Within the real AutoResearch workflow, LLM-mediated steps save `llm_calls.jsonl`, rendered prompt text, raw model response, parsed JSON, schema-validation artifacts, provider/model metadata, prompt hashes, retry status, and artifact paths. Hybrid evidence use means validated LLM outputs are retained with schema checks, confidence bounds, provenance checks, and parameter bounds before downstream simulation.
 
-Final-report provenance boundary:
-
-- `artifacts/07_final_report/final_report.md` is a reviewer-facing curated report assembled from the recorded workflow artifacts.
-- The public package does not include raw final-report-generation prompt, context, or response files.
-- Prompt-response provenance claims apply to archived executable LLM calls, not to the curated final-report editing step.
+`artifacts/07_final_report/final_report.md` is assembled from recorded workflow artifacts; prompt-response provenance claims apply to archived executable LLM-agent calls.
 
 Simulator modes:
 
