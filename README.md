@@ -6,7 +6,7 @@ The researcher defines the biological goal. The workflow operationalizes that go
 
 ## Workflow Modes
 
-This workflow archive exposes three workflow modes. The executable LLM-agent layer is part of the real AutoResearch workflow rather than a separate top-level mode.
+This repository exposes three workflow modes. The executable LLM-agent layer is part of the real AutoResearch workflow rather than a separate top-level mode.
 
 1. **Real AutoResearch LLM-agent workflow**: the primary workflow. It starts from a user research goal, retrieves and chunks literature, calls executable LLM agents for evidence reasoning, hypothesis generation, parameter proposal, critique/refinement decisions, and report support, saves prompt-response audit artifacts, validates structured outputs, generates PhysiCell-ready configuration files, and can run external PhysiCell when configured.
 2. **Deterministic reference workflow**: a reproducible reference path that does not require API keys, internet access, or external PhysiCell. It is used for smoke testing and comparison, not as a replacement for the LLM-agent workflow.
@@ -57,13 +57,13 @@ The dependency-free demo is retained for CI and software smoke testing:
 cart-autolab run-all --config configs/experiment_cytokine_gpc3_liver_safe_demo.yaml
 ```
 
-Public audit safe demo bundle:
+Offline software demo bundle:
 
 ```bash
 bash scripts/run_reviewer_reproducibility_demo.sh
 ```
 
-This writes deterministic, LLM mock, and ablation artifacts under `outputs/reviewer_demo/` without requiring API keys, internet access, or a compiled PhysiCell executable.
+This writes deterministic safe-demo artifacts, explicit LLM mock fixture artifacts, and deterministic ablation/comparison artifacts under `outputs/reviewer_demo/` without requiring API keys, internet access, or a compiled PhysiCell executable.
 
 Real workflow outputs are written to `outputs/real_autoresearch_run` or `outputs/autoresearch_real`, depending on the entry point. Safe-demo outputs are written to `outputs/example_run`.
 
@@ -78,7 +78,7 @@ cart-autolab ablation --config configs/experiment_cytokine_gpc3_liver_ablation.y
 cart-autolab simulate --config configs/experiment_cytokine_gpc3_liver_physicell.yaml
 ```
 
-LLM mock and ablation commands use software fixtures by default and do not require API keys. External PhysiCell execution requires local setup.
+The LLM mock command uses software fixtures only. The ablation command runs reviewer-safe deterministic comparison unless a live non-mock LLM provider is explicitly configured. External PhysiCell execution requires local setup.
 
 Automatic paper acquisition is available with `cart-autolab download-papers` or `literature.download_papers: true`. It only downloads open-access or directly available artifacts from sources such as PMC, Europe PMC, bioRxiv/medRxiv, Unpaywall OA links, or publisher-provided OA URLs. It writes `downloaded_papers_manifest.json` with every attempted URL and saved artifact path.
 
@@ -86,7 +86,7 @@ Downloaded PDFs/XML/text can be converted into LLM-ready chunks with `cart-autol
 
 Agent prompts are explicit and versioned in `cart_autolab.prompts`. Use `cart-autolab prompts` to list agents, `cart-autolab prompts --agent <name>` to inspect one prompt, or `cart-autolab prompts --export outputs/agent_prompts.json` to save the registry. `run-all` also saves `agent_prompts.json` in the run directory.
 
-`cart-autolab autoresearch-run` is the LLM-first workflow entry point. Its default AutoResearch config uses an OpenAI-compatible provider for research-goal parsing, LLM agent audit steps, and refinement-loop decisions. If provider credentials are unavailable, the run records a deterministic fallback instead of fabricating LLM output.
+`cart-autolab autoresearch-run` is the LLM-first workflow entry point. Its default AutoResearch config uses an OpenAI-compatible provider for research-goal parsing, LLM agent audit steps, and refinement-loop decisions. If provider credentials are unavailable, the real workflow fails clearly rather than fabricating LLM output.
 
 AutoResearch refinement control uses a schema-constrained LLM decision agent when `autoresearch.refinement_controller_source: llm`. The LLM decides whether another refinement loop is needed; Python validates the decision, enforces `max_refinement_iterations`, and executes only whitelisted actions. Requested actions that need human review or an external executor are recorded rather than fabricated.
 
@@ -132,7 +132,7 @@ To connect a real executable:
 set PHYSICELL_EXECUTABLE=/path/to/PhysiCell/your_project/project_executable
 ```
 
-Then instantiate `PhysiCellAdapter(mode="external")` or adapt `orchestrator.py` to read `configs/simulator_physicell.yaml` with `mode: external`. The adapter maps tumor antigen density and cytokine functional fingerprints into CAR-T activation, proliferation, killing, exhaustion, death, IFN-gamma, hypoxia, PD-L1, and suppressive TME fields. The mock mode is only for testability and demonstration.
+Set `simulator.mode: external` and `simulator.require_external_executable: true` in the config, or use `configs/experiment_cytokine_gpc3_liver_physicell.yaml`. The adapter maps tumor antigen density and cytokine functional fingerprints into CAR-T activation, proliferation, killing, exhaustion, death, IFN-gamma, hypoxia, PD-L1, and suppressive TME fields. The mock mode is only for testability and demonstration.
 
 ## Add a new simulator
 
