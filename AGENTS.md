@@ -12,18 +12,17 @@ This repository should be framed as an LLM-guided, schema-constrained CAR-T in s
 
 ## Workflow Defaults
 
-- Preserve the default deterministic workflow unless the task explicitly changes it.
-- Keep executable LLM mode optional and clearly configured.
-- Keep external PhysiCell mode optional unless explicitly configured.
+- Preserve the deterministic reference/safe-demo workflow for CI, offline testing, and reviewer-safe smoke tests.
+- Treat the public default workflow as the real AutoResearch path when configured with live LLM, online literature retrieval, and external PhysiCell execution.
+- Keep executable LLM mode clearly configured and auditable; do not silently substitute fabricated LLM outputs.
+- Keep external PhysiCell execution clearly configured; do not silently substitute fabricated PhysiCell outputs.
 - Keep mock simulator mode labeled as CI/software testing support, not as mechanistic evidence.
-- Do not require API keys, internet access, or a compiled PhysiCell executable for default tests.
+- Do not require API keys, internet access, or a compiled PhysiCell executable for the test suite or safe-demo workflow.
 
 ## Code and Review Hygiene
 
 - Do not modify unrelated files.
 - Do not make one giant unreviewable change when smaller PR-sized changes are possible.
-- Do not modify `main` directly.
-- Do not merge to `main`.
 - Do not revert user changes unless explicitly requested.
 - Do not commit compiled PhysiCell binaries, object files, or large simulation output files.
 - Add focused tests for code changes.
