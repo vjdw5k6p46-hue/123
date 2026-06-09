@@ -27,11 +27,14 @@ Simulator modes:
 ## Install
 
 ```bash
-cd cart_insilico_autolab
+git clone https://github.com/vjdw5k6p46-hue/123.git
+cd 123
 python -m venv .venv
 .venv\Scripts\activate
 pip install -e .[dev]
 ```
+
+Naming note: the installable project name is `cart-insilico-autolab`, and the Python package imported by the code is `cart_autolab`. The checkout directory depends on how the repository is cloned; for the GitHub command above it is `123`.
 
 ## Run the Real Workflow
 
