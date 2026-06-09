@@ -6,12 +6,13 @@ The researcher defines the biological goal. The workflow operationalizes that go
 
 ## Workflow Modes
 
-This workflow archive provides a real AutoResearch default path plus deterministic reference execution, executable LLM-agent, hybrid, ablation, and external PhysiCell support. Executable LLM runs save audit artifacts that can be inspected after the run.
+This workflow archive exposes three workflow modes. The executable LLM-agent layer is part of the real AutoResearch workflow rather than a separate top-level mode.
 
-- Real AutoResearch mode: default mode; uses online literature retrieval/download, executable LLM agents, hybrid evidence use, and external PhysiCell execution when configured.
-- Deterministic reference mode: available as a safe software demo; no API key, internet access, or external PhysiCell executable required.
-- Executable LLM-agent mode: records prompt, raw response, parsed JSON, schema validation, and audit metadata.
-- Hybrid mode: uses validated LLM evidence while retaining schema checks, confidence bounds, and parameter checks.
+1. **Real AutoResearch LLM-agent workflow**: the primary workflow. It starts from a user research goal, retrieves and chunks literature, calls executable LLM agents for evidence reasoning, hypothesis generation, parameter proposal, critique/refinement decisions, and report support, saves prompt-response audit artifacts, validates structured outputs, generates PhysiCell-ready configuration files, and can run external PhysiCell when configured.
+2. **Deterministic reference workflow**: a reproducible reference path that does not require API keys, internet access, or external PhysiCell. It is used for smoke testing and comparison, not as a replacement for the LLM-agent workflow.
+3. **Software-fixture safe-demo workflow**: uses mock literature, mock LLM, or mock simulator fixtures only for CI and offline software tests. Mock records are not real scholarly citations, manuscript evidence, wet-lab data, or real PhysiCell output.
+
+Within the real AutoResearch workflow, LLM-mediated steps save `llm_calls.jsonl`, rendered prompt text, raw model response, parsed JSON, schema-validation artifacts, provider/model metadata, prompt hashes, retry status, and artifact paths. Hybrid evidence use means validated LLM outputs are retained with schema checks, confidence bounds, provenance checks, and parameter bounds before downstream simulation.
 
 Final-report provenance boundary:
 
