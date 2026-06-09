@@ -254,8 +254,8 @@
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/llm_calls.jsonl",
-      "bytes": 1838,
-      "sha256": "1d5fa8abe698e5d64d9cb8a41dcfa9ca24eb781e37f9fbce695c1ce11be9ef16"
+      "bytes": 1624,
+      "sha256": "58f79ed92a2b7efc56cadc11beaf65af098dfdd22e3c13915fa22481dcbabf6c"
     },
     {
       "path": "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json",
@@ -470,7 +470,7 @@
     {
       "path": "artifacts/artifact_manifest.json",
       "bytes": 20555,
-      "sha256": "f8e9b487c1e468931da65e707f8559db67fe3a3888df5639ef5869419a79e474"
+      "sha256": "840f801fdf6b5a16ef5353874cd9855bbc12c5dab700c3ff1fdb5f12296ed78d"
     },
     {
       "path": "configs/autoresearch_gemini.yaml",
