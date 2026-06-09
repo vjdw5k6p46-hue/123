@@ -1,0 +1,150 @@
+{
+  "schema_version": "workflow_audit_summary_v1",
+  "summary_type": "public_post_processed_artifact_dependency_summary",
+  "status": "post_processed_record_not_runtime_trace",
+  "not_llm_runtime_scheduler": true,
+  "execution_control": {
+    "actual_executor": "Python AutolabOrchestrator.run_all and AutoResearchWorkflow run fixed/validated workflow steps.",
+    "does_this_artifact_drive_execution": false,
+    "does_python_read_this_artifact_to_choose_next_steps": false,
+    "note": "This public artifact maps recorded workflow outputs into reviewer-facing stages. It is not evidence that a single LLM call dispatched or timed the workflow."
+  },
+  "timing_policy": {
+    "wall_clock_seconds": null,
+    "duration_seconds": null,
+    "scheduled_at": null,
+    "started_at": null,
+    "completed_at": null,
+    "note": "No stage durations are reported here because this public summary was assembled after execution and does not contain independently measured start/end timestamps."
+  },
+  "workflow_name": "LLM-guided, schema-constrained CAR-T in silico workflow",
+  "research_question": "For low-antigen GPC3-positive liver cancer, which self-secreting cytokine-armored CAR-T design among IL-2, IL-7, IL-12, IL-15, and IL-18 should be prioritized?",
+  "candidate_interventions": [
+    "IL-2",
+    "IL-7",
+    "IL-12",
+    "IL-15",
+    "IL-18"
+  ],
+  "stages": [
+    {
+      "step_number": 1,
+      "stage_name": "research_goal_parsing",
+      "role": "LLM-assisted goal parsing artifact",
+      "executor_type": "llm_agent_artifact",
+      "llm_call_ids": [
+        "research_goal_parser_agent-25bd47735af0"
+      ],
+      "input_artifacts": [
+        "artifacts/01_research_goal/research_goal.json"
+      ],
+      "output_artifacts": [
+        "artifacts/01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
+        "artifacts/01_research_goal/paper_download_queries.json"
+      ],
+      "validation_status": "passed"
+    },
+    {
+      "step_number": 2,
+      "stage_name": "literature_retrieval_and_classification",
+      "role": "paper search/classification artifacts",
+      "executor_type": "python_pipeline",
+      "llm_call_ids": [],
+      "input_artifacts": [
+        "artifacts/01_research_goal/paper_download_queries.json"
+      ],
+      "output_artifacts": [
+        "artifacts/02_literature_search/ranked_classified_papers.tsv",
+        "artifacts/02_literature_search/download_priority_1_core.tsv"
+      ],
+      "validation_status": "artifact_present"
+    },
+    {
+      "step_number": 3,
+      "stage_name": "central_hypothesis_generation",
+      "role": "LLM hypothesis generation artifact",
+      "executor_type": "llm_agent_artifact",
+      "llm_call_ids": [
+        "hypothesis_generation_agent-4906b0050d7d"
+      ],
+      "input_artifacts": [
+        "artifacts/03_central_hypothesis/central_hypothesis_input_papers.json"
+      ],
+      "output_artifacts": [
+        "artifacts/03_central_hypothesis/central_hypothesis_output.json"
+      ],
+      "validation_status": "passed"
+    },
+    {
+      "step_number": 4,
+      "stage_name": "cytokine_fingerprint_parameterization",
+      "role": "LLM parameter proposal with schema/range validation",
+      "executor_type": "llm_agent_artifact_plus_python_validation",
+      "llm_call_ids": [
+        "autoresearch_reasoning_0b0c61a393b0edf4"
+      ],
+      "input_artifacts": [
+        "artifacts/04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_prompt.txt"
+      ],
+      "output_artifacts": [
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json"
+      ],
+      "validation_status": "passed"
+    },
+    {
+      "step_number": 5,
+      "stage_name": "physicell_simulation_setup",
+      "role": "low-antigen XML setup from proposed parameters",
+      "executor_type": "python_pipeline",
+      "llm_call_ids": [],
+      "input_artifacts": [
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters.json"
+      ],
+      "output_artifacts": [
+        "artifacts/05_low_antigen_physicell_inputs/low_antigen_config_manifest.json"
+      ],
+      "validation_status": "artifact_present"
+    },
+    {
+      "step_number": 6,
+      "stage_name": "simulation_analysis_and_refinement",
+      "role": "PhysiCell result analysis plus LLM refinement/sensitivity decision artifacts",
+      "executor_type": "external_physicell_outputs_plus_llm_agent_artifacts",
+      "llm_call_ids": [
+        "simulation_refinement_847c55a2b846dc61",
+        "refinement_loop_decision_agent-1cf1a53a6e84",
+        "refinement_loop_decision_agent-b07d99fcc29e"
+      ],
+      "input_artifacts": [
+        "artifacts/06_physicell_low_antigen_results/round1_pre_refine_replicates3/replicate_ranking.csv",
+        "artifacts/06_physicell_low_antigen_results/round2_post_refine_replicates3/replicate_ranking.csv"
+      ],
+      "output_artifacts": [
+        "artifacts/04_llm_parameter_rounds/physicell_ready_parameters_refined.json",
+        "artifacts/06_refinement_loop_decision/refinement_loop_decisions.json"
+      ],
+      "validation_status": "passed"
+    },
+    {
+      "step_number": 7,
+      "stage_name": "final_report_generation",
+      "role": "curated report assembled from recorded artifacts",
+      "executor_type": "curated_reporting_step",
+      "llm_call_ids": [],
+      "input_artifacts": [
+        "artifacts/07_final_report/final_report_manifest.json"
+      ],
+      "output_artifacts": [
+        "artifacts/07_final_report/final_report.md",
+        "artifacts/07_final_report/final_report_article_list.xlsx"
+      ],
+      "validation_status": "artifact_present"
+    }
+  ],
+  "guardrails": [
+    "Do not interpret this file as a real-time scheduler trace.",
+    "Do not infer measured durations from this file.",
+    "Mock or post-processed records are not manuscript evidence.",
+    "No citations, LLM outputs, PhysiCell outputs, or wet-lab values are fabricated in this summary."
+  ]
+}

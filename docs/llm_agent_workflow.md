@@ -8,12 +8,6 @@ The package includes executable LLM-agent infrastructure and public audit LLM au
 
 Included public audit LLM artifacts include:
 
-- `artifacts/00_llm_orchestrator/`
-- `artifacts/00_llm_orchestrator/llm_calls.jsonl`
-- `artifacts/00_llm_orchestrator/orchestrator_plan.json`
-- `artifacts/00_llm_orchestrator/orchestrator_prompt.txt`
-- `artifacts/00_llm_orchestrator/orchestrator_raw_response.txt`
-- `artifacts/00_llm_orchestrator/orchestrator_validation.json`
 - `artifacts/04_llm_parameter_rounds/llm_calls.jsonl`
 - `artifacts/04_llm_parameter_rounds/agent_outputs/`
 - `artifacts/06_refinement_loop_decision/`
@@ -21,7 +15,7 @@ Included public audit LLM artifacts include:
 - `artifacts/06_refinement_loop_decision/llm_calls.jsonl`
 - `artifacts/06_refinement_loop_decision/agent_outputs/`
 
-The LLM Orchestrator artifact maps the package into seven public audit stages:
+The workflow audit summary maps the package into seven public audit stages:
 
 1. `research_goal_parsing`
 2. `literature_retrieval_and_classification`
@@ -30,6 +24,8 @@ The LLM Orchestrator artifact maps the package into seven public audit stages:
 5. `physicell_simulation_setup`
 6. `simulation_analysis_and_refinement`
 7. `final_report_generation`
+
+`artifacts/00_workflow_audit_summary/workflow_audit_summary.json` is a public, post-processed artifact dependency map. It is not a real-time scheduler trace, does not report measured durations, and does not drive execution. The actual control flow is executed by Python (`AutolabOrchestrator.run_all` and the AutoResearch workflow wrapper). LLM agents contribute to selected reasoning and refinement steps, while Python validates and executes whitelisted actions.
 
 The `final_report_generation` stage in this public package is a curated reviewer-facing reporting step. It is assembled from recorded workflow artifacts, and the package intentionally omits raw final-report prompt, context, and response files. It should not be described as a fully archived report-generation LLM call.
 

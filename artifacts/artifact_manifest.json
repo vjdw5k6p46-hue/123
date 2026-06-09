@@ -2,83 +2,28 @@
   "package": "autoresearch_gpt4o_mini_fingerprint_v3_workflow_artifacts",
   "description": "Public audit workflow artifacts without full-paper PDFs, absolute runtime date/time values, or large raw PhysiCell outputs.",
   "generated_at": null,
-  "runtime_time_policy": "Absolute runtime date/time values are set to null; call IDs, prompt hashes, dependency order, validation status, durations, and artifact paths are preserved.",
+  "runtime_time_policy": "Absolute runtime date/time values are set to null; call IDs, prompt hashes, dependency order, validation status, and artifact paths are preserved where available. Post-processed summary artifacts do not report measured durations unless backed by explicit start/end timing artifacts.",
   "contains_full_papers_or_pdf": false,
   "contains_compiled_binaries": false,
   "contains_large_raw_physicell_outputs": false,
   "contains_wet_lab_validation": false,
-  "llm_orchestrator_artifact": "00_llm_orchestrator/orchestrator_plan.json",
-  "file_count": 97,
+  "llm_orchestrator_artifact": null,
+  "file_count": 86,
   "files": [
     {
-      "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_parsed.json",
-      "bytes": 16309,
-      "sha256": "e363cc1e5a2d881767ad9ab36c549034f347878463bbf3daee7e17608f5e42eb"
+      "path": "00_workflow_audit_summary/knowledge_base/index.json",
+      "bytes": 30372,
+      "sha256": "5c935e508c69e9a45564b5caa56df972f87a7cea8b499b941b8a51d28451db7a"
     },
     {
-      "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_prompt.txt",
-      "bytes": 1595,
-      "sha256": "0939b98438edd9dbd312029e79ea98d24bed168d74686439356db4fa3f86365e"
+      "path": "00_workflow_audit_summary/README.md",
+      "bytes": 916,
+      "sha256": "9b680e3f098db9dc77404c3eba6f736936fff6c4878ce1216df0ccf6b46e6575"
     },
     {
-      "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_raw_response.txt",
-      "bytes": 16844,
-      "sha256": "4db58a95611b0cf48c8a0352f7d3f1f3af7474c0d36d3f2971d4e6bcfcdb1a6e"
-    },
-    {
-      "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_validation.json",
-      "bytes": 1347,
-      "sha256": "0e75f608257e49750240643f5587217c0021f7a5bcd96609f5da5616fbb0aef1"
-    },
-    {
-      "path": "00_llm_orchestrator/knowledge_base/index.json",
-      "bytes": 30363,
-      "sha256": "6584a2e28941556ddb098f69de6e2b7d08099d68f05e12d7901bed3b504dc2ce"
-    },
-    {
-      "path": "00_llm_orchestrator/llm_calls.jsonl",
-      "bytes": 617,
-      "sha256": "fe4e4f0d73d22b48513ef4250f5dc0a5908cb164afff19e6a775fd5a8e9c324a"
-    },
-    {
-      "path": "00_llm_orchestrator/llm_calls_public_redacted.jsonl",
-      "bytes": 617,
-      "sha256": "2004c9012ca1ff4b775bcd65312c28a47d40213fa8719632ce0b723eb6c33daf"
-    },
-    {
-      "path": "00_llm_orchestrator/orchestrator_parsed.json",
-      "bytes": 16309,
-      "sha256": "e363cc1e5a2d881767ad9ab36c549034f347878463bbf3daee7e17608f5e42eb"
-    },
-    {
-      "path": "00_llm_orchestrator/orchestrator_plan.json",
-      "bytes": 16309,
-      "sha256": "e363cc1e5a2d881767ad9ab36c549034f347878463bbf3daee7e17608f5e42eb"
-    },
-    {
-      "path": "00_llm_orchestrator/orchestrator_prompt.txt",
-      "bytes": 1595,
-      "sha256": "0939b98438edd9dbd312029e79ea98d24bed168d74686439356db4fa3f86365e"
-    },
-    {
-      "path": "00_llm_orchestrator/orchestrator_raw_response.txt",
-      "bytes": 16844,
-      "sha256": "4db58a95611b0cf48c8a0352f7d3f1f3af7474c0d36d3f2971d4e6bcfcdb1a6e"
-    },
-    {
-      "path": "00_llm_orchestrator/orchestrator_schema_validation.json",
-      "bytes": 62,
-      "sha256": "037743e4053568794107d4bb35932f82e7d9c1124d4839ec0551fe5bd5352f96"
-    },
-    {
-      "path": "00_llm_orchestrator/orchestrator_validation.json",
-      "bytes": 1484,
-      "sha256": "94a6822153504fb9903fd4525d66c638896e41bd9deca2877408382b29e7015f"
-    },
-    {
-      "path": "00_llm_orchestrator/README.md",
-      "bytes": 905,
-      "sha256": "233d389d0eff70daf8758680a282d35157ccb8a51b50837b90cdd529820c9f7c"
+      "path": "00_workflow_audit_summary/workflow_audit_summary.json",
+      "bytes": 6149,
+      "sha256": "a4abbddb2798b46b0097e53d19b5434a80a6eb50c73e8c8cd5e0f65dd3dec076"
     },
     {
       "path": "01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
@@ -497,7 +442,9 @@
     }
   ],
   "file_count_definition": "Number of payload files listed in files; excludes artifacts/artifact_manifest.json itself.",
-  "directory_file_count_including_this_manifest": 98,
-  "prompt_artifact_naming_note": "Prompt audit files use call-id-qualified filenames such as autoresearch_reasoning_0b0c61a393b0edf4_prompt.txt rather than generic names such as autoresearch_reasoning_prompt.txt.",
-  "article_excel": "07_final_report/final_report_article_list.xlsx"
+  "directory_file_count_including_this_manifest": 87,
+  "prompt_artifact_naming_note": "Prompt audit files use call-id-qualified filenames rather than generic names.",
+  "article_excel": "07_final_report/final_report_article_list.xlsx",
+  "workflow_audit_summary_artifact": "00_workflow_audit_summary/workflow_audit_summary.json",
+  "llm_orchestrator_note": "No current artifact is claimed to be a real-time LLM scheduler trace. Python executes the workflow; LLM agents contribute to selected reasoning/refinement steps."
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Reviewer-facing artifact index supplied to the LLM Orchestrator. It summarizes existing workflow artifacts and excludes PDFs/full-text papers and control-arm XML files.",
+  "description": "Reviewer-facing artifact index used by the public workflow audit summary. It summarizes existing workflow artifacts and excludes PDFs/full-text papers and control-arm XML files.",
   "artifact_count": 81,
   "artifacts": [
     {
