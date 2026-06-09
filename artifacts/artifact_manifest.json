@@ -11,11 +11,6 @@
   "file_count": 97,
   "files": [
     {
-      "path": "00_llm_orchestrator/README.md",
-      "bytes": 905,
-      "sha256": "233d389d0eff70daf8758680a282d35157ccb8a51b50837b90cdd529820c9f7c"
-    },
-    {
       "path": "00_llm_orchestrator/agent_outputs/orchestrator_agent/orchestrator_agent-e7a595edf8d2_parsed.json",
       "bytes": 16309,
       "sha256": "e363cc1e5a2d881767ad9ab36c549034f347878463bbf3daee7e17608f5e42eb"
@@ -79,6 +74,11 @@
       "path": "00_llm_orchestrator/orchestrator_validation.json",
       "bytes": 1484,
       "sha256": "94a6822153504fb9903fd4525d66c638896e41bd9deca2877408382b29e7015f"
+    },
+    {
+      "path": "00_llm_orchestrator/README.md",
+      "bytes": 905,
+      "sha256": "233d389d0eff70daf8758680a282d35157ccb8a51b50837b90cdd529820c9f7c"
     },
     {
       "path": "01_research_goal/agent_outputs/research_goal_parser_agent/research_goal_parser_agent-25bd47735af0_parsed.json",
@@ -241,14 +241,14 @@
       "sha256": "02945c10a5bcbd2c3d7b8855e1a4dbffd4e2b44de610ecbb0ec786e6f50f9796"
     },
     {
-      "path": "04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_prompt.txt",
-      "bytes": 70000,
-      "sha256": "f4d57b786177ab89dceca1928a7f0658acf44ee17754aaf464c641108c2bf357"
-    },
-    {
       "path": "04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_parsed.json",
       "bytes": 27531,
       "sha256": "10b5b8b6d1af897a9220834ed6146a51a36534864f3bfd8b20ae2f89cc411718"
+    },
+    {
+      "path": "04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_prompt.txt",
+      "bytes": 70000,
+      "sha256": "f4d57b786177ab89dceca1928a7f0658acf44ee17754aaf464c641108c2bf357"
     },
     {
       "path": "04_llm_parameter_rounds/agent_outputs/autoresearch_reasoning_agent/autoresearch_reasoning_0b0c61a393b0edf4_raw_response.txt",
@@ -261,14 +261,14 @@
       "sha256": "6a1057b85f8ffb69cdda3ac6b685f92abc192848ea0add881b010912b0f9c644"
     },
     {
-      "path": "04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_prompt.txt",
-      "bytes": 45113,
-      "sha256": "cf50587a9da7fb237c92c4214ead2112271cc0144b0af7ecc5c5db962de99dd8"
-    },
-    {
       "path": "04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_parsed.json",
       "bytes": 13951,
       "sha256": "45a5bc4488549f3120f54e594f61a381d03521e327d26b2e5462d7f856680117"
+    },
+    {
+      "path": "04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_prompt.txt",
+      "bytes": 45113,
+      "sha256": "cf50587a9da7fb237c92c4214ead2112271cc0144b0af7ecc5c5db962de99dd8"
     },
     {
       "path": "04_llm_parameter_rounds/agent_outputs/simulation_refinement_agent/simulation_refinement_847c55a2b846dc61_raw_response.txt",
@@ -495,5 +495,9 @@
       "bytes": 2126,
       "sha256": "12dc315244a105e7b1fcee8cc38f83776851bf82683c5eb37721cd5558be11d8"
     }
-  ]
+  ],
+  "file_count_definition": "Number of payload files listed in files; excludes artifacts/artifact_manifest.json itself.",
+  "directory_file_count_including_this_manifest": 98,
+  "prompt_artifact_naming_note": "Prompt audit files use call-id-qualified filenames such as autoresearch_reasoning_0b0c61a393b0edf4_prompt.txt rather than generic names such as autoresearch_reasoning_prompt.txt.",
+  "article_excel": "07_final_report/final_report_article_list.xlsx"
 }

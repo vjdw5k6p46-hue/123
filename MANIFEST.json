@@ -44,8 +44,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9844,
-      "sha256": "ee543b6023f7f8943c59c5b28e6ff386f81d707aa0f8a217cc204ceea2b42266"
+      "bytes": 10118,
+      "sha256": "41d315e6548b40352b8e52d7472f935ae37a7b91ec8a0428d87fd68b67ab1063"
     },
     {
       "path": "artifacts/00_llm_orchestrator/README.md",
@@ -534,8 +534,8 @@
     },
     {
       "path": "artifacts/artifact_manifest.json",
-      "bytes": 22055,
-      "sha256": "1f1966c8d4d4e405ad2422cc4e131f7cdbd0a261da8dc10c834c95e20a6d916f"
+      "bytes": 22518,
+      "sha256": "d4303233364629f04d6175f30246ddd7a094234b8e274e65a65555b94ebb481b"
     },
     {
       "path": "configs/autoresearch_gemini.yaml",
@@ -1307,5 +1307,6 @@
       "bytes": 7326,
       "sha256": "29070d19305961f63198bfe65ae9b56ece96309ce9a23f9dd94a34ad3b413308"
     }
-  ]
+  ],
+  "artifact_manifest_note": "artifacts/artifact_manifest.json file_count excludes the manifest file itself; directory_file_count_including_this_manifest includes it."
 }
